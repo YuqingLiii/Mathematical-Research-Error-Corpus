@@ -1,8 +1,0 @@
-# Run from repository root.
-python -I artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_20260722/verify_artifact.py
-python -I artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/review_effective_rank.py --json artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/effective_rank_review.json --log artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/effective_rank_review.log
-python -I artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/verify_artifact.py
-
-# The review imports no proposer module.  It verifies eight manifests, uses
-# independent Frobenius/LR/Pieri routines, checks exact fold orientation, and
-# recomputes both c=2 carrier/output contractions from archived exact data.

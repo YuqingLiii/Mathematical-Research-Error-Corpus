@@ -1,2 +1,0 @@
-C:[USER_HOME]/miniconda3/envs/AI_HW/python.exe -u artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/independent_raw_audit.py --json artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/independent_raw_audit.json --log artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/independent_raw_audit.log
-C:[USER_HOME]/miniconda3/envs/AI_HW/python.exe -u artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/verify_artifact.py

@@ -1,3 +1,0 @@
-python artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/construct_rcol.py
-python artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/verify_rcol.py
-Get-FileHash -Algorithm SHA256 artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/*

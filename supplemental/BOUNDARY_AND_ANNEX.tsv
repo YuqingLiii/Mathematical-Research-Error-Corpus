@@ -1,3 +1,0 @@
-candidate_id	classification	reason
-DEP-12	EXCLUDE_BOUNDARY	IG1 artifact explicitly keeps the result conditional on the compensation identity and m_H>=0; no unconditional promotion located
-BIB-13	METADATA_ANNEX_ONLY	Quantum article-number correction is bibliographic, not a mathematical reasoning error

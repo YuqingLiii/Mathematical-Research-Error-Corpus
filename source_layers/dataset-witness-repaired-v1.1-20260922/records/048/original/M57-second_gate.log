@@ -1,9 +1,0 @@
-T5 SECOND TAME c=2 ACTUAL GATE
-TARGET n=19 q=38 j=6 theta=(3, 2, 1) alpha=beta=(2, 1)
-INVENTORY {'nu_basis': 1615, 'query_skew_basis': 5814, 'nu_plan_involution_residual': 2.220446049250313e-16, 'skew_plan_involution_residual': 2.220446049250313e-16}
-R_OUT dim=29760 forced_zero=12 PASS
-R_COL squared=2240/2697 offdiag=5.288e-14
-SPECTRUM [60, 71, 73, 75, 85, 87, 89, 102]
-T_a 204466088827/1438400 <= 137582445/64 PASS
-T_b 8391760923/44590400 <= 137582445/1984 PASS
-VERDICT COMPLETE

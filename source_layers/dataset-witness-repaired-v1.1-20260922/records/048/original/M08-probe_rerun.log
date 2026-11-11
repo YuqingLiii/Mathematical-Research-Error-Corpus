@@ -1,9 +1,0 @@
-SUPPORTING NUMERICAL PROBE RERUN
-parameters=(n=5,j=3,theta=(2,1),a=2,b=1)
-module_dimension=360
-X_dimension=24
-branches=long,tail_1,tail_2
-f_theta=2 (nonscalar internal theta fiber is live)
-combined_rank=8
-common_line_rank_cap=9
-result=PASS supporting evidence only; not used as an exact proof gate

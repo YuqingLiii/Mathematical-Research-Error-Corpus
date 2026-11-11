@@ -1,5 +1,0 @@
-Run from repository root (PowerShell):
-
-& 'C:[USER_HOME]/miniconda3/envs/AI_HW/python.exe' -u artifacts/logs_se_trace_t5_long_cap_20260721/se_trace_t5_long_cap.py --json artifacts/logs_se_trace_t5_long_cap_20260721/se_trace_t5_long_cap.json --log artifacts/logs_se_trace_t5_long_cap_20260721/log.txt
-
-Get-FileHash -Algorithm SHA256 artifacts/logs_se_trace_t5_long_cap_20260721/COMMANDS.txt, artifacts/logs_se_trace_t5_long_cap_20260721/REPORT.md, artifacts/logs_se_trace_t5_long_cap_20260721/log.txt, artifacts/logs_se_trace_t5_long_cap_20260721/se_trace_t5_long_cap.json, artifacts/logs_se_trace_t5_long_cap_20260721/se_trace_t5_long_cap.py

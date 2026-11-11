@@ -1,2 +1,0 @@
-python artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/normalization_review.py
-python artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/verify_artifact.py

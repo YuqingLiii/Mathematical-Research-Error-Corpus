@@ -1,7 +1,0 @@
-PROVENANCE {"script": "<home>\\Documents\\discovery-new-algorithms\\tools\\nptbe_fleet_w5_rank_d5.py", "script_sha256": "df3521cd07158b5421fc1f2e387a1fa5d22e53c57fb67a31602a50e2f2ef6ade", "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]", "numpy": "1.26.4", "scipy": "1.14.1", "seed": 550729, "argv": ["--d", "5", "--restarts", "20", "--seed", "550729", "--outdir", "artifacts/logs_nptbe_fleet_20260729/W5"], "utc": "2026-07-29T21:48:25Z"}
-RANKLAW d=5 rank=2  min=-0.000000000000  law=0.000000000000  dev=1.186e-16  match=True  (10.6s)
-RANKLAW d=5 rank=3  min=-0.525000000000  law=-0.500000000000  dev=2.500e-02  match=False  (30.0s)
-RANKLAW d=5 rank=4  min=-1.050000000000  law=-1.000000000000  dev=5.000e-02  match=False  (47.9s)
-RANKLAW d=5 rank=5  min=-1.575000000000  law=-1.500000000000  dev=7.500e-02  match=False  (65.1s)
-RANKLAW d=5 rank=6  min=-1.575719145284  law=-1.500000000000  dev=7.572e-02  match=False  (111.7s)
-DONE ranklaw d=5 all_match=False

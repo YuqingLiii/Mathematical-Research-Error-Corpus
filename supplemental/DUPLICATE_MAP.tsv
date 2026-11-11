@@ -1,5 +1,0 @@
-candidate_id	existing_record_id	reason
-D4-04	GROTH-H4-001	same SOS duality-direction error already present in v01/v02
-ORB-07	GROTH-ORB-003	same empty-feasible-set minimum error already present
-ORB-08	GROTH-ORB-004	same rectangular-zero paired-basis error already present
-ORB-09	GROTH-ORB-002	same existence-to-all-extremizers invariance error already present
