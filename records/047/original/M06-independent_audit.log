@@ -1,0 +1,7 @@
+T5 COMMON-LINE INDEPENDENT AUDIT
+VERDICT=CONFIRMED theorem-only; T-a/T-b caps excluded
+TRANSPORT covariance_instances=31287 PASS
+PIERI rows=876 dimension_and_multiplicity_free=PASS
+REDUCED mX=4 mC=3 tails=3 complex_phases=live rank=1 compression=PASS
+GAUGES X=PASS carrier=PASS branch_phase=PASS
+CAPS=NOT_PROVED

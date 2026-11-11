@@ -1,0 +1,13 @@
+--- chart F2 (12 params): positive controls
+F2  x=0.350  best lam_max = +1.375e-01  (mB=2, ambiguous excluded 1, 66s)
+F2  x=0.390  best lam_max = +4.241e-02  (mB=2, ambiguous excluded 1, 52s)
+--- chart F2: strip
+F2  x=0.400  best lam_max = +2.000e-02  (mB=2, ambiguous excluded 0, 46s)
+F2  x=0.410  best lam_max = +5.040e-16  (mB=2, ambiguous excluded 1, 47s)
+F2  x=0.420  best lam_max = +4.459e-16  (mB=2, ambiguous excluded 0, 70s)
+F2  x=0.430  best lam_max = +4.586e-16  (mB=2, ambiguous excluded 0, 92s)
+F2  x=0.450  best lam_max = +4.706e-16  (mB=2, ambiguous excluded 0, 58s)
+F2  x=0.470  best lam_max = +4.996e-16  (mB=2, ambiguous excluded 1, 55s)
+F2  x=0.490  best lam_max = +5.207e-16  (mB=2, ambiguous excluded 0, 60s)
+
+BEST over strip points: 0.019998617874510426 ; best over controls (x<2/5): 0.1374662543632391

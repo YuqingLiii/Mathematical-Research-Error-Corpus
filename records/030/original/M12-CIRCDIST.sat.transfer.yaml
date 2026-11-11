@@ -1,0 +1,111 @@
+id: CIRCDIST.sat.transfer
+role: proof
+aliases:
+- SAT-TRANSFER
+claim: For each fixed legal single-round single-ancilla CSS schedule M under the stated ideal
+  temporal boundaries and unit-fault model, there is an explicitly constructible finite min-plus
+  transfer system (u,A,v) such that d_R(M) = u^T min-plus A^R min-plus v for every R, with the two
+  CSS sectors, boundary conditions, unreachable states, and logical terminal condition represented
+  exactly.
+assessment:
+  level: CONJECTURED
+  summary: 'The recon gives a substantive construction: for one CSS sector it proposes the state
+    space Sigma = F_2^n/rowspace(H_X), the single-round fault dictionary w_M(delta,mu), transition
+    weights A[E,E''] = w_M([E''+E],H_Z E), and boundary vectors u,v. An exact implementation for
+    rotated surface d=3 reproduces the independent Stim distances for four schedules over the
+    tested windows. This licenses CONJECTURED plus numerical corroboration, not NUMERICAL for the
+    universal claim: the written derivation still must prove exact correspondence for arbitrary
+    legal schedules, both sectors, boundary vectors, repeated-round composition, and logical
+    terminal classes.'
+  basis:
+    runs:
+    - path: artifacts/circdist_sat_recon_20260820.md
+      kind: run
+      scope: Exact min-plus implementation for four rotated-surface-code d=3 schedules, compared
+        with an independent Stim detector-model calculation for R=1 through 10.
+      result: Every transfer sequence was constant (2 or 3 according to schedule) and agreed with
+        the independent calculation throughout the tested window.
+    evidence:
+    - path: artifacts/circdist_sat_recon_20260820.md
+      kind: text
+frontier:
+  task-001:
+    task: Turn the candidate construction into a general proof, including a bidirectional mapping
+      between multi-round fault sets and transfer paths, both CSS sectors, exact initial/final
+      boundary vectors, unreachable states, and the terminal logical condition.
+    kind: task
+    since: '2026-08-22'
+  task-002:
+    task: Package the implementation and the d=3 comparison as a reproducible command/output
+      record whose search space, code/schedule inputs, and agreement criterion are explicit.
+    kind: task
+    since: '2026-08-22'
+events:
+  tg3-lead-ratification-2026-08-23:
+    date: '2026-08-23'
+    type: repair-applied
+    summary: 'LEAD DECISION (verbatim: "批准 Definition 3.5, 缓解条款不批"): Definition 3.5 —
+      detectors are the parity quantities whose value is deterministic regardless of the prepared
+      logical basis state — is RATIFIED as the intended reading of the frozen 公共定义, together
+      with 3.6/3.7 (the review confirmed Def 2.7''s Z-detectors span its Z-half exactly, so no
+      computed value changes). The MITIGATION ("any D between Def-2.7 and V leaves the theorem
+      intact") is REJECTED, per the review''s explicit counterexample (d = 2 vs 3/4 on
+      Steane+redundant-X); the corrected safe condition is D-prime within D (the 3.5 space), as
+      supplied by the reviewer. T-G3 is hereby closed definitionally; the pending transfer
+      amendment must cite this ratification and install the corrected condition.'
+    sources:
+    - path: artifacts/circdist_sat_transfer_review_20260823.md
+      kind: text
+  transfer-review-2026-08-23:
+    date: '2026-08-23'
+    type: repair-applied
+    summary: 'Adversarial review (artifacts/circdist_sat_transfer_review_20260823.md):
+      FURTHER-REPAIR, narrow — core theorem INDEPENDENTLY CONFIRMED (reviewer derived Sigma, A,
+      u, v and the round constraint before reading, sealed to scratchpad, exact match).
+      Sufficiency CONFIRM with w = 2 shown FORCED by the model (378720 detector predictions, 0
+      mismatches, incl. interleaved + dependent-generator); lifting CONFIRM with GAP-AT-Remark-6.5
+      (the no-D_{b,0} matrix family is misquantified — v must be kappa-dependent; doc formula
+      wrong 16/16, reviewer''s corrected v_kappa right 16/16); fault dictionary CONFIRM
+      strengthened by a k = 2 instance; section 9 CONFIRMED non-circular; numerics 48/48
+      reproduced with a 6/16 row-labelling defect (values unchanged). T-G3 adjudication for the
+      LEAD: Definitions 3.5/3.6/3.7 CONFIRMED well-posed and exact — RATIFY; the mitigation
+      ("any D between Def-2.7 and V") REFUTED by explicit counterexample (d^2.7 = 2 vs d^D-prime
+      = 3,4; correct hypothesis is D-prime within D, not within V) — DO NOT RATIFY. Repairs
+      queued: T-G3(a), Remark 6.5 v_kappa, block-mirror labels, two cosmetics.'
+    sources:
+    - path: artifacts/circdist_sat_transfer_review_20260823.md
+      kind: text
+  transfer-proof-2026-08-23:
+    date: '2026-08-23'
+    type: repair-applied
+    summary: 'Wave-7 general proof landed (artifacts/circdist_sat_transfer_proof_20260823.md,
+      1486 lines), all three parts at CONJECTURED with complete derivations: (1) state space
+      Sigma = F2^n/S_X per sector proved legitimate and SUFFICIENT (Lemma 6.4 — no extra
+      measurement/logical bookkeeping needed, a w=2 detector-window fact that fails for w>2),
+      fault dictionary well-defined/round-independent/finite; recon corrected twice (2^k
+      self-loops not 2^{2k}; "unreachable states" vacuous). (2) Both correspondence directions
+      proved, with u = 1_[0] and v DERIVED from the r=0 and r=R instances of criterion (W); the
+      boundary quantified (without D_{b,0} the object is a matrix FAMILY over F2^B). (3)
+      d_R = u (min-plus) A^R v as a theorem, both sectors block-diagonal; eventual constancy via
+      BCOQ Thm 3.112; section 9 re-derives the certified window theorem from the algebra alone
+      (recorded as corroboration, not mutual certification). S3-prime DERIVED in stronger form.
+      LOCATED GAP T-G3: d_circ depends on the detector-space complement choice — closed by
+      proposed Definition 3.5 (parities independent of the prepared logical basis state) with a
+      LEAD RATIFICATION sub-claim (is this the 公共定义 intent?) and a mitigation (any D between
+      Def-2.7 and V leaves the theorem intact). Open minors T-G1/G2/G4/G5 honestly listed.
+      NUMERICAL: 48/48 transfer-vs-direct values, 16/16 instances (incl. non-graph-like and
+      dependent-generator codes, interleaved schedules), 18/18 parity closed forms; scope
+      excludes d >= 5, k > 1, qLDPC. Promotion gate: independent claim-level review.'
+    sources:
+    - path: artifacts/circdist_sat_transfer_proof_20260823.md
+      kind: text
+  created-2026-08-22:
+    date: '2026-08-22'
+    type: created
+    summary: Split the finite-state/min-plus obligation out of the conservatively revised fourth
+      question so its general proof is not conflated with finite numerical corroboration.
+    sources:
+    - path: research/circdist/notes/SAT_RESCOPE_20260822.md
+      kind: text
+    - path: artifacts/circdist_sat_recon_20260820.md
+      kind: text

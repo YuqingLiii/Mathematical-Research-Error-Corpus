@@ -1,0 +1,297 @@
+{
+  "c2": [
+    {
+      "T": 990080,
+      "dc": 2970240,
+      "dc_over_T": "3",
+      "dimension_gate": false,
+      "n": 18
+    },
+    {
+      "T": 1485120,
+      "dc": 4341120,
+      "dc_over_T": "38/13",
+      "dimension_gate": false,
+      "n": 19
+    }
+  ],
+  "claim_verdicts": {
+    "arbitrary_j_extreme_faces": "CONFIRMED_UNIFORM",
+    "c2_interpretation": "DIMENSION_GATE_NOT_NECESSARY; NO_UNIFORM_C2_THEOREM",
+    "complete_j_le_2": "CONFIRMED_UNIFORM",
+    "corrected_carrier_aware_dependency_manifest": "CONFIRMED_FIXED",
+    "dimension_gate_implies_CA_all_c": "CONFIRMED",
+    "dimension_gate_implies_physical_Tb_via_confirmed_output_frame": "CONFIRMED",
+    "j3_dimension_excess_probes": "REPRODUCED_NUMERICAL_ONLY",
+    "mixed_j2_exact_ratios": "CONFIRMED",
+    "uniform_dimension_excess_CA": "OPEN_NOT_PROVED"
+  },
+  "dependency_audit": {
+    "T1_verified_by_theorem_entrypoint_and_this_review": true,
+    "corrected_carrier_declares_expanded_spectra": true,
+    "dimension_declares_T1_transitive_import": true,
+    "probe_entrypoint_checks_sweep_and_bigate_but_imports_T1_transitively": true
+  },
+  "extreme_faces": {
+    "checks": 1626,
+    "j_range": [
+      1,
+      12
+    ],
+    "max_ratio": "1",
+    "n_values": [
+      "3j",
+      "3j+1",
+      "3j+5"
+    ],
+    "pass": true,
+    "proof_a0": "inject an SYT of (n-j,theta) into its j lower-row labels and standardized theta SYT",
+    "proof_b0": "Pieri constituent dimension is bounded by the induction dimension C(n-1,j) f^theta"
+  },
+  "isolation": {
+    "corrected_carrier_generator_byte_identical": true,
+    "dependency_closed_verifiers": true,
+    "dimension_generator_byte_identical": true,
+    "j3_probe_byte_identical": true
+  },
+  "j2_dimension": [
+    {
+      "a": 0,
+      "b": 2,
+      "first": "9/10",
+      "last": "3080/3081",
+      "n_range_checked": [
+        6,
+        80
+      ],
+      "pass": true,
+      "theta": [
+        2
+      ]
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "first": "1",
+      "last": "1",
+      "n_range_checked": [
+        6,
+        80
+      ],
+      "pass": true,
+      "theta": [
+        2
+      ]
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "first": "1/2",
+      "last": "38/39",
+      "n_range_checked": [
+        6,
+        80
+      ],
+      "pass": true,
+      "theta": [
+        2
+      ]
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "first": "1",
+      "last": "1",
+      "n_range_checked": [
+        6,
+        80
+      ],
+      "pass": true,
+      "theta": [
+        1,
+        1
+      ]
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "first": "1",
+      "last": "1",
+      "n_range_checked": [
+        6,
+        80
+      ],
+      "pass": true,
+      "theta": [
+        1,
+        1
+      ]
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "first": "3/5",
+      "last": "77/79",
+      "n_range_checked": [
+        6,
+        80
+      ],
+      "pass": true,
+      "theta": [
+        1,
+        1
+      ]
+    }
+  ],
+  "j2_mixed": {
+    "checks": 145,
+    "column_formula": "(n^2-3n+1)/(2n(n-1))",
+    "derivation": "centered matrix units: ||P E_ij||^2=(n-2)/n and <P E_ij,P E_ji>=1/[n(n-1)]; use +/- coherent folds",
+    "n6": {
+      "column": "19/60",
+      "row": "7/20"
+    },
+    "n_range_checked": [
+      6,
+      150
+    ],
+    "pass": true,
+    "row_formula": "(n^2-3n+3)/(2n(n-1))"
+  },
+  "j3_boundary": {
+    "dimension_excess": [
+      {
+        "T": 168,
+        "beta": [
+          2
+        ],
+        "dc": 189,
+        "ratio": "9/8",
+        "theta": [
+          3
+        ]
+      },
+      {
+        "T": 168,
+        "beta": [
+          2
+        ],
+        "dc": 189,
+        "ratio": "9/8",
+        "theta": [
+          2,
+          1
+        ]
+      },
+      {
+        "T": 168,
+        "beta": [
+          1,
+          1
+        ],
+        "dc": 196,
+        "ratio": "7/6",
+        "theta": [
+          2,
+          1
+        ]
+      },
+      {
+        "T": 168,
+        "beta": [
+          1,
+          1
+        ],
+        "dc": 196,
+        "ratio": "7/6",
+        "theta": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "j": 3,
+    "meaning": "failure of the sufficient gate only",
+    "n": 9,
+    "pass": true
+  },
+  "manifests": [
+    {
+      "count": 9,
+      "directory": "artifacts\\logs_se_trace_t5_carrier_dimension_20260722",
+      "pass": true
+    },
+    {
+      "count": 9,
+      "directory": "artifacts\\logs_se_trace_t5_common_line_review_20260721",
+      "pass": true
+    },
+    {
+      "count": 5,
+      "directory": "artifacts\\logs_se_trace_t5_weighted_bessel_20260721",
+      "pass": true
+    },
+    {
+      "count": 6,
+      "directory": "artifacts\\logs_se_trace_t5_carrier_aware_tb_20260722",
+      "pass": true
+    },
+    {
+      "count": 6,
+      "directory": "artifacts\\logs_se_trace_t1_independent_20260720",
+      "pass": true
+    },
+    {
+      "count": 5,
+      "directory": "artifacts\\logs_se_trace_t5_counterexample_sweep_20260721",
+      "pass": true
+    },
+    {
+      "count": 7,
+      "directory": "artifacts\\logs_se_bigate_20260719",
+      "pass": true
+    },
+    {
+      "count": 5,
+      "directory": "artifacts\\logs_se_trace_t5_direction_law_20260721",
+      "pass": true
+    },
+    {
+      "count": 6,
+      "directory": "artifacts\\logs_se_trace_t3_expanded_spectra_20260721",
+      "pass": true
+    },
+    {
+      "count": 6,
+      "directory": "artifacts\\logs_se_trace_t5_tame_c2_rout_20260721",
+      "pass": true
+    },
+    {
+      "count": 8,
+      "directory": "artifacts\\logs_se_trace_t5_tame_c2_rcol_20260721",
+      "pass": true
+    },
+    {
+      "count": 8,
+      "directory": "artifacts\\logs_se_trace_t5_second_tame_c2_gate_20260722",
+      "pass": true
+    }
+  ],
+  "operator_audit": {
+    "coisometry_exact_matrix_checks": 30,
+    "common_line_plancherel": "Under A=direct_sum I_mu tensor A_mu, ||A||_HS^2=sum f^mu ||A_mu||_HS^2; reviewed common-line normalization identifies ||A_mu||_HS^2=r_mu",
+    "dimension_gate_suffices": true,
+    "frame_bound": "L_h^*L_h=P_C(sum_D Pi_D)P_C <= B_theta I_C by positive subframe compression",
+    "hs_dimension_factor": "Tr(L_h^*L_h)<=B_theta dim(C)=B_theta f^kappa f^nu c"
+  },
+  "overall_verdict": "PARTIAL",
+  "probes": {
+    "all_pass": true,
+    "count": 4,
+    "evidence": "NUMERICAL_ONLY",
+    "max_ratio": 0.2314814814814815,
+    "rational_candidates_are_not_promoted": true
+  },
+  "strict_scope": "The theorem is uniform only under f^kappa f^nu c<=T, plus the proved j<=2 and extreme-face consequences. The four j=3 probes are numerical, and the two c=2 gates show non-necessity only."
+}

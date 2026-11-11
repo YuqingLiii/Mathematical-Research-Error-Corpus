@@ -1,0 +1,198 @@
+[
+ {
+  "family": "a  iso product u0 u0^T",
+  "r": 4,
+  "mB": 5,
+  "mE": 12,
+  "interval_certificate_pass": true,
+  "rows": [
+   {
+    "k": 0,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "1",
+    "sign_at_2_5": "1",
+    "ok": true
+   },
+   {
+    "k": 1,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "11/9",
+    "sign_at_2_5": "231/400",
+    "ok": true
+   },
+   {
+    "k": 2,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "31/48",
+    "sign_at_2_5": "1197/10000",
+    "ok": true
+   },
+   {
+    "k": 3,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "4489/23328",
+    "sign_at_2_5": "21249/2000000",
+    "ok": true
+   },
+   {
+    "k": 4,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "7409/209952",
+    "sign_at_2_5": "1863/5000000",
+    "ok": true
+   },
+   {
+    "k": 5,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "5123/1259712",
+    "sign_at_2_5": "7047/1600000000",
+    "ok": true
+   },
+   {
+    "k": 6,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "481/1679616",
+    "sign_at_2_5": "0",
+    "ok": true
+   },
+   {
+    "k": 7,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "1015/90699264",
+    "sign_at_2_5": "0",
+    "ok": true
+   },
+   {
+    "k": 8,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "25/136048896",
+    "sign_at_2_5": "0",
+    "ok": true
+   },
+   {
+    "k": 9,
+    "zero": true,
+    "roots_in_open": [],
+    "sign_at_half": "0",
+    "sign_at_2_5": "0",
+    "ok": true
+   }
+  ]
+ },
+ {
+  "family": "e1 type-E diag(1,1,0)/sqrt2",
+  "r": 7,
+  "mB": 2,
+  "mE": 9,
+  "interval_certificate_pass": true,
+  "rows": [
+   {
+    "k": 0,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "1",
+    "sign_at_2_5": "1",
+    "ok": true
+   },
+   {
+    "k": 1,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "109/60",
+    "sign_at_2_5": "217/250",
+    "ok": true
+   },
+   {
+    "k": 2,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "54751/38400",
+    "sign_at_2_5": "39187/125000",
+    "ok": true
+   },
+   {
+    "k": 3,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "3482683/5529600",
+    "sign_at_2_5": "190043/3125000",
+    "ok": true
+   },
+   {
+    "k": 4,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "1811664389/10616832000",
+    "sign_at_2_5": "85232629/12500000000",
+    "ok": true
+   },
+   {
+    "k": 5,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "61321274827/2123366400000",
+    "sign_at_2_5": "6921537559/15625000000000",
+    "ok": true
+   },
+   {
+    "k": 6,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "9038178441757/3057647616000000",
+    "sign_at_2_5": "31104525689/1953125000000000",
+    "ok": true
+   },
+   {
+    "k": 7,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "15120174545921/91729428480000000",
+    "sign_at_2_5": "70549400001/244140625000000000",
+    "ok": true
+   },
+   {
+    "k": 8,
+    "zero": false,
+    "roots_in_open": [],
+    "denom_roots_in_range": [],
+    "sign_at_half": "2733245471443/733835427840000000",
+    "sign_at_2_5": "12523624281/6103515625000000000",
+    "ok": true
+   },
+   {
+    "k": 9,
+    "zero": true,
+    "roots_in_open": [],
+    "sign_at_half": "0",
+    "sign_at_2_5": "0",
+    "ok": true
+   }
+  ]
+ }
+]

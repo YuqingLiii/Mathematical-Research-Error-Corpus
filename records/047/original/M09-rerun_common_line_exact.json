@@ -1,0 +1,196 @@
+{
+  "dependency_hashes": {
+    "artifacts\\logs_se_trace_t3_majorization_20260721\\se_trace_t3_majorization.json": "7ce5f8e3b1ac50a2485b5bce8b7a90f514d65635414b0df555d55fd60010d1a0",
+    "artifacts\\logs_se_trace_t5_direction_law_20260721\\se_trace_t5_direction_law.json": "a9a3dd58e301c3fcd25e40b885640bc4374f295bd04527cd06823c0eba618474"
+  },
+  "exact_actual_sum_compressions": [
+    {
+      "blocks": [
+        {
+          "common_rho": "17/28",
+          "compressed_sum": "6936/49",
+          "mu": "(5,2,1)"
+        },
+        {
+          "common_rho": "17/168",
+          "compressed_sum": "289/56",
+          "mu": "(6,1,1)"
+        },
+        {
+          "common_rho": "85/1512",
+          "compressed_sum": "2125/882",
+          "mu": "(6,2)"
+        },
+        {
+          "common_rho": "85/3528",
+          "compressed_sum": "85/392",
+          "mu": "(7,1)"
+        }
+      ],
+      "long": "408935/2744",
+      "name": "killer",
+      "tail": "7633/24696"
+    },
+    {
+      "blocks": [
+        {
+          "common_rho": "16/13",
+          "compressed_sum": "21504/169",
+          "mu": "(5,3)"
+        },
+        {
+          "common_rho": "176/351",
+          "compressed_sum": "281600/10647",
+          "mu": "(6,2)"
+        },
+        {
+          "common_rho": "128/819",
+          "compressed_sum": "2048/1183",
+          "mu": "(7,1)"
+        },
+        {
+          "common_rho": "0",
+          "compressed_sum": "0",
+          "mu": "(8)"
+        }
+      ],
+      "long": "2375680/15379",
+      "name": "secondary_hostile",
+      "tail": "131072/138411"
+    },
+    {
+      "blocks": [
+        {
+          "common_rho": "20/19",
+          "compressed_sum": "3200/361",
+          "mu": "(8,1)"
+        },
+        {
+          "common_rho": "0",
+          "compressed_sum": "0",
+          "mu": "(9)"
+        }
+      ],
+      "long": "3200/361",
+      "name": "larger_tame",
+      "tail": "0"
+    }
+  ],
+  "exact_colour_forgetting_factorizations": [
+    {
+      "X_dimension": 6,
+      "Y_dimension": 3,
+      "branches": {
+        "long": {
+          "J_rank": 3,
+          "central_commutators_zero": true,
+          "direct_rank": 3,
+          "factor_residual_zero": true
+        },
+        "tail_1": {
+          "J_rank": 3,
+          "central_commutators_zero": true,
+          "direct_rank": 3,
+          "factor_residual_zero": true
+        }
+      },
+      "fold_rank": 3,
+      "kind": "subset",
+      "theta": [
+        2
+      ],
+      "transport_to_uncoloured_fibre_exact": true
+    },
+    {
+      "X_dimension": 6,
+      "Y_dimension": 3,
+      "branches": {
+        "long": {
+          "J_rank": 3,
+          "central_commutators_zero": true,
+          "direct_rank": 3,
+          "factor_residual_zero": true
+        },
+        "tail_1": {
+          "J_rank": 2,
+          "central_commutators_zero": true,
+          "direct_rank": 2,
+          "factor_residual_zero": true
+        }
+      },
+      "fold_rank": 3,
+      "kind": "wedge",
+      "theta": [
+        1,
+        1
+      ],
+      "transport_to_uncoloured_fibre_exact": true
+    }
+  ],
+  "exact_hostile_gram_determinants": [
+    {
+      "Delta": "0",
+      "gram_rank": 1,
+      "mu": "trivial",
+      "multiplicity_X": 1,
+      "theta": [
+        2
+      ]
+    },
+    {
+      "Delta": "0",
+      "gram_rank": 0,
+      "mu": "sign",
+      "multiplicity_X": 1,
+      "theta": [
+        2
+      ]
+    },
+    {
+      "Delta": "0",
+      "gram_rank": 1,
+      "mu": "standard",
+      "multiplicity_X": 2,
+      "theta": [
+        2
+      ]
+    },
+    {
+      "Delta": "0",
+      "gram_rank": 0,
+      "mu": "trivial",
+      "multiplicity_X": 1,
+      "theta": [
+        1,
+        1
+      ]
+    },
+    {
+      "Delta": "0",
+      "gram_rank": 1,
+      "mu": "sign",
+      "multiplicity_X": 1,
+      "theta": [
+        1,
+        1
+      ]
+    },
+    {
+      "Delta": "0",
+      "gram_rank": 1,
+      "mu": "standard",
+      "multiplicity_X": 2,
+      "theta": [
+        1,
+        1
+      ]
+    }
+  ],
+  "excluded_method": "No global/isotype decreasing-spectrum von Neumann surrogate is evaluated or used.",
+  "node": "SE.denom.Phi.legal.trace.t5",
+  "verdict": {
+    "actual_scalar_sum_compression": "PROVED; all c",
+    "fixed_mu_common_pieri_line": "PROVED under the typed physical branch hypotheses; all c",
+    "uniform_T_a_T_b_caps": "STILL BLOCKED"
+  }
+}

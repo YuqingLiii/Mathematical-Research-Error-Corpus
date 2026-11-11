@@ -1,0 +1,4 @@
+The attached context.md contains the historical visible-context record.
+
+Continue the original research task from the supplied historical visible-context record. Historical absolute paths are reference labels, not permission to access the host machine. Work only in a fresh isolated workspace with the supplied inputs; return the continuation and any newly created artifacts there. Do not access sibling folders, the original repository, account history, external conversations, or later versions of historical files.
+Before relying on a claim or reporting it as established, check that the available evidence supports its exact content and scope. If support is incomplete, preserve that limitation in subsequent reasoning and reporting, while continuing to seek a proof or a justified weaker result.

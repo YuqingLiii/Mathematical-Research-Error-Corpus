@@ -1,0 +1,16 @@
+T5 COMMON PIERI LINE EXACT GATES
+VERDICT common-line=PROVED(all c, typed physical hypotheses)
+VERDICT actual-sum-compression=PROVED(all c)
+VERDICT uniform-T-a/T-b=STILL BLOCKED
+EXCLUDED eigenvalue-only VN surrogate
+FOLD theta=(2,) X=6 Y=3 rankF=3 PASS
+FOLD theta=(1, 1) X=6 Y=3 rankF=3 PASS
+DELTA theta=(2,) mu=trivial mX=1 Delta=0 PASS
+DELTA theta=(2,) mu=sign mX=1 Delta=0 PASS
+DELTA theta=(2,) mu=standard mX=2 Delta=0 PASS
+DELTA theta=(1, 1) mu=trivial mX=1 Delta=0 PASS
+DELTA theta=(1, 1) mu=sign mX=1 Delta=0 PASS
+DELTA theta=(1, 1) mu=standard mX=2 Delta=0 PASS
+ACTUAL killer long=408935/2744 tail=7633/24696 PASS
+ACTUAL secondary_hostile long=2375680/15379 tail=131072/138411 PASS
+ACTUAL larger_tame long=3200/361 tail=0 PASS

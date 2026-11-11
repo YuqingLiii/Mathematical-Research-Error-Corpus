@@ -1,0 +1,44 @@
+From the repository root in PowerShell:
+
+python artifacts/logs_se_trace_t5_carrier_dimension_20260722/verify_artifact.py
+python artifacts/logs_se_trace_t5_carrier_aware_tb_20260722/verify_artifact.py
+
+Create a fresh temporary repository root and copy these dependency directories
+under its artifacts/ directory:
+
+logs_se_trace_t5_carrier_dimension_20260722
+logs_se_trace_t5_carrier_aware_tb_20260722
+logs_se_trace_t5_common_line_review_20260721
+logs_se_trace_t5_weighted_bessel_20260721
+logs_se_trace_t1_independent_20260720
+logs_se_trace_t5_counterexample_sweep_20260721
+logs_se_bigate_20260719
+logs_se_trace_t5_direction_law_20260721
+logs_se_trace_t3_expanded_spectra_20260721
+logs_se_trace_t5_tame_c2_rout_20260721
+logs_se_trace_t5_tame_c2_rcol_20260721
+logs_se_trace_t5_second_tame_c2_gate_20260722
+
+Also copy artifacts/se_bigate_20260719.md, which is an explicit target of the
+bigate manifest. From that isolated root run:
+
+python artifacts/logs_se_trace_t5_carrier_dimension_20260722/verify_artifact.py
+python artifacts/logs_se_trace_t5_carrier_aware_tb_20260722/verify_artifact.py
+python artifacts/logs_se_trace_t5_carrier_dimension_20260722/carrier_dimension_theorem.py --json artifacts/logs_se_trace_t5_carrier_dimension_20260722/dimension.rerun.json --log artifacts/logs_se_trace_t5_carrier_dimension_20260722/dimension.rerun.log
+python artifacts/logs_se_trace_t5_carrier_aware_tb_20260722/carrier_aware_tb.py --json artifacts/logs_se_trace_t5_carrier_aware_tb_20260722/carrier.rerun.json --log artifacts/logs_se_trace_t5_carrier_aware_tb_20260722/carrier.rerun.log
+& 'C:[USER_HOME]/miniconda3/envs/AI_HW/python.exe' -u artifacts/logs_se_trace_t5_carrier_dimension_20260722/probe_j3_excess.py --json artifacts/logs_se_trace_t5_carrier_dimension_20260722/probe.rerun.json --log artifacts/logs_se_trace_t5_carrier_dimension_20260722/probe.rerun.log
+
+Compare all six rerun JSON/log files byte-for-byte with their archived source
+counterparts.
+
+Run the independent review:
+
+python artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/review_carrier_dimension.py --json artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/carrier_dimension_review.json --log artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/carrier_dimension_review.log
+
+After SHA256SUMS.txt is generated, verify every listed digest and assert:
+
+overall_verdict == PARTIAL
+all uniform theorem verdicts named CONFIRMED
+j3_dimension_excess_probes == REPRODUCED_NUMERICAL_ONLY
+uniform_dimension_excess_CA == OPEN_NOT_PROVED
+

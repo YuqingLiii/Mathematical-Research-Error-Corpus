@@ -1,0 +1,8 @@
+{
+  "raw_final": "Copied Markdown validated against visible unique first and last paragraphs; initial stale clipboard rejected",
+  "visible_summaries": "all exposed work groups and nested tool buttons expanded; UI summaries, not full raw CoT",
+  "artifacts": "No downloadable artifact offered in visible final answer",
+  "tool_code": "Visible DOM code captured; hidden or virtualized nonrendered portions unknown",
+  "search": "No web-search tool row observed",
+  "access_limit": "Too many requests modal observed 00:33:02; dismissed without model resend"
+}

@@ -1,0 +1,57 @@
+deleted=0 size1=2611200 size2=8170368 size3=2127360 size4=8437248 support=53624480 maximum=480 distinct_base=357182 distinct_signed=359463 matched=8996 surviving=0
+deleted=1 size1=5487296 size2=13221080 size3=3505232 size4=11517728 support=67257904 maximum=240 distinct_base=922494 distinct_signed=929235 matched=39252 surviving=0
+deleted=2 size1=6766276 size2=15472576 size3=4554316 size4=12835564 support=74299396 maximum=360 distinct_base=1367055 distinct_signed=1377950 matched=56288 surviving=0
+deleted=3 size1=7100030 size2=17578366 size3=4984338 size4=14926858 support=80379126 maximum=360 distinct_base=1772786 distinct_signed=1797439 matched=57570 surviving=0
+deleted=4 size1=7596522 size2=19216670 size3=5435766 size4=15308312 support=82205586 maximum=360 distinct_base=2141804 distinct_signed=2155153 matched=36924 surviving=0
+deleted=5 size1=8125098 size2=20092420 size3=5747058 size4=16650908 support=85479878 maximum=360 distinct_base=1975256 distinct_signed=1994928 matched=68686 surviving=0
+deleted=6 size1=7619168 size2=18914008 size3=6162040 size4=15684148 support=83844924 maximum=360 distinct_base=1074979 distinct_signed=1088379 matched=65752 surviving=0
+deleted=7 size1=8125098 size2=20092420 size3=5747058 size4=16650908 support=85479878 maximum=360 distinct_base=1975256 distinct_signed=1994928 matched=68686 surviving=0
+deleted=8 size1=7596522 size2=19216670 size3=5435766 size4=15308312 support=82205586 maximum=360 distinct_base=2141804 distinct_signed=2155153 matched=36924 surviving=0
+deleted=9 size1=7100030 size2=17578366 size3=4984338 size4=14926858 support=80379126 maximum=360 distinct_base=1772786 distinct_signed=1797439 matched=57570 surviving=0
+deleted=10 size1=6766276 size2=15472576 size3=4554316 size4=12835564 support=74299396 maximum=360 distinct_base=1367055 distinct_signed=1377950 matched=56288 surviving=0
+deleted=11 size1=5487296 size2=13221080 size3=3505232 size4=11517728 support=67257904 maximum=240 distinct_base=922494 distinct_signed=929235 matched=39252 surviving=0
+deleted=12 size1=2611200 size2=8170368 size3=2127360 size4=8437248 support=53624480 maximum=480 distinct_base=357182 distinct_signed=359463 matched=8996 surviving=0
+occupied_sizes=91
+records=206416968
+plus=171607544 minus=34809424
+matched=601184
+global_keys=8003524
+global_both_signs=174962
+global_matched=1278684
+global_maximum_match=1152
+global_key_checksum=19618180552045238370105676
+global_count_checksum=1655672247452000
+minority_kill_by_row=12992,65570,99056,121008,117884,151668,142328,151668,117884,121008,99056,65570,12992
+minority_kill_total=1278684
+minority_witness_fits_budget=true
+balanced_kill_by_row=43372,81003,111459,120249,115927,123403,134156,123403,115927,120249,111459,81003,43372
+balanced_kill_total=1324982
+balanced_total_excess=0
+balanced_max_excess=0
+balanced_choice_checksum=15751603573107966748185
+balanced_witness_fits_budget=true
+bad_budget=2549446
+surviving_packets=0
+surviving_anchors=80442566
+cleared_margin=-58994969053080
+best_symmetric_mask=1
+best_symmetric_rows=6
+best_subset_matched=65752
+best_subset_budget=170358
+best_subset_packets=0
+best_subset_margin=-58994969053080
+best_subset_both_signs=13400
+best_subset_maximum_match=192
+best_subset_match_checksum=5376725345361485914960
+d6_range=0,22478132
+dr_range=-72,72
+sum_t=4954007232
+sum_d6=751527852930248
+sum_dr=3333296
+sum_sigma=136798120
+sum_t2=879582216897143216480
+sum_d62=7184347031263105435440
+sum_dr2=79580429328
+weighted_surviving=0
+comparison=0
+round82 exploratory global cross-row census: COMPLETE
