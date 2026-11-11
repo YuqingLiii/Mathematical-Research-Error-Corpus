@@ -1,0 +1,279 @@
+{
+  "record_id": "059",
+  "problem": "Channel additivity violations",
+  "collection": "Original research investigation",
+  "summary": "The imported result and its displayed bound do not by themselves license the retained-radius, tensor-Haar estimate in the local lemma.",
+  "review_status": "interpretation_check_pending",
+  "review_note": "The original paragraph already says that the published display replaced R by a generic bound. Its phrase “Retaining ... instead gives” is a proposed derivation, not a straightforward false attribution. Primary-source proof must be compared in full before treating this as a confirmed mathematical error.",
+  "original": {
+    "excerpt": "\nThe same statement holds for a non-self-adjoint polynomial after its\nstandard \\(2\\)-by-\\(2\\) self-adjoint dilation.\n\n**Proof.**  In the proof of Theorem 1.5 in the cited source, denote\n\\(\\widetilde q_0=q_0(1+\\log q_0)\\).  Immediately before the final choice\nof the tail constant, their displayed estimate has the two controlling\nterms\n\n\\[\n \\left({R(P)^3\\widetilde q_0\\,m^{1+2u}\n       \\over\\varepsilon^{1+2u}u n}\\right)^m,\n \\qquad\n \\left({R(P)^6\\widetilde q_0^2\\,m^{1+4u}\n       \\over\\varepsilon^{2(1+2u)}u^2 n}\\right)^m.             \\tag{210}\n\\]\n\nIn the published display, \\(R(P)\\) has already been replaced by the\ngeneric estimate \\((Cr)^{q_0}\\), proved there by counting every reduced\nword of length at most \\(q_0\\).  Retaining \\(K_{\\rm full}/\\|X_{\\rm F}\\|\\)\ninstead gives (210), because the preceding test-function argument uses the\nfull norm only as the radius of the interval containing every finite\nevaluation.  Their choices\n",
+    "context": "The local lemma claims a coefficient-sensitive tensor-Haar tail bound with inverse tail constant bounded by C R(P)^6 [q0(1+log q0)]^2, where R is the full-to-limit norm ratio. The paragraph attributes the required terms to an imported proof.",
+    "locator": "Proof-development artifact, Lemma 44, lines 3860–3883; original write 2026-08-21T16:10:22.317Z"
+  },
+  "witness": {
+    "explanation": "The imported result and its displayed bound do not by themselves license the retained-radius, tensor-Haar estimate in the local lemma.",
+    "evidence": "The quoted source replaces K/||X_F|| by the generic bound (Cr)^q0 before its final display; the local claim instead keeps R(P)=K/||X_F|| and requires uniform control over a coefficient net. Its tensor theorem is stated for GUE, with a Haar extension only mentioned separately. A valid citation does not discharge the missing rederivation tracking R and all coefficient-uniform thresholds. The later correction explicitly identifies this missing bridge and attempts a retained-radius proof; that correction does not retroactively supply the original derivation.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "短摘要说明在查看 tensor-Haar 文献，但不包含可检验的系数一致尾界推断。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-21T16:06:04.811Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "generation",
+        "source_name": "local-session-archive/2026/08/21/rollout-2026-08-21T12-05-17-<session-id-redacted>.jsonl",
+        "source_line": 64,
+        "material_id": "M04",
+        "original_line_sha256": "c27bbda4296f6ed08c08f8954ff9688cdea561d34766e6fa5aca57d794ded580"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M04",
+      "source_line": 63,
+      "timestamp": "2026-08-21T16:06:04.810Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M04",
+      "source_line": 64,
+      "timestamp": "2026-08-21T16:06:04.811Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M02",
+      "source_line": 1,
+      "timestamp": "2026-08-21T16:10:22.317Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M02",
+      "source_line": 2,
+      "timestamp": "2026-08-21T16:10:22.421Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M03",
+      "source_line": 1,
+      "timestamp": "2026-08-21T16:15:33.756Z",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M03",
+      "source_line": 2,
+      "timestamp": "2026-08-21T16:15:33.866Z",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "exact_quote_match": false
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "supporting_artifact",
+        "historical_evidence_pointer"
+      ],
+      "file": "materials/M01-PROOF.md",
+      "readable_file": null,
+      "source_name": "tracking/ai-proof-records-20260912/recovered-marathon-20260821/additivity-gap/PROOF.md",
+      "original_source_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+      "original_source_bytes": 307351,
+      "bundled_file_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          8297
+        ]
+      ],
+      "requested_locators": [
+        "Proof-development artifact, Lemma 44, lines 3860–3883; original write 2026-08-21T16:10:22.317Z",
+        "4149-4184",
+        "#uniformity-audit"
+      ],
+      "matched_quote_lines": [
+        3857
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "file": "materials/M02-GAP-007-source-attribution.jsonl.visible.json",
+      "readable_file": "materials/M02-GAP-007-source-attribution.jsonl.readable.md",
+      "source_name": "paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-007-source-attribution.jsonl",
+      "original_source_sha256": "a2e9256f39e563f2d2f8d9b5f803f45b1feffc2e4e4c9ffcc95447948b6ee917",
+      "original_source_bytes": 26988,
+      "bundled_file_sha256": "5fe4a380ea260f4eb9fa4412068ca20e8fadf37a2adce30c598375fb199f13ab",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "requested_locators": [
+        "slice lines 1-2; original JSONL lines 137-138 exact PROOF.md patch and completed write (2026-08-21T16:10:22.317Z)",
+        "slice lines 1-2; original JSONL lines 137-138 exact PROOF.md patch and completed write (2026-08-21T16:10:22.317Z)",
+        "1-2; original lines 137-138",
+        "1; original line 137 (2026-08-21T16:10:22.317Z / 12:10:22.317 EDT)",
+        "1-2; original lines 137-138",
+        "1; original line 137 (2026-08-21T16:10:22.317Z / 12:10:22.317 EDT)"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [
+        {
+          "expected": "a2e9256f39e563f2d2f8d9b5f803f45b1feffc2e4e4c9ffcc95447948b6ee917",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "a2e9256f39e563f2d2f8d9b5f803f45b1feffc2e4e4c9ffcc95447948b6ee917",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M03-GAP-008-uniformity.jsonl.visible.json",
+      "readable_file": "materials/M03-GAP-008-uniformity.jsonl.readable.md",
+      "source_name": "paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-008-uniformity.jsonl",
+      "original_source_sha256": "44877842b349d380aa48c8d17e00098dbb8cad25796e0588af75472f8c023dd3",
+      "original_source_bytes": 36982,
+      "bundled_file_sha256": "a7a025122f4a2e7de75f1f08bb202eef763e67c3292e2ce9c619b9357662620b",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [
+        "1; original next-session line 138 (2026-08-21T16:15:33.756Z)",
+        "1; original next-session line 138 (2026-08-21T16:15:33.756Z)"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M04-rollout-2026-08-21T12-05-17-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M04-rollout-2026-08-21T12-05-17-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "local-session-archive/2026/08/21/rollout-2026-08-21T12-05-17-<session-id-redacted>.jsonl",
+      "original_source_sha256": "732de99d152008039725a4bbd8b1937efbd4ea21b0c0dc3ba7ce3c464f7f9d0c",
+      "original_source_bytes": 1130419,
+      "bundled_file_sha256": "708ddb40d09c4c779292227704552c95d7da67af278a4a41b52944dfe3398ee5",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          57,
+          70
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              64,
+              64
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        63,
+        64
+      ],
+      "historical_hash_matches": [],
+      "event_hash_checks": [
+        {
+          "line": 64,
+          "expected_raw_line_sha256": "c27bbda4296f6ed08c08f8954ff9688cdea561d34766e6fa5aca57d794ded580",
+          "observed_raw_line_sha256": "c27bbda4296f6ed08c08f8954ff9688cdea561d34766e6fa5aca57d794ded580",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 4,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "original/M01-KSUM-main-b5fea9c2.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "b8d16f59a22fe4a71518c1eaedfd6e02f9401e549b3756e6dfb2af30b2c6c49b",
+    "bytes": 129898,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-KSUM-main-b5fea9c2.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "721fa96aa25ff4e55e8dd22667de2e27aeab1a908158009c59a9174f73fd3d29",
+    "bytes": 159600,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-DATA6_ksum_ledger.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0018482ded6bdd7731828a1b1b18351929ca73abe10c5f2e846ca5afae16904b",
+    "bytes": 1753,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-ksum_small_alphabet.tex.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/publish/Ai4QuantumAlgorithms/open-questions/ksum-small-alphabet/paper/ksum_small_alphabet.tex",
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81",
+    "source_lines": [
+      243,
+      252
+    ],
+    "sha256": "80e3a15d4af8eefb26ac8b44a02aa7b871798361e69a5ddd666326d58621f3fc",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R02-historical_provenance_report.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_claim_gap_20260918/sources/historical_provenance_report.md",
+    "original_sha256": "ba3fceaca083ce6134ed741676f4b5f2d91b72fe62561b6ef32624b9094e5a60",
+    "source_lines": [
+      599,
+      632
+    ],
+    "sha256": "75d1051ba2bc98d92401e2c995326cde90d93eb44f46c245b8b8a2f075972407",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/A01-ksum_small_alphabet.tex",
+    "kind": "supplementary_artifact",
+    "source": "[PROJECT]/publish/Ai4QuantumAlgorithms/open-questions/ksum-small-alphabet/paper/ksum_small_alphabet.tex",
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81",
+    "sha256": "a9acb18208c5cffbd9c4958d3ffa08e3f85771fc58f5f1d403b72e51fdf392af",
+    "transformation": "Full text, private identifiers redacted",
+    "reason": "交付版243–253行提供独立于会话抽取的原始引理版本。"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "record_id": "044",
+  "problem": "Quantum k-sum with small alphabets",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The uncapped exponent is impossible at the top endpoint q=N.",
+  "overclaim": false,
+  "mechanism": "候选渐近下界与已知上界冲突",
+  "original": {
+    "excerpt": "There exist constants\n\\(\\eta>1/6\\), \\(c_0>0\\), and \\(\\delta>0\\) such that, uniformly for\n\\(3\\le q\\le N\\)",
+    "context": "The report explicitly labels this a conjectured asymptotic witness lemma and states that it has not been proved. The source-writing command uses the placeholder § for a backslash before saving.",
+    "locator": "Report-writing event, 2026-07-19T18:54:14.287Z; P4 conjectured joint-histogram witness lemma.",
+    "full_recovered_section": "**Conjectured joint-histogram witness lemma.** There exist constants\n\\(\\eta>1/6\\), \\(c_0>0\\), and \\(\\delta>0\\) such that, uniformly for\n\\(3\\le q\\le N\\) and \\(t\\in\\mathbb Z_q\\), there is an\n\\(S_N\\times C(\\sigma)\\)-invariant signed measure\n\\(\\mu_{N,q,t}\\) on \\((\\mathbb Z_q)^N\\) satisfying\n\\[\n \\|\\mu_{N,q,t}\\|_1=1,\\qquad\n \\langle\\mu_{N,q,t},F_{N,q,t}\\rangle\\ge\\frac13+\\delta,\n\\]\nand\n\\[\n \\langle\\mu_{N,q,t},p\\rangle=0\n \\quad\\text{for every query polynomial }p\n \\text{ of degree }<c_0\\sqrt N\\,q^\\eta.\n\\]\nThe target value is \\(\\eta=1/4\\). Any fixed \\(\\eta>1/6\\) is already the route's required advance.\n\n### Proof plan only\n\n1. Work in the falling-factorial generators \\(P_{u,v},Q_s\\), keeping the filtration equal to query degree by the exact symmetrization map (1).\n2. Construct a signed finite-band kernel on the pair-count lattice \\((i,j)\\), then symmetrize it over two-cycles and condition on total occupancy \\(N\\). The local kernel must distinguish the NO boundary \\(ij=0\\) from the YES interior \\(ij>0\\); a scalar total \\(i+j\\) cannot do this.\n3. Use discrete orthogonal polynomials on occupancy slices to annihilate all generator products below degree \\(D\\). Prove that conditioning on \\(\\sum_a n_a=N\\) preserves the required moment cancellations rather than reintroducing low-degree leakage.\n4. Treat fixed points as a separate \\(Q_s\\) factor and obtain constants uniform in the cycle type \\(\\tau\\); the \\(\\tau=0\\) and \\(\\tau>0\\) cases cannot be identified by target relabeling.\n5. Bound the class-weight \\(\\ell_1\\) norm and the signed mass on the YES/NO boundary by a discrete Christoffel-function or extremal-polynomial estimate, aiming for \\(D=\\Omega(\\sqrt N\\,q^\\eta)\\).\n6. Lift class weights uniformly to inputs and verify pure high degree against the full one-hot query basis, not only against a chosen generator list.\n\nThis lemma is the node's next obligation. No step above has been proved here.",
+    "full_section_origin": "Source-writing event at JSONL line 255, 2026-07-19T18:54:14.287Z. The command explicitly substitutes a backslash for the § placeholder; this readable view applies that substitution without executing the command.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The uncapped exponent is impossible at the top endpoint q=N.",
+    "evidence": "The proposed signed measure has unit l1 norm, correlation at least1/3+delta, and annihilates every query polynomial of degree below c0*sqrt(N)*q^eta. It would therefore force approximate degree Omega(N^(1/2+eta)) at q=N. A bounded-error quantum-walk algorithm uses O(N^(2/3)) queries for2-sum; constant-error amplification gives an approximating polynomial of degree O(N^(2/3)) at the required fixed accuracy. For eta>1/6, N^(1/2+eta) grows faster. This refutes the candidate as stated, not a claimed completed proof.",
+    "scope": "tentative_candidate_refuted",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "保留被已知上界反驳的候选 witness lemma。原文明确写 Conjectured、Proof plan only、No step ... proved，因此不是把已经建立的证据夸成完成证明。用户允许未完成证明过程中的错误，此项仍入核心数学错误集合。",
+    "history_reconciliation": "KSUM-007 的候选为真错误，但旧 overclaim 口径必须与原文 epistemic status 区分；只是类型重判，不是原始材料缺失或错误撤销。",
+    "verification_basis": "原候选与历史独立审查完整；本轮复算指数比较并保留文献上界依赖，没有声称重证量子 walk 算法。",
+    "witness_scope": "q=N 使下界次数增长 N^(1/2+eta)，eta>1/6；2-Sum 的 O(N^(2/3)) 查询算法经固定误差放大产生同阶近似多项式，两者矛盾。只推翻候选的无截断范围。",
+    "original_selection_correction": null,
+    "prior_inventory_key": "KSUM-007",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "目标 Codex rollout 的 summary 数组为空，只有 encrypted_content；不解密，也不根据其他角色的长摘要补造原作者推理。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M01",
+      "source_line": 250,
+      "timestamp": "2026-07-19T18:53:16.141Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 255,
+      "timestamp": "2026-07-19T18:54:14.287Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 256,
+      "timestamp": "2026-07-19T18:54:14.369Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 257,
+      "timestamp": "2026-07-19T18:54:14.376Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 258,
+      "timestamp": "2026-07-19T18:54:14.376Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M02",
+      "source_line": 1727,
+      "timestamp": "2026-07-19T19:11:28.790Z",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "exact_quote_match": false
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "044",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

@@ -1,0 +1,600 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Math Research Error Corpus record 1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$"
+    },
+    "legacy_id": {
+      "type": "string"
+    },
+    "problem_id": {
+      "type": "string",
+      "pattern": "^P[0-9]{2}$"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "admission": {
+      "const": "included"
+    },
+    "collection_context": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "original": {
+      "type": "object",
+      "properties": {
+        "excerpt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_form": {
+          "type": "string"
+        },
+        "source_bindings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "quote": {
+                "type": "string"
+              },
+              "matches": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "path": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+                    },
+                    "packaged_lines": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "minItems": 2,
+                      "maxItems": 2
+                    },
+                    "sha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    }
+                  },
+                  "required": [
+                    "path",
+                    "packaged_lines",
+                    "sha256"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "quote",
+              "matches"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "full_recovered_section": {
+          "type": "string"
+        },
+        "full_section_origin": {
+          "type": "string"
+        },
+        "referenced_definition": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "excerpt",
+        "context",
+        "locator",
+        "source_form",
+        "source_bindings"
+      ],
+      "additionalProperties": false
+    },
+    "witness": {
+      "type": "object",
+      "properties": {
+        "explanation": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "string"
+        },
+        "scope": {
+          "enum": [
+            "argument_invalid",
+            "statement_false",
+            "computation_false",
+            "tentative_candidate_refuted",
+            "missing_hypothesis_in_problem_reformulation_not_false_literal_E1",
+            "overstated_additional_scalar_constraint_not_false_inequality"
+          ]
+        },
+        "endorsement": {
+          "const": "accepted_scoped_witness"
+        },
+        "document": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+        },
+        "fresh_checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "result_file": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+              },
+              "index": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "description": {
+                "type": "string"
+              },
+              "scope": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "certificate_bookkeeping",
+                  "local_mathematical_check"
+                ]
+              }
+            },
+            "required": [
+              "result_file",
+              "index",
+              "description",
+              "scope",
+              "kind"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "explanation",
+        "evidence",
+        "scope",
+        "endorsement",
+        "document",
+        "fresh_checks"
+      ],
+      "additionalProperties": false
+    },
+    "classification": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "const": "yoshida-level1-v3-20260923"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "category_id": {
+                "enum": [
+                  "I",
+                  "II",
+                  "III",
+                  "IV",
+                  "V"
+                ]
+              },
+              "label_zh": {
+                "type": "string"
+              },
+              "source_quote": {
+                "type": "string"
+              },
+              "evidence_note_zh": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "category_id",
+              "label_zh",
+              "source_quote",
+              "evidence_note_zh"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "boundary_note_zh": {
+          "type": "string"
+        },
+        "application_note_zh": {
+          "type": "string"
+        },
+        "primary_logic_subtype": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "primary_subtype": {
+                  "enum": [
+                    "IV-1",
+                    "IV-2",
+                    "IV-3",
+                    "IV-4",
+                    "IV-5",
+                    "IV-6",
+                    "IV-7",
+                    "IV-8"
+                  ]
+                },
+                "label_zh": {
+                  "type": "string"
+                },
+                "rationale_zh": {
+                  "type": "string"
+                },
+                "mapping_status": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "primary_subtype",
+                "label_zh",
+                "rationale_zh",
+                "mapping_status"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "categories",
+        "boundary_note_zh",
+        "application_note_zh",
+        "primary_logic_subtype"
+      ],
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "frozen_record": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+        },
+        "frozen_record_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "materials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "kind": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "path",
+              "sha256",
+              "kind"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "historical_events": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "historical_material_context": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+        }
+      },
+      "required": [
+        "frozen_record",
+        "frozen_record_sha256",
+        "materials",
+        "historical_events",
+        "historical_material_context"
+      ],
+      "additionalProperties": false
+    },
+    "model_attribution": {
+      "type": "object",
+      "properties": {
+        "artifact_author_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "basis": {
+          "type": "string"
+        },
+        "evidence_document": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_record_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "model_evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "attribution_limit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fresh_model_identification": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "artifact_author_model",
+        "decision_model",
+        "basis",
+        "evidence_document",
+        "evidence_record_id",
+        "model_evidence",
+        "attribution_limit",
+        "fresh_model_identification"
+      ],
+      "additionalProperties": false
+    },
+    "task_context": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "basis": {
+          "const": "frozen_original_context"
+        },
+        "full_original_prompt_not_asserted": {
+          "const": true
+        }
+      },
+      "required": [
+        "description",
+        "basis",
+        "full_original_prompt_not_asserted"
+      ],
+      "additionalProperties": false
+    },
+    "time_evidence": {
+      "type": "object",
+      "properties": {
+        "original_locator": {
+          "type": "string"
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "earliest_error_timestamp_not_inferred": {
+          "const": true
+        }
+      },
+      "required": [
+        "original_locator",
+        "events",
+        "earliest_error_timestamp_not_inferred"
+      ],
+      "additionalProperties": false
+    },
+    "visible_reasoning": {
+      "type": "object",
+      "properties": {
+        "availability_description": {
+          "type": "string"
+        },
+        "anchors": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "limitation": {
+          "type": "string"
+        },
+        "paper_subset": {
+          "enum": [
+            "error_visible",
+            "reasoning_output_discrepancy",
+            "not_in_12_record_paper_subset"
+          ]
+        },
+        "context_only_anchors": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "availability_description",
+        "anchors",
+        "limitation",
+        "paper_subset"
+      ],
+      "additionalProperties": false
+    },
+    "paper_mapping": {
+      "type": "object",
+      "properties": {
+        "baseline": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+        },
+        "problem_table_line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "category_sections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "explicit_examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "baseline",
+        "problem_table_line",
+        "category_sections",
+        "explicit_examples",
+        "reasoning_evidence"
+      ],
+      "additionalProperties": false
+    },
+    "audit": {
+      "type": "object",
+      "properties": {
+        "audit_date": {
+          "const": "2026-10-05"
+        },
+        "source_binding": {
+          "const": "PASS"
+        },
+        "source_hashes": {
+          "const": "PASS"
+        },
+        "classification_join": {
+          "const": "PASS"
+        },
+        "mathematical_review": {
+          "const": "scoped_witness_read_and_compared"
+        },
+        "full_independent_mathematical_certification": {
+          "const": false
+        },
+        "fresh_computational_check_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "gaps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0
+        },
+        "source_record_verification_limit": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "audit_date",
+        "source_binding",
+        "source_hashes",
+        "classification_join",
+        "mathematical_review",
+        "full_independent_mathematical_certification",
+        "fresh_computational_check_count",
+        "gaps",
+        "source_record_verification_limit"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "record_id",
+    "legacy_id",
+    "problem_id",
+    "problem",
+    "admission",
+    "collection_context",
+    "summary",
+    "original",
+    "witness",
+    "classification",
+    "provenance",
+    "model_attribution",
+    "task_context",
+    "time_evidence",
+    "visible_reasoning",
+    "paper_mapping",
+    "audit"
+  ],
+  "additionalProperties": false
+}

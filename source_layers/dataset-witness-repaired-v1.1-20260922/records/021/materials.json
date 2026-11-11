@@ -1,0 +1,51 @@
+[
+  {
+    "file": "original/M01-WHGAP-main-c5b96aec.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "506a39dad26dfb9f08db239470b30924661e71c0ef91e59df6afb57b4da13188",
+    "bytes": 172481,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-WHGAP-main-c5b96aec.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "58799df8d6d378305c91f6c7de8b13321488f7099b22ccefbfbf87c51b0847dd",
+    "bytes": 241201,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-whgap_p9_necessary_20260729.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "184819f8c6d7ee9f8174ee62e20717bce7f6ce11ded13d011d58db722cfc5fa8",
+    "bytes": 9216,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-WHGAP-P9-019faef9.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c63e6949d54eb6aa1ab49cf3a8166d31b1e02f2742b72b3550f7d06dbc33baaa",
+    "bytes": 26117,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-WHGAP-P9-019faef9.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "db5a10ac1f9713a34189938eed92625bfc9e612356e730779487bd2546610dbc",
+    "bytes": 34553,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M04-whgap_p9_g0.py",
+    "kind": "inherited_sanitized_source",
+    "sha256": "f1939dca5f0efb027603f89995529eb78169143fcde801b4a0d14acffa575d7d",
+    "bytes": 12419,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M05-whgap_p9_distillation.py",
+    "kind": "inherited_sanitized_source",
+    "sha256": "f3caa03064103a0e12d7f67cef38955889883d5cf778e1d7f0f728f9c43f1823",
+    "bytes": 20657,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  }
+]

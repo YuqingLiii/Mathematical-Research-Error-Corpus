@@ -1,0 +1,163 @@
+[
+  {
+    "problem_id": "P01",
+    "name": "Channel additivity violations",
+    "paper_table_name": "Channel additivity violations",
+    "paper_table_line": 268,
+    "record_ids": [
+      "001",
+      "002",
+      "003",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "060",
+      "061",
+      "063",
+      "065"
+    ]
+  },
+  {
+    "problem_id": "P02",
+    "name": "Werner–Holevo zero-capacity boundary",
+    "paper_table_name": "Werner--Holevo zero-capacity boundary",
+    "paper_table_line": 271,
+    "record_ids": [
+      "019",
+      "020",
+      "021",
+      "022",
+      "023"
+    ]
+  },
+  {
+    "problem_id": "P03",
+    "name": "Quantum-capacity superactivation",
+    "paper_table_name": "Quantum-capacity superactivation",
+    "paper_table_line": 274,
+    "record_ids": [
+      "024",
+      "025",
+      "026"
+    ]
+  },
+  {
+    "problem_id": "P04",
+    "name": "Bound entanglement with negative partial transpose",
+    "paper_table_name": "Bound entanglement with negative partial transpose",
+    "paper_table_line": 277,
+    "record_ids": [
+      "027"
+    ]
+  },
+  {
+    "problem_id": "P05",
+    "name": "Circuit-distance stabilization",
+    "paper_table_name": "Circuit-distance stabilization",
+    "paper_table_line": 282,
+    "record_ids": [
+      "028",
+      "029",
+      "030",
+      "031"
+    ]
+  },
+  {
+    "problem_id": "P06",
+    "name": "Circuit versus effective distance",
+    "paper_table_name": "Circuit vs.\\ effective distance",
+    "paper_table_line": 285,
+    "record_ids": [
+      "032",
+      "033",
+      "034",
+      "035"
+    ]
+  },
+  {
+    "problem_id": "P07",
+    "name": "Optimal circuit distance of the Gross code",
+    "paper_table_name": "Optimal circuit distance of the Gross code",
+    "paper_table_line": 288,
+    "record_ids": [
+      "036",
+      "037",
+      "066",
+      "067"
+    ]
+  },
+  {
+    "problem_id": "P08",
+    "name": "Complexity of distance-preserving schedules",
+    "paper_table_name": "Complexity of distance-preserving schedules",
+    "paper_table_line": 291,
+    "record_ids": [
+      "038",
+      "039"
+    ]
+  },
+  {
+    "problem_id": "P09",
+    "name": "Quantum k-sum with small alphabets",
+    "paper_table_name": "Quantum $k$-sum problem",
+    "paper_table_line": 296,
+    "record_ids": [
+      "040",
+      "041",
+      "042",
+      "043",
+      "044",
+      "045",
+      "074",
+      "075"
+    ]
+  },
+  {
+    "problem_id": "P10",
+    "name": "Set equality and collision",
+    "paper_table_name": "Set equality / collision",
+    "paper_table_line": 299,
+    "record_ids": [
+      "046",
+      "047",
+      "048"
+    ]
+  },
+  {
+    "problem_id": "P11",
+    "name": "Finite-dimensional Grothendieck bounds",
+    "paper_table_name": "Finite-dimensional Grothendieck bounds",
+    "paper_table_line": 304,
+    "record_ids": [
+      "049",
+      "050",
+      "051",
+      "052",
+      "055",
+      "077"
+    ]
+  },
+  {
+    "problem_id": "P12",
+    "name": "Group-orbit Bell matrices",
+    "paper_table_name": "Group-orbit Bell matrices",
+    "paper_table_line": 307,
+    "record_ids": [
+      "056",
+      "057",
+      "071",
+      "072"
+    ]
+  }
+]

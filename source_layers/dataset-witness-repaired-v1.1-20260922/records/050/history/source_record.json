@@ -1,0 +1,291 @@
+{
+  "record_id": "050",
+  "problem": "Finite-dimensional Grothendieck bounds",
+  "collection": "Original research investigation",
+  "summary": "Projection can kill directions; independence before projection does not imply independence afterward.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "等号面支撑核至少为 28 维，而非此前的 12 维，因此算子秩上界严格改进为 746,797。",
+    "context": "The assistant promoted a pre-projection equality-space dimension to a bound on the retained746825 coordinates.",
+    "locator": "Assistant message, 2026-08-29T02:46:52.613Z; transcript lines2965–2970."
+  },
+  "witness": {
+    "explanation": "Projection can kill directions; independence before projection does not imply independence afterward.",
+    "evidence": "Of the28 old directions,16 degree-3/4 Walsh directions are individually zero on all retained coordinates. The surviving image has rank12: a retained12-by-12 minor has determinant -120231596497305600, and the16 zero directions give the matching upper bound. Therefore the supported kernel bound is at least12, giving rank<=746825-12=746813; the claimed746825-28=746797 does not follow.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "错误来源是网页生成工件；当前找到的是正文/承接记录，没有绑定到该网页生成事件的非空推理摘要。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "file": "materials/M01-01a04050-2c65-7022-8844-6319c2da0799.md.excerpt.md",
+      "readable_file": null,
+      "source_name": "research-graph/audit-bundles/2026-09-18/process-audit-v2/transcripts/01a04050-2c65-7022-8844-6319c2da0799.md",
+      "original_source_sha256": "8c647c8546a13b01455ce2060f5c44b1d95a8902be174083d562b79e7dcf3f1e",
+      "original_source_bytes": 745592,
+      "bundled_file_sha256": "2a076288a6d20bce3055fe93b809868c0afdc982ad495809084bc44ac221f03f",
+      "extraction_mode": "selected_text_ranges",
+      "included_line_ranges": [
+        [
+          2907,
+          3010
+        ],
+        [
+          5997,
+          6098
+        ]
+      ],
+      "requested_locators": [
+        "lines 2947-2970 and 6037-6058",
+        "lines 2947-2970 and 6037-6058",
+        "lines 2947-2970 and 6037-6058",
+        "lines 2947-2970 and 6037-6058",
+        "lines 2947-2970 and 6037-6058",
+        "lines 2947-2970 and 6037-6058"
+      ],
+      "matched_quote_lines": [
+        2970
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "8c647c8546a13b01455ce2060f5c44b1d95a8902be174083d562b79e7dcf3f1e",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "8c647c8546a13b01455ce2060f5c44b1d95a8902be174083d562b79e7dcf3f1e",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "supporting_artifact",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M02-h4_degree4_equality_restriction_rank.py",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/tools/h4_degree4_equality_restriction_rank.py",
+      "original_source_sha256": "bb882341d835d0cce7b2144b59d8d13219a6187063eb7e1b44d135708423bae6",
+      "original_source_bytes": 5621,
+      "bundled_file_sha256": "bb882341d835d0cce7b2144b59d8d13219a6187063eb7e1b44d135708423bae6",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          127
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.degree4.equality-rank.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "supporting_artifact",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M03-h4_effective_equality_rank_checker.py",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/tools/h4_effective_equality_rank_checker.py",
+      "original_source_sha256": "460fb1f404a75b9b707f8780b1aac3f459a617c185cb60da515ca4cb638b9d2e",
+      "original_source_bytes": 16043,
+      "bundled_file_sha256": "460fb1f404a75b9b707f8780b1aac3f459a617c185cb60da515ca4cb638b9d2e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          426
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.degree4.equality-rank.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "supporting_artifact",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-d4-effective-equality-rank-certificate-20260830.json",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/artifacts/certificates/d4-effective-equality-rank-certificate-20260830.json",
+      "original_source_sha256": "5cadfb23d7965086ac4d935977e151967c397210f37eabbe07547aca5b22c6ad",
+      "original_source_bytes": 1412,
+      "bundled_file_sha256": "5cadfb23d7965086ac4d935977e151967c397210f37eabbe07547aca5b22c6ad",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          52
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.degree4.equality-rank.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "supporting_artifact",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M05-d4-effective-equality-rank-checker-output-20260830.json",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/artifacts/d4-effective-equality-rank-checker-output-20260830.json",
+      "original_source_sha256": "71ef2169a1895413f7d5f59c2b7811b23d08ec95b9df9332db7f460d016725c2",
+      "original_source_bytes": 1198,
+      "bundled_file_sha256": "71ef2169a1895413f7d5f59c2b7811b23d08ec95b9df9332db7f460d016725c2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          30
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.degree4.equality-rank.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M06-GROTHD4.degree4.equality-rank.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.degree4.equality-rank.yaml",
+      "original_source_sha256": "41131b589c6efe2011411195c5710d3f736e40f254fe2a1c8c2b599803700a31",
+      "original_source_bytes": 2738,
+      "bundled_file_sha256": "41131b589c6efe2011411195c5710d3f736e40f254fe2a1c8c2b599803700a31",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          63
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-d4_n1_300x300.mat.degree4_equality_restriction_rank.json",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/artifacts/replay/h4_fd4_next_stage_bundle/d4_n1_300x300.mat.degree4_equality_restriction_rank.json",
+      "original_source_sha256": "5a0c37de1536fd2b20f81622b8b492b068bcb2be8f31ad3b4cad6b04bbdb1eed",
+      "original_source_bytes": 1023,
+      "bundled_file_sha256": "5a0c37de1536fd2b20f81622b8b492b068bcb2be8f31ad3b4cad6b04bbdb1eed",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.degree4.equality-rank.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-d4-sos-symmetry-20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/artifacts/d4-sos-symmetry-20260830.md",
+      "original_source_sha256": "36f61163f702668c022147c7fb6d7e4c4d814f0053fb14e2646b267ae0bf0b16",
+      "original_source_bytes": 23640,
+      "bundled_file_sha256": "36f61163f702668c022147c7fb6d7e4c4d814f0053fb14e2646b267ae0bf0b16",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          653
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.degree4.equality-rank.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 8,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

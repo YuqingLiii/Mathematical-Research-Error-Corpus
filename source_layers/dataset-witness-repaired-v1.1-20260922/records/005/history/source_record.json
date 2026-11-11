@@ -1,0 +1,402 @@
+{
+  "record_id": "005",
+  "problem": "Channel additivity violations",
+  "collection": "Original research investigation",
+  "summary": "A discrete character-shift invariance is incorrectly extended to a continuous phase deformation, omitting derivatives of C_dep.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "Choose balanced integer representatives of the three field coefficients \\(t_u,t_v,t_w\\), and let \\(q_T\\) be the corresponding vector in the real line-coordinate space. A continuous fixed-magnitude line-phase variation has\n\n$$\nC_{\\rm ind}(\\theta)\n=\n2\\sum_T\n\\operatorname{Re}\n\\left(\nA_Te^{i\\langle q_T,\\theta\\rangle}\n\\right).\n$$\n\nIf \\(C=1\\), then the coefficient field is physical and gives a global maximum of \\(C\\) on the entire phase torus. Hence\n\n$$\n\\boxed{\n\\sum_Tq_T\\,\\operatorname{Im}A_T=0,\n}\n\\tag{10.1}\n$$\n\nand\n\n$$\n\\boxed{\n\\sum_T\n(\\operatorname{Re}A_T)\\,\nq_Tq_T^{\\mathsf T}\n\\succeq0.\n}\n\\tag{10.2}\n$$\n\nThese are the exact stationarity and Hessian conditions.",
+    "context": "The total cubic objective is C=C_dep+C_ind. The proposed continuous line-phase variation multiplies coefficients by exp(i t theta_L), where t is a balanced integer representative of a finite-field element. The displayed equations differentiate only C_ind.",
+    "locator": "round-18-response.md, lines 796–829"
+  },
+  "witness": {
+    "explanation": "A discrete character-shift invariance is incorrectly extended to a continuous phase deformation, omitting derivatives of C_dep.",
+    "evidence": "For odd D, set t=(D-1)/2. The same-line triple (t,t,1) sums to zero in F_D, so its cubic term belongs to C_dep. Its balanced integer sum is D, however, so the proposed continuous deformation multiplies that monomial by exp(iD theta_L), which is not constant. The gradient and Hessian of C_dep are therefore generally nonzero; equations using only C_ind are not the derivatives of the full objective. For D=5, the triple is (2,2,1).",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "file": "materials/M01-round-18-response.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/artifacts/web-gpt56sol-pro/round-18-response.md",
+      "original_source_sha256": "b1fa58adab6a2b9007273febee95a33b57ec33629b339bf9817fde9bd0afe49d",
+      "original_source_bytes": 23320,
+      "bundled_file_sha256": "b1fa58adab6a2b9007273febee95a33b57ec33629b339bf9817fde9bd0afe49d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1298
+        ]
+      ],
+      "requested_locators": [
+        "round-18-response.md, lines 796–829",
+        "lines 796-832",
+        "lines 796-832",
+        "lines 796-832",
+        "lines 796-832",
+        "lines 796-832"
+      ],
+      "matched_quote_lines": [
+        796
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "b1fa58adab6a2b9007273febee95a33b57ec33629b339bf9817fde9bd0afe49d",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "b1fa58adab6a2b9007273febee95a33b57ec33629b339bf9817fde9bd0afe49d",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "b1fa58adab6a2b9007273febee95a33b57ec33629b339bf9817fde9bd0afe49d",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M02-concentrated_audit_1_rounds_1_23.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md",
+      "original_source_sha256": "fe33571cd30e0bf4bb1bac34788b7743b6c991afd87b056e75d65e730c32f0c8",
+      "original_source_bytes": 46098,
+      "bundled_file_sha256": "fe33571cd30e0bf4bb1bac34788b7743b6c991afd87b056e75d65e730c32f0c8",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          585
+        ]
+      ],
+      "requested_locators": [
+        "package F finding for M04"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M03-01_r001_r023_physical_gate_CORE.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/generated/01_r001_r023_physical_gate_CORE.md",
+      "original_source_sha256": "9d9db94f8bb5c6e9a54dc62d092d34950f59adef6e544167ba1c78e3629a41bf",
+      "original_source_bytes": 911842,
+      "bundled_file_sha256": "9d9db94f8bb5c6e9a54dc62d092d34950f59adef6e544167ba1c78e3629a41bf",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          45578
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md",
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-MASTER_AUDIT_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/MASTER_AUDIT_PROTOCOL.md",
+      "original_source_sha256": "3c5f230de4f1805b91bd77e7d06de300537f55edc0f31ebb79c831485b28a08c",
+      "original_source_bytes": 4795,
+      "bundled_file_sha256": "3c5f230de4f1805b91bd77e7d06de300537f55edc0f31ebb79c831485b28a08c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M05-BASELINE.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/BASELINE.md",
+      "original_source_sha256": "fc26e991e9b2e2c1498abb832579dab86da2cf448ef9b955f407d3cb2fab8d74",
+      "original_source_bytes": 4687,
+      "bundled_file_sha256": "fc26e991e9b2e2c1498abb832579dab86da2cf448ef9b955f407d3cb2fab8d74",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          89
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M06-round-02-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/artifacts/web-gpt56sol-pro/round-02-local-audit.md",
+      "original_source_sha256": "da8c11de73cab93d06a052e384c82375226dad83d08e199b3250e733530f1e35",
+      "original_source_bytes": 6237,
+      "bundled_file_sha256": "da8c11de73cab93d06a052e384c82375226dad83d08e199b3250e733530f1e35",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          190
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-round-03-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/outputs/round-03-local-audit.md",
+      "original_source_sha256": "3a3141a0769b490b3430c4a7f776781277b091d3fa87a41d30d6982bc3593894",
+      "original_source_bytes": 8397,
+      "bundled_file_sha256": "3a3141a0769b490b3430c4a7f776781277b091d3fa87a41d30d6982bc3593894",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          216
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-round-06-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/outputs/round-06-local-audit.md",
+      "original_source_sha256": "eda16191369ac890d90cee1b911fbfb2f21acc8d121525fecf8707f754a9fe13",
+      "original_source_bytes": 6833,
+      "bundled_file_sha256": "eda16191369ac890d90cee1b911fbfb2f21acc8d121525fecf8707f754a9fe13",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          130
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M09-round-18-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/outputs/round-18-local-audit.md",
+      "original_source_sha256": "8a4d154ef9bf8972f5aa87c5a4b5927f10c73521344be3c34ee7b4ca68238633",
+      "original_source_bytes": 10821,
+      "bundled_file_sha256": "8a4d154ef9bf8972f5aa87c5a4b5927f10c73521344be3c34ee7b4ca68238633",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          338
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M10-round-20-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/outputs/round-20-local-audit.md",
+      "original_source_sha256": "7bd41f77277e250c7b5c747453782183ea75aa06ebc5f6fbe62b046612610188",
+      "original_source_bytes": 6288,
+      "bundled_file_sha256": "7bd41f77277e250c7b5c747453782183ea75aa06ebc5f6fbe62b046612610188",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          202
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M11-round-21-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/outputs/round-21-local-audit.md",
+      "original_source_sha256": "c9a739067103dd540fcaf4fb6c89270d244e373bb36d9f396d4f484200fd8072",
+      "original_source_bytes": 7641,
+      "bundled_file_sha256": "c9a739067103dd540fcaf4fb6c89270d244e373bb36d9f396d4f484200fd8072",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          224
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M12-round-23-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/outputs/round-23-local-audit.md",
+      "original_source_sha256": "6d1cd626d818e0652039ba30b28ad677505114800f9c9cd73d38e3100dd540a6",
+      "original_source_bytes": 7999,
+      "bundled_file_sha256": "6d1cd626d818e0652039ba30b28ad677505114800f9c9cd73d38e3100dd540a6",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          310
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/01_rounds_1_23/concentrated_audit_1_rounds_1_23.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 12,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

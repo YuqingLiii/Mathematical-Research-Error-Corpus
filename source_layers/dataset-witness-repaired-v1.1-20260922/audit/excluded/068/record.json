@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "record_id": "068",
+  "problem": "Circuit versus effective distance",
+  "collection_context": "Original research investigation",
+  "admission": "excluded",
+  "summary": "A zero criterion must specify the choice of a circuit representative and the round assignment. The archived critique identifies a type/definition ambiguity, not an actual source equation asserting that a voltage set literally equals the scalar zero.",
+  "overclaim": null,
+  "mechanism": "excluded_allegation",
+  "original": {
+    "excerpt": "> In graph-like detector error models with fixed boundaries, a proven necessary-and-sufficient\n> structural criterion (in graph-covering, voltage-graph, or chain-complex form) characterizes when\n> d_circ = d_eff, of the shape \"d_circ equals the minimum over nontrivial effective logicals gamma\n> of the length of the shortest closed spacetime lift of gamma\", with zero time-direction\n> voltage/monodromy as the equal-weight liftability condition; the criterion recovers the\n> non-interleaved equality d_circ = d_eff as a corollary and is accompanied by an explicit\n> interleaved example with d_circ > d_eff.",
+    "context": "The root statement describes equal-weight liftability through 'zero time-direction voltage/monodromy'. In the constructed model each effective residual may have several circuit representatives with different detector voltages.",
+    "locator": "Root assembly dated 22 August 2026, verbatim root statement, lines 121–127.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "A zero criterion must specify the choice of a circuit representative and the round assignment. The archived critique identifies a type/definition ambiguity, not an actual source equation asserting that a voltage set literally equals the scalar zero.",
+    "evidence": "In the archived [[4,2,2]] example, the residual E={0} has voltage spectrum U(E)={0,1}; the same effective residual admits both voltage values. Thus no unique scalar voltage is determined by E alone. A same-weight lift criterion can quantify over u∈U(E) and round assignments, or use a minimum repair cost. It cannot silently equate 'all available voltages vanish' with 'some zero-repair realization exists'. The assembly itself explicitly explains this distinction and says the clause is substantively discharged but verbally imprecise.",
+    "scope": "argument_invalid",
+    "endorsement": "historical_allegation_not_endorsed"
+  },
+  "adjudication": {
+    "rationale_zh": "当前所选原句只有“zero voltage/monodromy”，并没有“电压集合等于标量0”或“全部representative电压为0”的错误等式。相同assembly§2.3立即给出存在representative及round assignment的精确定义；U(E)={0,1}不反驳该存在量词。",
+    "history_reconciliation": "旧材料真实存在且不缺；但把旧审稿要求精确重措辞提升为独立数学错误，是后续数据标注过强。排除当前error/witness配对，不删除历史审稿。",
+    "verification_basis": "核对原assembly的定义及其自带修辞说明；没有借没有重跑作排除理由。",
+    "witness_scope": "not established as a mathematical error: witness defeats a scalar interpretation not asserted in the source",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-LIFT-003",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "interpretation_check_pending",
+    "superseded_20260922_status": "exclude_current_pair",
+    "witness_repair_v11": {
+      "record_id": "068",
+      "old_witness_issue": "把“存在零电压代表”读成“所有代表的电压都是零”。",
+      "repair_attempt": "原 assembly 的定义明确是存在代表与轮次赋值；{0,1} 反例仍包含 0，不能推翻它。轮数前提错误另在 034。",
+      "outcome": "量词读错的是旧 witness，本条没有建立被指控的数学错误。",
+      "admission": "excluded",
+      "evidence": "audit/excluded/068/witness.md"
+    }
+  },
+  "visible_reasoning": {
+    "availability_description": "根节点组装者的推理解释了 voltage spectrum 上取最小值，属于对给定问题的重述/修正语境；未绑定最早把集合写成零的生成事件。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-22T21:32:37.672Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "assembly_or_correction",
+        "source_name": "claude-session-archive/agent-a54f4eb22e936ab7c.jsonl",
+        "source_line": 42,
+        "material_id": "M05",
+        "original_line_sha256": "ca96ec353917833d95ba333d5f2379b51224231044cb0a9140869b975dfdcc6c"
+      },
+      {
+        "timestamp": "2026-08-22T21:35:14.406Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "assembly_or_correction",
+        "source_name": "claude-session-archive/agent-a54f4eb22e936ab7c.jsonl",
+        "source_line": 59,
+        "material_id": "M05",
+        "original_line_sha256": "f9925ac92b453c932f8b136031f7f4d347f743f40b0d95bb8ce76d7b638cb85f"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M05",
+      "source_line": 42,
+      "timestamp": "2026-08-22T21:32:37.672Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 59,
+      "timestamp": "2026-08-22T21:35:14.406Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "068",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

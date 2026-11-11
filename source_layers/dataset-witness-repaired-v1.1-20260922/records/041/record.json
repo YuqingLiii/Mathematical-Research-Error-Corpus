@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "record_id": "041",
+  "problem": "Quantum k-sum with small alphabets",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The stated recipe does not supply enough data or inequalities to verify the claimed encoding.",
+  "overclaim": true,
+  "mechanism": "未指定的编码被当成完成构造",
+  "original": {
+    "excerpt": "With $u_j=\\omega^{\\,j-1}$ for $\\omega=2R-1$, a cross-block $k$-tuple sums to $\\sum_j u_j(g_j-g_k)$-type combinations that vanish iff all payloads are equal (base-$\\omega$ uniqueness), while every other block-multiset pattern is killed by choosing the tags separated at scale larger than the total payload spread, which forces $q=\\Theta_k(R^{k-1})$.",
+    "context": "The original manuscript labels the encoding explicit but gives a proof sketch without the tag values, the special final payload coefficient, or a quantified modular separation argument.",
+    "locator": "Full-manuscript Write event, 2026-07-17T20:31:31.554Z; k-collision embedding proof sketch.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The stated recipe does not supply enough data or inequalities to verify the claimed encoding.",
+    "evidence": "For one position from every block, the sum is sum_j w_j+sum_j u_j a_j. With sum_j w_j=0, equal payloads a_j=a require a sum_j u_j=0 mod q; the final coefficient must be specified to enforce this. Literal positive powers for all k coefficients do not: k=3, R=2 gives omega=3 and sum u=1+3+9=13, nonzero mod76. For each wrong multiset mu one must additionally prove dist_q(sum_j mu_j w_j,0)>max|sum_j u_j s_j|. 'Tags separated at scale larger' specifies neither the tags nor this inequality for every multiset. This records an incomplete manuscript proof, not impossibility of a repaired embedding.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "保留稿件 explicit encoding 引理中的真实局部错误：正文给所有 u_j 取正幂，却宣称等 payload 时和为零；正确脚本有特殊末位负和系数。稿件还把未展开的 tag 分离义务作为已证显式构造。不能把脚本中存在正确完整构造误说成整个 embedding 不可能。",
+    "history_reconciliation": "KSUM-003 旧溯源已比较脚本与交付稿，不是资料没找到。此次保留同一稿件压缩丢项错误；witness 严格限制于所写公式及其证明缺口。",
+    "verification_basis": "直接读交付 TeX；精确代数反例与既有脚本/稿件对照一致。",
+    "witness_scope": "取 k=3,R=2,q=76，所有正幂给 u=(1,3,9)，同一 payload=1 时和13不为0 mod76；因此字面写下的配方不满足引理。补回最后系数可以修复，有限脚本验证不替代稿件缺失的参数与一般分离证明。",
+    "original_selection_correction": null,
+    "prior_inventory_key": "KSUM-003",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "可见写作计划包含 proof sketch、后续 verifier 补缺口；没有足够同一命题的原文把缺失证明本身绑定到生成期推断。不能把通用计划算作 Lemma 3.2 的错误证明。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-17T20:28:27.854Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-main-b5fea9c2.jsonl",
+        "source_line": 567,
+        "material_id": "M01",
+        "original_line_sha256": "bce4dfb68f2b8de63b3b46ee7aab6467c7f9b13ef210189eae503bfca0886619"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M01",
+      "source_line": 567,
+      "timestamp": "2026-07-17T20:28:27.854Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 569,
+      "timestamp": "2026-07-17T20:31:31.554Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 570,
+      "timestamp": "2026-07-17T20:31:31.658Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "041",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

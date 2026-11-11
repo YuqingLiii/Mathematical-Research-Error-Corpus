@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "record_id": "031",
+  "problem": "Circuit-distance stabilization",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "Min-plus powers generally have linear drift. Eventual periodicity of the unshifted sequence requires normalization and additional hypotheses; it does not hold for every min-plus matrix.",
+  "overclaim": true,
+  "mechanism": "受限周期性结论被扩展到含非零漂移的系统",
+  "original": {
+    "excerpt": "min-plus matrix powers are eventually periodic",
+    "context": "A registered external-theorem assumption summarizes a min-plus matrix theorem as unqualified eventual periodicity. It is an auxiliary asymptotic assertion, not the finite-round transfer identity.",
+    "locator": "Archived external-theorem assumption registered 23 August 2026, assumption statement, lines 21–23.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "Min-plus powers generally have linear drift. Eventual periodicity of the unshifted sequence requires normalization and additional hypotheses; it does not hold for every min-plus matrix.",
+    "evidence": "For the one-by-one min-plus matrix A=[1], min-plus multiplication adds its only entry. By induction A^{⊙R}=[R] for every positive integer R. For any period p>0, A^{⊙(R+p)}=[R+p]≠[R]=A^{⊙R}, at every R. This exactly refutes the unqualified statement. It does not refute the finite-round transfer formula or the more careful zero-cycle normalized argument for the specific transfer matrices.",
+    "scope": "statement_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "安装为external-theorem的无条件“min-plus matrix powers are eventually periodic”删掉漂移/归一化和定理适用条件。A=[1]的R次min-plus幂为[R]，精确反驳原泛称。",
+    "history_reconciliation": "维持旧裁定，错误对象仅为安装的外部定理摘要；不得扩大成有限R的transfer公式错误。",
+    "verification_basis": "1×1矩阵归纳直接证明；上轮精确check已通过，本轮核原节点条件未把泛称限定于零漂移矩阵。",
+    "witness_scope": "statement_false: overbroad auxiliary imported theorem",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-SAT-006",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "proposer 讨论带零循环/非负权条件的 periodicity，错误安装版却是无条件；尚无同一安装事件的诊断性推理。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-23T07:55:57.401Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a650547b7eb957124.jsonl",
+        "source_line": 23,
+        "material_id": "M04",
+        "original_line_sha256": "dfe2e08680ecfbd018cca520d41e8e79490162aa625bcf976f6f1f30802668f2"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M04",
+      "source_line": 23,
+      "timestamp": "2026-08-23T07:55:57.401Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "031",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

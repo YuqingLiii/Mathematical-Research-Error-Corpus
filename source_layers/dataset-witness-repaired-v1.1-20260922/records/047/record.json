@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "record_id": "047",
+  "problem": "Set equality and collision",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "A normalization factor m=binom(j,a) was lost when identifying the script output with the physical quantity.",
+  "overclaim": true,
+  "mechanism": "归一化对象替换及统一完成声明",
+  "original": {
+    "excerpt": "有效秩证明严格成立，uniform physical \\(T_b\\) 对所有 admissible tame sector、所有正 LR 重数 \\(c\\) 全部关闭。",
+    "context": "The completion message applies a normalized effective-rank calculation to the unnormalized physical trace quantity T_b.",
+    "locator": "Assistant message, 2026-07-22T13:19:00.659Z.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "A normalization factor m=binom(j,a) was lost when identifying the script output with the physical quantity.",
+    "evidence": "The raw physical maps obey S_gamma S_gamma*=m K_gamma, so their nonzero A_gamma=S_gamma* S_gamma eigenvalues are m times the normalized k_gamma,mu. The common-line formulas are r_mu=||t_mu||^2/m and a_gamma,mu=m|d_gamma,mu|^2. Contracting |d|^2*r_mu instead of a_mass*r_mu computes the divided quantity T_b/m. A derived bound T_b/m<=B implies only T_b<=mB, not T_b<=B when m>1. This defeats the claimed uniform proof. The corrected finite T_b examples still pass; no physical T_b counterexample is claimed.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "保留关于 T_b/m 的有效秩界被用于关闭 physical T_b 的证据对象替换。分类 yes 的依据是从归一化量的有效证明跨到不同物理量且明确声称统一关闭，不是把所有漏因子都自动算 overclaim。",
+    "history_reconciliation": "旧 witness 明确只否定 T_b 的现有证明，并未提供 T_b 反例；这个边界维持。原结论由 proposer/coordinator 写出，不能说是独立 reviewer 发明的错误。",
+    "verification_basis": "完整归一化审计及原声明已保留；逐式复核 m 因子，不以本轮没有重跑大矩阵否定此前核验。",
+    "witness_scope": "原 physical S S*=mK，a_mass=m|d|²；现有推导控制sum f r h=T_b(raw)/m。因此只可推出 T_b<=mB，不能推出同一B。已修正的两个有限T_b例子仍PASS。",
+    "original_selection_correction": null,
+    "prior_inventory_key": "TAPER-GOLD4-001",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "数学归一化错误可从原报告和脚本定位，但已找回的 Codex 标题摘要没有足以区分 T_a/T_b 与归一化量的算式；不能把审查解释当作生成思路。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M01",
+      "source_line": 10687,
+      "timestamp": "2026-07-22T13:19:00.659Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 10688,
+      "timestamp": "2026-07-22T13:19:00.660Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 12020,
+      "timestamp": "2026-07-22T16:08:51.700Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 12021,
+      "timestamp": "2026-07-22T16:08:51.700Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "047",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

@@ -1,0 +1,258 @@
+{
+  "record_id": "003",
+  "problem": "Channel additivity violations",
+  "collection": "Original research investigation",
+  "summary": "The asserted uniform bound on epsilon^(-4u) is false.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": " m^{4u}\\le e^4,qquad u^{-2}=(1+\\log m)^2,qquad\n \\varepsilon^{-4u}\\le C,                                    \\tag{234}",
+    "context": "The auxiliary parameters are m=floor(gamma n epsilon^2/log^2(n epsilon^2)), u=1/(1+log m), with m>=2 and epsilon>=2/sqrt(n). The claimed C is independent of epsilon and n.",
+    "locator": "Proof-development artifact, equation (234), lines 4288–4295; original write 2026-08-21T16:15:33.756Z"
+  },
+  "witness": {
+    "explanation": "The asserted uniform bound on epsilon^(-4u) is false.",
+    "evidence": "Fix X>4 and gamma>0 with m=floor(gamma X/log^2 X)>=2. Set epsilon=sqrt(X/n) and let n grow. Then n epsilon^2=X and epsilon>=2/sqrt(n); m and u>0 remain fixed. But epsilon^(-4u)=(n/X)^(2u) tends to infinity. For example X=10^6 and gamma=0.01 give m=52.",
+    "scope": "statement_false"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "有 uniformity/epsilon 相关短标题，未保留足以检查 ε^(-4u) 量级的推导。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-21T16:14:03.353Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "generation",
+        "source_name": "local-session-archive/2026/08/21/rollout-2026-08-21T12-11-11-<session-id-redacted>.jsonl",
+        "source_line": 119,
+        "material_id": "M03",
+        "original_line_sha256": "ca76f41524d0cf9e10ffe96fa97369baf3c209efa338328a30ef055c7ac534d0"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M03",
+      "source_line": 118,
+      "timestamp": "2026-08-21T16:14:03.351Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M03",
+      "source_line": 119,
+      "timestamp": "2026-08-21T16:14:03.353Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M02",
+      "source_line": 1,
+      "timestamp": "2026-08-21T16:15:33.756Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M02",
+      "source_line": 2,
+      "timestamp": "2026-08-21T16:15:33.866Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M02",
+      "source_line": 5,
+      "timestamp": "2026-08-21T16:17:38.800Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M02",
+      "source_line": 6,
+      "timestamp": "2026-08-21T16:17:38.904Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure"
+      ],
+      "exact_quote_match": false
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "supporting_artifact",
+        "historical_evidence_pointer"
+      ],
+      "file": "materials/M01-PROOF.md",
+      "readable_file": null,
+      "source_name": "tracking/ai-proof-records-20260912/recovered-marathon-20260821/additivity-gap/PROOF.md",
+      "original_source_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+      "original_source_bytes": 307351,
+      "bundled_file_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          8297
+        ]
+      ],
+      "requested_locators": [
+        "Proof-development artifact, equation (234), lines 4288–4295; original write 2026-08-21T16:15:33.756Z",
+        "4482-4501",
+        "#equation-245"
+      ],
+      "matched_quote_lines": [
+        4289
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure"
+      ],
+      "file": "materials/M02-GAP-008-uniformity.jsonl.visible.json",
+      "readable_file": "materials/M02-GAP-008-uniformity.jsonl.readable.md",
+      "source_name": "paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-008-uniformity.jsonl",
+      "original_source_sha256": "44877842b349d380aa48c8d17e00098dbb8cad25796e0588af75472f8c023dd3",
+      "original_source_bytes": 36982,
+      "bundled_file_sha256": "a7a025122f4a2e7de75f1f08bb202eef763e67c3292e2ce9c619b9357662620b",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [
+        "slice lines 1-2 original 138-139 materialize epsilon^(-4u)<=C; slice lines 3-4 original 182-183 record failed correction; slice lines 5-6 original 187-188 record successful correction",
+        "slice lines 1-2 original 138-139 materialize epsilon^(-4u)<=C; slice lines 3-4 original 182-183 record failed correction; slice lines 5-6 original 187-188 record successful correction",
+        "1-2; original lines 138-139",
+        "1-2; original lines 138-139 (2026-08-21T16:15:33.756Z / 12:15:33.756 EDT)",
+        "3-6; original lines 182-183 failed and 187-188 successful correction (2026-08-21T16:17:38.800Z)",
+        "1-2; original lines 138-139",
+        "1-2; original lines 138-139 (2026-08-21T16:15:33.756Z / 12:15:33.756 EDT)",
+        "3-6; original lines 182-183 failed and 187-188 successful correction (2026-08-21T16:17:38.800Z)"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [
+        {
+          "expected": "44877842b349d380aa48c8d17e00098dbb8cad25796e0588af75472f8c023dd3",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "44877842b349d380aa48c8d17e00098dbb8cad25796e0588af75472f8c023dd3",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M03-rollout-2026-08-21T12-11-11-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M03-rollout-2026-08-21T12-11-11-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "local-session-archive/2026/08/21/rollout-2026-08-21T12-11-11-<session-id-redacted>.jsonl",
+      "original_source_sha256": "fb80addfc7f1d0ad3807f7a3dc2712e331b9967cf8112e1bfebba3d60ced0dc4",
+      "original_source_bytes": 1226414,
+      "bundled_file_sha256": "a25c514d6a83821f8b30ecba037b30ab3a00aa0af1faf36108a8c840ee430e65",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          112,
+          125
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              119,
+              119
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        118,
+        119
+      ],
+      "historical_hash_matches": [],
+      "event_hash_checks": [
+        {
+          "line": 119,
+          "expected_raw_line_sha256": "ca76f41524d0cf9e10ffe96fa97369baf3c209efa338328a30ef055c7ac534d0",
+          "observed_raw_line_sha256": "ca76f41524d0cf9e10ffe96fa97369baf3c209efa338328a30ef055c7ac534d0",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 3,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

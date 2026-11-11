@@ -1,0 +1,2752 @@
+{
+  "record_id": "048",
+  "problem": "Set equality and collision",
+  "collection": "Original research investigation",
+  "summary": "The compressed contraction used |d|^2 instead of raw mass m|d|^2, making the reported T_a twenty times too small.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "结合已确认的 `R_out`，actual T-a 约 `94,172`、T-b 约 `151.84`，都低于各自 cap。",
+    "context": "The first tame c=2 gate was reported passing. Its parameters are n=18,j=6,a=b=3 and color multiplicity m=binom(6,3)=20.",
+    "locator": "Assistant message, 2026-07-22T05:14:47.680Z; raw-normalization review, section2."
+  },
+  "witness": {
+    "explanation": "The compressed contraction used |d|^2 instead of raw mass m|d|^2, making the reported T_a twenty times too small.",
+    "evidence": "The reported normalized value is160582822829/1705200. Multiplication by20 gives raw T_a=160582822829/85260. Its cap is51396202/35. Their exact ratio is36224413/28242984>1, with positive numerator excess7981429. Thus this gate fails. The second gate n=19 similarly has raw T_a=204466088827/71920 and cap137582445/64, ratio10611004/8023575>1. This refutes the physical T_a gate claim; it does not refute the original set-equality lower-bound theorem.",
+    "scope": "computation_false"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "数学归一化错误可从原报告和脚本定位，但已找回的 Codex 标题摘要没有足以区分 T_a/T_b 与归一化量的算式；不能把审查解释当作生成思路。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M01",
+      "source_line": 6432,
+      "timestamp": "2026-07-22T05:14:47.680Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 6433,
+      "timestamp": "2026-07-22T05:14:47.696Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 6497,
+      "timestamp": "2026-07-22T05:25:56.398Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6498,
+      "timestamp": "2026-07-22T05:25:56.398Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6680,
+      "timestamp": "2026-07-22T05:57:03.438Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6681,
+      "timestamp": "2026-07-22T05:57:03.454Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6682,
+      "timestamp": "2026-07-22T05:57:03.454Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6683,
+      "timestamp": "2026-07-22T05:57:03.470Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6684,
+      "timestamp": "2026-07-22T05:57:03.487Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6685,
+      "timestamp": "2026-07-22T05:57:03.487Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6986,
+      "timestamp": "2026-07-22T06:30:22.964Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 6987,
+      "timestamp": "2026-07-22T06:30:22.964Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 7407,
+      "timestamp": "2026-07-22T07:09:10.735Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 7408,
+      "timestamp": "2026-07-22T07:09:10.754Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 7409,
+      "timestamp": "2026-07-22T07:09:10.924Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 7575,
+      "timestamp": "2026-07-22T07:29:16.673Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 7576,
+      "timestamp": "2026-07-22T07:29:16.695Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 7577,
+      "timestamp": "2026-07-22T07:29:16.898Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 11668,
+      "timestamp": "2026-07-22T15:27:18.486Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 11669,
+      "timestamp": "2026-07-22T15:27:18.486Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 11753,
+      "timestamp": "2026-07-22T15:33:51.535Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 11754,
+      "timestamp": "2026-07-22T15:33:51.535Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 11883,
+      "timestamp": "2026-07-22T15:49:23.249Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 11884,
+      "timestamp": "2026-07-22T15:49:23.249Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 12020,
+      "timestamp": "2026-07-22T16:08:51.700Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 12021,
+      "timestamp": "2026-07-22T16:08:51.700Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event"
+      ],
+      "file": "materials/M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "tracking/ai-proof-records-20260912/recovered-marathon-20260821/gold4_taper/rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl",
+      "original_source_sha256": "f86f7407318b96ce783b790a34c4f8d8d8ad0d05f4bc12e9f7695f3b8a532479",
+      "original_source_bytes": 39982899,
+      "bundled_file_sha256": "9b8b0bbd3f20475c642851e059bac4120138044eb4cdb674d2aa2189354c9323",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          6426,
+          6439
+        ],
+        [
+          6491,
+          6504
+        ],
+        [
+          6674,
+          6691
+        ],
+        [
+          6980,
+          6993
+        ],
+        [
+          7401,
+          7415
+        ],
+        [
+          7569,
+          7583
+        ],
+        [
+          11662,
+          11675
+        ],
+        [
+          11747,
+          11760
+        ],
+        [
+          11877,
+          11890
+        ],
+        [
+          12014,
+          12027
+        ]
+      ],
+      "requested_locators": [
+        "agent_message 2026-07-22T05:14:47Z、05:25:56Z、05:57:03Z、06:30:22Z、07:09:10Z、07:29:16Z（声称）；15:27:18Z、15:33:51Z、15:49:23Z、16:08:51Z（纠正）",
+        "agent_message 2026-07-22T05:14:47Z、05:25:56Z、05:57:03Z、06:30:22Z、07:09:10Z、07:29:16Z（声称）；15:27:18Z、15:33:51Z、15:49:23Z、16:08:51Z（纠正）",
+        "agent_message 2026-07-22T05:14:47Z、05:25:56Z、05:57:03Z、06:30:22Z、07:09:10Z、07:29:16Z（声称）；15:27:18Z、15:33:51Z、15:49:23Z、16:08:51Z（纠正）",
+        "agent_message 2026-07-22T05:14:47Z、05:25:56Z、05:57:03Z、06:30:22Z、07:09:10Z、07:29:16Z（声称）；15:27:18Z、15:33:51Z、15:49:23Z、16:08:51Z（纠正）"
+      ],
+      "matched_quote_lines": [
+        6432,
+        6433
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "f86f7407318b96ce783b790a34c4f8d8d8ad0d05f4bc12e9f7695f3b8a532479",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "f86f7407318b96ce783b790a34c4f8d8d8ad0d05f4bc12e9f7695f3b8a532479",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M02-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/COMMANDS.txt",
+      "original_source_sha256": "424fab11527189da23707e2873a88cbafb4b5bcfa27625387943756172cedd7e",
+      "original_source_bytes": 2218,
+      "bundled_file_sha256": "23d3ef500b2e2960f8a8307224c6dd3cfd2ee5eefc63f36f80ae123c257c5122",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          53
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M03-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/REPORT.md",
+      "original_source_sha256": "cb77cdb9be611bccb714344898c209e901c5b85d9230d62416e385ac83a1f706",
+      "original_source_bytes": 10130,
+      "bundled_file_sha256": "cb77cdb9be611bccb714344898c209e901c5b85d9230d62416e385ac83a1f706",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          270
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M04-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/SHA256SUMS.txt",
+      "original_source_sha256": "a5d2d31d4ac29aa95bef5cdfcd311ea87940398608810b2d71e8dbe5f2d18837",
+      "original_source_bytes": 784,
+      "bundled_file_sha256": "a5d2d31d4ac29aa95bef5cdfcd311ea87940398608810b2d71e8dbe5f2d18837",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          10
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M05-independent_audit.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/independent_audit.json",
+      "original_source_sha256": "80bae1ccd251c9db5533cc8300c53f5a077a80b1050233b0d591718f7b51085b",
+      "original_source_bytes": 2238,
+      "bundled_file_sha256": "80bae1ccd251c9db5533cc8300c53f5a077a80b1050233b0d591718f7b51085b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          64
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M06-independent_audit.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/independent_audit.log",
+      "original_source_sha256": "6b07ea6966fe41802040f8060258a5f3a288feb3a99fe7cc7ebbfe32f707e2cb",
+      "original_source_bytes": 319,
+      "bundled_file_sha256": "6b07ea6966fe41802040f8060258a5f3a288feb3a99fe7cc7ebbfe32f707e2cb",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M07-independent_audit.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/independent_audit.py",
+      "original_source_sha256": "a6c91644a6ab3ce4f9aaeda7e09f916265af639064396d3ac9d61409e1fe58ef",
+      "original_source_bytes": 11693,
+      "bundled_file_sha256": "a6c91644a6ab3ce4f9aaeda7e09f916265af639064396d3ac9d61409e1fe58ef",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          318
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M08-probe_rerun.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/probe_rerun.log",
+      "original_source_sha256": "46e4a49998064bbb4bb732686a5a1faf12ab0d49934a408ba8a59847cbcb8324",
+      "original_source_bytes": 298,
+      "bundled_file_sha256": "46e4a49998064bbb4bb732686a5a1faf12ab0d49934a408ba8a59847cbcb8324",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          10
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M09-rerun_common_line_exact.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/rerun_common_line_exact.json",
+      "original_source_sha256": "f9064069a339d02f7361a7955ed6f00a97bc0c63abef0557f6d2e768352ce028",
+      "original_source_bytes": 4546,
+      "bundled_file_sha256": "f9064069a339d02f7361a7955ed6f00a97bc0c63abef0557f6d2e768352ce028",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          197
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M10-rerun_common_line_exact.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/rerun_common_line_exact.log",
+      "original_source_sha256": "1c235422e59bd5cb105a7b7d51e42841b6871a38f50016dcd073f3f6ac71c854",
+      "original_source_bytes": 750,
+      "bundled_file_sha256": "1c235422e59bd5cb105a7b7d51e42841b6871a38f50016dcd073f3f6ac71c854",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          17
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M11-source_sha_verification.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_common_line_review_20260721/source_sha_verification.log",
+      "original_source_sha256": "c31bba19d97db339adcbf8a5eba3f91988ffe47f51859dbf189a26ae1c6970d1",
+      "original_source_bytes": 886,
+      "bundled_file_sha256": "c31bba19d97db339adcbf8a5eba3f91988ffe47f51859dbf189a26ae1c6970d1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          12
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M12-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/COMMANDS.txt",
+      "original_source_sha256": "ce2b9c8557ac40519b3fe1dca14077b4ff8031b8341b92603f2cbfa6fa47cd72",
+      "original_source_bytes": 2523,
+      "bundled_file_sha256": "1d0385ee01efd919a2192b4743bb4eba5cfbc2542755e50f5bafdcc65a9ce2d2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          45
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M13",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M13-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/REPORT.md",
+      "original_source_sha256": "5f229b9b391f3d6f0da4e59cebe882b16dab9dd14cba9a811903769cf2f00195",
+      "original_source_bytes": 7747,
+      "bundled_file_sha256": "5f229b9b391f3d6f0da4e59cebe882b16dab9dd14cba9a811903769cf2f00195",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          197
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M14",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M14-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "2fc7f0fdd9124e3bf3e23fc76e5a388a11ee9044079c06be5aaaa9effe149f82",
+      "original_source_bytes": 440,
+      "bundled_file_sha256": "2fc7f0fdd9124e3bf3e23fc76e5a388a11ee9044079c06be5aaaa9effe149f82",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M15",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M15-carrier_dimension_review.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/carrier_dimension_review.json",
+      "original_source_sha256": "9089efa978fc73f1b8417bbbc7d292b23c4f06506150970c3356bcb9566fdb02",
+      "original_source_bytes": 6879,
+      "bundled_file_sha256": "9089efa978fc73f1b8417bbbc7d292b23c4f06506150970c3356bcb9566fdb02",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          298
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M16",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M16-carrier_dimension_review.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/carrier_dimension_review.log",
+      "original_source_sha256": "e0d7ced410370ca2090ccbec006d00e0603fc0fa486c81f1ab5b6f94d3d5c56d",
+      "original_source_bytes": 470,
+      "bundled_file_sha256": "e0d7ced410370ca2090ccbec006d00e0603fc0fa486c81f1ab5b6f94d3d5c56d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          13
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M17",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M17-review_carrier_dimension.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/review_carrier_dimension.py",
+      "original_source_sha256": "5aeeaebee959d52cb267f6d21d6fb3512f84c032a6cb4f0a32815603f5713134",
+      "original_source_bytes": 13340,
+      "bundled_file_sha256": "5aeeaebee959d52cb267f6d21d6fb3512f84c032a6cb4f0a32815603f5713134",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          320
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M18",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M18-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/COMMANDS.txt",
+      "original_source_sha256": "3209e0fc0939b785fd4c474bff76a3cd5445e5147162e14da90aaff3756f6e28",
+      "original_source_bytes": 766,
+      "bundled_file_sha256": "3209e0fc0939b785fd4c474bff76a3cd5445e5147162e14da90aaff3756f6e28",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M19",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M19-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/REPORT.md",
+      "original_source_sha256": "48950ef4bf762b71b5112d05a26f9872dd8b1d01065e31d130c278edbd18cb71",
+      "original_source_bytes": 4891,
+      "bundled_file_sha256": "48950ef4bf762b71b5112d05a26f9872dd8b1d01065e31d130c278edbd18cb71",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          132
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M20",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M20-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "f557952fb19dca14d8f746758aecd8ceaec254fbc89a42204f7c141e7b7ae0f0",
+      "original_source_bytes": 516,
+      "bundled_file_sha256": "f557952fb19dca14d8f746758aecd8ceaec254fbc89a42204f7c141e7b7ae0f0",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M21",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M21-effective_rank_review.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/effective_rank_review.json",
+      "original_source_sha256": "9b0c6c06842a716899d1597cfd788bdd7f8b66aadf56a9f482f0c9cf3c60494f",
+      "original_source_bytes": 5443,
+      "bundled_file_sha256": "9b0c6c06842a716899d1597cfd788bdd7f8b66aadf56a9f482f0c9cf3c60494f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          205
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M22",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M22-effective_rank_review.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/effective_rank_review.log",
+      "original_source_sha256": "eedfe85aa21ed6569ab35b914e85bfe2d99b4618adf2c8ef878d856c2c9b89a7",
+      "original_source_bytes": 538,
+      "bundled_file_sha256": "eedfe85aa21ed6569ab35b914e85bfe2d99b4618adf2c8ef878d856c2c9b89a7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          11
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M23",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M23-review_effective_rank.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/review_effective_rank.py",
+      "original_source_sha256": "72e51f3b42455695c00be9409a19e3d1ca0fecad3a1d4502255378f0205891e8",
+      "original_source_bytes": 15416,
+      "bundled_file_sha256": "72e51f3b42455695c00be9409a19e3d1ca0fecad3a1d4502255378f0205891e8",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          361
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M24",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M24-verify_artifact.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_cge2_effective_rank_review_20260722/verify_artifact.py",
+      "original_source_sha256": "2e1b4e33526f422f4c3a92b4c64c675024fe9f3187de48299c451a6ace6214d8",
+      "original_source_bytes": 1751,
+      "bundled_file_sha256": "2e1b4e33526f422f4c3a92b4c64c675024fe9f3187de48299c451a6ace6214d8",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          41
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M25",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M25-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_long_cap_20260721/COMMANDS.txt",
+      "original_source_sha256": "91975416549be22571315c5e21ba016617f4153f54254e90203ca30cbd03019f",
+      "original_source_bytes": 643,
+      "bundled_file_sha256": "182c5347ca779a2323b0b988ea2121778e606185e856da9ba45414955ffb4b01",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M26",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M26-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_long_cap_20260721/REPORT.md",
+      "original_source_sha256": "1f1f5410570df066032c7dc993357a5485bc9540d3ca64d3c6dac14ade3e893b",
+      "original_source_bytes": 9449,
+      "bundled_file_sha256": "1f1f5410570df066032c7dc993357a5485bc9540d3ca64d3c6dac14ade3e893b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          304
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M27",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M27-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_long_cap_20260721/SHA256SUMS.txt",
+      "original_source_sha256": "4f70f08133a8072128c9d9047c6f06d20bf75d909e42ea5193aceab70a016b35",
+      "original_source_bytes": 411,
+      "bundled_file_sha256": "4f70f08133a8072128c9d9047c6f06d20bf75d909e42ea5193aceab70a016b35",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M28",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M28-log.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_long_cap_20260721/log.txt",
+      "original_source_sha256": "18ddb3baa59edaa208a37402d714a014f8ba9e1824d7f2fce0de48f35bbe1b6a",
+      "original_source_bytes": 437,
+      "bundled_file_sha256": "18ddb3baa59edaa208a37402d714a014f8ba9e1824d7f2fce0de48f35bbe1b6a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          10
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M29",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M29-se_trace_t5_long_cap.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_long_cap_20260721/se_trace_t5_long_cap.json",
+      "original_source_sha256": "0968b4c2fa01c22ab577f1f78eeb820234bcccc9f8cdaa26c138d27e62980161",
+      "original_source_bytes": 36606,
+      "bundled_file_sha256": "0968b4c2fa01c22ab577f1f78eeb820234bcccc9f8cdaa26c138d27e62980161",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1529
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M30",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M30-se_trace_t5_long_cap.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_long_cap_20260721/se_trace_t5_long_cap.py",
+      "original_source_sha256": "e0cb8357f54b50e5c6986ff6ef008f9c3e966b289f2525333c8b90f488c73618",
+      "original_source_bytes": 10556,
+      "bundled_file_sha256": "e0cb8357f54b50e5c6986ff6ef008f9c3e966b289f2525333c8b90f488c73618",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          289
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M31",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M31-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rout_20260721/COMMANDS.txt",
+      "original_source_sha256": "cb7e58f2f63d2c0aad497145def9620c5a3ae55cbd1c8b297edb982b16127ea7",
+      "original_source_bytes": 527,
+      "bundled_file_sha256": "e3a776d42e031e9ba0b6bfb553393068facb5ccc97c3aff172edb60162e81b6a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M32",
+      "roles": [
+        "supporting_artifact",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M32-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rout_20260721/REPORT.md",
+      "original_source_sha256": "642e657d8299ec148ac34795b6ac0a7261e08dc1b7685bd7d7f736d943cc334e",
+      "original_source_bytes": 6197,
+      "bundled_file_sha256": "642e657d8299ec148ac34795b6ac0a7261e08dc1b7685bd7d7f736d943cc334e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          168
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/REPORT.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M33",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M33-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rout_20260721/SHA256SUMS.txt",
+      "original_source_sha256": "a240f779dcb10aeeeaad2cfc3a1e617ba38a66db3638c3c25f1e445326ed65d5",
+      "original_source_bytes": 489,
+      "bundled_file_sha256": "a240f779dcb10aeeeaad2cfc3a1e617ba38a66db3638c3c25f1e445326ed65d5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M34",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M34-construct_rout.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rout_20260721/construct_rout.py",
+      "original_source_sha256": "d4129e583b8cee511b88bc46cd072b0128d2a9bbd80f76f2a191209caedde259",
+      "original_source_bytes": 18086,
+      "bundled_file_sha256": "d4129e583b8cee511b88bc46cd072b0128d2a9bbd80f76f2a191209caedde259",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          415
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M35",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M35-tame_c2_rout.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rout_20260721/tame_c2_rout.json",
+      "original_source_sha256": "1a1c6ddf7df0c8b1e341a31c1bbf2474db5557d7a57da813d21a48462f4e36a3",
+      "original_source_bytes": 32875,
+      "bundled_file_sha256": "1a1c6ddf7df0c8b1e341a31c1bbf2474db5557d7a57da813d21a48462f4e36a3",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1007
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M36",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M36-tame_c2_rout.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rout_20260721/tame_c2_rout.log",
+      "original_source_sha256": "6fdc0bdf1ff06500b41e854e368a0b9cb210df1b9d7546a5c0b4caa5371b48c4",
+      "original_source_bytes": 4882,
+      "bundled_file_sha256": "6fdc0bdf1ff06500b41e854e368a0b9cb210df1b9d7546a5c0b4caa5371b48c4",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          43
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M37",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M37-tame_c2_rout.npz",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rout_20260721/tame_c2_rout.npz",
+      "original_source_sha256": "493ffde7d5746b9e81b1d9c8ba53a894b26fa1301ff1773dfa6bcc69def022ea",
+      "original_source_bytes": 93283,
+      "bundled_file_sha256": "493ffde7d5746b9e81b1d9c8ba53a894b26fa1301ff1773dfa6bcc69def022ea",
+      "extraction_mode": "full_binary_file",
+      "included_line_ranges": [],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M38",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M38-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/COMMANDS.txt",
+      "original_source_sha256": "1a417a3036de7787c58796081ce98e6b53bd36c7f550ba328cd7f3b816812ac4",
+      "original_source_bytes": 227,
+      "bundled_file_sha256": "1a417a3036de7787c58796081ce98e6b53bd36c7f550ba328cd7f3b816812ac4",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M39",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M39-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/REPORT.md",
+      "original_source_sha256": "00b7a2c266f1e7a50d57fd71957f9826ba7c745447689961a04c5b3f7f9fe5fe",
+      "original_source_bytes": 3878,
+      "bundled_file_sha256": "00b7a2c266f1e7a50d57fd71957f9826ba7c745447689961a04c5b3f7f9fe5fe",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          68
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M40",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M40-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/SHA256SUMS.txt",
+      "original_source_sha256": "81d2b623f5b429e3e9cdc090e34801d220576b62aad9fce6855745da26c94202",
+      "original_source_bytes": 652,
+      "bundled_file_sha256": "81d2b623f5b429e3e9cdc090e34801d220576b62aad9fce6855745da26c94202",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M41",
+      "roles": [
+        "supporting_artifact",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M41-construct_rcol.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/construct_rcol.py",
+      "original_source_sha256": "35df21488805c7d240a51c357927e6b587d34af8d26f578c8123beb33b7b0e5d",
+      "original_source_bytes": 29049,
+      "bundled_file_sha256": "35df21488805c7d240a51c357927e6b587d34af8d26f578c8123beb33b7b0e5d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          684
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/REPORT.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M42",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M42-tame_c2_rcol.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/tame_c2_rcol.json",
+      "original_source_sha256": "9273590bed855ad1136be6a367c8510a835f4850ab3349b74aec25950a239cb0",
+      "original_source_bytes": 7385,
+      "bundled_file_sha256": "9273590bed855ad1136be6a367c8510a835f4850ab3349b74aec25950a239cb0",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          309
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M43",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M43-tame_c2_rcol.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/tame_c2_rcol.log",
+      "original_source_sha256": "76013939ccbab37d33e989f2137e6e691fecbffcdd9a2fca36d643a6433ac8e0",
+      "original_source_bytes": 14772,
+      "bundled_file_sha256": "4020ccc8b795d8bbbdf2e3891daaa0c0045004be2c1e2bb07c62d512392e1e03",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          309
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M44",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M44-tame_c2_rcol.npz",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/tame_c2_rcol.npz",
+      "original_source_sha256": "5029d67206b08a8743958836814462e323b096a3287433f534719e3af1ec0659",
+      "original_source_bytes": 8438382,
+      "bundled_file_sha256": "5029d67206b08a8743958836814462e323b096a3287433f534719e3af1ec0659",
+      "extraction_mode": "full_binary_file",
+      "included_line_ranges": [],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M45",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M45-verify_rcol.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/verify_rcol.log",
+      "original_source_sha256": "47f82f6ff61b888c149d5116cabce61bd1a5c7638bf15f2f1f64a3e0aed7643f",
+      "original_source_bytes": 130,
+      "bundled_file_sha256": "14a9df235bb555241644294c15a6e2c6d3b4001874c8dafce82ff224a1de325c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M46",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M46-verify_rcol.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_20260721/verify_rcol.py",
+      "original_source_sha256": "ab2d87259591b070ad43b178638eeea102ebe5e46ed70ef3a1ad3b05163914c0",
+      "original_source_bytes": 1515,
+      "bundled_file_sha256": "ab2d87259591b070ad43b178638eeea102ebe5e46ed70ef3a1ad3b05163914c0",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          32
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M47",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M47-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_review_20260722/COMMANDS.txt",
+      "original_source_sha256": "b3444b2a90c5a2c99ee148cf8786aa3bdcb141b59137e879cd0754906494cb26",
+      "original_source_bytes": 1714,
+      "bundled_file_sha256": "b3444b2a90c5a2c99ee148cf8786aa3bdcb141b59137e879cd0754906494cb26",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M48",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M48-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_review_20260722/REPORT.md",
+      "original_source_sha256": "98afa790546569f8dd305c156360464b9ce69508fde5824809b4f7601e9f6091",
+      "original_source_bytes": 7190,
+      "bundled_file_sha256": "98afa790546569f8dd305c156360464b9ce69508fde5824809b4f7601e9f6091",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          199
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M49",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M49-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_review_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "85f1446e5a36d42b34f0121b73e65da53abb232fc787ff17b5e3ad7660c388a7",
+      "original_source_bytes": 401,
+      "bundled_file_sha256": "85f1446e5a36d42b34f0121b73e65da53abb232fc787ff17b5e3ad7660c388a7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M50",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M50-rcol_review.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_review_20260722/rcol_review.json",
+      "original_source_sha256": "263b28f34e344c6e8bebe39242babc2632895b29fa8f164b11afe58d04b0c8d0",
+      "original_source_bytes": 22149,
+      "bundled_file_sha256": "263b28f34e344c6e8bebe39242babc2632895b29fa8f164b11afe58d04b0c8d0",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          901
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M51",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M51-rcol_review.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_review_20260722/rcol_review.log",
+      "original_source_sha256": "601bc4e02c42b5798dab13997f0fb72bf12af6f15a8adbd0e2e95b15ba8d510a",
+      "original_source_bytes": 815,
+      "bundled_file_sha256": "601bc4e02c42b5798dab13997f0fb72bf12af6f15a8adbd0e2e95b15ba8d510a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          15
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M52",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M52-review_rcol.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_tame_c2_rcol_review_20260722/review_rcol.py",
+      "original_source_sha256": "05941bf3ad04146876e7bb3359d24a7525f0643fbdb02a62437ce66420c12b87",
+      "original_source_bytes": 22774,
+      "bundled_file_sha256": "05941bf3ad04146876e7bb3359d24a7525f0643fbdb02a62437ce66420c12b87",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          539
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M53",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M53-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/COMMANDS.txt",
+      "original_source_sha256": "31d24c34d195e8786e1030ff4a439f077f8a3066f65ae7d0eb3686d7ab54bb24",
+      "original_source_bytes": 1350,
+      "bundled_file_sha256": "31d24c34d195e8786e1030ff4a439f077f8a3066f65ae7d0eb3686d7ab54bb24",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M54",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M54-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/REPORT.md",
+      "original_source_sha256": "7e52ae81a200c77f8eb3a04a50a0d8487ec28e9e2af6df3702d3ca60a47b09b5",
+      "original_source_bytes": 4259,
+      "bundled_file_sha256": "7e52ae81a200c77f8eb3a04a50a0d8487ec28e9e2af6df3702d3ca60a47b09b5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          131
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M55",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M55-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "56e1d20f1d0536ca46de89b26882cfed8f291c0beb2ad4bc8914ecdede1d840c",
+      "original_source_bytes": 679,
+      "bundled_file_sha256": "56e1d20f1d0536ca46de89b26882cfed8f291c0beb2ad4bc8914ecdede1d840c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M56",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M56-second_gate.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/second_gate.json",
+      "original_source_sha256": "cfdc6ec780d55353c0b959f2917878c9a63bab10e6c1c41302bf2618d3f10c60",
+      "original_source_bytes": 24572,
+      "bundled_file_sha256": "cfdc6ec780d55353c0b959f2917878c9a63bab10e6c1c41302bf2618d3f10c60",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          971
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M57",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M57-second_gate.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/second_gate.log",
+      "original_source_sha256": "21992f22d01457c249030c29028ec0c871d27f6b4fd4bcf3b64334b6ca2fb2e1",
+      "original_source_bytes": 491,
+      "bundled_file_sha256": "21992f22d01457c249030c29028ec0c871d27f6b4fd4bcf3b64334b6ca2fb2e1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          10
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M58",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M58-second_gate_inventory.npz",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/second_gate_inventory.npz",
+      "original_source_sha256": "4fbd8e0b20f95966d7e09992052d74f4a43e861c5f16b6a85cb69ea79a6735c1",
+      "original_source_bytes": 105250,
+      "bundled_file_sha256": "4fbd8e0b20f95966d7e09992052d74f4a43e861c5f16b6a85cb69ea79a6735c1",
+      "extraction_mode": "full_binary_file",
+      "included_line_ranges": [],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M59",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M59-second_gate_witness.npz",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/second_gate_witness.npz",
+      "original_source_sha256": "a378f2410f445d4249d94310d5056436f185cb59b44a5b2fafd3e819e6ab6a42",
+      "original_source_bytes": 11305298,
+      "bundled_file_sha256": "a378f2410f445d4249d94310d5056436f185cb59b44a5b2fafd3e819e6ab6a42",
+      "extraction_mode": "full_binary_file",
+      "included_line_ranges": [],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M60",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M60-second_tame_c2_gate.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/second_tame_c2_gate.py",
+      "original_source_sha256": "d51f22fe66dcc10f6df4aaa699ddd66d60a3e882685e8ff282e4297f6f9589fc",
+      "original_source_bytes": 12964,
+      "bundled_file_sha256": "d51f22fe66dcc10f6df4aaa699ddd66d60a3e882685e8ff282e4297f6f9589fc",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          218
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M61",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M61-verify_second_gate.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_20260722/verify_second_gate.py",
+      "original_source_sha256": "6530ffcd7eee9c893cf240dcea2c0a31f165378ae2d33e75e1216e5cf7690834",
+      "original_source_bytes": 2489,
+      "bundled_file_sha256": "6530ffcd7eee9c893cf240dcea2c0a31f165378ae2d33e75e1216e5cf7690834",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          49
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M62",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M62-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/COMMANDS.txt",
+      "original_source_sha256": "a05b8f510c9803744141115d96a612bec7c86329721150acebcf5e11bf475966",
+      "original_source_bytes": 1141,
+      "bundled_file_sha256": "a05b8f510c9803744141115d96a612bec7c86329721150acebcf5e11bf475966",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M63",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M63-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/REPORT.md",
+      "original_source_sha256": "e5cca535ca5bfe106a3bb74361711949d22aa24f1ee974020b424778fb9728f3",
+      "original_source_bytes": 4598,
+      "bundled_file_sha256": "e5cca535ca5bfe106a3bb74361711949d22aa24f1ee974020b424778fb9728f3",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          93
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M64",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M64-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "a6d766e1ca1738203a4062db6e553fd987126bb58f4bc5c8d89b2701baafb1d5",
+      "original_source_bytes": 422,
+      "bundled_file_sha256": "a6d766e1ca1738203a4062db6e553fd987126bb58f4bc5c8d89b2701baafb1d5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M65",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M65-review_second_gate.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/review_second_gate.py",
+      "original_source_sha256": "0b92c94ba8aeeb92de58c86fb47c200ebecaa29a4c4c84ca9b7dd4b0aad1c4a1",
+      "original_source_bytes": 21117,
+      "bundled_file_sha256": "0b92c94ba8aeeb92de58c86fb47c200ebecaa29a4c4c84ca9b7dd4b0aad1c4a1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          494
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M66",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M66-second_gate_review.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/second_gate_review.json",
+      "original_source_sha256": "52693fa34c3b5769187ca4a4ca804c1c6f89642e91cf78a711d48311266868dd",
+      "original_source_bytes": 8666,
+      "bundled_file_sha256": "52693fa34c3b5769187ca4a4ca804c1c6f89642e91cf78a711d48311266868dd",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          358
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M67",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M67-second_gate_review.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/second_gate_review.log",
+      "original_source_sha256": "c84e1339e5be28a18c5dcc64ef72b86539b76c3a5a2929d6296887dacf8220b0",
+      "original_source_bytes": 394,
+      "bundled_file_sha256": "c84e1339e5be28a18c5dcc64ef72b86539b76c3a5a2929d6296887dacf8220b0",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          14
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M68",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M68-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/COMMANDS.txt",
+      "original_source_sha256": "168c45553008b9ea9e1403af0eed3a8bac1f436d9fb86f7f67e1f61469809fef",
+      "original_source_bytes": 553,
+      "bundled_file_sha256": "41ff06cf5d153b750ca517b74c138d992e8c45698363cc1f64b7e1b1018badf7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M69",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M69-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/REPORT.md",
+      "original_source_sha256": "ebf157936e0e0dbce991671bf62fbe9e29216123fd9b0e39b0c4f4de7e7acc3b",
+      "original_source_bytes": 5902,
+      "bundled_file_sha256": "ebf157936e0e0dbce991671bf62fbe9e29216123fd9b0e39b0c4f4de7e7acc3b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          175
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M70",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M70-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "64764ccb5c43487d5afc6575c6b2cf725e0ff25f24538d587200d72dc56d3f3b",
+      "original_source_bytes": 513,
+      "bundled_file_sha256": "64764ccb5c43487d5afc6575c6b2cf725e0ff25f24538d587200d72dc56d3f3b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M71",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M71-uniform_ta_two_frame.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/uniform_ta_two_frame.json",
+      "original_source_sha256": "e07dfa09926c5df53603bbefc3ff2da82d1eca8e31f5f282841f29e6d6ee064b",
+      "original_source_bytes": 9652,
+      "bundled_file_sha256": "e07dfa09926c5df53603bbefc3ff2da82d1eca8e31f5f282841f29e6d6ee064b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          369
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M72",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M72-uniform_ta_two_frame.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/uniform_ta_two_frame.log",
+      "original_source_sha256": "8c61a110d0f97fa287a975c342d8d9860ddd6f992881204e8819720b997de9aa",
+      "original_source_bytes": 399,
+      "bundled_file_sha256": "8c61a110d0f97fa287a975c342d8d9860ddd6f992881204e8819720b997de9aa",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M73",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M73-uniform_ta_two_frame.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/uniform_ta_two_frame.py",
+      "original_source_sha256": "2ad30c87d89eba7b1ece142692909a76e2d70fa27f4c0100c002371f33d96bb5",
+      "original_source_bytes": 10742,
+      "bundled_file_sha256": "2ad30c87d89eba7b1ece142692909a76e2d70fa27f4c0100c002371f33d96bb5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          238
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M74",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M74-verify_artifact.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/verify_artifact.py",
+      "original_source_sha256": "d6b60968fc9135043712702acb024866b4bf5b64973c05ccb0fb1b085aada269",
+      "original_source_bytes": 1039,
+      "bundled_file_sha256": "d6b60968fc9135043712702acb024866b4bf5b64973c05ccb0fb1b085aada269",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M75",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M75-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/COMMANDS.txt",
+      "original_source_sha256": "4f50187e7faa043f75aaf4f1ef7272a9eaa939ec81351d674e6b830493d7eef0",
+      "original_source_bytes": 436,
+      "bundled_file_sha256": "f6c42f6c2b00e8b7d5d0154e72f33a94ac1dd4e2182544b672dfd42aef069b80",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M76",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M76-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/REPORT.md",
+      "original_source_sha256": "99172b8af7c95308b033bfcf8dd31d353aa70c6a25d41db3a8806af115e8f62b",
+      "original_source_bytes": 7126,
+      "bundled_file_sha256": "99172b8af7c95308b033bfcf8dd31d353aa70c6a25d41db3a8806af115e8f62b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          157
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M77",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M77-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "5cf7855a4c5a862486faffc5dfb8d1072a3fbc55626572f6243daa0f1a7bf97d",
+      "original_source_bytes": 516,
+      "bundled_file_sha256": "5cf7855a4c5a862486faffc5dfb8d1072a3fbc55626572f6243daa0f1a7bf97d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M78",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M78-independent_raw_audit.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/independent_raw_audit.json",
+      "original_source_sha256": "6006c0a91686f2cfd3d2afc930b82a0365ffc9ccc04ad58af73cc1321f669063",
+      "original_source_bytes": 11943,
+      "bundled_file_sha256": "6006c0a91686f2cfd3d2afc930b82a0365ffc9ccc04ad58af73cc1321f669063",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          395
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M79",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M79-independent_raw_audit.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/independent_raw_audit.log",
+      "original_source_sha256": "e898ce3c90160f4eab1332266b06b7a43bcecf84f71c6e84b64094cb02f363af",
+      "original_source_bytes": 670,
+      "bundled_file_sha256": "e898ce3c90160f4eab1332266b06b7a43bcecf84f71c6e84b64094cb02f363af",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M80",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M80-independent_raw_audit.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/independent_raw_audit.py",
+      "original_source_sha256": "215752c1c14b6e9be9c085b6833f3ce3ac6bb3a400b59cc0586dc4241f3f0cd7",
+      "original_source_bytes": 15579,
+      "bundled_file_sha256": "215752c1c14b6e9be9c085b6833f3ce3ac6bb3a400b59cc0586dc4241f3f0cd7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          299
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M81",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M81-verify_artifact.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_ta_raw_audit_review_20260722/verify_artifact.py",
+      "original_source_sha256": "7d69ef4392a59c53a5e0320034a69aae2a145fdfd7143138fb3c86e3af059136",
+      "original_source_bytes": 1326,
+      "bundled_file_sha256": "7d69ef4392a59c53a5e0320034a69aae2a145fdfd7143138fb3c86e3af059136",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M82",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M82-COMMANDS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/COMMANDS.txt",
+      "original_source_sha256": "ac4465bdf2179ab2f27582d772efdff7e9b998729e3952db1b52a3809c4a86d2",
+      "original_source_bytes": 193,
+      "bundled_file_sha256": "ac4465bdf2179ab2f27582d772efdff7e9b998729e3952db1b52a3809c4a86d2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M83",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M83-REPORT.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/REPORT.md",
+      "original_source_sha256": "72f2b137a67a4a4e83b2fefd77602111a899c92501264aa3c550bcd1416a137e",
+      "original_source_bytes": 4393,
+      "bundled_file_sha256": "72f2b137a67a4a4e83b2fefd77602111a899c92501264aa3c550bcd1416a137e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          103
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M84",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M84-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/SHA256SUMS.txt",
+      "original_source_sha256": "043aa1f06c5a32d4bdfb95719b7e2f5dadbdf3031fca00902e615455ca011eff",
+      "original_source_bytes": 513,
+      "bundled_file_sha256": "043aa1f06c5a32d4bdfb95719b7e2f5dadbdf3031fca00902e615455ca011eff",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          7
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M85",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M85-normalization_review.json",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/normalization_review.json",
+      "original_source_sha256": "7964148922596bdfabc0c37c4c0effaaf20f309f4dcba40cd046e4ad90748e85",
+      "original_source_bytes": 6551,
+      "bundled_file_sha256": "7964148922596bdfabc0c37c4c0effaaf20f309f4dcba40cd046e4ad90748e85",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          215
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M86",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M86-normalization_review.log",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/normalization_review.log",
+      "original_source_sha256": "3ac8a4f1c49db134d1fa9e5a7d7595d7dbf44c6387cd31c90d3d7f3d7c4b0403",
+      "original_source_bytes": 255,
+      "bundled_file_sha256": "3ac8a4f1c49db134d1fa9e5a7d7595d7dbf44c6387cd31c90d3d7f3d7c4b0403",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M87",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M87-normalization_review.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/normalization_review.py",
+      "original_source_sha256": "d4615e3a05fbd3b0f9d1d2ce041733da358220ca60dcdb770a343a2e19e9f55f",
+      "original_source_bytes": 8443,
+      "bundled_file_sha256": "d4615e3a05fbd3b0f9d1d2ce041733da358220ca60dcdb770a343a2e19e9f55f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          100
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M88",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M88-verify_artifact.py",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t5_uniform_ta_normalization_review_20260722/verify_artifact.py",
+      "original_source_sha256": "62b414b698e77ff7a39b24860281b6d15060ba23a4db1a2c19628744901330ad",
+      "original_source_bytes": 1417,
+      "bundled_file_sha256": "62b414b698e77ff7a39b24860281b6d15060ba23a4db1a2c19628744901330ad",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M89",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M89-se_bigate_20260719.md",
+      "readable_file": null,
+      "source_name": "artifacts/se_bigate_20260719.md",
+      "original_source_sha256": "41d6d1a53365c25479f6903e0a27001faa65a59550cd1a0818dd34d5866f9867",
+      "original_source_bytes": 11027,
+      "bundled_file_sha256": "759ce40fb2a98a54b443557cd22bb5626fc96e338db532d6fc71ed521bef9c3c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          332
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/logs_se_trace_t5_carrier_dimension_review_20260722/REPORT.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M90",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M90-se_trace_t3_report_20260721.md",
+      "readable_file": null,
+      "source_name": "artifacts/logs_se_trace_t3_20260721/se_trace_t3_report_20260721.md",
+      "original_source_sha256": "bb5cde48c3cdf0ae6c1d08a2574a653ae800a68380b5dee100c848e70b17dd31",
+      "original_source_bytes": 17328,
+      "bundled_file_sha256": "1a06402d69e291f7d4cde24c0dbee0b6509b64fa5249388cc3c4c1409ff9ae7e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          500
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/logs_se_trace_t5_uniform_ta_two_frame_20260722/REPORT.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 90,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

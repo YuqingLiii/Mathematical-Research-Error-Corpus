@@ -1,0 +1,14 @@
+candidate_id	decision	record_or_existing_id	reason
+D4-01	INCLUDE_CORE_DATASET	GROTH-D4-001	new exact arithmetic statement error; checker conclusion survives
+D4-02	INCLUDE_CORE_DATASET	GROTH-D4-002	inconclusive restricted test was reported as block-level solution
+D4-03	INCLUDE_CORE_DATASET	GROTH-D4-003	invalid rank transfer through a noninjective projection
+D4-04	DUPLICATE_EXISTING	GROTH-H4-001	same SOS duality-direction error already present in v01/v02
+D4-05	INCLUDE_CORE_DATASET	GROTH-D4-004	new exact decimal transcription error
+D4-06	INCLUDE_CORE_DATASET	GROTH-D4-005	new contraction-normalization error with corrected certificate
+ORB-07	DUPLICATE_EXISTING	GROTH-ORB-003	same empty-feasible-set minimum error already present
+ORB-08	DUPLICATE_EXISTING	GROTH-ORB-004	same rectangular-zero paired-basis error already present
+ORB-09	DUPLICATE_EXISTING	GROTH-ORB-002	same existence-to-all-extremizers invariance error already present
+ORB-10	INCLUDE_CORE_DATASET	GROTH-ORB-006	new exact counterexample to the registered full-interval affine candidate
+DEP-11	INCLUDE_CORE_DATASET	GROTH-D4-006	proved-status conclusion contains an unbound external load-bearing lemma; labeled incomplete, not false
+DEP-12	EXCLUDE_BOUNDARY		IG1 artifact explicitly keeps the result conditional on the compensation identity and m_H>=0; no unconditional promotion located
+BIB-13	METADATA_ANNEX_ONLY		Quantum article-number correction is bibliographic, not a mathematical reasoning error

@@ -1,0 +1,548 @@
+{
+  "record_id": "036",
+  "problem": "Optimal circuit distance of the Gross code",
+  "collection": "Original research investigation",
+  "summary": "Agreement of two pairwise precedence comparisons is strictly weaker than separating the two checks in time. The step after 'i.e.' changes the ordering predicate.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "1. **For the gross code, (MC) *is* [SBB26]'s non-interleaving condition.** Every overlapping\n   (X,Z) check pair shares exactly two qubits (§1), so `c_ab ∈ {0,1,2}`, and `c_ab` even means the\n   two shared CNOT pairs agree on their order, i.e. either all of `a`'s CNOTs on the overlap precede\n   all of `b`'s, or vice versa — S5 verbatim. **CONJECTURED** (the derivation is one line given §1;\n   the risk is only in whether S5's \"either…or\" is per-pair or global — S6 forces per-pair, since a\n   low-depth LRC cannot satisfy a global split).",
+    "context": "For overlapping X and Z checks, measurement consistency (MC) requires an even number of shared data qubits with Z-before-X local ordering. The draft identifies this pairwise parity condition with non-interleaving, which requires all operations of one check on their common support to precede all operations of the other. The proposed equivalence was labelled CONJECTURED.",
+    "locator": "Proof draft dated 20 August 2026, section 2.4(1), lines 246–251."
+  },
+  "witness": {
+    "explanation": "Agreement of two pairwise precedence comparisons is strictly weaker than separating the two checks in time. The step after 'i.e.' changes the ordering predicate.",
+    "evidence": "Take common-support gate times A_1=1, B_1=2, A_2=3, B_2=4. Both comparisons B_i<A_i are false, so the MC count is zero (even), but neither max(A)<min(B) nor max(B)<min(A) holds. The archived Gross-specific witness uses time arrays LX(left)=[11,10,3], LX(right)=[7,5,8], LZ(left)=[6,8,5], LZ(right)=[2,1,10]. It has zero MC violations among 648 overlaps, while 288 pairs are interleaved. The elementary four-time example independently refutes the inference from pairwise order agreement to non-interleaving.",
+    "scope": "tentative_candidate_refuted"
+  },
+  "archived_witness_excerpt": "**The equivalence is false.** The target's derivation (§2.4(1)) reads: \"`c_ab` even means the two\nshared CNOT pairs agree on their order, i.e. either all of `a`'s CNOTs on the overlap precede all\nof `b`'s, or vice versa — S5 verbatim.\" The step after \"i.e.\" is a non-sequitur. With shared times\n`A₁,A₂` for `a` and `B₁,B₂` for `b`, \"agree\" is `(B₁<A₁) ⟺ (B₂<A₂)`; \"all before all\" is\n`max(A) < min(B)` or `max(B) < min(A)`. `A₁=1 < B₁=2 < A₂=3 < B₂=4` agrees but is interleaved.\n\nThis is not a hypothetical. Searching legal 12-layer translation-invariant gross schedules I found\none in seconds:\n\n```\nLX(left)=[11,10,3]  LX(right)=[7,5,8]  LZ(left)=[6,8,5]  LZ(right)=[2,1,10]\nlegal (all four 6-element unions distinct);  (MC) violations 0 / 648\nSBB non-interleaving violated on 4 of the 9 monomial classes  = 288 / 648 pairs\n```\n\nSo **(MC) ⇏ non-interleaved**. The converse *does* hold (non-interleaved ⇒ each pair separated ⇒\n`c ∈ {0,2}`), which is the in-house Prop. 3.3 the target also cites.",
+  "visible_reasoning": {
+    "availability_description": "推理出现 MC 等价于 non-interleaved 的错误判断，同一块随后也产生怀疑；最终仍写入错误等价。不能只截怀疑句把整段说成正确。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-20T17:03:14.944Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-ace09be0f0bec8908.jsonl",
+        "source_line": 63,
+        "material_id": "M05",
+        "original_line_sha256": "0b1e380ee877fb2247087f6d9e0e82c09d401c24e817b8dcb9ea9e4734e97b46"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [
+    {
+      "timestamp": "2026-08-20T18:18:33.856Z",
+      "event_field": "Write.content",
+      "quote": "968 error mechanisms (both memory bases)\n```\n\n**Two consequences worth recording.**\n\n1. **For the gross code, (MC) *is* [SBB26]'s non-interleaving condition.** Every overlapping\n   (X,Z) check pair shares exactly two qubits (§1), so `c_ab ∈ {0,1,2}`, and `c_ab` even means the\n   two shared CNOT pairs agree on their order, i.e. either all of `a`'s CNOTs on the overlap precede\n   all of `b`'s, or vice versa — S5 verbatim. **CONJECTURED** (the derivation is one line given §1;\n   the risk is only in whether S5's \"either…or\" is per-p",
+      "source_name": "claude-session-archive/agent-ace09be0f0bec8908.jsonl",
+      "source_line": 223,
+      "material_id": "M05"
+    }
+  ],
+  "events": [
+    {
+      "material": "M05",
+      "source_line": 63,
+      "timestamp": "2026-08-20T17:03:14.944Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 223,
+      "timestamp": "2026-08-20T18:18:33.856Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_evidence_pointer",
+        "archived_exposure",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M01-circdist_gross_sbbcert_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_gross_sbbcert_20260820.md",
+      "original_source_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+      "original_source_bytes": 131768,
+      "bundled_file_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2910
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              246,
+              251
+            ]
+          ],
+          "excerpt_breaks_explicit": true
+        },
+        "#2.4(1),5(2),7(2)",
+        "#2.4(1),5(2),7(2)",
+        "Referenced by research-graph/circdist/reviews/circdist_sbbcert_review_20260820.md",
+        "Referenced by research-graph/circdist/artifacts/history/pre_protocol_20260826/nodes/CIRCDIST.gross.mc-equiv.yaml"
+      ],
+      "matched_quote_lines": [
+        246
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "archived_review_or_witness",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M02-circdist_sbbcert_review_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_sbbcert_review_20260820.md",
+      "original_source_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+      "original_source_bytes": 35424,
+      "bundled_file_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          580
+        ]
+      ],
+      "requested_locators": [
+        "§6，尤其 §2.4(1) 原句及 288 interleaved pairs",
+        "§6，尤其 §2.4(1) 原句及 288 interleaved pairs",
+        {
+          "line_ranges": [
+            [
+              378,
+              394
+            ]
+          ]
+        },
+        "#6",
+        "§6，尤其 §2.4(1) 原句及 288 interleaved pairs",
+        "#6",
+        "#6",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.mc-equiv.yaml"
+      ],
+      "matched_quote_lines": [
+        378
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M03-CIRCDIST.gross.mc-equiv.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.mc-equiv.yaml",
+      "original_source_sha256": "0c75299358a4f6c63a53ff5b96bf2d3646e42daeb4edd776207dfdfea46a0aa3",
+      "original_source_bytes": 1986,
+      "bundled_file_sha256": "0c75299358a4f6c63a53ff5b96bf2d3646e42daeb4edd776207dfdfea46a0aa3",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          40
+        ]
+      ],
+      "requested_locators": [
+        "; "
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-CIRCDIST.gross.mc-equiv.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/pre_protocol_20260826/nodes/CIRCDIST.gross.mc-equiv.yaml",
+      "original_source_sha256": "370c2a84eb6b602cd33b96a54a67db1d0e87892c561f341b27d88e62c90a297a",
+      "original_source_bytes": 2604,
+      "bundled_file_sha256": "370c2a84eb6b602cd33b96a54a67db1d0e87892c561f341b27d88e62c90a297a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          54
+        ]
+      ],
+      "requested_locators": [
+        "#events",
+        "#events",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.mc-equiv.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "file": "materials/M05-agent-ace09be0f0bec8908.jsonl.visible.json",
+      "readable_file": "materials/M05-agent-ace09be0f0bec8908.jsonl.readable.md",
+      "source_name": "claude-session-archive/agent-ace09be0f0bec8908.jsonl",
+      "original_source_sha256": "27694298d2b0309e4e78d8a0befb6dbde90a6334a082c5bc54e08843d0949605",
+      "original_source_bytes": 2099766,
+      "bundled_file_sha256": "81713a06e09f4618f7acc7057c26ddd853747d52c78f2e532a8cf097bc65a738",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          57,
+          69
+        ],
+        [
+          217,
+          229
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              63,
+              63
+            ]
+          ]
+        },
+        {
+          "line_ranges": [
+            [
+              223,
+              223
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        63,
+        223
+      ],
+      "historical_hash_matches": [],
+      "event_hash_checks": [
+        {
+          "line": 63,
+          "expected_raw_line_sha256": "0b1e380ee877fb2247087f6d9e0e82c09d401c24e817b8dcb9ea9e4734e97b46",
+          "observed_raw_line_sha256": "0b1e380ee877fb2247087f6d9e0e82c09d401c24e817b8dcb9ea9e4734e97b46",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        },
+        {
+          "line": 223,
+          "expected_raw_line_sha256": "ff4f1419c564d3e5bed61dcdeec56516fea94e86d1a74f9476b11b189c3db739",
+          "observed_raw_line_sha256": "ff4f1419c564d3e5bed61dcdeec56516fea94e86d1a74f9476b11b189c3db739",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M06-circdist_gross_g1_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_gross_g1_20260820.md",
+      "original_source_sha256": "10f4fdac5fec9a871d9663fe8fe0b00cda3ea9a40f8e70b50cceaccf79840776",
+      "original_source_bytes": 96183,
+      "bundled_file_sha256": "10f4fdac5fec9a871d9663fe8fe0b00cda3ea9a40f8e70b50cceaccf79840776",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2193
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/circdist_gross_sbbcert_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-CIRCDIST_PROBLEMS.md",
+      "readable_file": null,
+      "source_name": "research/circdist/notes/CIRCDIST_PROBLEMS.md",
+      "original_source_sha256": "5f6dc37fcc33c0eb9f90e6267864740fc53b65c4acf1ee870c8d29ffd6d46c64",
+      "original_source_bytes": 10199,
+      "bundled_file_sha256": "5f6dc37fcc33c0eb9f90e6267864740fc53b65c4acf1ee870c8d29ffd6d46c64",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          244
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/circdist_gross_sbbcert_20260820.md",
+        "Referenced by research-graph/circdist/reviews/circdist_sbbcert_review_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-circdist_lift_d3gate_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_d3gate_20260820.md",
+      "original_source_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "original_source_bytes": 53117,
+      "bundled_file_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1170
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/circdist_gross_sbbcert_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M09-circdist_lift_nonint_proof_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_nonint_proof_20260820.md",
+      "original_source_sha256": "42d6c138c1ea19127db76ab4f22d2a64c1d1e1e96adf76af975076b529a71f4c",
+      "original_source_bytes": 58543,
+      "bundled_file_sha256": "42d6c138c1ea19127db76ab4f22d2a64c1d1e1e96adf76af975076b529a71f4c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          943
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/circdist_gross_sbbcert_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M10-circdist_lift_proofs_review_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_proofs_review_20260820.md",
+      "original_source_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f",
+      "original_source_bytes": 45878,
+      "bundled_file_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          704
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/circdist_gross_sbbcert_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M11-circdist_gross_toolfeas_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_gross_toolfeas_20260820.md",
+      "original_source_sha256": "2f67c53b54a0012b4124d6170c6ad79b431a941caf59a4fc92c952a8df9c2aa7",
+      "original_source_bytes": 4124,
+      "bundled_file_sha256": "2f67c53b54a0012b4124d6170c6ad79b431a941caf59a4fc92c952a8df9c2aa7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          62
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/circdist_gross_sbbcert_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M12-circdist_gross_sbbcert_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_sbbcert_20260820.md",
+      "original_source_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+      "original_source_bytes": 131768,
+      "bundled_file_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2910
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.mc-equiv.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M13",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M13-circdist_sbbcert_review_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_sbbcert_review_20260820.md",
+      "original_source_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+      "original_source_bytes": 35424,
+      "bundled_file_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          580
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/history/pre_protocol_20260826/nodes/CIRCDIST.gross.mc-equiv.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 13,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 1,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

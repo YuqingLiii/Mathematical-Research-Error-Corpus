@@ -1,0 +1,80 @@
+[
+  {
+    "file": "original/M01-GROTHORB.extremizer-classification.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "1dbac3b4479ed340529a0140b1f42840b089c52676beedc2e5996a34fcb8f234",
+    "bytes": 6938,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-balanced-rank-theorem-draft-20260829.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c6b7bd87193b34ad6e5c05d20971fba2722ba202c3e87e2bd6717a951d5dfef4",
+    "bytes": 5430,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-complete-extremizer-classification-20260829.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "44ac28ada792471f5ff014f763a94da16929ac2f6d99df01b2a056f52a47cd99",
+    "bytes": 6589,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M04-spectral-classification-repair-review-20260907.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0b2d2f2980932519da758a050531571f8fbcf15b3a7bb16855e1d891dab071a4",
+    "bytes": 11212,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M05-group-orbit-literature-positioning-20260907.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "310ed176e035bba8c0b57d90680656a6a50b3b3e1ab8b83d1448468ae2a93473",
+    "bytes": 8633,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M06-group-orbit-exploration-20260907.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "bfcf8c92aa62106e659e950bd52d4d9120d730ee952e913c445092eeb7db5873",
+    "bytes": 4219,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-GROTHORB.extremizer-classification.yaml.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/proof-dag/nodes/GROTHORB.extremizer-classification.yaml",
+    "original_sha256": "1dbac3b4479ed340529a0140b1f42840b089c52676beedc2e5996a34fcb8f234",
+    "source_lines": [
+      5,
+      28
+    ],
+    "sha256": "4de8df7f534b89c1d4b75616295d7545078584f617730cc4e54f38537b6c068b",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R02-GROTHORB.extremizer-classification.yaml.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/proof-dag/nodes/GROTHORB.extremizer-classification.yaml",
+    "original_sha256": "1dbac3b4479ed340529a0140b1f42840b089c52676beedc2e5996a34fcb8f234",
+    "source_lines": [
+      14,
+      28
+    ],
+    "sha256": "178d311eb9726e018250f1437fdf5a3285091d8f492fe5159852f1f74ce494ed",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R03-complete-extremizer-classification-20260829.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/artifacts/complete-extremizer-classification-20260829.md",
+    "original_sha256": "44ac28ada792471f5ff014f763a94da16929ac2f6d99df01b2a056f52a47cd99",
+    "source_lines": [
+      147,
+      172
+    ],
+    "sha256": "7843fd4a00a50d66e4cb3f0d5ab95c0dbfe8d3e51349315290e85eacdf616e06",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  }
+]

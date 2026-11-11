@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_id": "027",
+  "problem": "Bound entanglement with negative partial transpose",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The proposed universal PSD strengthening is false even for one copy. A positive projector does not make this exchange matrix a Gram matrix with a common ordered vector list.",
+  "overclaim": false,
+  "mechanism": "被推翻的充分条件候选",
+  "original": {
+    "excerpt": "- 2026-07-29 — decision-layer reduction note (unreviewed): K_i = (1/2)(I + 2 Pi_i^asym) gives\n  K = 2^{-k} sum_S 2^{|S|} Pi_S with POSITIVE coefficients, so M1 follows if each elementary\n  exchange matrix E^S_pq = <x_p (x) y_q, Pi_S(x_q (x) y_p)> is PSD; S = empty is Schur-PSD; k=1\n  S={1} reduces to the Pluecker-type inequality |<x1^y2, x2^y1>|^2 <= ||x1^y1||^2 ||x2^y2||^2.\n  Phase-2 task P1 screens E_S numerically FIRST, then attempts proofs.",
+    "context": "A tentative sufficient condition was proposed in an unfinished NPT-bound-entanglement investigation. Here Pi_i^asym=(I-F_i)/2, Pi_S is the product over selected copies, and E^S is the 2 by 2 exchange matrix displayed in the excerpt. The note is explicitly unreviewed and asks for screening before proofs. The positive-coefficient expansion and conditional implication are correct. The refuted mathematical object is the proposed per-subset PSD condition and its k=1 inequality, not the expansion, not the main undistillability theorem, and not a theorem-completion claim.",
+    "locator": "Research-node work record dated 2026-07-29, original lines 60-64; assistant report at 2026-07-29T23:07:43.892Z also calls this reduction pending verification.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The proposed universal PSD strengthening is false even for one copy. A positive projector does not make this exchange matrix a Gram matrix with a common ordered vector list.",
+    "evidence": "Take k=1, S={1}, d=2 (or embed into any d>=2), x1=y1=e1 and x2=y2=e2 with e1,e2 orthonormal. With Pi=(I-F)/2, E11=E22=0 and E12=E21=-1/2. Thus E=[[0,-1/2],[-1/2,0]], and (1,1) E (1,1)^T=-1<0; the eigenvalues are -1/2 and 1/2. In contrast K=I-F/2 gives G=[[1/2,-1/2],[-1/2,1/2]], which is PSD. This explicitly disproves the proposed per-subset condition without disproving the target matrix condition. The claimed wedge inequality also has right side zero (e_i wedge e_i=0) and nonzero left side. These are exact hand calculations, independently recorded in the archived verification.",
+    "scope": "tentative_candidate_refuted",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "原笔记的正系数分解与“若每个 E_S 为 PSD 则目标成立”均正确，并明确要求先筛查。E=[[0,-1/2],[-1/2,0]] 只推翻拟尝试的逐子集 PSD 条件。保留为失败候选，不记证明错误或 overclaim。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "tentative_candidate_refuted",
+    "original_selection_correction": null,
+    "prior_inventory_key": "NPTBE-003",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "推理已选择逐子集 E_S 半正定辅助引理路线，而其中的辅助候选被反例否定。K 的正系数分解本身不是错误；原文明确说待验证，不能改写成已证明断言。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-29T23:01:00.100Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "tracking/claude-proof-records/source-cache/macstudio-recovery/C--Users-wtaph-Documents-discovery-new-algorithms/<session-id-redacted>.jsonl",
+        "source_line": 1040,
+        "material_id": "M02",
+        "original_line_sha256": "53cda0a0016177783fab592a4fff64c80a44e5f22ee23e42ae41682dedf8f53b"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M02",
+      "source_line": 1040,
+      "timestamp": "2026-07-29T23:01:00.100Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M02",
+      "source_line": 1121,
+      "timestamp": "2026-07-29T23:07:43.892Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "027",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

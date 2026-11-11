@@ -1,0 +1,49 @@
+[
+  {
+    "file": "original/M01-PROOF.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+    "bytes": 307351,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-GAP-003-005-create-proof.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0dc291aede09a295fb4c471d96d707b9ee2e28e549441d4e21c89ef3f7c94257",
+    "bytes": 43329,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-GAP-003-005-create-proof.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c6753777bd686a9783e5d3b6efa2b875e2ce8cd4ba14271e437187880f2589f5",
+    "bytes": 48435,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-additivity-gap__rollout-2026-08-20T19-28-32-<session-id-redacted>.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "af6008971086bda9f23dfe75467998aa2c94fc9fbfa8872290deaa236298c4a5",
+    "bytes": 16976,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-additivity-gap__rollout-2026-08-20T19-28-32-<session-id-redacted>.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "54bb4bc7b56fa3b74ccd6828db30c4f3d97e6ec0cbd388a8527818c87c88cbc9",
+    "bytes": 26515,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-PROOF.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/tracking/ai-proof-records-20260912/recovered-marathon-20260821/additivity-gap/PROOF.md",
+    "original_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+    "source_lines": [
+      1735,
+      1778
+    ],
+    "sha256": "4df652c4b05cfc4597c5e17855f7960adf0382e22db44b9842786e8614202db4",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  }
+]

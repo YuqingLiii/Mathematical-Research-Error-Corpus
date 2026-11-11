@@ -1,0 +1,163 @@
+[
+  {
+    "file": "original/M01-WHGAP-main-c5b96aec.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "506a39dad26dfb9f08db239470b30924661e71c0ef91e59df6afb57b4da13188",
+    "bytes": 172481,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-WHGAP-main-c5b96aec.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "58799df8d6d378305c91f6c7de8b13321488f7099b22ccefbfbf87c51b0847dd",
+    "bytes": 241201,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-whgap_p9_necessary_20260729.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "184819f8c6d7ee9f8174ee62e20717bce7f6ce11ded13d011d58db722cfc5fa8",
+    "bytes": 9216,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-WHGAP-P9-019faef9.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c63e6949d54eb6aa1ab49cf3a8166d31b1e02f2742b72b3550f7d06dbc33baaa",
+    "bytes": 26117,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-WHGAP-P9-019faef9.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "db5a10ac1f9713a34189938eed92625bfc9e612356e730779487bd2546610dbc",
+    "bytes": 34553,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M04-WERNER-HOLEVO-GAP_PROOF_DAG.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c9fc596c26116218d4b8e418ff6048ee08547ffc1a9610fda0d8cf39ac8c8bb9",
+    "bytes": 26353,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M05-whgap_p9_g0.py",
+    "kind": "inherited_sanitized_source",
+    "sha256": "f1939dca5f0efb027603f89995529eb78169143fcde801b4a0d14acffa575d7d",
+    "bytes": 12419,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M06-whgap_p9_distillation.py",
+    "kind": "inherited_sanitized_source",
+    "sha256": "f3caa03064103a0e12d7f67cef38955889883d5cf778e1d7f0f728f9c43f1823",
+    "bytes": 20657,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M07-whgap_lean_t1t2_20260730.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "2d8cce4a6053caf70b28a348d63f86c1eebb10cb09d98e4fbee91e826160567d",
+    "bytes": 35324,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M08-whgap_r8_review_20260730.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "d8cf893170caa0983be465195741c7269a17345c192008032a35e98818cdbdd9",
+    "bytes": 39165,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M09-whgap_r7_review_20260730.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "3b348e4f1999a6b1e00bdff73be6833db6c2bc92ab120a50c64908269e3bf26b",
+    "bytes": 43060,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M10-whgap_r6_review_20260730.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "904988ee689f18ae755f5b645ef3b72449927cc40cb232462d706d9aa1807df1",
+    "bytes": 37971,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M11-whgap_p9b_noascent_20260729.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "b67f302ba59ab7e83d65ebe68a7260e55d2917686ef8d84e7a5b01d8f0372248",
+    "bytes": 7139,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M12-whgap_p6_relaxation_20260729.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "ebfae8967a4bd4a20904a85fc7af8ec3b74853f89db55145f902ba842baba3a1",
+    "bytes": 10707,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M13-whgap_p5_derivation_package_20260729.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "2fe5ea7e5ca0541d94806de77ce8b7e04fc22579672c847e2bd228ed9811365e",
+    "bytes": 22549,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M14-whgap_p3_review_20260729.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "bb5e1410fd160e81653f06ef9558b946a7078ec8f27c6e5b335046d09480956f",
+    "bytes": 21717,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M15-whgap_p3_qonset_20260729.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "b8ad0c51d260d55ace8917cdff79638d9ee0cc10b690455ecb60236d125e34f9",
+    "bytes": 12071,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M16-whgap_external_review_chatgpt_20260728.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "4bbc294ae3aa84ca16f19b4f223f20ff423f077a502546b1e7adbdae23ba6d4b",
+    "bytes": 3675,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M17-main.tex",
+    "kind": "inherited_sanitized_source",
+    "sha256": "e9c8bbabccf9e68654f939b3cadf66aebd0d3b7b61be9c298ee909c92120808a",
+    "bytes": 76802,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M18-whgap_p4_review_20260728.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "8cf26b079931d9e4f328f99799baf72cfb0f126de94e01d89cf6394cef7196e1",
+    "bytes": 19550,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M19-RESEARCH_STRUCTURE_PROTOCOL.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "b507563aa7d3500380811fe611ff010d9ca59652267d32fcaf18c2eaeb91c095",
+    "bytes": 9342,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M20-DAG_PROTOCOL.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "156c6dcd081bff3152eb8f22c36101dff4223cfc82acfffeb58dd912e7719d04",
+    "bytes": 18663,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M21-proof_dag_check.py",
+    "kind": "inherited_sanitized_source",
+    "sha256": "781ded5cd4036ce3999b550f1e3c8ae90ece6f15cf3c4cf31eab776d051955cf",
+    "bytes": 39689,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  }
+]

@@ -1,0 +1,362 @@
+{
+  "record_id": "039",
+  "problem": "Complexity of distance-preserving schedules",
+  "collection": "Follow-up continuation experiment",
+  "summary": "With two occurrences of one variable in the same clause, the wire's auxiliary XOR point is the third clause terminal, not a fresh point. The added gadget imposes an unintended constraint and breaks the satisfiability-preserving direction.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "Given a 3-CNF formula, give clause `t` two fresh basis vectors `a_t,b_t` and use the three occurrence points\n\n`p_{t1}=a_t`, `p_{t2}=b_t`, `p_{t3}=a_t+b_t`.\n\nThey are a binary line by construction.\n\nFor every literal occurrence point `p`, attach a private BOOL gadget on `{p,r_p,p+r_p}` with fresh `r_p`; hence `g(p) in {0,1}`.\n\nFor each Boolean variable, choose one occurrence as reference. Wire every other occurrence to the reference:\n\n* same literal polarity -> equality wire;\n* opposite polarity -> negation wire.\n\nInterpret occurrence value `0` as “this literal is true”.\n\nFinally, for each clause add the single zero-map constraint\n\n`(0,0,0)`\n\non its occurrence line. It is hit iff at least one of the three occurrence bits is zero, exactly the OR condition for the clause.\n\nAll auxiliary points use fresh basis coordinates, so unintended line coincidences are avoided. The number of points and constraints is linear in the formula size.\n\n**Correctness.** A Boolean satisfying assignment sets every literal occurrence to `0` iff that literal is true; the wires and clause check are then satisfied, and all private helpers can be filled from the finite gadget tables. Conversely any section solution can be totalised. The private BOOL gadgets make every occurrence Boolean, the wires give a consistent truth value per variable, and every zero-map clause has a zero occurrence, hence a true literal.\n\nTherefore LINE-SECTION is NP-hard already with `dim L_0=2`. Combining with Theorem 2 gives NP-hardness for **code-realizable** Island-V X-sector instances with weight-4 X checks, `d_X=4`, and `k>=2`.",
+    "context": "A follow-up continuation proposes a general 3-CNF-to-line-section reduction. Each clause uses three occurrence points a,b,a+b; a BOOL/XOR gadget plus a constant gadget wires repeated occurrences. The reported theorem remains CONJECTURED, but the construction asserts that all auxiliary points are fresh.",
+    "locator": "Follow-up generated proof artifact collected 20 September 2026, section 3.4, lines 251–276."
+  },
+  "witness": {
+    "explanation": "With two occurrences of one variable in the same clause, the wire's auxiliary XOR point is the third clause terminal, not a fresh point. The added gadget imposes an unintended constraint and breaks the satisfiability-preserving direction.",
+    "evidence": "Use F=(x∨x∨y)∧(x∨x∨x)∧(¬y∨¬y∨¬y), satisfiable at x=true,y=false. In the first clause, occurrence labels are (0,0,1), where 0 denotes a true literal. Wiring the first two x occurrences at a and b applies the BOOL/XOR gadget on {a,b,a+b}, forcing g(a+b)=g(a) XOR g(b)=0. But a+b is the y occurrence; consistency with the final ¬y clause forces its label to 1. Thus the compiled instance is inconsistent. The archived builder produces an unsatisfiable 107-check abstract CSP for this satisfiable input. A restriction to clauses with distinct variables or an explicit preprocessing step could repair the route, but neither is part of the stated general reduction.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": "The stated general 3-CNF builder chooses clause points u,v,u+v and uses the first occurrence of a variable as the reference for a BOOL/XOR wire. The report claims fresh auxiliary points avoid unintended line coincidences. With repeated literals in a clause, the wire's u+v is instead the third clause terminal.\n\nTake F=(x∨x∨y)∧(x∨x∨x)∧(¬y∨¬y∨¬y). F is satisfiable with x=true,y=false. In the first clause the intended literal labels are (0,0,1), where 0 means true. The equality wire between the first two x occurrences enforces the BOOL table on all three points, forcing the third label to 0; the y consistency wires and last clause force it to 1. The archived builder creates an unsatisfiable abstract instance (107 checks) for this satisfiable F. A deterministic replay reproduces the mismatch.\n\nThis invalidates the reduction as stated for unrestricted 3-CNF. Restricting the source to three distinct variables per clause, or preprocessing, may repair it, but that repair is not credited to the output. The separate principal-atom compiler and gadget tables still provide valid local progress. The original archived script's two toy tests pass, illustrating the limited coverage of those tests. This is a **new error**, not recurrence of the historical exclusivity error; it does not disprove all possible NP-hardness results.",
+  "visible_reasoning": {
+    "availability_description": "网页展开材料有标题和工具写入的错误 fresh auxiliary 构造；工具写入不属于 reasoning summary。尚未找到对应构造的诊断性摘要。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "supporting_artifact"
+      ],
+      "file": "materials/M01-circdist_cplx_islandv_20260820.md",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/artifacts/circdist_cplx_islandv_20260820.md",
+      "original_source_sha256": "cc090b85b715f0474431b5ff0eedfb8b976f33a95402af9696dfb3c11effe76e",
+      "original_source_bytes": 36744,
+      "bundled_file_sha256": "cc090b85b715f0474431b5ff0eedfb8b976f33a95402af9696dfb3c11effe76e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          912
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              251,
+              276
+            ]
+          ],
+          "excerpt_breaks_explicit": true
+        }
+      ],
+      "matched_quote_lines": [
+        251
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "cc090b85b715f0474431b5ff0eedfb8b976f33a95402af9696dfb3c11effe76e",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "original_event_location"
+      ],
+      "file": "materials/M02-all-visible-expanded-dom.txt",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/all-visible-expanded-dom.txt",
+      "original_source_sha256": "0837f9379918856e46c3408c96409f94ca463a5640a4be1aa93f4d28a332cbde",
+      "original_source_bytes": 76594,
+      "bundled_file_sha256": "0837f9379918856e46c3408c96409f94ca463a5640a4be1aa93f4d28a332cbde",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          324
+        ]
+      ],
+      "requested_locators": [
+        "final response and tool-written artifact; tool code is not reasoning summary"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "archived_review_or_witness",
+        "supporting_artifact"
+      ],
+      "file": "materials/M03-MATHEMATICAL_ADJUDICATION.md",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/scoring/MATHEMATICAL_ADJUDICATION.md",
+      "original_source_sha256": "c1e6365f612a4aed7926c4068306be4e732dda43321f74c39b4c6f11c4664278",
+      "original_source_bytes": 8371,
+      "bundled_file_sha256": "c1e6365f612a4aed7926c4068306be4e732dda43321f74c39b4c6f11c4664278",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          77
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              64,
+              68
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        64
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "c1e6365f612a4aed7926c4068306be4e732dda43321f74c39b4c6f11c4664278",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M04-submitted-message.txt",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/submitted-message.txt",
+      "original_source_sha256": "9faa1b2c3e78f71f2fb3cf2cff8057c26bf4769f576ebc505b58abc5df1aa846",
+      "original_source_bytes": 518,
+      "bundled_file_sha256": "9faa1b2c3e78f71f2fb3cf2cff8057c26bf4769f576ebc505b58abc5df1aa846",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M05-visible-conversation.txt",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/visible-conversation.txt",
+      "original_source_sha256": "4c383c52383cb7ae508298919f3e038de54228f2df836b62a21cc08675ae3270",
+      "original_source_bytes": 74451,
+      "bundled_file_sha256": "4c383c52383cb7ae508298919f3e038de54228f2df836b62a21cc08675ae3270",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1463
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M06-final-answer.md",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/final-answer.md",
+      "original_source_sha256": "5013a534a564756ef056a8017cfa03a5aa12ba2ae2247d255eeaeb68fc53acf7",
+      "original_source_bytes": 1852,
+      "bundled_file_sha256": "5013a534a564756ef056a8017cfa03a5aa12ba2ae2247d255eeaeb68fc53acf7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          13
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M07-collection-limitations.json",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/collection-limitations.json",
+      "original_source_sha256": "ef75527303b4137e5b968f62b59f6fd62b0185513b2971d865e1fe7e1b6a91b7",
+      "original_source_bytes": 1064,
+      "bundled_file_sha256": "ef75527303b4137e5b968f62b59f6fd62b0185513b2971d865e1fe7e1b6a91b7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          25
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M08-verify_math.py",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/scoring/verify_math.py",
+      "original_source_sha256": "0dd2eeb92028ad39e6a22b22d0d0c7e54faf2530feebed33b76b869f37267a78",
+      "original_source_bytes": 6404,
+      "bundled_file_sha256": "0dd2eeb92028ad39e6a22b22d0d0c7e54faf2530feebed33b76b869f37267a78",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          119
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M09-math-checks.json",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/scoring/verification/math-checks.json",
+      "original_source_sha256": "6f8474e67de3594ef09b4e1d69ed3436b3e0a07cf7f9c421a90f86997cff1465",
+      "original_source_bytes": 6428,
+      "bundled_file_sha256": "6f8474e67de3594ef09b4e1d69ed3436b3e0a07cf7f9c421a90f86997cff1465",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          240
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M10-circdist_cplx_islandv_verify_20260820.py",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/artifacts/circdist_cplx_islandv_verify_20260820.py",
+      "original_source_sha256": "0fd00074ecaa533a21a7aa2096969a5c3b001953ecf46e610fe42a6462147be9",
+      "original_source_bytes": 17406,
+      "bundled_file_sha256": "0fd00074ecaa533a21a7aa2096969a5c3b001953ecf46e610fe42a6462147be9",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          535
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "supporting_artifact"
+      ],
+      "file": "materials/M11-receipt.json",
+      "readable_file": null,
+      "source_name": "outputs/01a0b51d-0055-7a30-8563-89fb5df9b69c/web-replay-pilot-gpt56sol-thinking-20260919/runs/R08/artifacts/receipt.json",
+      "original_source_sha256": "cc00c396a52ff85f44723a1830107d1a14976ca76c1959fa3b206767417062b5",
+      "original_source_bytes": 512,
+      "bundled_file_sha256": "cc00c396a52ff85f44723a1830107d1a14976ca76c1959fa3b206767417062b5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          17
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 11,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

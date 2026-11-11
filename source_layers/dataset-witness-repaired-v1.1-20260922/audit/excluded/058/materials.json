@@ -1,0 +1,49 @@
+[
+  {
+    "file": "original/M01-GAP-004-generating-function.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "d64cce2fe853bb7a65760c42b313355411964687b849af1db020b514c7fc8c1a",
+    "bytes": 24235,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-GAP-004-generating-function.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "bb9084ee7d67614eea7b7a8cdcc5f33bc38c816a0fb2c8cb8058167a884109ea",
+    "bytes": 28172,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-PROOF.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7",
+    "bytes": 307351,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-rollout-2026-08-20T22-08-17-<session-id-redacted>.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "4131d17c219e82f3bf684bf3a1258f5da63ee61ac1387d0c88cf8d002d95871b",
+    "bytes": 29166,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-rollout-2026-08-20T22-08-17-<session-id-redacted>.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "36505fbb0f5496c68fc4a20511d882dbb9027678c4a22670377b9a362e098752",
+    "bytes": 39192,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-REAUDIT_REPORT.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_claim_gap_20260918/witness_reaudit_v04_20260918/REAUDIT_REPORT.md",
+    "original_sha256": "1d57516aa27fb7927ea39bfaa48808e5209dd60aff79a4bdf520932e2a65acf0",
+    "source_lines": [
+      22,
+      35
+    ],
+    "sha256": "be88793068502311a007d05066dd55bde65d284cb5b855c258685f3e617b7b7e",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  }
+]

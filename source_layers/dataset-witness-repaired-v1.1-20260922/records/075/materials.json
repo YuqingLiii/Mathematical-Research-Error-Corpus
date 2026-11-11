@@ -1,0 +1,77 @@
+[
+  {
+    "file": "original/M01-KSUM-main-b5fea9c2.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "b8d16f59a22fe4a71518c1eaedfd6e02f9401e549b3756e6dfb2af30b2c6c49b",
+    "bytes": 129898,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-KSUM-main-b5fea9c2.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "721fa96aa25ff4e55e8dd22667de2e27aeab1a908158009c59a9174f73fd3d29",
+    "bytes": 159600,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-DATA6_ksum_ledger.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0018482ded6bdd7731828a1b1b18351929ca73abe10c5f2e846ca5afae16904b",
+    "bytes": 1753,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-corpus_50.jsonl.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_claim_gap_20260918/corpus_50.jsonl",
+    "original_sha256": "d410ad6f105321af48ece831bfef410c99c7eee59b320e15ef7d3d5bbedbbb66",
+    "source_lines": [
+      18,
+      18
+    ],
+    "sha256": "a4e5af82598cf902decd23243bd36dde63dc9ee51d5b4847b7e54c7f880a851f",
+    "transformation": "Selected JSONL lines parsed; original visible string fields decoded; encrypted fields/signatures omitted; private identifiers redacted."
+  },
+  {
+    "file": "reconciliation_sources/R02-M01-KSUM-main-b5fea9c2.jsonl.readable.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/dataset-clean/records/075/original/M01-KSUM-main-b5fea9c2.jsonl.readable.md",
+    "original_sha256": "b8d16f59a22fe4a71518c1eaedfd6e02f9401e549b3756e6dfb2af30b2c6c49b",
+    "source_lines": [
+      550,
+      554
+    ],
+    "sha256": "269eeb2cd126c3109ca91dad4cb00c7cc5985088653687fa526aaa5b51e8f933",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R03-ksum_small_alphabet.tex.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/publish/Ai4QuantumAlgorithms/open-questions/ksum-small-alphabet/paper/ksum_small_alphabet.tex",
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81",
+    "source_lines": [
+      275,
+      279
+    ],
+    "sha256": "7ac2e0150b2d3b6c890924bf5e587ffaf7a9326a9815065b7de40ec0eb31c848",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/A01-ksum_small_alphabet.tex",
+    "kind": "supplementary_artifact",
+    "source": "[PROJECT]/publish/Ai4QuantumAlgorithms/open-questions/ksum-small-alphabet/paper/ksum_small_alphabet.tex",
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81",
+    "sha256": "a9acb18208c5cffbd9c4958d3ffa08e3f85771fc58f5f1d403b72e51fdf392af",
+    "transformation": "Full text, private identifiers redacted",
+    "reason": "提供后来明确q>=3的修订与最初raw main:569的版本对照。"
+  },
+  {
+    "file": "reconciliation_sources/A02-ksum_stage3_module_anatomy.md",
+    "kind": "supplementary_artifact",
+    "source": "[PROJECT]/artifacts/ksum_stage3_module_anatomy.md",
+    "original_sha256": "bad7573948e756e38a05ddccd6e9d4ef38bc2e56dc8cd03787f1a01ff3a87bd3",
+    "sha256": "9dbe5e92647bc18d477a0abe255b20c564ea72eff91dcb68b182021ab362c3c6",
+    "transformation": "Full text, private identifiers redacted",
+    "reason": "第29行原轨道泛化与47–67行正确参数化/有限网格并列；仅为来源上下文，不把数据网格当普遍证明。"
+  }
+]

@@ -1,0 +1,216 @@
+{
+  "record_id": "076",
+  "problem": "Quantum k-sum with small alphabets",
+  "collection": "Original research investigation",
+  "summary": "The supplied threshold criticism does not refute this quoted approximate-degree statement. It applies only to an unamplified direct transfer at query failure probability1/3.",
+  "review_status": "interpretation_check_pending",
+  "review_note": "The quoted LP criterion is mathematically valid for the stated epsilon-approximate degree. Current ledger conflates approximation error with failure probability; an actual invalid transfer event is still required.",
+  "original": {
+    "excerpt": "The table gives the optimum correlation at each pure-high-degree band \\(d\\); bold entries exceed \\(1/3\\) and therefore certify \\(\\widetilde{\\deg}_{1/3}\\ge d\\).",
+    "context": "The source explicitly uses sign-valued F and epsilon-approximate degree. A separate convention is needed to translate the polynomial approximation tolerance into a query algorithm's failure probability.",
+    "locator": "Report-writing event, 2026-07-19T18:54:14.287Z; P3 exact LP results."
+  },
+  "witness": {
+    "explanation": "The supplied threshold criticism does not refute this quoted approximate-degree statement. It applies only to an unamplified direct transfer at query failure probability1/3.",
+    "evidence": "If p(x)=Pr[output1] and F(x)=2f(x)-1, then |p-f|<=1/3 gives |(2p-1)-F|<=2/3. A unit-l1 dual measure must have correlation>2/3 to contradict that particular approximant. But for epsilon=1/3 uniform polynomial approximation to F, correlation>1/3 is the correct dual threshold by |<mu,F-p>|<=||mu||1||F-p||infinity. Locate the claimed direct query transfer before counting this convention issue as an error.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "目标 Codex rollout 的 summary 数组为空，只有 encrypted_content；不解密，也不根据其他角色的长摘要补造原作者推理。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M01",
+      "source_line": 250,
+      "timestamp": "2026-07-19T18:53:16.141Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 255,
+      "timestamp": "2026-07-19T18:54:14.287Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 256,
+      "timestamp": "2026-07-19T18:54:14.369Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 257,
+      "timestamp": "2026-07-19T18:54:14.376Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 258,
+      "timestamp": "2026-07-19T18:54:14.376Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "file": "materials/M01-KSUM-L2-019f7bb0.jsonl.visible.json",
+      "readable_file": "materials/M01-KSUM-L2-019f7bb0.jsonl.readable.md",
+      "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/codex/KSUM-L2-019f7bb0.jsonl",
+      "original_source_sha256": "4725e600b1abf0a22f8854f4334e298062bdb690fd5252997f3b7c9b77644d81",
+      "original_source_bytes": 1317619,
+      "bundled_file_sha256": "26004fef34a149336c516919cc29e627416674481c2d1e5383531a08c2c73eeb",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          244,
+          264
+        ]
+      ],
+      "requested_locators": [
+        "JSONL line 255 (successful exact report write; line 250 is a failed attempt)",
+        "JSONL line 255 (successful exact report write; line 250 is a failed attempt)",
+        "JSONL line 255 (successful exact report write; line 250 is a failed attempt)",
+        "255",
+        "255 (2026-07-19T18:54:14.287Z; successful write)",
+        "255",
+        "255 (2026-07-19T18:54:14.287Z; successful write)"
+      ],
+      "matched_quote_lines": [
+        250
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "4725e600b1abf0a22f8854f4334e298062bdb690fd5252997f3b7c9b77644d81",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "4725e600b1abf0a22f8854f4334e298062bdb690fd5252997f3b7c9b77644d81",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M02-KSUM-main-b5fea9c2.jsonl.visible.json",
+      "readable_file": "materials/M02-KSUM-main-b5fea9c2.jsonl.readable.md",
+      "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-main-b5fea9c2.jsonl",
+      "original_source_sha256": "530c1f51422f8368505854c0cf0614efd02ebc72b812dd33389b157daf370a41",
+      "original_source_bytes": 19276580,
+      "bundled_file_sha256": "9be5aa48a7e01fd98ad6dda96cdfe80925d701f6f424065149fe36df0edc1603",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          1718,
+          1730
+        ]
+      ],
+      "requested_locators": [
+        "1724 and :1727",
+        "1724 and :1727"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "historical_evidence_pointer"
+      ],
+      "file": "materials/M03-KSUM_PROOF_DAG.md",
+      "readable_file": null,
+      "source_name": "research/ksum/notes/KSUM_PROOF_DAG.md",
+      "original_source_sha256": "8121de75cd2269920d53d94c04fc04b973b836691de065f6c43738daf6cc380a",
+      "original_source_bytes": 268972,
+      "bundled_file_sha256": "8121de75cd2269920d53d94c04fc04b973b836691de065f6c43738daf6cc380a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2730
+        ]
+      ],
+      "requested_locators": [
+        "#B4bL2-threshold-repair"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 3,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

@@ -1,0 +1,810 @@
+{
+  "record_id": "020",
+  "problem": "Werner–Holevo zero-capacity boundary",
+  "collection": "Original research investigation",
+  "summary": "The fixed spectrum is valid for real-up-to-phase inputs, not arbitrary complex inputs.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "- **Pure-input structure (verify exactly first):** for a pure qutrit psi (take real psi and\n  generic complex psi), spec Λ_x(psi) = {x/2, x/2, 1-x} and\n  spec Λ_x^c(psi) = {1-x, x/2, x/2, 0} — B-side full rank, E-side one-dimensional kernel.",
+    "context": "The claim concerns Lambda_x(rho)=(1-x)rho+(x/2)(Tr(rho)I-rho^T), and is explicitly requested for both real and generic complex pure inputs. The commission says “verify exactly first,” so this is an asserted working formula being tested, not a completed theorem.",
+    "locator": "Research commission write, 2026-07-29T17:13:33.094Z, JSONL line 1522"
+  },
+  "witness": {
+    "explanation": "The fixed spectrum is valid for real-up-to-phase inputs, not arbitrary complex inputs.",
+    "evidence": "Take x=9/20 and psi=(1,i,1)/sqrt(3). Then |psi^T psi|^2=1/9. Writing a=1-x and b=x/2, Lambda_x(|psi><psi|)=bI+a|psi><psi|-b|bar(psi)><bar(psi)| has eigenvalues b and [(1-b) +/- sqrt((1-b)^2-4ab|psi^T psi|^2)]/2. These are 9/40 and (31 +/- 3 sqrt(97))/80, not {11/20,9/40,9/40}.",
+    "scope": "statement_false"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "原始 commission 有 generic complex 的错误固定谱公式，但相邻推理只有 rank/kernel/entropy 路线，未找到同一泛化谱公式。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-29T17:11:03.650Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+        "source_line": 1507,
+        "material_id": "M01",
+        "original_line_sha256": "f984fe6ca463ed9456019a2107b0b027f7f7b19da523273577f8edd9fa907e76"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M01",
+      "source_line": 1507,
+      "timestamp": "2026-07-29T17:11:03.650Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4873,
+      "timestamp": "2026-07-29T17:11:03.650Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 1522,
+      "timestamp": "2026-07-29T17:13:33.094Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4884,
+      "timestamp": "2026-07-29T17:13:33.094Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 1523,
+      "timestamp": "2026-07-29T17:13:33.318Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4885,
+      "timestamp": "2026-07-29T17:13:33.318Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M01-WHGAP-main-c5b96aec.jsonl.visible.json",
+      "readable_file": "materials/M01-WHGAP-main-c5b96aec.jsonl.readable.md",
+      "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+      "original_source_sha256": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e",
+      "original_source_bytes": 17838205,
+      "bundled_file_sha256": "58799df8d6d378305c91f6c7de8b13321488f7099b22ccefbfbf87c51b0847dd",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          1501,
+          1513
+        ],
+        [
+          1516,
+          1529
+        ],
+        [
+          1558,
+          1570
+        ],
+        [
+          4867,
+          4891
+        ]
+      ],
+      "requested_locators": [
+        "Research commission write, 2026-07-29T17:13:33.094Z, JSONL line 1522",
+        "JSONL lines 1507 (route thinking) and 1522 (exact commission Write)",
+        "JSONL lines 1507 (route thinking) and 1522 (exact commission Write)",
+        "1507 and :1522",
+        "1522 (2026-07-29T17:13:33.094Z)",
+        "1564",
+        "1507 and :1522",
+        "1522 (2026-07-29T17:13:33.094Z)",
+        "1564",
+        {
+          "line_ranges": [
+            [
+              1507,
+              1507
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        1507,
+        1522,
+        1523,
+        4873,
+        4884,
+        4885
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [
+        {
+          "line": 1507,
+          "expected_raw_line_sha256": "f984fe6ca463ed9456019a2107b0b027f7f7b19da523273577f8edd9fa907e76",
+          "observed_raw_line_sha256": "f984fe6ca463ed9456019a2107b0b027f7f7b19da523273577f8edd9fa907e76",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "supporting_artifact",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M02-whgap_p9_necessary_20260729.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_p9_necessary_20260729.md",
+      "original_source_sha256": "ef5e32cc41f6b54f13fa39640f63df65875d0040ee6ca6860998e8524266b795",
+      "original_source_bytes": 9222,
+      "bundled_file_sha256": "184819f8c6d7ee9f8174ee62e20717bce7f6ce11ded13d011d58db722cfc5fa8",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          249
+        ]
+      ],
+      "requested_locators": [
+        "55-87",
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M03-WHGAP-P9-019faef9.jsonl.visible.json",
+      "readable_file": "materials/M03-WHGAP-P9-019faef9.jsonl.readable.md",
+      "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/codex/WHGAP-P9-019faef9.jsonl",
+      "original_source_sha256": "5f4e2b535c2010681435683e4db2f5fab2c928e3ea95e6209c7095f8ab9d9c58",
+      "original_source_bytes": 716290,
+      "bundled_file_sha256": "db5a10ac1f9713a34189938eed92625bfc9e612356e730779487bd2546610dbc",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          75,
+          87
+        ]
+      ],
+      "requested_locators": [
+        "81 and :120",
+        "81 and :120"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "historical_evidence_pointer"
+      ],
+      "file": "materials/M04-WERNER-HOLEVO-GAP_PROOF_DAG.md",
+      "readable_file": null,
+      "source_name": "channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md",
+      "original_source_sha256": "c9fc596c26116218d4b8e418ff6048ee08547ffc1a9610fda0d8cf39ac8c8bb9",
+      "original_source_bytes": 26353,
+      "bundled_file_sha256": "c9fc596c26116218d4b8e418ff6048ee08547ffc1a9610fda0d8cf39ac8c8bb9",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          369
+        ]
+      ],
+      "requested_locators": [
+        "#P9"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M05-whgap_p9_g0.py",
+      "readable_file": null,
+      "source_name": "tools/whgap_p9_g0.py",
+      "original_source_sha256": "f1939dca5f0efb027603f89995529eb78169143fcde801b4a0d14acffa575d7d",
+      "original_source_bytes": 12419,
+      "bundled_file_sha256": "f1939dca5f0efb027603f89995529eb78169143fcde801b4a0d14acffa575d7d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          333
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/whgap_p9_necessary_20260729.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M06-whgap_p9_distillation.py",
+      "readable_file": null,
+      "source_name": "tools/whgap_p9_distillation.py",
+      "original_source_sha256": "f3caa03064103a0e12d7f67cef38955889883d5cf778e1d7f0f728f9c43f1823",
+      "original_source_bytes": 20657,
+      "bundled_file_sha256": "f3caa03064103a0e12d7f67cef38955889883d5cf778e1d7f0f728f9c43f1823",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          571
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by artifacts/whgap_p9_necessary_20260729.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-whgap_lean_t1t2_20260730.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_lean_t1t2_20260730.md",
+      "original_source_sha256": "aee2f04494cc4ad30c3c843e19bf2f3961bc4e9c2db811b84bef54be94ed813a",
+      "original_source_bytes": 35325,
+      "bundled_file_sha256": "2d8cce4a6053caf70b28a348d63f86c1eebb10cb09d98e4fbee91e826160567d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          413
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-whgap_r8_review_20260730.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_r8_review_20260730.md",
+      "original_source_sha256": "ff1608d5ebb833025a936d2af81bdf44d6c68c56335673fc75a99d4d08aa6d73",
+      "original_source_bytes": 39167,
+      "bundled_file_sha256": "d8cf893170caa0983be465195741c7269a17345c192008032a35e98818cdbdd9",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          583
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M09-whgap_r7_review_20260730.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_r7_review_20260730.md",
+      "original_source_sha256": "16ec496b1b8801c1bc2e7fa8de2333e39d5fb9a76f106256b19b4bffaaddb0f5",
+      "original_source_bytes": 43062,
+      "bundled_file_sha256": "3b348e4f1999a6b1e00bdff73be6833db6c2bc92ab120a50c64908269e3bf26b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          605
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M10-whgap_r6_review_20260730.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_r6_review_20260730.md",
+      "original_source_sha256": "75530b64d8842412fd56b55e42db305fee9589a7980124db759436a06c4e7236",
+      "original_source_bytes": 37975,
+      "bundled_file_sha256": "904988ee689f18ae755f5b645ef3b72449927cc40cb232462d706d9aa1807df1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          508
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M11-whgap_p9b_noascent_20260729.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_p9b_noascent_20260729.md",
+      "original_source_sha256": "264a784fa0bbac97bfe635ed95adb2115fbabc62bb4dfc4b65f20de58d10651b",
+      "original_source_bytes": 7141,
+      "bundled_file_sha256": "b67f302ba59ab7e83d65ebe68a7260e55d2917686ef8d84e7a5b01d8f0372248",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          185
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M12-whgap_p6_relaxation_20260729.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_p6_relaxation_20260729.md",
+      "original_source_sha256": "dd21aaef138afe7c96a137732b13ff762574972eaddd42077101e223d9dac704",
+      "original_source_bytes": 10708,
+      "bundled_file_sha256": "ebfae8967a4bd4a20904a85fc7af8ec3b74853f89db55145f902ba842baba3a1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          222
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M13",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M13-whgap_p5_derivation_package_20260729.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_p5_derivation_package_20260729.md",
+      "original_source_sha256": "2e1f65ea2e5efb52d042b68f0a4eaa1f66723a5028ca38f982c30127cb3bf72e",
+      "original_source_bytes": 22550,
+      "bundled_file_sha256": "2fe5ea7e5ca0541d94806de77ce8b7e04fc22579672c847e2bd228ed9811365e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          360
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M14",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M14-whgap_p3_review_20260729.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_p3_review_20260729.md",
+      "original_source_sha256": "0a31b4181c1ed2375679f83f7f67e34ed94c866148dfc19d6572c0dda0864d6a",
+      "original_source_bytes": 21719,
+      "bundled_file_sha256": "bb5e1410fd160e81653f06ef9558b946a7078ec8f27c6e5b335046d09480956f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          484
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M15",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M15-whgap_p3_qonset_20260729.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_p3_qonset_20260729.md",
+      "original_source_sha256": "6fabd623a7a493802f2ffce207bfdaa12e51da4f6eee04ee0a17b320d3216293",
+      "original_source_bytes": 12077,
+      "bundled_file_sha256": "b8ad0c51d260d55ace8917cdff79638d9ee0cc10b690455ecb60236d125e34f9",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          315
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M16",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M16-whgap_external_review_chatgpt_20260728.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_external_review_chatgpt_20260728.md",
+      "original_source_sha256": "4bbc294ae3aa84ca16f19b4f223f20ff423f077a502546b1e7adbdae23ba6d4b",
+      "original_source_bytes": 3675,
+      "bundled_file_sha256": "4bbc294ae3aa84ca16f19b4f223f20ff423f077a502546b1e7adbdae23ba6d4b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          57
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M17",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M17-main.tex",
+      "readable_file": null,
+      "source_name": "paper/main.tex",
+      "original_source_sha256": "e9c8bbabccf9e68654f939b3cadf66aebd0d3b7b61be9c298ee909c92120808a",
+      "original_source_bytes": 76802,
+      "bundled_file_sha256": "e9c8bbabccf9e68654f939b3cadf66aebd0d3b7b61be9c298ee909c92120808a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1521
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M18",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M18-whgap_p4_review_20260728.md",
+      "readable_file": null,
+      "source_name": "artifacts/whgap_p4_review_20260728.md",
+      "original_source_sha256": "6f425756d900801e9d7a6b94a9ab3628762c2fb9f1c9f7689305affb7571ba77",
+      "original_source_bytes": 19553,
+      "bundled_file_sha256": "8cf26b079931d9e4f328f99799baf72cfb0f126de94e01d89cf6394cef7196e1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          317
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M19",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M19-RESEARCH_STRUCTURE_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "publish/QuantumOpenQuestion/research/RESEARCH_STRUCTURE_PROTOCOL.md",
+      "original_source_sha256": "b507563aa7d3500380811fe611ff010d9ca59652267d32fcaf18c2eaeb91c095",
+      "original_source_bytes": 9342,
+      "bundled_file_sha256": "b507563aa7d3500380811fe611ff010d9ca59652267d32fcaf18c2eaeb91c095",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          179
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M20",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M20-DAG_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "research/DAG_PROTOCOL.md",
+      "original_source_sha256": "156c6dcd081bff3152eb8f22c36101dff4223cfc82acfffeb58dd912e7719d04",
+      "original_source_bytes": 18663,
+      "bundled_file_sha256": "156c6dcd081bff3152eb8f22c36101dff4223cfc82acfffeb58dd912e7719d04",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          316
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M21",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M21-proof_dag_check.py",
+      "readable_file": null,
+      "source_name": "tools/proof_dag_check.py",
+      "original_source_sha256": "781ded5cd4036ce3999b550f1e3c8ae90ece6f15cf3c4cf31eab776d051955cf",
+      "original_source_bytes": 39689,
+      "bundled_file_sha256": "781ded5cd4036ce3999b550f1e3c8ae90ece6f15cf3c4cf31eab776d051955cf",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          930
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by channel-capacity/werner-holevo-gap/notes/WERNER-HOLEVO-GAP_PROOF_DAG.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 21,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

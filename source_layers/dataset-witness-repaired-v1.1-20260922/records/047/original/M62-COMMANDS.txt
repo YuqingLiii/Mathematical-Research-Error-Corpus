@@ -1,0 +1,8 @@
+# Run from repository root. The fresh central-spectrum reconstruction may take several minutes.
+python artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/review_second_gate.py --json artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/second_gate_review.json --log artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/second_gate_review.log
+
+# Compact result check.
+python -c "import json,pathlib; d=json.loads(pathlib.Path('artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722/second_gate_review.json').read_text()); assert d['verdict']=='CONFIRMED_SINGLE_GATE'; assert all(d['checks'].values()); assert d['uniform_c2_or_t5_promotion_licensed'] is False; print('SECOND_GATE_REVIEW_JSON PASS')"
+
+# Verify this packet after SHA256SUMS.txt is generated.
+python -c "import hashlib,pathlib; d=pathlib.Path('artifacts/logs_se_trace_t5_second_tame_c2_gate_review_20260722'); rows=[line.split(maxsplit=1) for line in (d/'SHA256SUMS.txt').read_text().splitlines()]; assert all(hashlib.sha256((d/name.strip()).read_bytes()).hexdigest()==want for want,name in rows); print('SECOND_GATE_REVIEW_SHA256 PASS')"

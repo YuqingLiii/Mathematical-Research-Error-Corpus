@@ -1,0 +1,49 @@
+[
+  {
+    "file": "original/M01-<session-id-redacted>.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0fd107a356b1a882e4125b2d4c011cad46522b98f6aa957e0f34c03fdf738430",
+    "bytes": 134642,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-<session-id-redacted>.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "37e9f29d120224eb4db74ccb95af85cb986c2443e6919848bf6229d0634cd9cf",
+    "bytes": 186382,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-949240a-ksum_small_alphabet.tex",
+    "kind": "inherited_sanitized_source",
+    "sha256": "a9acb18208c5cffbd9c4958d3ffa08e3f85771fc58f5f1d403b72e51fdf392af",
+    "bytes": 35904,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-8e0f1063-KSUM_FINAL_REPORT.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "962c22bc097cdfade5bfe5e310615f0ff1b7504ad93bcc9757fd055e8e24602f",
+    "bytes": 10630,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M04-DATA6_ksum_ledger.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0018482ded6bdd7731828a1b1b18351929ca73abe10c5f2e846ca5afae16904b",
+    "bytes": 1753,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-8e0f1063-KSUM_FINAL_REPORT.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/release_work/recovered_artifacts/8e0f1063-KSUM_FINAL_REPORT.md",
+    "original_sha256": "962c22bc097cdfade5bfe5e310615f0ff1b7504ad93bcc9757fd055e8e24602f",
+    "source_lines": [
+      17,
+      21
+    ],
+    "sha256": "e79bd4b3f549d37388c8618948354367dcb2684382b4ab67930a6ea5e5ae2fcd",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  }
+]

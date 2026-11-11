@@ -1,0 +1,2212 @@
+{
+  "record_id": "066",
+  "problem": "Optimal circuit distance of the Gross code",
+  "collection": "Original research investigation",
+  "summary": "An orbit can be replaced by its lexicographically least member only if the base formula remains true under the group action. Soundness of individual exclusion clauses does not imply invariance of their installed subset.",
+  "review_status": "source_or_fixture_check_pending",
+  "review_note": "The exact base-model assignment and all 72 translate evaluations are source-bound in the archive, but the selected text is not itself a standalone executable certificate. Before final release, bundle the small relevant schedule/registry witness or supply a self-contained reduced counterexample at the same claimed scope.",
+  "original": {
+    "excerpt": "UNSAT of the checked quotient plus sound base exclusions would prove every legal schedule has a weight<=10 direct mechanism; SAT supplies only a canonical candidate.",
+    "context": "A finite search quotient appended lexicographic symmetry-breaking clauses to an exclusion registry. The quotient was intended to cover the full legal schedule class. The registry had not been closed under the 72-element translation group.",
+    "locator": "Archived computational certificate dated 1 September 2026, iteration-185 quotient, finite_coverage_theorem.root_use."
+  },
+  "witness": {
+    "explanation": "An orbit can be replaced by its lexicographically least member only if the base formula remains true under the group action. Soundness of individual exclusion clauses does not imply invariance of their installed subset.",
+    "evidence": "Let B be the base formula with 330 selectors and 14,484 untranslated block cuts, and let L be its 71 nonidentity translation lex-leader constraints. The archived independent counter-scenario provides a legal base model S. Among all 72 translated schedules, only the identity translate satisfies B. The lexicographically least translate is at δ=(1,5), and it violates 75 installed block cuts. Therefore this orbit has a B-model but no model of B∧L. The required implication B(S)⇒B(δS) fails, so orbit-wise coverage and lifting an UNSAT result are unjustified. Both old formulas happened to be SAT; this witness invalidates the coverage theorem rather than claiming the quotient itself is UNSAT.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": "Let `B_185` be the first outer base with 330 selectors and the untranslated 14,484 block registry. Its exact CNF has 416,062 variables, 1,417,374 clauses, and SHA-256 `ddd40740b42854b74de7d64e3899f017a58a56223b3fa560d15845a9f7cae6c9`. Let `L` be the conjunction of the 71 translation lex leaders.\n\nI independently launched a fresh CaDiCaL solve of `B_185`, outside the proposer ledger. It returned `rc=10/SAT` in about 3.42 seconds with empty stderr. I parsed exactly 416,062 assignment literals, checked the exact variable domain, and satisfied all 1,417,374 clauses. The decoded legal raw schedule has SHA-256 `50e84c565d1ff4191a3fa48c22f0d4509ec072645540cb791e7acc3c33e8f148`; rank compression gives SHA-256 `1b68d1beb7c2205d7def84e5f1560340523d095be60ae348d27b58523f3df513`, 144 layers.\n\nI then enumerated all 72 translated raw schedules and evaluated every original block and selector directly:\n\n* exactly one translate survives `B_185`, the identity `(0,0)`;\n* the orbit’s lexicographically least raw vector occurs at `(1,5)`;\n* that least translate has raw schedule SHA-256 `01ced0f703ea1bf21c6c9a07d963f7514eaa85bbfd16ab4373a2635340c51087`;\n* it hits 75 installed block cuts and zero selectors; and\n* its first hit in registry order is `r69-Xerr-2-8-19`.\n\nTherefore this base orbit contains no member satisfying both the original base and all lex leaders: its only base survivor is not least, and its least member is not a base model. The failed proof step is\n\n\\[\nB_{185}(S)\\Longrightarrow B_{185}(\\delta S),\n\\]\n\nwhich is false because the registry was not invariant. This is a concrete refutation of the orbit-canonicalization claim. It does not assert that `B_185 ∧ L` is UNSAT; the package’s different exploratory assignment proves it SAT. It establishes that the quotient has no licensed orbit-wise coverage or UNSAT lifting theorem.",
+  "visible_reasoning": {
+    "availability_description": "生成期摘要只有 quotient CNF/lex order 计划；后来识别不变性缺口的摘要不算生成期证据。",
+    "anchors": [
+      {
+        "timestamp": "2026-09-01T04:36:22.530Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "generation",
+        "source_name": "local-session-archive/2026/09/01/rollout-2026-09-01T00-22-48-<session-id-redacted>.jsonl",
+        "source_line": 365,
+        "material_id": "M05",
+        "original_line_sha256": "6cc51fbcb48ea6606ecc7830b917e5b90f975fcc1384eacac8b302e17c503477"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M05",
+      "source_line": 358,
+      "timestamp": "2026-09-01T04:35:53.613Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 359,
+      "timestamp": "2026-09-01T04:35:53.614Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 360,
+      "timestamp": "2026-09-01T04:36:06.624Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 361,
+      "timestamp": "2026-09-01T04:36:06.624Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 362,
+      "timestamp": "2026-09-01T04:36:17.439Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 363,
+      "timestamp": "2026-09-01T04:36:17.440Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 364,
+      "timestamp": "2026-09-01T04:36:22.529Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 365,
+      "timestamp": "2026-09-01T04:36:22.530Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_evidence_pointer",
+        "archived_exposure",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M01-independent_check.json",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/global/iter185_translation_quotient/independent_check.json",
+      "original_source_sha256": "1ef3e54d9291786e63b1f82bea222fb9885a196c5adca509ca989b06407c6cea",
+      "original_source_bytes": 1930,
+      "bundled_file_sha256": "1ef3e54d9291786e63b1f82bea222fb9885a196c5adca509ca989b06407c6cea",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          44
+        ]
+      ],
+      "requested_locators": [
+        {
+          "json_pointer": "/finite_coverage_theorem/root_use"
+        },
+        "#finite_coverage_theorem",
+        "#finite_coverage_theorem",
+        "Referenced by research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/GLOBAL_TRANSLATION_THEOREM.md"
+      ],
+      "matched_quote_lines": [
+        14
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "1ef3e54d9291786e63b1f82bea222fb9885a196c5adca509ca989b06407c6cea",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "archived_review_or_witness",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M02-circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+      "original_source_sha256": "a7e027b228d785fae5280b33ab95f7999bb4e9b3e001cd30a5816444637db48e",
+      "original_source_bytes": 146715,
+      "bundled_file_sha256": "4ddb4f4bc966a5c930066409cb267aea30d3b3bb68a45529e1174052ccd7e361",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1708
+        ]
+      ],
+      "requested_locators": [
+        "§8，首段摘要",
+        "§8，首段摘要",
+        {
+          "line_ranges": [
+            [
+              351,
+              369
+            ]
+          ]
+        },
+        "#8",
+        "§8，首段摘要",
+        "#8",
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [
+        351
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "a7e027b228d785fae5280b33ab95f7999bb4e9b3e001cd30a5816444637db48e",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "a7e027b228d785fae5280b33ab95f7999bb4e9b3e001cd30a5816444637db48e",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "a7e027b228d785fae5280b33ab95f7999bb4e9b3e001cd30a5816444637db48e",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M03-GLOBAL_TRANSLATION_THEOREM.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/GLOBAL_TRANSLATION_THEOREM.md",
+      "original_source_sha256": "142ebc8bdd9e9c93115a68d1838301bf86c5820e1c61ea884bb910a6a7c7d3c3",
+      "original_source_bytes": 8479,
+      "bundled_file_sha256": "142ebc8bdd9e9c93115a68d1838301bf86c5820e1c61ea884bb910a6a7c7d3c3",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          196
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "historical_evidence_pointer",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-CIRCDIST.gross.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml",
+      "original_source_sha256": "876286cc0a05acf8e3d6d214b806fe0916eb95850723ba50400096e05cc8c99b",
+      "original_source_bytes": 191125,
+      "bundled_file_sha256": "196aa2ec101b290d5b53b06af4f0e6e1ad4570e8ca7465dd74b2b9419429c77a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1882
+        ]
+      ],
+      "requested_locators": [
+        "gross-global-closure-round103-review",
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M05-rollout-2026-09-01T00-22-48-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M05-rollout-2026-09-01T00-22-48-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "local-session-archive/2026/09/01/rollout-2026-09-01T00-22-48-<session-id-redacted>.jsonl",
+      "original_source_sha256": "b22e1f1add2b3c2f6566b999b0b22285dbfe8dbb702f78dba2827cc8e22b1e99",
+      "original_source_bytes": 15290950,
+      "bundled_file_sha256": "dc53b771e7179911def3aa6541adb9113450800d7158760cac8899151d45b362",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          352,
+          371
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              365,
+              365
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365
+      ],
+      "historical_hash_matches": [],
+      "event_hash_checks": [
+        {
+          "line": 365,
+          "expected_raw_line_sha256": "6cc51fbcb48ea6606ecc7830b917e5b90f975fcc1384eacac8b302e17c503477",
+          "observed_raw_line_sha256": "6cc51fbcb48ea6606ecc7830b917e5b90f975fcc1384eacac8b302e17c503477",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M06-scheduler.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/bindings/scheduler.yaml",
+      "original_source_sha256": "02cb4b7a02963451adf962dfc59fa3eb11ef8f71d7b2b2c49d89e6bc61e2c8f5",
+      "original_source_bytes": 274811,
+      "bundled_file_sha256": "02cb4b7a02963451adf962dfc59fa3eb11ef8f71d7b2b2c49d89e6bc61e2c8f5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          3258
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-circdist_gross_round80_whole_registry_exact_review_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_round80_whole_registry_exact_review_20260830.md",
+      "original_source_sha256": "e0d6ad5b54768195516239f4d0a262135025a630ecd6292d91cb694baa51597e",
+      "original_source_bytes": 35936,
+      "bundled_file_sha256": "e0d6ad5b54768195516239f4d0a262135025a630ecd6292d91cb694baa51597e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          317
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-circdist_gross_round78_cross_registry_exact_review_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_round78_cross_registry_exact_review_20260830.md",
+      "original_source_sha256": "e90dc1a23c5c1740267c0ed21920ef4b4af05dab1aecd5eeef934c2a25d2a17a",
+      "original_source_bytes": 39463,
+      "bundled_file_sha256": "e840712c64a7db60641e7e67efef80a657c4c344f94fe6a232d7da7b38ebf621",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          412
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M09-circdist_gross_round76_online_generalizing_exact_review_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_round76_online_generalizing_exact_review_20260829.md",
+      "original_source_sha256": "1105df9cda3c9afb7b152ebd0cd6e7f5aff82b2a2441c52635169d13eb2cea39",
+      "original_source_bytes": 60025,
+      "bundled_file_sha256": "1105df9cda3c9afb7b152ebd0cd6e7f5aff82b2a2441c52635169d13eb2cea39",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          743
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M10-circdist_gross_round74_online_generalizing_exact_review_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_round74_online_generalizing_exact_review_20260829.md",
+      "original_source_sha256": "a6ee9d2c18291f3474672fb13682e6720a0f2d313da138da26397e67ccd48cc8",
+      "original_source_bytes": 52494,
+      "bundled_file_sha256": "a6ee9d2c18291f3474672fb13682e6720a0f2d313da138da26397e67ccd48cc8",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          624
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M11-circdist_gross_round72_generalization_exact_review_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_round72_generalization_exact_review_20260829.md",
+      "original_source_sha256": "92e2b6306f7181b2c61fa02b3eba0624a74864f19045e6e72b208754115224d3",
+      "original_source_bytes": 55164,
+      "bundled_file_sha256": "92e2b6306f7181b2c61fa02b3eba0624a74864f19045e6e72b208754115224d3",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          549
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M12-circdist_gross_block_minimization_exact_review_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_block_minimization_exact_review_20260829.md",
+      "original_source_sha256": "b2fe38fd6adb1ef974624a49b84b7a61620a5c97a531155aac01fc39dbfbaabe",
+      "original_source_bytes": 36570,
+      "bundled_file_sha256": "0f2e7256104a3879b0ce821c713ef10d9d171e126707d0e4218d70155beb71ea",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          793
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M13",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M13-circdist_dstar_hunt3_20260828.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_dstar_hunt3_20260828.md",
+      "original_source_sha256": "add78a4d0caea89781c68f41c679b96be6d7cce2a13f70d004e4f07e95738943",
+      "original_source_bytes": 34625,
+      "bundled_file_sha256": "add78a4d0caea89781c68f41c679b96be6d7cce2a13f70d004e4f07e95738943",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          678
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M14",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M14-circdist_gross_morphing_scope_ruling_20260826.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_morphing_scope_ruling_20260826.md",
+      "original_source_sha256": "e322cc9a342da0a0d7880c3f23dc5487d16441f75963b4863e112bea4e776984",
+      "original_source_bytes": 42541,
+      "bundled_file_sha256": "f8a9210c390ceb83b95dee818119570d36ccd142f61bec6a03936673ead2b78c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          490
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M15",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M15-CIRCDIST.gross.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/pre_protocol_20260826/nodes/CIRCDIST.gross.yaml",
+      "original_source_sha256": "559f6e4898e43d04836da1acc826e8f38579b467b4570735f2b265554eb07e4f",
+      "original_source_bytes": 37804,
+      "bundled_file_sha256": "dab03e049d4c6265270a4a27ff3b29301e9e6a4a34281bb356c678fb33f4fe30",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          564
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M16",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M16-legacy_DAG_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/legacy_DAG_PROTOCOL.md",
+      "original_source_sha256": "9a7e8400b404948ce5ae35a44fbeaeeb9b21e7c0ba68ee2aa9b346aa736a4a25",
+      "original_source_bytes": 13530,
+      "bundled_file_sha256": "9a7e8400b404948ce5ae35a44fbeaeeb9b21e7c0ba68ee2aa9b346aa736a4a25",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          254
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M17",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M17-circdist_gross_verdict_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_verdict_20260823.md",
+      "original_source_sha256": "d4b758f9db6a676a3315929520eb3a8960cba9ea2c3e17c92803410e0122988c",
+      "original_source_bytes": 97561,
+      "bundled_file_sha256": "d4b758f9db6a676a3315929520eb3a8960cba9ea2c3e17c92803410e0122988c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1902
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M18",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M18-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/logs_circdist_gross_verdict_20260823/SHA256SUMS.txt",
+      "original_source_sha256": "c90a9798484cb643fe51cd42475326d282373560736b0cc11c09589e235f782d",
+      "original_source_bytes": 5071,
+      "bundled_file_sha256": "c90a9798484cb643fe51cd42475326d282373560736b0cc11c09589e235f782d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          63
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M19",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M19-circdist_gross_final_decision_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_final_decision_20260823.md",
+      "original_source_sha256": "0170bd196f3b21814585f95f58d68850d318a02aa89ec77fc82da63ba7219dfc",
+      "original_source_bytes": 84374,
+      "bundled_file_sha256": "e23279b0c9d4fa7f449bc82dd5738c6ea948fd9fe2b5480305f703cbd6a62659",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1609
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M20",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M20-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/logs_circdist_gross_final_20260823/SHA256SUMS.txt",
+      "original_source_sha256": "792f7d65c670507a39c7f836fc6ebb4b68f105111916fbdd5ca40634d94997c1",
+      "original_source_bytes": 1832,
+      "bundled_file_sha256": "792f7d65c670507a39c7f836fc6ebb4b68f105111916fbdd5ca40634d94997c1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          23
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M21",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M21-circdist_gross_candidate_decision_20260822.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_candidate_decision_20260822.md",
+      "original_source_sha256": "a04a3d0fd866740f02bb0d4a0dbbcc193201e5361d5a3b2b1bd3bdd57cd12c11",
+      "original_source_bytes": 58507,
+      "bundled_file_sha256": "a04a3d0fd866740f02bb0d4a0dbbcc193201e5361d5a3b2b1bd3bdd57cd12c11",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1100
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M22",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M22-SHA256SUMS.txt",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/logs_circdist_gross_drivers_20260823/SHA256SUMS.txt",
+      "original_source_sha256": "e92e846fa6e13b0b7ca7abb2311cc9998676b81045a11775965b094b65bec354",
+      "original_source_bytes": 929,
+      "bundled_file_sha256": "e92e846fa6e13b0b7ca7abb2311cc9998676b81045a11775965b094b65bec354",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          13
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M23",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M23-circdist_gross_candidate_unsat_20260822.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_candidate_unsat_20260822.md",
+      "original_source_sha256": "17637b5d7eb637016071c43142d22ffea1eb28072de6f67d881657ec0af0c8a4",
+      "original_source_bytes": 109115,
+      "bundled_file_sha256": "17637b5d7eb637016071c43142d22ffea1eb28072de6f67d881657ec0af0c8a4",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2219
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M24",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M24-circdist_gross_phicert_20260822.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_phicert_20260822.md",
+      "original_source_sha256": "0d5d2baca30e5d55a77c3d48b7f070b46d10e592ec2557af731070b4b6eb395f",
+      "original_source_bytes": 117295,
+      "bundled_file_sha256": "0d5d2baca30e5d55a77c3d48b7f070b46d10e592ec2557af731070b4b6eb395f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2301
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M25",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M25-circdist_sbbcert_review_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_sbbcert_review_20260820.md",
+      "original_source_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+      "original_source_bytes": 35424,
+      "bundled_file_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          580
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M26",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M26-CIRCDIST_PROBLEMS.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/definitions/CIRCDIST_PROBLEMS.md",
+      "original_source_sha256": "5f6dc37fcc33c0eb9f90e6267864740fc53b65c4acf1ee870c8d29ffd6d46c64",
+      "original_source_bytes": 10199,
+      "bundled_file_sha256": "5f6dc37fcc33c0eb9f90e6267864740fc53b65c4acf1ee870c8d29ffd6d46c64",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          244
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M27",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M27-circdist_gross_sbbcert_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_sbbcert_20260820.md",
+      "original_source_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+      "original_source_bytes": 131768,
+      "bundled_file_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2910
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M28",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M28-circdist_lift_iff_proof_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_iff_proof_20260820.md",
+      "original_source_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979",
+      "original_source_bytes": 90225,
+      "bundled_file_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1498
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M29",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M29-circdist_numerical_review_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_numerical_review_20260820.md",
+      "original_source_sha256": "b542aea1da06e489dccce2d9b689ad5c608a20ffd28399cb7017144821bc54ee",
+      "original_source_bytes": 104455,
+      "bundled_file_sha256": "b542aea1da06e489dccce2d9b689ad5c608a20ffd28399cb7017144821bc54ee",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2246
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M30",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M30-circdist_lift_d3gate_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_d3gate_20260820.md",
+      "original_source_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "original_source_bytes": 53117,
+      "bundled_file_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1170
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M31",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M31-circdist_gross_g1_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_g1_20260820.md",
+      "original_source_sha256": "10f4fdac5fec9a871d9663fe8fe0b00cda3ea9a40f8e70b50cceaccf79840776",
+      "original_source_bytes": 96183,
+      "bundled_file_sha256": "10f4fdac5fec9a871d9663fe8fe0b00cda3ea9a40f8e70b50cceaccf79840776",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2193
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M32",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M32-circdist_gross_toolfeas_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_toolfeas_20260820.md",
+      "original_source_sha256": "2f67c53b54a0012b4124d6170c6ad79b431a941caf59a4fc92c952a8df9c2aa7",
+      "original_source_bytes": 4124,
+      "bundled_file_sha256": "2f67c53b54a0012b4124d6170c6ad79b431a941caf59a4fc92c952a8df9c2aa7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          62
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M33",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M33-circdist_gross_recon_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_recon_20260820.md",
+      "original_source_sha256": "823bc687317d1d213d8b04af4928974e15797c856c18dbdae73931e93d0a953b",
+      "original_source_bytes": 46316,
+      "bundled_file_sha256": "823bc687317d1d213d8b04af4928974e15797c856c18dbdae73931e93d0a953b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          755
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M34",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M34-circdist_gross_verdict_review_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_verdict_review_20260823.md",
+      "original_source_sha256": "ce76a2ce88a4eef6690884b3195e58d56d07306932f836910d45a0a555c179b5",
+      "original_source_bytes": 69866,
+      "bundled_file_sha256": "490796418d5a8b498189d75342e04a30fa35268dd40dc84d87a54a65bc9b091a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1051
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M35",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M35-circdist_gross_links_review_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_links_review_20260823.md",
+      "original_source_sha256": "8668638473e349511eb428e20bf6bd0d8a5189c9c6477aeba6057ef2fbb1f898",
+      "original_source_bytes": 32609,
+      "bundled_file_sha256": "7bcc3ac7e84bd71358aa7aab2cf7f6304c44dcf6040a53166f3993098390b6bd",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          522
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M36",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M36-circdist_dstar_hunt1_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_dstar_hunt1_20260823.md",
+      "original_source_sha256": "d6d104c20d28c3fe29a3dd2cf53cfe50f3cc3cadc852e46c6ea00fc5ff4f4671",
+      "original_source_bytes": 17263,
+      "bundled_file_sha256": "d6d104c20d28c3fe29a3dd2cf53cfe50f3cc3cadc852e46c6ea00fc5ff4f4671",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          247
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M37",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M37-circdist_dstar_hunt2_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_dstar_hunt2_20260823.md",
+      "original_source_sha256": "01f9e79226495ad837ecb8fa08066b4d96a2d7078e385d5831d827ddb6ba82da",
+      "original_source_bytes": 23799,
+      "bundled_file_sha256": "01f9e79226495ad837ecb8fa08066b4d96a2d7078e385d5831d827ddb6ba82da",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          372
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M38",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M38-circdist_campaign4_closeout_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_campaign4_closeout_20260823.md",
+      "original_source_sha256": "7167f9c8419cb9af46ac1963c3706e7af9bc629326d593fbd2b592d3576befbb",
+      "original_source_bytes": 8960,
+      "bundled_file_sha256": "7167f9c8419cb9af46ac1963c3706e7af9bc629326d593fbd2b592d3576befbb",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          106
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M39",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M39-legacy_FILE_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/legacy_FILE_PROTOCOL.md",
+      "original_source_sha256": "0b7959891ce2bd5506af7e02c11f429014721e74560813245d87b1fa6facc42a",
+      "original_source_bytes": 7181,
+      "bundled_file_sha256": "0b7959891ce2bd5506af7e02c11f429014721e74560813245d87b1fa6facc42a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          148
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M40",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M40-CAMPAIGN4_KICKOFF_20260822.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/notes/CAMPAIGN4_KICKOFF_20260822.md",
+      "original_source_sha256": "b77ff681d39cb63186aab0e754bb3ccce0c0c35c9a06bf2dd63945a27ada3a7b",
+      "original_source_bytes": 5273,
+      "bundled_file_sha256": "b77ff681d39cb63186aab0e754bb3ccce0c0c35c9a06bf2dd63945a27ada3a7b",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          57
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M41",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M41-CAMPAIGN_CLOSEOUT_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/notes/CAMPAIGN_CLOSEOUT_20260820.md",
+      "original_source_sha256": "aee1631f2a1815cf3dcad83ba17b47962f9f48e2b04d4f9f49d8ababded280f3",
+      "original_source_bytes": 6638,
+      "bundled_file_sha256": "aee1631f2a1815cf3dcad83ba17b47962f9f48e2b04d4f9f49d8ababded280f3",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          95
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M42",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M42-HANDOFF_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/notes/HANDOFF_20260820.md",
+      "original_source_sha256": "2bcd88ff53d16ec3c5f3d36baff2c2b05f5ca4c79a302a90ba37bd5e77b2d44b",
+      "original_source_bytes": 8324,
+      "bundled_file_sha256": "df7067df580c5fdd9af6920f7c648258ef586f54afbeb0db961ed5f398b8f223",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          103
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M43",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M43-HANDOFF_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/notes/HANDOFF_20260823.md",
+      "original_source_sha256": "5eb7751336a866fdb88a9b69b9a48380d570729d22e0a7f5ee3c362dcbd4fbc4",
+      "original_source_bytes": 8959,
+      "bundled_file_sha256": "0f714a3f9013996e73427ecc6c93822fa8bfc6be1687587fae4e78dddb1c0376",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          79
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M44",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M44-PATH_MAP.json",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/PATH_MAP.json",
+      "original_source_sha256": "432c9ce3576dfb390f5eea4c456f3898022251db0f019d9c204549b6ee1d6101",
+      "original_source_bytes": 107034,
+      "bundled_file_sha256": "432c9ce3576dfb390f5eea4c456f3898022251db0f019d9c204549b6ee1d6101",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          742
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M45",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M45-circdist_gross_efssc_exact_review_round87_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_efssc_exact_review_round87_20260830.md",
+      "original_source_sha256": "c37912c5446819ed74e1636049d313c72601dd6a8b1543db01b6b22b51a2f25c",
+      "original_source_bytes": 87783,
+      "bundled_file_sha256": "e40d15f8f02eb3dec3efde23b9c5d596d0094d7db41f19ebc933b34be6a621bc",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          861
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M46",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M46-circdist_gross_proof_outer_exact_review_round89_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_proof_outer_exact_review_round89_20260830.md",
+      "original_source_sha256": "95f830f41a51bff2f0f72967a48984f496981aac89f49b6b9f95f2a4a34d77a8",
+      "original_source_bytes": 105623,
+      "bundled_file_sha256": "02021b12634b154c811f484bbe52bb8b35be5fc1f899863339ab907aa19bbb04",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1370
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M47",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M47-circdist_gross_proof_outer_exact_review_round91_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_proof_outer_exact_review_round91_20260830.md",
+      "original_source_sha256": "72e36d7fdf33a4a4b868b01a5bcb9dadf22a45482bfbc2225aeead4bf9496f0d",
+      "original_source_bytes": 196823,
+      "bundled_file_sha256": "98e087c85486746357443c01d10093a8072b33109105a9cf41c7c1fc87303068",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2278
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M48",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M48-circdist_gross_proof_outer_weight9_exact_review_round93_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_proof_outer_weight9_exact_review_round93_20260830.md",
+      "original_source_sha256": "76a07f9d73fda5ced83818361eed24cd83b4ed7fc5a11c13b0fc027df4feb65d",
+      "original_source_bytes": 242236,
+      "bundled_file_sha256": "e3707ad022c63f549ead5f9c668bd6b22bb3cf7d8a9778c23a41ed878bd0ab50",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          3167
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M49",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M49-circdist_gross_proof_outer_round94_exact_review_round95_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_proof_outer_round94_exact_review_round95_20260830.md",
+      "original_source_sha256": "b6a23911b5f9974454a4f4291eaa09e30308547925aa71972d5199e3715c9450",
+      "original_source_bytes": 171634,
+      "bundled_file_sha256": "a0fe2857ddf4bf02235b02984571a2f51341bc71f61326b0917729ea2e2d09d7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1817
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M50",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M50-circdist_gross_proof_outer_round96_exact_review_round97_20260831.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_proof_outer_round96_exact_review_round97_20260831.md",
+      "original_source_sha256": "f8700a2e90c849442c3917e96afc049a9417b40a28e2800d6ca37317e3b5b369",
+      "original_source_bytes": 452662,
+      "bundled_file_sha256": "ea63dd3a8029995124c1ae2dd032259b410a49b8fdda2a7df35eac35127aab61",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          4832
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M51",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M51-circdist_gross_proof_outer_round98_exact_review_round99_20260831.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_proof_outer_round98_exact_review_round99_20260831.md",
+      "original_source_sha256": "28ed0201da7cfc87aba7ce2ec2ad53afbb3d363b7bc66ab802f9feea6bc1d060",
+      "original_source_bytes": 583650,
+      "bundled_file_sha256": "61d3e0f901a71b130f29e430bcac41e6d2300f0fa6ec1a34ccb1ccf11b6b5906",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          5811
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M52",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M52-circdist_gross_proof_outer_round100_exact_review_round101_20260831.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_proof_outer_round100_exact_review_round101_20260831.md",
+      "original_source_sha256": "8eb817e0af24df1d17af5cdd778cfa7180a1c6c60ca6c87d81ad3c5ad549ca88",
+      "original_source_bytes": 159949,
+      "bundled_file_sha256": "f1dabff0582b01e3f3efbec098ce4c9a25a88b676a54b7a5e575829a430365a6",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1685
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M53",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M53-circdist_gross_links_review_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/artifacts/circdist_gross_links_review_20260823.md",
+      "original_source_sha256": "8668638473e349511eb428e20bf6bd0d8a5189c9c6477aeba6057ef2fbb1f898",
+      "original_source_bytes": 32609,
+      "bundled_file_sha256": "7bcc3ac7e84bd71358aa7aab2cf7f6304c44dcf6040a53166f3993098390b6bd",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          522
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M54",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M54-closure_plan.json",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/frontier/iter186_full_invariant/closure_plan.json",
+      "original_source_sha256": "19080e4952af9932683ef5e8eb1dc0645fc67396c7cb3f3b6839b18d3e6a288d",
+      "original_source_bytes": 4245,
+      "bundled_file_sha256": "19080e4952af9932683ef5e8eb1dc0645fc67396c7cb3f3b6839b18d3e6a288d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          343
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/GLOBAL_TRANSLATION_THEOREM.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M55",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M55-independent_closure_check.json",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/frontier/iter186_full_invariant/independent_closure_check.json",
+      "original_source_sha256": "74a29b77570632c9623e5d6757f2ee0321257c3e5778d42391664167f855b486",
+      "original_source_bytes": 1643,
+      "bundled_file_sha256": "74a29b77570632c9623e5d6757f2ee0321257c3e5778d42391664167f855b486",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          54
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/GLOBAL_TRANSLATION_THEOREM.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M56",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M56-independent_check.json",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/frontier/iter186_full_invariant_quotient/independent_check.json",
+      "original_source_sha256": "114e554186647000d10c757db93cd45339a83892da311145f16e5feb3a94e425",
+      "original_source_bytes": 1931,
+      "bundled_file_sha256": "114e554186647000d10c757db93cd45339a83892da311145f16e5feb3a94e425",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          44
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/GLOBAL_TRANSLATION_THEOREM.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M57",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M57-assignment_independent_check.json",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/frontier/iter186_full_invariant_quotient/assignment_independent_check.json",
+      "original_source_sha256": "d7bd7252ec54dc2d81e3111ba227315ea82b8775257a71f66348392c2c9f0fcd",
+      "original_source_bytes": 590,
+      "bundled_file_sha256": "d7bd7252ec54dc2d81e3111ba227315ea82b8775257a71f66348392c2c9f0fcd",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          15
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_gross_global_closure_round102_20260901/GLOBAL_TRANSLATION_THEOREM.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M58",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M58-circdist_gross_iter187_invariant_continuation_round104_exact_review_round105_20260901.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter187_invariant_continuation_round104_exact_review_round105_20260901.md",
+      "original_source_sha256": "01d14be78fc75362c16340b4ba32df783a645084a819fc18a96f432d9a45e932",
+      "original_source_bytes": 141726,
+      "bundled_file_sha256": "701302a9bcd1d5666849ee1cd65666589b3ccec9713ec3102124c6456c57775f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1634
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M59",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M59-circdist_gross_iter188_invariant_continuation_round106_exact_review_round107_20260901.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter188_invariant_continuation_round106_exact_review_round107_20260901.md",
+      "original_source_sha256": "eda1d894cde8a56fd7eac9188ed2bb73bef4ddd7842e2fcb091435cbd759c036",
+      "original_source_bytes": 149822,
+      "bundled_file_sha256": "8fb683915eabfd346e20b99187de46f1a8ed422779f7a8bef45ec98dcb57b095",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1626
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M60",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M60-circdist_gross_iter189_invariant_continuation_round108_exact_review_round109_20260902.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter189_invariant_continuation_round108_exact_review_round109_20260902.md",
+      "original_source_sha256": "0d31152bc03ca8066a7ffeaf885730b51ff2c55a3634819fc68d9fcbcd26dd82",
+      "original_source_bytes": 156134,
+      "bundled_file_sha256": "7d5fe79d4b930f564df387fd40edc03485978689c412bfa2dbc3ec6b62389629",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1520
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M61",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M61-circdist_gross_iter190_invariant_quotient_continuation_round110_exact_review_round111_20260902.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter190_invariant_quotient_continuation_round110_exact_review_round111_20260902.md",
+      "original_source_sha256": "36f2fdac0c74a0bfa3f67013590e21fd24c445295c488edc95c2114edef72e9e",
+      "original_source_bytes": 157531,
+      "bundled_file_sha256": "9375744a0816eaf2c5f7a0b91236bc6e35cd500d554f29a4bac17d686339aacb",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1588
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M62",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M62-circdist_gross_iter191_invariant_quotient_continuation_round112_exact_review_round113_20260902.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter191_invariant_quotient_continuation_round112_exact_review_round113_20260902.md",
+      "original_source_sha256": "9737f5c015ace29a5282685b1bf19d82686e593b0e2e6216531cc0bb2a8d27e8",
+      "original_source_bytes": 271093,
+      "bundled_file_sha256": "afe8682f3325b52cef68c7ee7c0b8f1f588d636a39f4b7f93d40bfb0d7f75253",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2602
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M63",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M63-circdist_gross_iter192_invariant_quotient_continuation_round114_exact_review_round115_20260902.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter192_invariant_quotient_continuation_round114_exact_review_round115_20260902.md",
+      "original_source_sha256": "15c31086b2aa8c7f6eaa6bbdd2a4c4b7d61bfaba55b60a142c07e0ac6801f9b5",
+      "original_source_bytes": 178954,
+      "bundled_file_sha256": "a09982ea41b3524acc4c6948e4cc29b5ca4c71397717a14758b8a4525676a5d7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1991
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M64",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M64-circdist_gross_iter193_invariant_quotient_continuation_round116_exact_review_round117_20260902.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter193_invariant_quotient_continuation_round116_exact_review_round117_20260902.md",
+      "original_source_sha256": "26fd4c8c39910dae235348efc30e237c7f9ea3d93146076f3580b8c4459cf925",
+      "original_source_bytes": 201079,
+      "bundled_file_sha256": "3d0ddba7d3b49201ab8dd1fb3f145071d5b15f1a1b9ecebc9515b31deeaf055c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1971
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M65",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M65-circdist_gross_iter194_order144_continuation_round118_exact_review_round119_20260904.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter194_order144_continuation_round118_exact_review_round119_20260904.md",
+      "original_source_sha256": "d79e9ca01e43f646bf1fdd2bcfd7fa05c3845da4d7d4e8f7cd75b37d3bdbdd46",
+      "original_source_bytes": 184539,
+      "bundled_file_sha256": "fdfaabe89c9890740ce04245ba5352dbe0b620467e7ffaa311d24e85f3034248",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1938
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M66",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M66-circdist_gross_iter195_order144_continuation_round120_exact_review_round121_20260904.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter195_order144_continuation_round120_exact_review_round121_20260904.md",
+      "original_source_sha256": "fc4b1c7e33c1a5f8e6dbad1715baa24b2a6d1a88c8368bc3a3632d768ce05d6d",
+      "original_source_bytes": 201214,
+      "bundled_file_sha256": "d302893304f26f0e793a79e1cc2ce470cfb965bad28dfb324cafdc50f570f4a3",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2079
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M67",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M67-circdist_gross_iter196_order144_continuation_round122_exact_review_round123_20260905.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter196_order144_continuation_round122_exact_review_round123_20260905.md",
+      "original_source_sha256": "436ee1dc38e0506d0048dd07084417964637de50de848ed076449fdf0311b0cb",
+      "original_source_bytes": 205855,
+      "bundled_file_sha256": "499e68f9804bb41fa104c77693389d238765167a3020914f4e6709874f788ea6",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2119
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M68",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M68-circdist_gross_iter197_order144_continuation_round124_exact_review_round125_20260905.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter197_order144_continuation_round124_exact_review_round125_20260905.md",
+      "original_source_sha256": "c820a120e2d938218b8fc3e5b235f29dd93d13b8d4c333d52e9c057a6da73a55",
+      "original_source_bytes": 221937,
+      "bundled_file_sha256": "10cbcc02fe38a0fcac65fcd806e2cb48ecd9958e636cb6a8a99b56d3a3790280",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2259
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M69",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M69-circdist_gross_iter198_order144_continuation_round126_exact_review_round127_20260906.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_gross_iter198_order144_continuation_round126_exact_review_round127_20260906.md",
+      "original_source_sha256": "5ec3432f50423de8891907dfa6e1b99a60599e0802e5c654d7028e51ecf8cdf2",
+      "original_source_bytes": 226605,
+      "bundled_file_sha256": "f320e4470574a92f1257dd6f450855574b8d63c99f0498a905b54cd7ac0eb66e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2284
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.gross.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 69,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

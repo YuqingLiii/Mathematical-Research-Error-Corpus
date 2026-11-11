@@ -1,0 +1,3 @@
+C:[USER_HOME]/miniconda3/envs/AI_HW/python.exe artifacts/logs_se_trace_t5_tame_c2_rout_20260721/construct_rout.py --packet-dir artifacts/logs_se_trace_t5_tame_c2_packet_20260721 --npz artifacts/logs_se_trace_t5_tame_c2_rout_20260721/tame_c2_rout.npz --json artifacts/logs_se_trace_t5_tame_c2_rout_20260721/tame_c2_rout.json --log artifacts/logs_se_trace_t5_tame_c2_rout_20260721/tame_c2_rout.log
+
+C:[USER_HOME]/miniconda3/envs/AI_HW/python.exe -m py_compile artifacts/logs_se_trace_t5_tame_c2_rout_20260721/construct_rout.py

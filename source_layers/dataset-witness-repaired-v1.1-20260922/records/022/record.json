@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_id": "022",
+  "problem": "Werner–Holevo zero-capacity boundary",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The comparison omits division by two and the entangled-family threshold is not 2/5.",
+  "overclaim": true,
+  "mechanism": "跨使用次数的比较对象错配",
+  "original": {
+    "excerpt": "[2/5, 1)**. Below the onset the same machinery is *strictly stronger than at n = 1* — at x = 7/20 an\nentangled 2-copy input gives the exact value **1102933/9570000 = 0.115249007…** versus\nd₁(7/20) = 13/132 = 0.098484848… (17 % larger, exact rationals) — so the n = 2 layer is genuinely\nmore powerful, yet it dies at exactly the same threshold 2/5.",
+    "context": "The raw two-use first-order coherent-information coefficient is compared against a one-use coefficient at x=7/20. Capacity is normalized per channel use. The same sentence also asserts a common zero-crossing threshold.",
+    "locator": "Two-copy analysis artifact, 2026-07-30, lines 22–25",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The comparison omits division by two and the entangled-family threshold is not 2/5.",
+    "evidence": "The comparable two-use coefficient is (1102933/9570000)/2=1102933/19140000, whereas the one-use coefficient is 13/132. Their exact ratio is 84841/145000, approximately 0.5851<1, so the two-use value is about 41.5% lower per use. The entangled family changes sign at the unique root in (0,1) of 19x^4-21x^3-14x^2+28x-8, approximately 0.3912977695<0.4; substitution x=2/5 gives 64/625>0, not a zero.",
+    "scope": "statement_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "两次使用的值须除以 2 才能比较；修正后比值 84841/145000<1，不能支持“更强”的结论。阈值 2/5 也不是给定多项式的零点；后者是同条记录中的额外计算错误。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "statement_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "WHGAP-008",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "把两次信道使用的块量直接同单次量比较，推理已给出 17% stronger 的错误结论，随后输出沿用；事后除以 2 的更正不计作生成时推理。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-30T10:51:43.316Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+        "source_line": 2441,
+        "material_id": "M05",
+        "original_line_sha256": "e95fbfa5c864bc37c6cd85196b0c10dc6b0b1c82a3e9f1ed53110659607d3152"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M05",
+      "source_line": 2441,
+      "timestamp": "2026-07-30T10:51:43.316Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 2443,
+      "timestamp": "2026-07-30T10:52:02.581Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 2444,
+      "timestamp": "2026-07-30T10:52:02.667Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "022",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

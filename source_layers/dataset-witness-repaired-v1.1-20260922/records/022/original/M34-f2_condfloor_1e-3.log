@@ -1,0 +1,2 @@
+F2 (cond_floor=1e-3) x=0.40  best=+1.910e-02  condB=1.00e-03  ambiguous excluded 26/80
+F2 (cond_floor=1e-3) x=0.45  best=+5.385e-16  condB=5.09e-03  ambiguous excluded 15/80

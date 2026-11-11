@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "records": 65,
+  "all_record_ids_covered": true,
+  "source_excerpt_and_witness_unchanged": true,
+  "all_label_anchors_match_original": true,
+  "source_links_and_record_hashes_valid": true,
+  "counts_recomputed": true,
+  "source_records_sha256": "7e98f3fb0841d6eb8c2ee3a759509981c2b7edd68fd88b739328dd139e08682c",
+  "interpretation": "Validates data integrity and counting, not independent mathematical review or human inter-rater agreement."
+}

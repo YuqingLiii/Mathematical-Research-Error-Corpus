@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "record_id": "020",
+  "problem": "Werner–Holevo zero-capacity boundary",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The fixed spectrum is valid for real-up-to-phase inputs, not arbitrary complex inputs.",
+  "overclaim": false,
+  "mechanism": "待验证谱公式被反例推翻",
+  "original": {
+    "excerpt": "- **Pure-input structure (verify exactly first):** for a pure qutrit psi (take real psi and\n  generic complex psi), spec Λ_x(psi) = {x/2, x/2, 1-x} and\n  spec Λ_x^c(psi) = {1-x, x/2, x/2, 0} — B-side full rank, E-side one-dimensional kernel.",
+    "context": "The claim concerns Lambda_x(rho)=(1-x)rho+(x/2)(Tr(rho)I-rho^T), and is explicitly requested for both real and generic complex pure inputs. The commission says “verify exactly first,” so this is an asserted working formula being tested, not a completed theorem.",
+    "locator": "Research commission write, 2026-07-29T17:13:33.094Z, JSONL line 1522",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The fixed spectrum is valid for real-up-to-phase inputs, not arbitrary complex inputs.",
+    "evidence": "Take x=9/20 and psi=(1,i,1)/sqrt(3). Then |psi^T psi|^2=1/9. Writing a=1-x and b=x/2, Lambda_x(|psi><psi|)=bI+a|psi><psi|-b|bar(psi)><bar(psi)| has eigenvalues b and [(1-b) +/- sqrt((1-b)^2-4ab|psi^T psi|^2)]/2. These are 9/40 and (31 +/- 3 sqrt(97))/80, not {11/20,9/40,9/40}.",
+    "scope": "statement_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "复输入的特征多项式不等于所列固定谱。原任务明确要求先验证工作公式；保留为研究中被推翻的候选公式，不描述成已证明结果或完成声明。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "statement_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "WHGAP-006",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "原始 commission 有 generic complex 的错误固定谱公式，但相邻推理只有 rank/kernel/entropy 路线，未找到同一泛化谱公式。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-29T17:11:03.650Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+        "source_line": 1507,
+        "material_id": "M01",
+        "original_line_sha256": "f984fe6ca463ed9456019a2107b0b027f7f7b19da523273577f8edd9fa907e76"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M01",
+      "source_line": 1507,
+      "timestamp": "2026-07-29T17:11:03.650Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4873,
+      "timestamp": "2026-07-29T17:11:03.650Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 1522,
+      "timestamp": "2026-07-29T17:13:33.094Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4884,
+      "timestamp": "2026-07-29T17:13:33.094Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 1523,
+      "timestamp": "2026-07-29T17:13:33.318Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4885,
+      "timestamp": "2026-07-29T17:13:33.318Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "020",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

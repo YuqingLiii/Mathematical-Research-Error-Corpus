@@ -1,0 +1,647 @@
+{
+  "record_id": "016",
+  "problem": "Channel additivity violations",
+  "collection": "Original research investigation",
+  "summary": "The balancing side channel need not have constant dimension or constant additive qubit cost.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "A Holevo pair gap g for finite-dimensional channels N and M can, after balancing their one-shot\n  Holevo quantities within one bit by a bounded classical side channel and taking T = N' direct-sum\n  M', be converted into chi(T tensor T) - 2 chi(T) at least g - log_2(9/4), with only constant\n  additive qubit overhead.",
+    "context": "The proposed conversion balances the one-shot Holevo information of two channels by adding a classical side channel of size K, then forms a direct sum. The node was marked CONJECTURED; this record concerns the overly strong dimension-overhead clause, not a falsely certified final theorem.",
+    "locator": "Proof-node creation event, 2026-08-30T01:21:04.780Z, JSONL line 3188"
+  },
+  "witness": {
+    "explanation": "The balancing side channel need not have constant dimension or constant additive qubit cost.",
+    "evidence": "If the Holevo quantities differ by Delta, balancing them within one bit requires |log2 K-Delta|<1, so log2 K>Delta-1. Taking channels with Holevo quantities log2 d and 0 makes the required overhead grow as log2 d. The final direct sum itself adds at most one qubit, but that does not erase the preceding balancing cost. The equal-Holevo special case avoids this cost.",
+    "scope": "statement_false"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "pair-to-self 的摘要只是主题标题，没有目标维数成本的推导。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-29T19:36:42.386Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "generation",
+        "source_name": "local-session-archive/2026/08/26/rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl",
+        "source_line": 2532,
+        "material_id": "M01",
+        "original_line_sha256": "cd4c8b027351c0224ec9815e55127e11ed16ec9138e887f5743563d888bb3def"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M01",
+      "source_line": 2529,
+      "timestamp": "2026-08-29T19:36:30.751Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 2530,
+      "timestamp": "2026-08-29T19:36:30.752Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 2531,
+      "timestamp": "2026-08-29T19:36:42.384Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 2532,
+      "timestamp": "2026-08-29T19:36:42.386Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 3188,
+      "timestamp": "2026-08-30T01:21:04.780Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 3189,
+      "timestamp": "2026-08-30T01:21:04.792Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 3190,
+      "timestamp": "2026-08-30T01:21:04.889Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 3191,
+      "timestamp": "2026-08-30T01:21:04.890Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 4024,
+      "timestamp": "2026-08-30T02:03:08.856Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4025,
+      "timestamp": "2026-08-30T02:03:08.866Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 5180,
+      "timestamp": "2026-08-30T03:10:21.470Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 5181,
+      "timestamp": "2026-08-30T03:10:21.474Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 7192,
+      "timestamp": "2026-08-30T05:04:05.911Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 7193,
+      "timestamp": "2026-08-30T05:04:05.914Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 22600,
+      "timestamp": "2026-08-31T03:01:28.466Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 22601,
+      "timestamp": "2026-08-31T03:01:28.474Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 23102,
+      "timestamp": "2026-08-31T03:19:56.407Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 23103,
+      "timestamp": "2026-08-31T03:19:56.425Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M01-rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M01-rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "local-session-archive/2026/08/26/rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl",
+      "original_source_sha256": "40bf2dfc5333a0d95873acd9e9b3241ffe9a586d83f2b0cbfdf77d1ee640fc91",
+      "original_source_bytes": 235865534,
+      "bundled_file_sha256": "36b5b19edb545cbbb64eec14309461eb76aa39484cbe88d1e695cb9522bba63c",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          2523,
+          2538
+        ],
+        [
+          3182,
+          3197
+        ],
+        [
+          4018,
+          4031
+        ],
+        [
+          5174,
+          5187
+        ],
+        [
+          7186,
+          7199
+        ],
+        [
+          22594,
+          22607
+        ],
+        [
+          23096,
+          23109
+        ]
+      ],
+      "requested_locators": [
+        "Proof-node creation event, 2026-08-30T01:21:04.780Z, JSONL line 3188",
+        {
+          "line_ranges": [
+            [
+              2532,
+              2532
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        2529,
+        2530,
+        2531,
+        2532,
+        3189,
+        4024,
+        4025,
+        5180,
+        5181,
+        7192,
+        7193,
+        22600,
+        22601,
+        23102,
+        23103
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "40bf2dfc5333a0d95873acd9e9b3241ffe9a586d83f2b0cbfdf77d1ee640fc91",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [
+        {
+          "line": 2532,
+          "expected_raw_line_sha256": "cd4c8b027351c0224ec9815e55127e11ed16ec9138e887f5743563d888bb3def",
+          "observed_raw_line_sha256": "cd4c8b027351c0224ec9815e55127e11ed16ec9138e887f5743563d888bb3def",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "supporting_artifact",
+        "historical_event"
+      ],
+      "file": "materials/M02-ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md",
+      "original_source_sha256": "2211f84786a5b8ce229fde604e5552fa4a53c006a6f3b6cf03061568cc1ffaa2",
+      "original_source_bytes": 18330,
+      "bundled_file_sha256": "2211f84786a5b8ce229fde604e5552fa4a53c006a6f3b6cf03061568cc1ffaa2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          327
+        ]
+      ],
+      "requested_locators": [
+        "Finding AU-IR-05（claim hash sha256:ab44daaa…）；DAG HEXT.pair-to-self event general-overhead-claim-repaired",
+        "Finding AU-IR-05（claim hash sha256:ab44daaa…）；DAG HEXT.pair-to-self event general-overhead-claim-repaired",
+        "189-229",
+        "Finding AU-IR-05（claim hash sha256:ab44daaa…）；DAG HEXT.pair-to-self event general-overhead-claim-repaired"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [
+        {
+          "expected": "2211f84786a5b8ce229fde604e5552fa4a53c006a6f3b6cf03061568cc1ffaa2",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "2211f84786a5b8ce229fde604e5552fa4a53c006a6f3b6cf03061568cc1ffaa2",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "historical_evidence_pointer",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M03-PAIR_TO_SELF_REDUCTION_2026-08-29.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/artifacts/PAIR_TO_SELF_REDUCTION_2026-08-29.md",
+      "original_source_sha256": "2b0f1bef8d6dd35b3a52ffab770e9b01d44d9e7f3c7421457326dc1bf806721a",
+      "original_source_bytes": 6888,
+      "bundled_file_sha256": "2b0f1bef8d6dd35b3a52ffab770e9b01d44d9e7f3c7421457326dc1bf806721a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          182
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-HEXT.finite-dimensional-unbounded-gap.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/proof-dag/nodes/HEXT.finite-dimensional-unbounded-gap.yaml",
+      "original_source_sha256": "a417b9b26500f61781622e1022e42790f4f907e44d0f11d7fcf57e70f2dc5a7f",
+      "original_source_bytes": 6488,
+      "bundled_file_sha256": "a417b9b26500f61781622e1022e42790f4f907e44d0f11d7fcf57e70f2dc5a7f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          131
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M05-HEXT.moe-to-holevo-transfer.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/proof-dag/nodes/HEXT.moe-to-holevo-transfer.yaml",
+      "original_source_sha256": "a1b182e49dfeed0342099c5ec1b06f5473aa5e6ed6eb5ab316222cf94522d626",
+      "original_source_bytes": 3736,
+      "bundled_file_sha256": "a1b182e49dfeed0342099c5ec1b06f5473aa5e6ed6eb5ab316222cf94522d626",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          80
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M06-HEXT.pair-to-self.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/proof-dag/nodes/HEXT.pair-to-self.yaml",
+      "original_source_sha256": "423f3bfc4949eed31d61f777129455f4fd92d457b1a7ae4a875c335015ec8088",
+      "original_source_bytes": 2319,
+      "bundled_file_sha256": "423f3bfc4949eed31d61f777129455f4fd92d457b1a7ae4a875c335015ec8088",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          52
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-HEXT.goal.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/proof-dag/nodes/HEXT.goal.yaml",
+      "original_source_sha256": "15226339bee71fedbed78ea09c9cb1754c623208340fb0163db283500d11cda5",
+      "original_source_bytes": 34066,
+      "bundled_file_sha256": "15226339bee71fedbed78ea09c9cb1754c623208340fb0163db283500d11cda5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          667
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-FINITE_DIMENSIONAL_UNBOUNDED_GAP_PROOF_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/artifacts/FINITE_DIMENSIONAL_UNBOUNDED_GAP_PROOF_20260829.md",
+      "original_source_sha256": "fb29d6cecb2041ad9b739d2beca8ab6bd4e0ee8504a28f3ea8daf1c1f8f0c747",
+      "original_source_bytes": 11227,
+      "bundled_file_sha256": "fb29d6cecb2041ad9b739d2beca8ab6bd4e0ee8504a28f3ea8daf1c1f8f0c747",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          343
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M09-MOE_TO_HOLEVO_TRANSFER_PROOF_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-extensive-violation/artifacts/MOE_TO_HOLEVO_TRANSFER_PROOF_20260829.md",
+      "original_source_sha256": "02b3f8a59ec1e7d34817cb41258584adeac55960a351ad97c24e28fab98d13a6",
+      "original_source_bytes": 1595,
+      "bundled_file_sha256": "02b3f8a59ec1e7d34817cb41258584adeac55960a351ad97c24e28fab98d13a6",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          52
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M10-proof_dag_check.py",
+      "readable_file": null,
+      "source_name": "tools/proof_dag_check.py",
+      "original_source_sha256": "781ded5cd4036ce3999b550f1e3c8ae90ece6f15cf3c4cf31eab776d051955cf",
+      "original_source_bytes": 39689,
+      "bundled_file_sha256": "781ded5cd4036ce3999b550f1e3c8ae90ece6f15cf3c4cf31eab776d051955cf",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          930
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M11-check_holevo_three_question_scope.py",
+      "readable_file": null,
+      "source_name": "research-graph/tools/check_holevo_three_question_scope.py",
+      "original_source_sha256": "ab27ae5b2999644e7751c548733656cf9826ecb5a5cf57f6fa858159a5bca172",
+      "original_source_bytes": 3757,
+      "bundled_file_sha256": "ab27ae5b2999644e7751c548733656cf9826ecb5a5cf57f6fa858159a5bca172",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          120
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M12-evidence_closure_check.py",
+      "readable_file": null,
+      "source_name": "research-graph/tools/evidence_closure_check.py",
+      "original_source_sha256": "b63f72f263d71e06b311789b7e2bcf2dc28ba860ccb0d40ed989c7301921f4dd",
+      "original_source_bytes": 2904,
+      "bundled_file_sha256": "b63f72f263d71e06b311789b7e2bcf2dc28ba860ccb0d40ed989c7301921f4dd",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          75
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 12,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

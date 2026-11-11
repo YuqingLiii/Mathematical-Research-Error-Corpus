@@ -1,0 +1,1381 @@
+{
+  "record_id": "068",
+  "problem": "Circuit versus effective distance",
+  "collection": "Original research investigation",
+  "summary": "A zero criterion must specify the choice of a circuit representative and the round assignment. The archived critique identifies a type/definition ambiguity, not an actual source equation asserting that a voltage set literally equals the scalar zero.",
+  "review_status": "interpretation_check_pending",
+  "review_note": "The original does not contain the literal alleged equation 'the voltage set equals zero'; it uses an underspecified phrase and the same assembly supplies its intended interpretation. Decide whether this is an admissible mathematical error rather than wording/type ambiguity before counting it as a positive record.",
+  "original": {
+    "excerpt": "> In graph-like detector error models with fixed boundaries, a proven necessary-and-sufficient\n> structural criterion (in graph-covering, voltage-graph, or chain-complex form) characterizes when\n> d_circ = d_eff, of the shape \"d_circ equals the minimum over nontrivial effective logicals gamma\n> of the length of the shortest closed spacetime lift of gamma\", with zero time-direction\n> voltage/monodromy as the equal-weight liftability condition; the criterion recovers the\n> non-interleaved equality d_circ = d_eff as a corollary and is accompanied by an explicit\n> interleaved example with d_circ > d_eff.",
+    "context": "The root statement describes equal-weight liftability through 'zero time-direction voltage/monodromy'. In the constructed model each effective residual may have several circuit representatives with different detector voltages.",
+    "locator": "Root assembly dated 22 August 2026, verbatim root statement, lines 121–127."
+  },
+  "witness": {
+    "explanation": "A zero criterion must specify the choice of a circuit representative and the round assignment. The archived critique identifies a type/definition ambiguity, not an actual source equation asserting that a voltage set literally equals the scalar zero.",
+    "evidence": "In the archived [[4,2,2]] example, the residual E={0} has voltage spectrum U(E)={0,1}; the same effective residual admits both voltage values. Thus no unique scalar voltage is determined by E alone. A same-weight lift criterion can quantify over u∈U(E) and round assignments, or use a minimum repair cost. It cannot silently equate 'all available voltages vanish' with 'some zero-repair realization exists'. The assembly itself explicitly explains this distinction and says the clause is substantively discharged but verbally imprecise.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": "**The correction.** The root says \"*zero* time-direction voltage/monodromy\", which reads as the\nvanishing of a single well-defined quantity attached to `γ`. It is not one. Because a residual `E`\nadmits a *set* `U(E)` of unit-weight voltages, the voltage of `γ` is a set, and the liftability\ncondition is a **minimum over that set and over round assignments** being zero, not the vanishing\nof a scalar. §7 R2 proposes the minimal rewording. Substantively the clause is discharged; verbally\nit overstates the sharpness of the object.",
+  "visible_reasoning": {
+    "availability_description": "根节点组装者的推理解释了 voltage spectrum 上取最小值，属于对给定问题的重述/修正语境；未绑定最早把集合写成零的生成事件。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-22T21:32:37.672Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "assembly_or_correction",
+        "source_name": "claude-session-archive/agent-a54f4eb22e936ab7c.jsonl",
+        "source_line": 42,
+        "material_id": "M05",
+        "original_line_sha256": "ca96ec353917833d95ba333d5f2379b51224231044cb0a9140869b975dfdcc6c"
+      },
+      {
+        "timestamp": "2026-08-22T21:35:14.406Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "assembly_or_correction",
+        "source_name": "claude-session-archive/agent-a54f4eb22e936ab7c.jsonl",
+        "source_line": 59,
+        "material_id": "M05",
+        "original_line_sha256": "f9925ac92b453c932f8b136031f7f4d347f743f40b0d95bb8ce76d7b638cb85f"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M05",
+      "source_line": 42,
+      "timestamp": "2026-08-22T21:32:37.672Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 59,
+      "timestamp": "2026-08-22T21:35:14.406Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "archived_review_or_witness"
+      ],
+      "file": "materials/M01-circdist_lift_root_assembly_20260822.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md",
+      "original_source_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46",
+      "original_source_bytes": 59855,
+      "bundled_file_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          931
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              121,
+              127
+            ]
+          ],
+          "excerpt_breaks_explicit": true
+        },
+        {
+          "line_ranges": [
+            [
+              257,
+              262
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        121,
+        257
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure"
+      ],
+      "file": "materials/M02-circdist_lift_root_review_20260822.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_lift_root_review_20260822.md",
+      "original_source_sha256": "a6fbf42e5f1f65c7c3c2731185dcbcd898e74b919bda4fdc85bde39e98a93b7c",
+      "original_source_bytes": 34013,
+      "bundled_file_sha256": "a6fbf42e5f1f65c7c3c2731185dcbcd898e74b919bda4fdc85bde39e98a93b7c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          498
+        ]
+      ],
+      "requested_locators": [
+        "§5 R2 / set-valued voltage",
+        "§5 R2 / set-valued voltage",
+        "#5-R2,3.5",
+        "§5 R2 / set-valued voltage",
+        "#5-R2,3.5"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [
+        {
+          "expected": "a6fbf42e5f1f65c7c3c2731185dcbcd898e74b919bda4fdc85bde39e98a93b7c",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "a6fbf42e5f1f65c7c3c2731185dcbcd898e74b919bda4fdc85bde39e98a93b7c",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M03-circdist_lift_iff_proof_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_iff_proof_20260820.md",
+      "original_source_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979",
+      "original_source_bytes": 90225,
+      "bundled_file_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1498
+        ]
+      ],
+      "requested_locators": [
+        "#9.3,Prop1.13",
+        "#9.3,Prop1.13",
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M04-CIRCDIST.lift.iff.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml",
+      "original_source_sha256": "7b7929628c48e7c75997d33661989ed61e7bf83ca775802d807f211a224b3a68",
+      "original_source_bytes": 10858,
+      "bundled_file_sha256": "7b7929628c48e7c75997d33661989ed61e7bf83ca775802d807f211a224b3a68",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          170
+        ]
+      ],
+      "requested_locators": [
+        "#claim",
+        "#claim"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M05-agent-a54f4eb22e936ab7c.jsonl.visible.json",
+      "readable_file": "materials/M05-agent-a54f4eb22e936ab7c.jsonl.readable.md",
+      "source_name": "claude-session-archive/agent-a54f4eb22e936ab7c.jsonl",
+      "original_source_sha256": "c93e9d16b86774bcd07a9ed500a65ab75b6837d36cc7e18f5f7a381f9d4ad2f9",
+      "original_source_bytes": 554412,
+      "bundled_file_sha256": "d2b501c8d69e5314f2f4f1891fcb9357c8972170eee6a993355489f5831b68ad",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          36,
+          48
+        ],
+        [
+          53,
+          65
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              42,
+              42
+            ]
+          ]
+        },
+        {
+          "line_ranges": [
+            [
+              59,
+              59
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        42,
+        59
+      ],
+      "historical_hash_matches": [],
+      "event_hash_checks": [
+        {
+          "line": 42,
+          "expected_raw_line_sha256": "ca96ec353917833d95ba333d5f2379b51224231044cb0a9140869b975dfdcc6c",
+          "observed_raw_line_sha256": "ca96ec353917833d95ba333d5f2379b51224231044cb0a9140869b975dfdcc6c",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        },
+        {
+          "line": 59,
+          "expected_raw_line_sha256": "f9925ac92b453c932f8b136031f7f4d347f743f40b0d95bb8ce76d7b638cb85f",
+          "observed_raw_line_sha256": "f9925ac92b453c932f8b136031f7f4d347f743f40b0d95bb8ce76d7b638cb85f",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M06-CIRCDIST.lift.yaml",
+      "readable_file": null,
+      "source_name": "research/circdist/proof-dag/nodes/CIRCDIST.lift.yaml",
+      "original_source_sha256": "c9471eb923622408318986892c5d319ec5338b2b6643c1a4d845e7fc4e17dce2",
+      "original_source_bytes": 11585,
+      "bundled_file_sha256": "c9471eb923622408318986892c5d319ec5338b2b6643c1a4d845e7fc4e17dce2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          198
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md",
+        "Referenced by research-graph/circdist/reviews/circdist_lift_root_review_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-CIRCDIST.lift.iff.yaml",
+      "readable_file": null,
+      "source_name": "research/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml",
+      "original_source_sha256": "6f6ea03fe546775f4447707c10fc3e0b26b67a941646f81445f5867b01b22c23",
+      "original_source_bytes": 11275,
+      "bundled_file_sha256": "6f6ea03fe546775f4447707c10fc3e0b26b67a941646f81445f5867b01b22c23",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          188
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-CIRCDIST.lift.nonint.yaml",
+      "readable_file": null,
+      "source_name": "research/circdist/proof-dag/nodes/CIRCDIST.lift.nonint.yaml",
+      "original_source_sha256": "2675c3b6027e41719c3e6933b260f6ca8f4fadf3b68d55ffd85962221e33ee90",
+      "original_source_bytes": 5420,
+      "bundled_file_sha256": "2675c3b6027e41719c3e6933b260f6ca8f4fadf3b68d55ffd85962221e33ee90",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          94
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M09-CIRCDIST.lift.gap-example.yaml",
+      "readable_file": null,
+      "source_name": "research/circdist/proof-dag/nodes/CIRCDIST.lift.gap-example.yaml",
+      "original_source_sha256": "67c0e106cac34ed73a9e0cf1e19783ba58b10f7d0a6a7d69b495d896f715106f",
+      "original_source_bytes": 6421,
+      "bundled_file_sha256": "67c0e106cac34ed73a9e0cf1e19783ba58b10f7d0a6a7d69b495d896f715106f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          107
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M10-circdist_lift_iff_proof_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_iff_proof_20260820.md",
+      "original_source_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979",
+      "original_source_bytes": 90225,
+      "bundled_file_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1498
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M11-circdist_lift_iff_amendment1_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_iff_amendment1_20260820.md",
+      "original_source_sha256": "7220d538a9ee680711f591de30dbcc52bb80aa669a778ed3468cc9781c80a467",
+      "original_source_bytes": 34143,
+      "bundled_file_sha256": "7220d538a9ee680711f591de30dbcc52bb80aa669a778ed3468cc9781c80a467",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          619
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M12-circdist_lift_iff_amendment2_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_iff_amendment2_20260820.md",
+      "original_source_sha256": "0ab3ce438fe6a3971be43a7090518087a9bd06566345d33326ca8e3e19079603",
+      "original_source_bytes": 11783,
+      "bundled_file_sha256": "0ab3ce438fe6a3971be43a7090518087a9bd06566345d33326ca8e3e19079603",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          240
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M13",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M13-circdist_lift_nonint_proof_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_nonint_proof_20260820.md",
+      "original_source_sha256": "42d6c138c1ea19127db76ab4f22d2a64c1d1e1e96adf76af975076b529a71f4c",
+      "original_source_bytes": 58543,
+      "bundled_file_sha256": "42d6c138c1ea19127db76ab4f22d2a64c1d1e1e96adf76af975076b529a71f4c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          943
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md",
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_iff_proof_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M14",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M14-circdist_lift_proofs_review_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_proofs_review_20260820.md",
+      "original_source_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f",
+      "original_source_bytes": 45878,
+      "bundled_file_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          704
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M15",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M15-circdist_amendments_review_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_amendments_review_20260820.md",
+      "original_source_sha256": "daa476804959fec7a39c5aedd0ed8191c4b495a670dd83f58aeb5a7247fcd90c",
+      "original_source_bytes": 36265,
+      "bundled_file_sha256": "daa476804959fec7a39c5aedd0ed8191c4b495a670dd83f58aeb5a7247fcd90c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          571
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M16",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M16-circdist_amendments2_review_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_amendments2_review_20260820.md",
+      "original_source_sha256": "7b7ac0d5c78968ccf194fe176196d79d275fd82df79a3d3bb7f5666ead931842",
+      "original_source_bytes": 21003,
+      "bundled_file_sha256": "7b7ac0d5c78968ccf194fe176196d79d275fd82df79a3d3bb7f5666ead931842",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          362
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md",
+        "Referenced by research-graph/circdist/reviews/circdist_lift_root_review_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M17",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M17-circdist_numerical_review_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_numerical_review_20260820.md",
+      "original_source_sha256": "b542aea1da06e489dccce2d9b689ad5c608a20ffd28399cb7017144821bc54ee",
+      "original_source_bytes": 104455,
+      "bundled_file_sha256": "b542aea1da06e489dccce2d9b689ad5c608a20ffd28399cb7017144821bc54ee",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          2246
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M18",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M18-circdist_lift_d3gate_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_d3gate_20260820.md",
+      "original_source_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "original_source_bytes": 53117,
+      "bundled_file_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1170
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md",
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_iff_proof_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M19",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M19-CIRCDIST_PROBLEMS.md",
+      "readable_file": null,
+      "source_name": "research/circdist/notes/CIRCDIST_PROBLEMS.md",
+      "original_source_sha256": "5f6dc37fcc33c0eb9f90e6267864740fc53b65c4acf1ee870c8d29ffd6d46c64",
+      "original_source_bytes": 10199,
+      "bundled_file_sha256": "5f6dc37fcc33c0eb9f90e6267864740fc53b65c4acf1ee870c8d29ffd6d46c64",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          244
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md",
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_iff_proof_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M20",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M20-circdist_lift_root_assembly_20260822.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_root_assembly_20260822.md",
+      "original_source_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46",
+      "original_source_bytes": 59855,
+      "bundled_file_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          931
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_root_assembly_20260822.md",
+        "Referenced by research-graph/circdist/reviews/circdist_lift_root_review_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M21",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M21-proof_dag_v6.py",
+      "readable_file": null,
+      "source_name": "tools/proof_dag_v6.py",
+      "original_source_sha256": "8c49e17de6166ead5b8f9a4217e350e57f8f115ac74fb338f529a03835f4053a",
+      "original_source_bytes": 38788,
+      "bundled_file_sha256": "8c49e17de6166ead5b8f9a4217e350e57f8f115ac74fb338f529a03835f4053a",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          841
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_lift_root_review_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M22",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M22-ksum_L2_phase27_shared_no_rule7_review_20260721.md",
+      "readable_file": null,
+      "source_name": "artifacts/ksum_L2_phase27_shared_no_rule7_review_20260721.md",
+      "original_source_sha256": "7f5b98777dffe65411028b1fadbfb4f1b80bb2e982d9c2f614ca4ee1735a38da",
+      "original_source_bytes": 26945,
+      "bundled_file_sha256": "7f5b98777dffe65411028b1fadbfb4f1b80bb2e982d9c2f614ca4ee1735a38da",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          520
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/reviews/circdist_lift_root_review_20260822.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M23",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M23-circdist_lift_litverify2_20260820.md",
+      "readable_file": null,
+      "source_name": "artifacts/circdist_lift_litverify2_20260820.md",
+      "original_source_sha256": "086b5841fc726af887482486e4cba1f07eb9aefd9dcd286966097e2903ea49ab",
+      "original_source_bytes": 3784,
+      "bundled_file_sha256": "086b5841fc726af887482486e4cba1f07eb9aefd9dcd286966097e2903ea49ab",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          55
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/artifacts/circdist_lift_iff_proof_20260820.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M24",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M24-circdist_lift_proofs_review_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_lift_proofs_review_20260820.md",
+      "original_source_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f",
+      "original_source_bytes": 45878,
+      "bundled_file_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          704
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M25",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M25-circdist_stim_crossval_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/artifacts/circdist_stim_crossval_20260823.md",
+      "original_source_sha256": "b620f8231ea99967c5b05f1bfb464e36831ef8f129ead3e685606b8cdea748aa",
+      "original_source_bytes": 26613,
+      "bundled_file_sha256": "b620f8231ea99967c5b05f1bfb464e36831ef8f129ead3e685606b8cdea748aa",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          439
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M26",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M26-circdist_iff_scope_adjudication_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/artifacts/circdist_iff_scope_adjudication_20260823.md",
+      "original_source_sha256": "3879b16bc28019e0154da5fdc393632f71d1e784696caa2a4843a51753aefa68",
+      "original_source_bytes": 31665,
+      "bundled_file_sha256": "3879b16bc28019e0154da5fdc393632f71d1e784696caa2a4843a51753aefa68",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          449
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M27",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M27-circdist_iff_endtoend_review_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_iff_endtoend_review_20260823.md",
+      "original_source_sha256": "a0908d7edb7c05ac034a68bd5c016534f1e4035e84616b9b8e63b912848b27e7",
+      "original_source_bytes": 34742,
+      "bundled_file_sha256": "a0908d7edb7c05ac034a68bd5c016534f1e4035e84616b9b8e63b912848b27e7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          512
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M28",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M28-circdist_iff_amendment3_review_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_iff_amendment3_review_20260823.md",
+      "original_source_sha256": "0e3321977659a1333445b6b5734e0a1288febd8e0ce06afc6b4d9fc8250aa7c4",
+      "original_source_bytes": 21329,
+      "bundled_file_sha256": "0e3321977659a1333445b6b5734e0a1288febd8e0ce06afc6b4d9fc8250aa7c4",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          325
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M29",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M29-circdist_amendments2_review_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_amendments2_review_20260820.md",
+      "original_source_sha256": "7b7ac0d5c78968ccf194fe176196d79d275fd82df79a3d3bb7f5666ead931842",
+      "original_source_bytes": 21003,
+      "bundled_file_sha256": "7b7ac0d5c78968ccf194fe176196d79d275fd82df79a3d3bb7f5666ead931842",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          362
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M30",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M30-circdist_lift_claimrepair2_review_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_lift_claimrepair2_review_20260823.md",
+      "original_source_sha256": "9a0d3378e3fbc655114593cc52417b006fc51d2e5b3f57be43fef4373271cfc7",
+      "original_source_bytes": 32656,
+      "bundled_file_sha256": "9a0d3378e3fbc655114593cc52417b006fc51d2e5b3f57be43fef4373271cfc7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          477
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M31",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M31-circdist_lift_iff_amendment1_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_iff_amendment1_20260820.md",
+      "original_source_sha256": "7220d538a9ee680711f591de30dbcc52bb80aa669a778ed3468cc9781c80a467",
+      "original_source_bytes": 34143,
+      "bundled_file_sha256": "7220d538a9ee680711f591de30dbcc52bb80aa669a778ed3468cc9781c80a467",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          619
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M32",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M32-circdist_lift_iff_amendment2_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_iff_amendment2_20260820.md",
+      "original_source_sha256": "0ab3ce438fe6a3971be43a7090518087a9bd06566345d33326ca8e3e19079603",
+      "original_source_bytes": 11783,
+      "bundled_file_sha256": "0ab3ce438fe6a3971be43a7090518087a9bd06566345d33326ca8e3e19079603",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          240
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M33",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M33-circdist_lift_iff_amendment3_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_iff_amendment3_20260823.md",
+      "original_source_sha256": "e35324bfdf16d49e2b3a1bc4297d7fbed4feb0ce412b9ecec9b3fcc4cfd9e28c",
+      "original_source_bytes": 75528,
+      "bundled_file_sha256": "e35324bfdf16d49e2b3a1bc4297d7fbed4feb0ce412b9ecec9b3fcc4cfd9e28c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1389
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M34",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M34-circdist_lift_iff_amendment4_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_iff_amendment4_20260823.md",
+      "original_source_sha256": "f21dd27ca833f35e25a1a677b54f140a58fac493dd995de2cba3e60a84d657f3",
+      "original_source_bytes": 49531,
+      "bundled_file_sha256": "631bba3e20070c76aa79ad43a4a0d87f82812a15994ed319ba351ebf1c72daee",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          921
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M35",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M35-circdist_iff_scope_adjudication_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_iff_scope_adjudication_20260823.md",
+      "original_source_sha256": "3879b16bc28019e0154da5fdc393632f71d1e784696caa2a4843a51753aefa68",
+      "original_source_bytes": 31665,
+      "bundled_file_sha256": "3879b16bc28019e0154da5fdc393632f71d1e784696caa2a4843a51753aefa68",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          449
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M36",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M36-CIRCDIST.lift.iff.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/pre_protocol_20260826/nodes/CIRCDIST.lift.iff.yaml",
+      "original_source_sha256": "f9627d5d2386cc5012f669c8e83ff2ab1af8980081b71d17f93efa47163dc971",
+      "original_source_bytes": 29301,
+      "bundled_file_sha256": "f9627d5d2386cc5012f669c8e83ff2ab1af8980081b71d17f93efa47163dc971",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          455
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M37",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M37-circdist_readjudication_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_readjudication_20260823.md",
+      "original_source_sha256": "cec9c7ca489f85d215bfe06a880576ba7a2efc69ed41156ec3920f0854b914a2",
+      "original_source_bytes": 43345,
+      "bundled_file_sha256": "cec9c7ca489f85d215bfe06a880576ba7a2efc69ed41156ec3920f0854b914a2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          617
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M38",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M38-circdist_amendments_review_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_amendments_review_20260820.md",
+      "original_source_sha256": "daa476804959fec7a39c5aedd0ed8191c4b495a670dd83f58aeb5a7247fcd90c",
+      "original_source_bytes": 36265,
+      "bundled_file_sha256": "daa476804959fec7a39c5aedd0ed8191c4b495a670dd83f58aeb5a7247fcd90c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          571
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M39",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M39-circdist_lift_d3gate_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_d3gate_20260820.md",
+      "original_source_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "original_source_bytes": 53117,
+      "bundled_file_sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1170
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M40",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M40-circdist_lift_litverify2_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_litverify2_20260820.md",
+      "original_source_sha256": "086b5841fc726af887482486e4cba1f07eb9aefd9dcd286966097e2903ea49ab",
+      "original_source_bytes": 3784,
+      "bundled_file_sha256": "086b5841fc726af887482486e4cba1f07eb9aefd9dcd286966097e2903ea49ab",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          55
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M41",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M41-circdist_lift_recon_20260820.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/circdist_lift_recon_20260820.md",
+      "original_source_sha256": "5000490a68a55cadfb4fab5624d98786563617693001db09750633865ebce8c9",
+      "original_source_bytes": 45011,
+      "bundled_file_sha256": "5000490a68a55cadfb4fab5624d98786563617693001db09750633865ebce8c9",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          679
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M42",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M42-legacy_DAG_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/artifacts/history/legacy_DAG_PROTOCOL.md",
+      "original_source_sha256": "9a7e8400b404948ce5ae35a44fbeaeeb9b21e7c0ba68ee2aa9b346aa736a4a25",
+      "original_source_bytes": 13530,
+      "bundled_file_sha256": "9a7e8400b404948ce5ae35a44fbeaeeb9b21e7c0ba68ee2aa9b346aa736a4a25",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          254
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M43",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M43-circdist_stim_crossval_20260823.md",
+      "readable_file": null,
+      "source_name": "research-graph/circdist/reviews/circdist_stim_crossval_20260823.md",
+      "original_source_sha256": "b620f8231ea99967c5b05f1bfb464e36831ef8f129ead3e685606b8cdea748aa",
+      "original_source_bytes": 26613,
+      "bundled_file_sha256": "b620f8231ea99967c5b05f1bfb464e36831ef8f129ead3e685606b8cdea748aa",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          439
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/circdist/proof-dag/nodes/CIRCDIST.lift.iff.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 43,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

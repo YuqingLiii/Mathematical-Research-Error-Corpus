@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "record_id": "032",
+  "problem": "Circuit versus effective distance",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "Eventual constancy of d_R does not imply eventual equality to d. The argument substitutes stabilization for the stronger saturation-to-code-distance definition.",
+  "overclaim": true,
+  "mechanism": "稳定性替换为达到代码距离",
+  "original": {
+    "excerpt": "**CONJECTURED 5.10 (saturation and one-round decidability).** Consequences of 5.9:\n\n1. `d_R(M) := d_circ(C_R(M))` is non-increasing in `R` and **constant for all `R ≥ d`**; i.e.\n   `R_sat(M) ≤ d` in the sense of `CIRCDIST.sat`, for this model.",
+    "context": "The historical saturation index was defined as the first round count after which circuit distance equals the static code distance d forever, with infinity if this never happens. It was not the index of convergence to an arbitrary lower limiting value. The quoted corollary was labelled CONJECTURED.",
+    "locator": "Proof draft dated 20 August 2026, conjectured Corollary 5.10(1), lines 855–858.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "Eventual constancy of d_R does not imply eventual equality to d. The argument substitutes stabilization for the stronger saturation-to-code-distance definition.",
+    "evidence": "Take the Steane [[7,1,3]] code with X- and Z-check supports {3,4,5,6}, {1,2,5,6}, and {0,2,4,6}. Use increasing within-check orders, all X checks followed by all Z checks, and ideal temporal boundaries. In the X check ordered (0,2,4,6), an ancilla-X fault after the second CNOT produces residual X on {4,6}. Add one data-X fault on qubit 1 before the Z-check block. The net support {1,4,6} meets each listed Z check in zero or two positions, and is not an X stabilizer: every nonzero word in their X-check rowspace has weight four, whereas this support has weight three. Thus two faults produce an undetected logical X. Appending fault-free rounds preserves this witness, so d_R≤2 for every R; it can never equal the static distance d=3 eventually. Therefore R_sat=infinity, contradicting R_sat≤3. Only the saturation-to-d claim is refuted, not eventual constancy at a lower value. The original archived calculation also reports d_eff=2 and d_R=2 for R=1,2,3,4.",
+    "scope": "tentative_candidate_refuted",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "原文从d_R最终常数推出按冻结定义“最终等于静态d”的R_sat≤d，把已支持的较弱稳定结论当成较强饱和结论。CONJECTURED标签不消除其中明确写出的错误推论。",
+    "history_reconciliation": "维持既有候选推论错误；用户包含未完成证明，故不得因CONJECTURED删除。",
+    "verification_basis": "Steane两故障支撑{1,4,6}的零syndrome和非稳定子核对已完成；归纳补空轮使d_R≤2<d=3。",
+    "witness_scope": "statement_false at the frozen saturation-to-d definition; no refutation of eventual constancy",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-LIFT-001",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "较早推理明确说 R_sat 可能为无穷；后续论述把稳定到 d∞ 同达到目标码距 d 混为一谈，输出 R_sat≤d。属于例外未保留且概念混淆，不是纯抄写错误。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-20T15:43:37.650Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-afd9b18b206ce896f.jsonl",
+        "source_line": 17,
+        "material_id": "M05",
+        "original_line_sha256": "0afccb74a48dfe8d55e55903fb9e4ac594f002c5e697f3144b681f3abce44f0a"
+      },
+      {
+        "timestamp": "2026-08-20T15:54:10.293Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-afd9b18b206ce896f.jsonl",
+        "source_line": 18,
+        "material_id": "M05",
+        "original_line_sha256": "784a34fc66ad27263b0125823d64b9a172e432798e8f31e05b3c2dc11b685d37"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M05",
+      "source_line": 17,
+      "timestamp": "2026-08-20T15:43:37.650Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 18,
+      "timestamp": "2026-08-20T15:54:10.293Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M05",
+      "source_line": 56,
+      "timestamp": "2026-08-20T16:03:25.176Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "032",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

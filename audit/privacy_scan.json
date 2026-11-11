@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scanned_files": 1833,
+  "findings": [
+    {
+      "path": "source_layers/dataset-witness-repaired-v1.1-20260922/records/019/original/M01-WHGAP-P1-019faab6.jsonl.readable.md",
+      "line": 1383,
+      "kind": "user_path",
+      "file_sha256": "0e74dd11b0eeeb7e99cd07a7c251a9895569a307a0dfab2e3dbd2b8204aef2f3",
+      "disposition": "historical_source_path_inert_not_runtime_dependency"
+    }
+  ],
+  "unresolved_findings": 0,
+  "scope": "Recognizable credential, secret-assignment, email, local-user-path and private-IP patterns across UTF-8 files and extracted PDF text. This is a bounded scan, not a proof that every possible secret format is absent. Evidence folders contain research-scoped historical context; original author identity is not expanded from path names."
+}

@@ -1,0 +1,9 @@
+SE TRACE T5 LONG CAP EXACT/CERTIFIED GATES 2026-07-21
+SURROGATE_POLICY actual_direction_sensitive_only; eigenvalue_only_VN=EXCLUDED
+MANIFESTS verified_files=19 PASS
+SYMBOLIC pure_unbarred_rows=15398 PASS
+SYMBOLIC pure_barred_column_rows=486 PASS
+J1 exact_a_r_rows=36 PASS
+SWEEP actual_Ta=59/59 PASS
+SWEEP closed_face_interval_matches=34 PASS
+VERDICT STILL BLOCKED residual=mixed_or_noncolumn_orbital_defect_all_parameters_all_c

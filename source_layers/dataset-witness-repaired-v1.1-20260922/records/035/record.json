@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "record_id": "035",
+  "problem": "Circuit versus effective distance",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "Distinct propagated residuals do not identify distinct locations: different Pauli faults at one CNOT location can produce different residuals. The proposed representative-by-representative construction therefore does not automatically yield a legal fault configuration.",
+  "overclaim": false,
+  "mechanism": "残差与故障位置的单射误认",
+  "original": {
+    "excerpt": "*Derivation.* Take an optimal certificate `(r_i, u_i)`. For each `i` choose a fault `f_i` with\n`E(f_i) = E_i` and `u(f_i) = u_i` (one exists, by definition of `U(E_i)`) and place it in round\n`r_i`; these are `w = |γ|` distinct circuit locations, since distinct residuals force distinct\nlocations. Their detector chain is `(1+x)(A_0 + xC)` by 4.2. Let `D := A_0 + xC ∈ V` and write",
+    "context": "To construct a circuit lift, the draft chooses one elementary fault for each distinct effective residual and treats those choices as faults at distinct physical locations. The fault model allows only one Pauli assignment per location.",
+    "locator": "Proof draft dated 20 August 2026, derivation of Lemma 5.3, lines 672–675.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "Distinct propagated residuals do not identify distinct locations: different Pauli faults at one CNOT location can produce different residuals. The proposed representative-by-representative construction therefore does not automatically yield a legal fault configuration.",
+    "evidence": "At a single ancilla-to-data CNOT a→q_j, the draft's own Proposition 1.13(4) lists possible residuals ∅, S_j, {q_j}, S_{j−1}. Here S_j is the subsequent data suffix and S_{j−1}=S_j⊕{q_j}. Choosing the ancilla-X and data-X faults for S_j and {q_j} selects the same physical location twice. Their product is one X⊗X fault of cost one with residual S_{j−1}, not two occupied locations. The formal effective basis vector [S_{j−1}] also need not equal [S_j]+[{q_j}]. This refutes the distinct-location inference; a repaired existence proof requires a collision argument.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "不同残差不推出不同物理故障位置；同一CNOT位置不同Pauli可给出不同残差，原“since”推理错误。",
+    "history_reconciliation": "维持局部证明缺陷；未完成状态不妨碍记录，亦不将一般无效推理自动称为overclaim。",
+    "verification_basis": "原文自己的Prop1.13.4列同位置四种残差，与此处断言直接矛盾；无需新大型计算。",
+    "witness_scope": "argument_invalid: invalid injectivity/distinct-location inference",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-LIFT-005",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "推理明确认定不同 residual 必须来自不同故障位置；正文重复这一步。单个二比特门的不同 Pauli 故障能产生不同 residual。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-20T15:54:10.293Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-afd9b18b206ce896f.jsonl",
+        "source_line": 18,
+        "material_id": "M04",
+        "original_line_sha256": "784a34fc66ad27263b0125823d64b9a172e432798e8f31e05b3c2dc11b685d37"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M04",
+      "source_line": 18,
+      "timestamp": "2026-08-20T15:54:10.293Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M04",
+      "source_line": 56,
+      "timestamp": "2026-08-20T16:03:25.176Z",
+      "roles": [
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "035",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

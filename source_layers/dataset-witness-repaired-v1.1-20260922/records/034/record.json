@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "record_id": "034",
+  "problem": "Circuit versus effective distance",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The premise R≥d is lost in the root statement and its carried-forward caveats. An implication established under that hypothesis does not by itself establish the same implication for every round count.",
+  "overclaim": true,
+  "mechanism": "根组装遗漏轮数前提",
+  "original": {
+    "excerpt": "> In graph-like detector error models with fixed boundaries, a proven necessary-and-sufficient\n> structural criterion (in graph-covering, voltage-graph, or chain-complex form) characterizes when\n> d_circ = d_eff, of the shape \"d_circ equals the minimum over nontrivial effective logicals gamma\n> of the length of the shortest closed spacetime lift of gamma\", with zero time-direction\n> voltage/monodromy as the equal-weight liftability condition; the criterion recovers the\n> non-interleaved equality d_circ = d_eff as a corollary and is accompanied by an explicit\n> interleaved example with d_circ > d_eff.",
+    "context": "An assembly imported a proved-under-assumptions equality criterion from a child theorem into an unrestricted root statement. The original child theorem explicitly assumes a memory experiment with R≥d rounds.",
+    "locator": "Root assembly dated 22 August 2026, root statement, lines 121–127; imported criterion in section 2.1.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The premise R≥d is lost in the root statement and its carried-forward caveats. An implication established under that hypothesis does not by itself establish the same implication for every round count.",
+    "evidence": "The assembly restates the imported result as: for every legal, measurement-consistent schedule M and R≥d, d_circ(C_R(M))=d_eff(M) iff a minimum effective logical γ has repair(γ)=0. Its root claim instead says the structural criterion characterizes d_circ=d_eff without an R quantifier or restriction. None of the assembly's listed caveats restores R≥d. This is a direct premise-versus-conclusion scope mismatch. The independent audit found no counterexample at R=1 on its d=2 test instance, so the witness invalidates the unrestricted inference, not the theorem for small R.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "保留为组装中的R≥d前提遗漏。原assembly明确把C1–C4解释为整个模型类上的universal，同时§2.1引用的定理要求R≥d；§6宣布携带所有限制但遗漏这一条。后续节点增加C-M7正是修复。不能用修复后的caveat否认旧组装错误。",
+    "history_reconciliation": "旧审计F2与后修YAML的C-M7完整接上。上一轮把§2.1出现R条件当成全篇自然继承，忽略assembly自己独立列出的根量词及caveat清单，是误降级。",
+    "verification_basis": "原根、显式量词解释、子定理和修复边界逐项对账；不需要数值小R反例才能确认论证未携带假设。",
+    "witness_scope": "argument_invalid: loss of a used premise during root assembly; no proven small-R counterexample and no assertion that unrestricted theorem is false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-LIFT-004",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "pending"
+  },
+  "visible_reasoning": {
+    "availability_description": "子节点及组装推理分散提到 MC、R 条件；安装到根定理时的遗漏可由工件看出，但没有完整同一生成节点的推理对照来确定形成阶段。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-22T21:32:37.672Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a54f4eb22e936ab7c.jsonl",
+        "source_line": 42,
+        "material_id": "M04",
+        "original_line_sha256": "ca96ec353917833d95ba333d5f2379b51224231044cb0a9140869b975dfdcc6c"
+      },
+      {
+        "timestamp": "2026-08-22T21:35:14.406Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a54f4eb22e936ab7c.jsonl",
+        "source_line": 59,
+        "material_id": "M04",
+        "original_line_sha256": "f9925ac92b453c932f8b136031f7f4d347f743f40b0d95bb8ce76d7b638cb85f"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M04",
+      "source_line": 42,
+      "timestamp": "2026-08-22T21:32:37.672Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M04",
+      "source_line": 59,
+      "timestamp": "2026-08-22T21:35:14.406Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "034",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

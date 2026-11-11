@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "039",
+  "problem": "Complexity of distance-preserving schedules",
+  "collection_context": "Follow-up continuation experiment",
+  "admission": "included",
+  "summary": "With two occurrences of one variable in the same clause, the wire's auxiliary XOR point is the third clause terminal, not a fresh point. The added gadget imposes an unintended constraint and breaks the satisfiability-preserving direction.",
+  "overclaim": false,
+  "mechanism": "归约构造中的变量碰撞",
+  "original": {
+    "excerpt": "Given a 3-CNF formula, give clause `t` two fresh basis vectors `a_t,b_t` and use the three occurrence points\n\n`p_{t1}=a_t`, `p_{t2}=b_t`, `p_{t3}=a_t+b_t`.\n\nThey are a binary line by construction.\n\nFor every literal occurrence point `p`, attach a private BOOL gadget on `{p,r_p,p+r_p}` with fresh `r_p`; hence `g(p) in {0,1}`.\n\nFor each Boolean variable, choose one occurrence as reference. Wire every other occurrence to the reference:\n\n* same literal polarity -> equality wire;\n* opposite polarity -> negation wire.\n\nInterpret occurrence value `0` as “this literal is true”.\n\nFinally, for each clause add the single zero-map constraint\n\n`(0,0,0)`\n\non its occurrence line. It is hit iff at least one of the three occurrence bits is zero, exactly the OR condition for the clause.\n\nAll auxiliary points use fresh basis coordinates, so unintended line coincidences are avoided. The number of points and constraints is linear in the formula size.\n\n**Correctness.** A Boolean satisfying assignment sets every literal occurrence to `0` iff that literal is true; the wires and clause check are then satisfied, and all private helpers can be filled from the finite gadget tables. Conversely any section solution can be totalised. The private BOOL gadgets make every occurrence Boolean, the wires give a consistent truth value per variable, and every zero-map clause has a zero occurrence, hence a true literal.\n\nTherefore LINE-SECTION is NP-hard already with `dim L_0=2`. Combining with Theorem 2 gives NP-hardness for **code-realizable** Island-V X-sector instances with weight-4 X checks, `d_X=4`, and `k>=2`.",
+    "context": "A follow-up continuation proposes a general 3-CNF-to-line-section reduction. Each clause uses three occurrence points a,b,a+b; a BOOL/XOR gadget plus a constant gadget wires repeated occurrences. The reported theorem remains CONJECTURED, but the construction asserts that all auxiliary points are fresh.",
+    "locator": "Follow-up generated proof artifact collected 20 September 2026, section 3.4, lines 251–276.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "With two occurrences of one variable in the same clause, the wire's auxiliary XOR point is the third clause terminal, not a fresh point. The added gadget imposes an unintended constraint and breaks the satisfiability-preserving direction.",
+    "evidence": "Use F=(x∨x∨y)∧(x∨x∨x)∧(¬y∨¬y∨¬y), satisfiable at x=true,y=false. In the first clause, occurrence labels are (0,0,1), where 0 denotes a true literal. Wiring the first two x occurrences at a and b applies the BOOL/XOR gadget on {a,b,a+b}, forcing g(a+b)=g(a) XOR g(b)=0. But a+b is the y occurrence; consistency with the final ¬y clause forces its label to 1. Thus the compiled instance is inconsistent. The archived builder produces an unsatisfiable 107-check abstract CSP for this satisfiable input. A restriction to clauses with distinct variables or an explicit preprocessing step could repair the route, but neither is part of the stated general reduction.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "一般3-CNF构造遇同一子句重复变量时，连接wire的辅助点a+b与第三文字点相同；引入意外约束，破坏可满足性保持。",
+    "history_reconciliation": "维持新重放中的独立构造错误，不重复计作旧038，不要求NP-hardness已被证明。",
+    "verification_basis": "F=(x∨x∨y)∧(x∨x∨x)∧(¬y∨¬y∨¬y)手算矛盾；107-check CSP的确定性重放是既有见证。",
+    "witness_scope": "argument_invalid: repeated-literal counterexample breaks stated general reduction",
+    "original_selection_correction": null,
+    "prior_inventory_key": "REPLAY-R08-O10",
+    "prior_curated_status": "extension_record",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "网页展开材料有标题和工具写入的错误 fresh auxiliary 构造；工具写入不属于 reasoning summary。尚未找到对应构造的诊断性摘要。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "039",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

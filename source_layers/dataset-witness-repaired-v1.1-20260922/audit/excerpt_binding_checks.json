@@ -1,0 +1,916 @@
+{
+  "normalization": "Whitespace and displayed source-line/patch-addition markers normalized; explicit omission markers split selections. Text binding is not mathematical certification.",
+  "records": [
+    {
+      "record_id": "001",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "The entire problem is therefore to choose *different* tuples \\(U^{(r)}\\) so\nthat entangled inputs within \\(\\mathcal R^{[k]}\\) do not appreciably lower its\nminimum output entropy.",
+          "matching_files": [
+            "records/001/original/M01-PROOF.md",
+            "records/001/original/M02-GAP-003-005-create-proof.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "002",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "This explains why simply tensoring a single Hastings counterexample with\nitself cannot settle the extensive question.",
+          "matching_files": [
+            "records/002/original/M01-PROOF.md",
+            "records/002/original/M02-GAP-003-005-create-proof.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "003",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": " m^{4u}\\le e^4,qquad u^{-2}=(1+\\log m)^2,qquad\n \\varepsilon^{-4u}\\le C,                                    \\tag{234}",
+          "matching_files": [
+            "records/003/original/M01-PROOF.md",
+            "records/003/original/M02-GAP-008-uniformity.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "005",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "Choose balanced integer representatives of the three field coefficients \\(t_u,t_v,t_w\\), and let \\(q_T\\) be the corresponding vector in the real line-coordinate space. A continuous fixed-magnitude line-phase variation has\n\n$$\nC_{\\rm ind}(\\theta)\n=\n2\\sum_T\n\\operatorname{Re}\n\\left(\nA_Te^{i\\langle q_T,\\theta\\rangle}\n\\right).\n$$\n\nIf \\(C=1\\), then the coefficient field is physical and gives a global maximum of \\(C\\) on the entire phase torus. Hence\n\n$$\n\\boxed{\n\\sum_Tq_T\\,\\operatorname{Im}A_T=0,\n}\n\\tag{10.1}\n$$\n\nand\n\n$$\n\\boxed{\n\\sum_T\n(\\operatorname{Re}A_T)\\,\nq_Tq_T^{\\mathsf T}\n\\succeq0.\n}\n\\tag{10.2}\n$$\n\nThese are the exact stationarity and Hessian conditions.",
+          "matching_files": [
+            "records/005/original/M01-round-18-response.md",
+            "records/005/original/M03-01_r001_r023_physical_gate_CORE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "006",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "Consequently,\n\n$$\n\\begin{aligned}\n\\mathbb E_{s,t}\n\\langle\\Delta_{L,s}\\Theta_{M,t}\\rangle\n&=\n\\langle\\overline\\Delta\\,\\overline\\Theta\\rangle\\\\\n&=\n\\sum_{k,j}\n\\left(\\frac1D-p_k\\right)\n\\left(\\frac1D-r_j\\right)\n\\mathcal B_{kj}.\n\\end{aligned}\n\\tag{6.1}\n$$\n\nThe phases of \\(\\mathcal B_{kj}\\) remain. The higher terms in\n`TwoLinePlaquette` similarly retain three- and four-point Bargmann data.\n\nThus neither the four-corner subtraction nor the full uniform average over the two cyclic shifts reduces the two-line condition to the two autocorrelation shadows.\n\nA phase-free two-line contradiction is not obtained.",
+          "matching_files": [
+            "records/006/original/M01-round-20-response.md",
+            "records/006/original/M03-01_r001_r023_physical_gate_CORE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "007",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "\\boxed{\n|\\alpha_z\\mathcal R_{\\mathbf1_\\Gamma}(z)|\n\\le\n\\sqrt8\\,D\n\\sqrt{\\lambda_z^2+M^2+6M}\n<4DM,\n}\n\\tag{8.5}",
+          "matching_files": [
+            "records/007/original/M01-round-21-response.md",
+            "records/007/original/M03-01_r001_r023_physical_gate_CORE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "008",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "The Fourier \\(+1\\) property implies the evenness independently because \\(\\mathscr F^2\\) is phase-space reflection.",
+          "matching_files": [
+            "records/008/original/M01-round-23-response.md",
+            "records/008/original/M03-01_r001_r023_physical_gate_CORE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "009",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "At \\(|T|=777716\\), this is the first undecided finite determinant/kernel system. The dictionary has at most\n\n$$\nr_1^2+r_1+1\n=\n970353651\n$$\n\ncolumns, but the coefficient vector has the special nonlinear form (8.2). Merely proving \\(G_T\\) singular would be necessary, not sufficient: its kernel must contain a vector with that exact conjugate-quadratic structure.",
+          "matching_files": [
+            "records/009/original/M01-round-28-response.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "010",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "It is strictly smaller and more structured than the original \\(D^2\\) baseline phase problem:\n\n* parameters lie on four explicit ruling lines;\n* each distinct-slope line-pair contributes at most one product to each \\(K_\\Delta\\);\n* rank-one differences are confined to the two ruling directions;\n* every other contribution is a fully explicit nondegenerate dual chirp.\n\nNo exact solution or contradiction is obtained.",
+          "matching_files": [
+            "records/010/original/M01-round-29-response.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "011",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "\n1. the exceptional sequence \\(T_\\nu\\);\n2. ordinary coordinate magnitudes \\(B\\);\n3. central evenness;\n4. an ordinary support allowance of \\(P_{\\rm Sid}\\) slots per \\(\\nu\\);\n5. total ordinary \\(\\ell_2\\) energy \\(\\mathcal E_{\\rm ord}\\).\n\nFor each \\(\\nu\\), distribute the required cancellation equally over the available ordinary slots. The minimum ordinary coefficient energy needed to cancel the exceptional term is\n\n$$\n\\frac{D+1}{P_{\\rm Sid}}|T_\\nu|^2.\n$$\n\nSummed over \\(\\nu\\),\n\n$$\n\\mathcal E_{\\min}\n=\n\\frac{D+1}{P_{\\rm Sid}}\\mathcal E_T.\n$$\n\n",
+          "matching_files": [
+            "records/011/original/M01-round-37-response.md"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\nHence\n\n$$\n\\mathcal E_{\\rm ord}\n\\ge\n\\frac{D-2}{4}\\mathcal E_T\n>\n\\frac{D+1}{P_{\\rm Sid}}\\mathcal E_T.\n$$\n\nThe remaining ordinary energy can be added in coefficient pairs whose physical contributions cancel identically.\n\nThus there is an abstract magnitude-compatible, centrally even coefficient relaxation satisfying:\n\n* every scalar mirror equation;\n* the exact exceptional energy;\n* the exact ordinary total \\(\\ell_2\\) energy;\n* the same support allowance.\n\nIt need not come from cofactor cross-correlations and need not satisfy the global Fourier-\\(+1\\) phase equations. Therefore:",
+          "matching_files": [
+            "records/011/original/M01-round-37-response.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "012",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "$$\n\\boxed{\n\\sum \\theta^2K^{(4)}_\\theta\n=\n7149371020340881916998112.\n}\n\\tag{32}",
+          "matching_files": [
+            "records/012/original/M01-round-51-response.md",
+            "records/012/original/M04-03_r043_r058_finite_slope_foundation_CORE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "013",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "For cofactor \\(i\\), pad the magnitude array with zeros to length \\(S_i\\), and let\n\n$$\n\\bar a_i=\\frac{L_i}{S_i}.\n$$\n\nThen\n\n$$\n\\frac{D_i}{S_i}\n=\n\\sum_{\\xi=1}^{S_i}\n\\bigl(|A_i(\\xi)|-\\bar a_i\\bigr)^2,\n\\qquad\nD_i=S_ie_i^2-L_i^2.\n\\tag{6.1}\n$$\n\nRestrict this sum to:\n\n* the \\(G_i\\) surviving unit anchors;\n* the \\(N_i\\) surviving complete opposite-sign pairs.\n\nFor arbitrary \\(\\mu\\in\\mathbb R\\),\n\n$$\n\\frac{D_i}{S_i}\n\\ge\nG_i(1-\\mu)^2\n+\n\\sum_{p=1}^{N_i}\n\\left[\n(r_{p,+}-\\mu)^2+(r_{p,-}-\\mu)^2\n\\right].\n\\tag{6.2}\n$$",
+          "matching_files": [
+            "records/013/original/M01-round-55-response.md",
+            "records/013/original/M03-03_r043_r058_finite_slope_foundation_CORE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "014",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "with the fifth centered pair \\(\\{\\pm m_r\\}\\) arbitrary and all twelve slopes distinct, the independently regenerated determinant census gives\n\n$$\n\\boxed{\n\\Delta_{\\rm ray}+\\Delta_{\\rm flat}>3318E.\n}\n$$\n\n",
+          "matching_files": [
+            "records/014/original/M01-round-59-response.md"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\n$$\n\\Delta_{\\rm ray}\n+\\Delta_{\\rm flat}\n+\\Delta_{\\rm Young}\n+\\Delta_{\\rm group}<HE.\n\\tag{1.3}\n$$\n\nThen, individually,\n\n$$\n\\Delta_{\\rm ray}<HE,\\qquad\n\\Delta_{\\rm flat}<HE.\n\\tag{1.4}\n$$",
+          "matching_files": [
+            "records/014/original/M01-round-59-response.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "015",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "Since \\(D_i\\le\\Delta_{\\rm flat}<HE\\), equations (1.6) and (2.4) give\n\n$$\nm_i<\n\\frac{H\\,127^2K^2}\n{126^2(K-H)S_i}.\n$$\n\nThe exact strict-integer ceilings are\n\n$$\n\\boxed{\n\\begin{aligned}\n(m_i)=(&60996,48631,44023,40693,39789,38265,39011,\\\\\n       &38265,39789,40693,44023,48631,60996).\n\\end{aligned}}\n\\tag{2.6}\n$$",
+          "matching_files": [
+            "records/015/original/M01-round-59-response.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "016",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "A Holevo pair gap g for finite-dimensional channels N and M can, after balancing their one-shot\n  Holevo quantities within one bit by a bounded classical side channel and taking T = N' direct-sum\n  M', be converted into chi(T tensor T) - 2 chi(T) at least g - log_2(9/4), with only constant\n  additive qubit overhead.",
+          "matching_files": [
+            "records/016/original/M01-rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "017",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "For output dimension `d`, define\n\n`f_d(eps) = eps log_2(d-1) + h_2(eps)`.\n\nOnly sufficiently small `eps` is needed below. Audenaert's Theorem 1 gives\n\n`|S(rho)-S(sigma)| <= f_d((1/2)||rho-sigma||_1)`\n\nfor `d`-dimensional states.",
+          "matching_files": [
+            "records/017/original/M01-rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "018",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "  - 'math \"J=\\\\frac1{m^2}\\\\sum_{a,b}|A_{ab}\\\\rangle\\\\rangle \\\\langle\\\\langle A_{ab}|, \\\\qquad A_{ab}=U_b^*U_a,\"':\n\n",
+          "matching_files": [
+            "records/018/original/M01-all-visible-expanded-dom.txt"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\n  - paragraph: with the multiplicative consistency\n  - 'math \"A_{ab}A_{bc}=A_{ac}.\"':",
+          "matching_files": [
+            "records/018/original/M01-all-visible-expanded-dom.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "019",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "class ExtensionSDP:\n    def __init__(self) -> None:\n        self.rho = cp.Variable((SYM_DIM, SYM_DIM), symmetric=True, name=\"rho\")\n        self.t = cp.Variable(name=\"t\")\n        self.x = cp.Parameter(name=\"x\")\n        self.eta = V @ self.rho @ V.T",
+          "matching_files": [
+            "records/019/original/M01-WHGAP-P1-019faab6.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "020",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "- **Pure-input structure (verify exactly first):** for a pure qutrit psi (take real psi and\n  generic complex psi), spec Λ_x(psi) = {x/2, x/2, 1-x} and\n  spec Λ_x^c(psi) = {1-x, x/2, x/2, 0} — B-side full rank, E-side one-dimensional kernel.",
+          "matching_files": [
+            "records/020/original/M01-WHGAP-main-c5b96aec.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "021",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "- D1 (derivation check, exact): verify the pure-output spectra claims symbolically; verify\n  the epsilon-expansion bookkeeping NUMERICALLY at high precision: for random (psi, phi)\n  kernel-avoiding pairs at x = 9/20, fit Ic((1-eps)psi + eps phi) against\n  c1*eps + O(eps^2 log eps) and confirm the fitted c1 matches\n  `-Tr[Λ(phi-psi) log Λ(psi)] + Tr[Λ^c(phi-psi) log Λ^c(psi)]` to >= 8 digits; also confirm\n  kernel-HITTING phi produce the -eps log(1/eps) plunge. GATE G0.\n\n",
+          "matching_files": [
+            "records/021/original/M01-WHGAP-main-c5b96aec.jsonl.readable.md"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\n  over pure psi and kernel-avoiding states phi (parameterize phi on the 3-dim support\n  constraint; >= 150 restarts). A_1 > 0 anywhere",
+          "matching_files": [
+            "records/021/original/M01-WHGAP-main-c5b96aec.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "022",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "[2/5, 1)**. Below the onset the same machinery is *strictly stronger than at n = 1* — at x = 7/20 an\nentangled 2-copy input gives the exact value **1102933/9570000 = 0.115249007…** versus\nd₁(7/20) = 13/132 = 0.098484848… (17 % larger, exact rationals) — so the n = 2 layer is genuinely\nmore powerful, yet it dies at exactly the same threshold 2/5.",
+          "matching_files": [
+            "records/022/original/M01-whgap_p13b_n2_layer_20260730.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "023",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "    # environment kernel: analytic basis  (0, conj(u+iv)) and (1, -i kappa w),\n    # kappa = sqrt(2(1-x)/x); verified below to be a basis of ker Lambda^c(P_psi).\n    kappa = sp.sqrt(2 * (1 - x) / x)\n    k1 = sp.Matrix([0, *list(sp.simplify(sp.sqrt(2) * psi_bar))])\n    k2 = sp.Matrix([1, *list(sp.simplify(-sp.I * kappa * third))])\n    analytic_kernel_pass = zero_matrix(lamc_p * k1) and zero_matrix(lamc_p * k2)\n    analytic_kernel_orthogonal = zero((k1.H * k2)[0, 0])\n    pi_e = sp.simplify(projector(k1) + projector(k2))",
+          "matching_files": [
+            "records/023/original/M01-whgap_p6b_v2_isotropic.py",
+            "records/023/original/M02-<session-id-redacted>.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "024",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "任何 Q=0 证明必须全局控制熵和,不能逐因子分解",
+          "matching_files": [
+            "records/024/original/M01-<session-id-redacted>.jsonl.readable.md",
+            "records/024/original/M01-<session-id-redacted>.jsonl.visible.json",
+            "records/024/original/M02-CLAUDE_CAMPAIGNS_20260821.json"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "025",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "The two-way capacity K6 shows Q^↔(Λ_ZW) ≥ 0.0409, which proves Λ_ZW itself is not antidegradable. Since two-way capacity of a tensor product is at least the two-way capacity of either factor, this means Q^↔(T) ≥ 0.0409 as well, so T cannot be antidegradable either.",
+          "matching_files": [
+            "records/025/original/M01-<session-id-redacted>.jsonl.readable.md",
+            "records/025/original/M01-<session-id-redacted>.jsonl.visible.json"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "026",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "任何证明都不能只靠 Λ_ZW 的 cALN 性;幺正性(无旗性)是被逼出来的必要假设",
+          "matching_files": [
+            "records/026/original/M01-<session-id-redacted>.jsonl.readable.md",
+            "records/026/original/M01-<session-id-redacted>.jsonl.visible.json",
+            "records/026/original/M02-CLAUDE_CAMPAIGNS_20260821.json"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "027",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "- 2026-07-29 — decision-layer reduction note (unreviewed): K_i = (1/2)(I + 2 Pi_i^asym) gives\n  K = 2^{-k} sum_S 2^{|S|} Pi_S with POSITIVE coefficients, so M1 follows if each elementary\n  exchange matrix E^S_pq = <x_p (x) y_q, Pi_S(x_q (x) y_p)> is PSD; S = empty is Schur-PSD; k=1\n  S={1} reduces to the Pluecker-type inequality |<x1^y2, x2^y1>|^2 <= ||x1^y1||^2 ||x2^y2||^2.\n  Phase-2 task P1 screens E_S numerically FIRST, then attempts proofs.",
+          "matching_files": [
+            "records/027/original/M01-NPTBE.k3.R1.m1.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "028",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "  For each fixed legal single-round single-ancilla CSS schedule M under the stated ideal temporal\n  boundaries and unit-fault model, there is an explicitly constructible finite min-plus transfer\n  system (u,A,v) such that d_R(M) = u^T min-plus A^R min-plus v for every R, with the two CSS\n  sectors, boundary conditions, unreachable states, and logical terminal condition represented\n  exactly.",
+          "matching_files": [
+            "records/028/original/M01-CIRCDIST.sat.transfer.yaml",
+            "records/028/original/M02-circdist_sat_transfer_endtoend_exact_review_20260826.md",
+            "records/028/original/M07-circdist_transfer_bridgefold_20260823.md",
+            "records/028/original/M19-circdist_transfer_bridgefold_20260823.md",
+            "records/028/original/M44-CIRCDIST.sat.transfer.yaml",
+            "records/028/reconciliation_sources/R01-M01-CIRCDIST.sat.transfer.yaml.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "029",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "**Why this is a gap and not a result:** Definition 3.5 is introduced in *this* document. If a\nreviewer prefers a different canonical split — for instance one defined by a family of *code-state*\ninputs rather than logical-basis inputs, which is a genuinely different family because\n`|0⟩^{⊗n}` is not a code state and makes the round-0 X-check outcomes random — then `𝒟_X` changes\nand, in principle, so could `d_R`. Three things reduce the risk and should be recorded with the\nsub-claim: (a) whatever `𝒟` is chosen, if it contains the Definition-2.7 set and is contained in\n`V`, then Proposition 3.7's argument goes through verbatim, because `F^X` annihilates *all* of\n`V_X` and all of `𝒟_Z`; (b) the split is forced on the Z-side by 3.6's dimension count; (c) it is\nconfirmed numerically on 18 instances including a dependent generating set (11.2). **What is not\nestablished is that Definition 3.5 is the split the frozen 公共定义 intends.** This is precisely the\nhole the window theorem labelled W-G3 and its review answered with S3′; §3 answers it more sharply,\nbut the answer rests on a definition a reviewer must ratify.",
+          "matching_files": [
+            "records/029/original/M01-circdist_sat_transfer_proof_20260823.md",
+            "records/029/original/M40-circdist_sat_transfer_proof_20260823.md",
+            "records/029/reconciliation_sources/R01-M01-circdist_sat_transfer_proof_20260823.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "030",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "> **Remark 6.5 (what each boundary buys, quantitatively).** Drop the round-0 detector (noisy or\n> unknown initialisation). Then (W) becomes `u(S_r) = H_Z σ_r + κ` for an unconstrained constant\n> `κ ∈ F₂^ℬ`, and the correct object is no longer a single `(u,A,v)` but the family\n> `A_κ[σ,σ'] := w_M(σ'−σ, H_Z σ + κ)` with `d_R = min_κ ( u ⊙ A_κ^{⊙R} ⊙ v )` — equivalently a\n> state space `Σ × F₂^ℬ` in which `κ` is carried as a constant component. Drop the terminal detector\n> instead and `v` loses its first clause, becoming `v[σ] = 0` iff `σ ≠ [0]`, which is a *different*\n> and generally smaller quantity. **Both boundaries are load-bearing, in different places**, and\n> this is the precise form of the round-0/terminal asymmetry.",
+          "matching_files": [
+            "records/030/original/M01-circdist_sat_transfer_proof_20260823.md",
+            "records/030/original/M03-circdist_sat_transfer_amendment1_20260823.md",
+            "records/030/original/M40-circdist_sat_transfer_proof_20260823.md",
+            "records/030/reconciliation_sources/R01-M01-circdist_sat_transfer_proof_20260823.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "031",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "min-plus matrix powers are eventually periodic",
+          "matching_files": [
+            "records/031/original/M01-CIRCDIST.sat.transfer.yaml",
+            "records/031/original/M02-circdist_sat_transfer_endtoend_exact_review_20260826.md",
+            "records/031/reconciliation_sources/R01-M01-CIRCDIST.sat.transfer.yaml.context.md",
+            "records/031/reconciliation_sources/R02-M02-circdist_sat_transfer_endtoend_exact_review_20260826.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "032",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "**CONJECTURED 5.10 (saturation and one-round decidability).** Consequences of 5.9:\n\n1. `d_R(M) := d_circ(C_R(M))` is non-increasing in `R` and **constant for all `R ≥ d`**; i.e.\n   `R_sat(M) ≤ d` in the sense of `CIRCDIST.sat`, for this model.",
+          "matching_files": [
+            "records/032/original/M01-circdist_lift_iff_proof_20260820.md",
+            "records/032/original/M05-agent-afd9b18b206ce896f.jsonl.readable.md",
+            "records/032/original/M10-circdist_lift_iff_proof_20260820.md",
+            "records/032/reconciliation_sources/R01-M01-circdist_lift_iff_proof_20260820.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "033",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "2. `d_circ` is computable from the one-round data `{(E(f), s(f), u(f), λ(f)) : f ∈ 𝔽}` alone, by a\n   search over fault multisets of size `≤ d` distributed over `≤ d` consecutive rounds. No\n   multi-round circuit is constructed at any point.",
+          "matching_files": [
+            "records/033/original/M01-circdist_lift_iff_proof_20260820.md",
+            "records/033/original/M04-agent-afd9b18b206ce896f.jsonl.readable.md",
+            "records/033/original/M15-circdist_lift_iff_proof_20260820.md",
+            "records/033/reconciliation_sources/R01-M01-circdist_lift_iff_proof_20260820.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "034",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "> In graph-like detector error models with fixed boundaries, a proven necessary-and-sufficient\n> structural criterion (in graph-covering, voltage-graph, or chain-complex form) characterizes when\n> d_circ = d_eff, of the shape \"d_circ equals the minimum over nontrivial effective logicals gamma\n> of the length of the shortest closed spacetime lift of gamma\", with zero time-direction\n> voltage/monodromy as the equal-weight liftability condition; the criterion recovers the\n> non-interleaved equality d_circ = d_eff as a corollary and is accompanied by an explicit\n> interleaved example with d_circ > d_eff.",
+          "matching_files": [
+            "records/034/original/M01-circdist_lift_root_assembly_20260822.md",
+            "records/034/original/M19-circdist_lift_root_assembly_20260822.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "035",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "*Derivation.* Take an optimal certificate `(r_i, u_i)`. For each `i` choose a fault `f_i` with\n`E(f_i) = E_i` and `u(f_i) = u_i` (one exists, by definition of `U(E_i)`) and place it in round\n`r_i`; these are `w = |γ|` distinct circuit locations, since distinct residuals force distinct\nlocations. Their detector chain is `(1+x)(A_0 + xC)` by 4.2. Let `D := A_0 + xC ∈ V` and write",
+          "matching_files": [
+            "records/035/original/M01-circdist_lift_iff_proof_20260820.md",
+            "records/035/original/M04-agent-afd9b18b206ce896f.jsonl.readable.md",
+            "records/035/reconciliation_sources/R01-M01-circdist_lift_iff_proof_20260820.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "036",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "1. **For the gross code, (MC) *is* [SBB26]'s non-interleaving condition.** Every overlapping\n   (X,Z) check pair shares exactly two qubits (§1), so `c_ab ∈ {0,1,2}`, and `c_ab` even means the\n   two shared CNOT pairs agree on their order, i.e. either all of `a`'s CNOTs on the overlap precede\n   all of `b`'s, or vice versa — S5 verbatim. **CONJECTURED** (the derivation is one line given §1;\n   the risk is only in whether S5's \"either…or\" is per-pair or global — S6 forces per-pair, since a\n   low-depth LRC cannot satisfy a global split).",
+          "matching_files": [
+            "records/036/original/M01-circdist_gross_sbbcert_20260820.md",
+            "records/036/original/M05-agent-ace09be0f0bec8908.jsonl.readable.md",
+            "records/036/original/M12-circdist_gross_sbbcert_20260820.md",
+            "records/036/reconciliation_sources/R01-M01-circdist_gross_sbbcert_20260820.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "037",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "`T = 6` UNSAT is the sharp statement: **the gross code has no measurement-consistent\nsingle-ancilla SEC with six CNOT layers at all** — a 55-second exact result over the full\n864-edge scheduling problem, with no assumption on the within-check orders, no tiling and no\nsymmetry. Rows beyond the first are whatever closed inside the box.",
+          "matching_files": [
+            "records/037/original/M01-circdist_gross_sbbcert_20260820.md",
+            "records/037/reconciliation_sources/R01-M01-circdist_gross_sbbcert_20260820.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "038",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "**Proposition 5 (prescribability, CONJECTURED).** Fix a line `L = {0,u_1,u_2,u_3} ≤ S` and a set of\nchecks on it — necessarily disjoint cosets `B_i + L` of the qubit-column set. Write\n`φ_r(i) ∈ Log` for the class label of check `i` at `u_r` relative to a reference section chosen with\n`z(u_3) = z(u_1)+z(u_2)`. Then\n\n1. **`φ_1(i) + φ_2(i) + φ_3(i) = 0` is forced** — not a design choice. *Proof:* the three \"cross\"\n   4-sets `W^r_{ij} = {B_i, B_i+u_r, B_j, B_j+u_r}` satisfy `W^1_{ij}+W^2_{ij}+W^3_{ij} = χ_{c_i} +\n   χ_{c_j} ∈ S_X`, so the three class-differences sum to `0`; the same for the labels. ∎\n2. **The only relations that can be imposed are `φ_r(i) = φ_r(j)`**, and each is imposed by\n   declaring the single weight-4 X-check `W^r_{ij}` (a legal coset 4-set) to be a stabiliser — a\n   *connector*. Any consistent system of such relations is realisable, and everything not forced is\n   generically independent in `Log`.\n3. Consequently the realisable label systems on a line are exactly the triples of partitions\n   `(Π_1,Π_2,Π_3)` of the checks with `Π_a ∧ Π_b = Π_1∧Π_2∧Π_3` for all `a ≠ b`.",
+          "matching_files": [
+            "records/038/original/M01-circdist_cplx_islandv_20260820.md",
+            "records/038/original/M04-agent-abb2512e24e927d19.jsonl.readable.md",
+            "records/038/original/M10-circdist_cplx_islandv_20260820.md",
+            "records/038/reconciliation_sources/R01-M01-circdist_cplx_islandv_20260820.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "039",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "Given a 3-CNF formula, give clause `t` two fresh basis vectors `a_t,b_t` and use the three occurrence points\n\n`p_{t1}=a_t`, `p_{t2}=b_t`, `p_{t3}=a_t+b_t`.\n\nThey are a binary line by construction.\n\nFor every literal occurrence point `p`, attach a private BOOL gadget on `{p,r_p,p+r_p}` with fresh `r_p`; hence `g(p) in {0,1}`.\n\nFor each Boolean variable, choose one occurrence as reference. Wire every other occurrence to the reference:\n\n* same literal polarity -> equality wire;\n* opposite polarity -> negation wire.\n\nInterpret occurrence value `0` as “this literal is true”.\n\nFinally, for each clause add the single zero-map constraint\n\n`(0,0,0)`\n\non its occurrence line. It is hit iff at least one of the three occurrence bits is zero, exactly the OR condition for the clause.\n\nAll auxiliary points use fresh basis coordinates, so unintended line coincidences are avoided. The number of points and constraints is linear in the formula size.\n\n**Correctness.** A Boolean satisfying assignment sets every literal occurrence to `0` iff that literal is true; the wires and clause check are then satisfied, and all private helpers can be filled from the finite gadget tables. Conversely any section solution can be totalised. The private BOOL gadgets make every occurrence Boolean, the wires give a consistent truth value per variable, and every zero-map clause has a zero occurrence, hence a true literal.\n\nTherefore LINE-SECTION is NP-hard already with `dim L_0=2`. Combining with Theorem 2 gives NP-hardness for **code-realizable** Island-V X-sector instances with weight-4 X checks, `d_X=4`, and `k>=2`.",
+          "matching_files": [
+            "records/039/original/M01-circdist_cplx_islandv_20260820.md",
+            "records/039/original/M02-all-visible-expanded-dom.txt",
+            "records/039/original/M05-visible-conversation.txt",
+            "records/039/reconciliation_sources/R01-M01-circdist_cplx_islandv_20260820.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "040",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "the relabeling is an input-independent unitary on the value register applied around each query, so one query to either oracle simulates one query to the other.",
+          "matching_files": [
+            "records/040/original/M01-KSUM-agent-a9938705d211bef32.jsonl.readable.md",
+            "records/040/original/M01-KSUM-agent-a9938705d211bef32.jsonl.visible.json",
+            "records/040/reconciliation_sources/R02-M01-KSUM-agent-a9938705d211bef32.jsonl.readable.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "041",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "With $u_j=\\omega^{\\,j-1}$ for $\\omega=2R-1$, a cross-block $k$-tuple sums to $\\sum_j u_j(g_j-g_k)$-type combinations that vanish iff all payloads are equal (base-$\\omega$ uniqueness), while every other block-multiset pattern is killed by choosing the tags separated at scale larger than the total payload spread, which forces $q=\\Theta_k(R^{k-1})$.",
+          "matching_files": [
+            "records/041/original/M01-KSUM-main-b5fea9c2.jsonl.readable.md",
+            "records/041/reconciliation_sources/R01-ksum_small_alphabet.tex.context.md",
+            "records/041/reconciliation_sources/A01-ksum_small_alphabet.tex"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "042",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "\\Q\\bigl(\\kSum_{\\Zq,t,N}\\bigr)\\;=\\;\\Omega_k\\!\\left(\\sqrt N\\, q^{1/6}\\right)\n\\qquad\\text{for all } q\\ \\text{up to}\\ \\Theta_k(N).",
+          "matching_files": [
+            "records/042/original/M01-KSUM-main-b5fea9c2.jsonl.readable.md",
+            "records/042/reconciliation_sources/R01-ksum_small_alphabet.tex.context.md",
+            "records/042/reconciliation_sources/A01-ksum_small_alphabet.tex"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "043",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "The bad\nevent $\\dist_q(T_\\mu,t)\\le P$ constrains the nonzero linear form $\\nu\\cdot w'$ to a set of at most\n$2P+1$ residues, so it forbids at most $(2P+1)q^{k-2}$ of the $q^{k-1}$ vectors $w'$.",
+          "matching_files": [
+            "records/043/original/M01-KSUM-agent-acb57dcbbc16cfba2.jsonl.readable.md",
+            "records/043/reconciliation_sources/R01-M01-KSUM-agent-acb57dcbbc16cfba2.jsonl.readable.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "044",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "There exist constants\n\\(\\eta>1/6\\), \\(c_0>0\\), and \\(\\delta>0\\) such that, uniformly for\n\\(3\\le q\\le N\\)",
+          "matching_files": [
+            "records/044/original/M01-KSUM-L2-019f7bb0.jsonl.readable.md",
+            "records/044/reconciliation_sources/R01-ksum_L2_phase1.md.context.md",
+            "records/044/reconciliation_sources/A01-ksum_L2_phase1.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "045",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "**定理 A**(奇 q≥5,任意 t,任意 N):Q(2-Sum) = Ω(√N·q^{1/6}),范围到 q ≤ 2N−1;",
+          "matching_files": [
+            "records/045/original/M01-<session-id-redacted>.jsonl.readable.md",
+            "records/045/original/M01-<session-id-redacted>.jsonl.visible.json"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "046",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "证明完成了。核心比预想的简单：**SE 是 Collision 的一个固定承诺子问题**，所以 SE 的显式矩阵可以原封不动嵌入 Collision。",
+          "matching_files": [
+            "records/046/original/M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md",
+            "records/046/original/M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.visible.json",
+            "records/046/reconciliation_sources/R01-M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "047",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "有效秩证明严格成立，uniform physical \\(T_b\\) 对所有 admissible tame sector、所有正 LR 重数 \\(c\\) 全部关闭。",
+          "matching_files": [
+            "records/047/original/M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.readable.md",
+            "records/047/reconciliation_sources/R01-M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.readable.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "048",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "结合已确认的 `R_out`，actual T-a 约 `94,172`、T-b 约 `151.84`，都低于各自 cap。",
+          "matching_files": [
+            "records/048/original/M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.readable.md",
+            "records/048/original/M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.visible.json",
+            "records/048/reconciliation_sources/R01-M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.readable.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "049",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "\\binom{600}{2}\\,598=107281800",
+          "matching_files": [
+            "records/049/original/M01-d4-triangle-hypermetric-no-go-20260830.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "050",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "等号面支撑核至少为 28 维，而非此前的 12 维，因此算子秩上界严格改进为 746,797。",
+          "matching_files": [
+            "records/050/original/M01-01a04050-2c65-7022-8844-6319c2da0799.md.excerpt.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "051",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "3N=939406148910924300 > 5212397982790439500=P,",
+          "matching_files": [
+            "records/051/original/M01-01a0546f-54e9-7722-9de8-dd16fedd3d3a.md.excerpt.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "052",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "Here the direct covariant product map in irrep \\(\\rho\\) is exactly\n`14400/d_rho` times the canonical K-pencil adjoint",
+          "matching_files": [
+            "records/052/original/M01-rollout-2026-08-30T16-49-42-<session-id-redacted>.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "055",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "A feasible unrestricted degree-4 moment/SOS dual whose objective equals the stated integer is a global upper bound on the sign optimization problem.",
+          "matching_files": [
+            "records/055/original/M01-GROTH-H4-001-duality-direction.jsonl.readable.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "056",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "The proof also gives explicit extremizing vectors: the normalized rows of any\npaired top left/right singular bases.",
+          "matching_files": [
+            "records/056/original/M01-balanced-rank-theorem-draft-20260829.md",
+            "records/056/reconciliation_sources/R02-balanced-rank-theorem-draft-20260829.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "057",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "For every r>=3 and 0<=lambda<=1/2, the full D_r root projection A_r=WW^T/[4(r-1)], n=2r(r-1), satisfies\n  beta_cl(A_r-lambda I)=2r(2r-1)/3-n*lambda.",
+          "matching_files": [
+            "records/057/original/M01-GROTHORB.shift-linear-candidate.yaml",
+            "records/057/original/M03-d3-envelope-review-20260907.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "060",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "Specialize to `J=1`, so `q=m`, `H=C^D`,\n\n    C(X)_(v,w) = m^(-1) Tr(X U_w^* U_v),\n\nfor one finite deterministic complex tuple `U=(U_1,...,U_m) in U(D)^m`, and\n\n    A = 1 + 9(1+eta)^2/m,        eta>0,        ln m>18.\n\nAssume the audited one-copy bound\n\n    p_1(C):=sup_rho ||C(rho)||_2^2 <= A/m.\n\n",
+          "matching_files": [
+            "records/060/original/M03-01_r001_r023_physical_gate_CORE.md",
+            "records/060/reconciliation_sources/W11-round-02-prompt.md"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\n## Exact task\n\nGive one precise verdict on the existential finite-dimensional statement\n\n    (E1)  There exist finite m,D, eta>0, and one complex tuple U such that\n          ln m>18, p_1(C)<=A/m, and kappa_1(U)<=A-1.\n\nThe verdict must be `PROVED`, `DISPROVED`, or `OPEN WITH EARLIEST GAP`.",
+          "matching_files": [
+            "records/060/original/M03-01_r001_r023_physical_gate_CORE.md",
+            "records/060/reconciliation_sources/W11-round-02-prompt.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "061",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "# 6. New full-Schmidt-rank obstruction\n\nThe following lemma goes beyond rank-one inputs, a single Bell input, and the universal \\(m-1\\) estimate.\n\n",
+          "matching_files": [
+            "records/061/original/M01-round-03-response.md",
+            "records/061/original/M03-01_r001_r023_physical_gate_CORE.md",
+            "records/061/reconciliation_sources/W11-round-03-response.md"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\n\\boxed{\nm\\alpha_U^2\n-\nAD^2\\alpha_U\n+\nD^2(m-A)\n\\le0.\n}\n\\tag{HC}\n$$\n\nThis is a new necessary scalar condition.",
+          "matching_files": [
+            "records/061/original/M01-round-03-response.md",
+            "records/061/original/M03-01_r001_r023_physical_gate_CORE.md",
+            "records/061/reconciliation_sources/W11-round-03-response.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "063",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "    constexpr std::array<std::uint64_t, N> SUPPORT = {\n        53624480, 67257904, 74298900, 80378416, 82204926, 85479258, 83844372,\n        85479258, 82204926, 80378416, 74298900, 67257904, 53624480,\n    };\n\n",
+          "matching_files": [
+            "records/063/original/M01-explore_round82_global.cpp",
+            "records/063/reconciliation_sources/R01-M01-explore_round82_global.cpp.context.md"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\n        weighted_surviving += static_cast<u128>(SUPPORT[deleted]) *\n                              static_cast<u128>(\n                                  matched > BUDGET[deleted] ? matched - BUDGET[deleted] : 0\n                              );",
+          "matching_files": [
+            "records/063/original/M01-explore_round82_global.cpp"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "065",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "\\[\n(H_{4,i})=(\n8437248,11517728,12835576,14928318,15308304,16650864,15684084,\n16650864,15308304,14928318,12835576,11517728,8437248).\n\\tag{98.10}\n\\]",
+          "matching_files": [
+            "records/065/original/M01-round-98-prompt-sent.md",
+            "records/065/reconciliation_sources/R01-M01-round-98-prompt-sent.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "066",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "UNSAT of the checked quotient plus sound base exclusions would prove every legal schedule has a weight<=10 direct mechanism; SAT supplies only a canonical candidate.",
+          "matching_files": [
+            "records/066/original/M01-independent_check.json",
+            "records/066/original/M56-independent_check.json",
+            "records/066/reconciliation_sources/R01-M01-independent_check.json.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "067",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "* weight-≤10 configurations from the weight-12 pool: **0** in both sectors.\n\n",
+          "matching_files": [
+            "records/067/original/M01-circdist_dstar_hunt1_20260823.md",
+            "records/067/original/M06-circdist_dstar_hunt1_20260823.md",
+            "records/067/reconciliation_sources/R01-M01-circdist_dstar_hunt1_20260823.md.context.md"
+          ]
+        },
+        {
+          "excerpt_fragment": "\n\n1. **`d_eff = 11` is not certified.** Only the weight-12-pool disqualifier is clean. Uncovered:\n   `|gamma| <= 10` arising from weight-14 logicals, or from overlapping residual configurations\n   (`Σ|E_i| = |V| + 2m`, `m >= 1`). Weight-13 is now **provably empty** (§2, even weight). Closing\n   this is exactly the campaign's 990-slot SAT machinery, per sector.",
+          "matching_files": [
+            "records/067/original/M01-circdist_dstar_hunt1_20260823.md",
+            "records/067/original/M06-circdist_dstar_hunt1_20260823.md",
+            "records/067/reconciliation_sources/R01-M01-circdist_dstar_hunt1_20260823.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "071",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "    implication: Equality in the spectral upper bound confines every extremizer to paired top singular\n      spaces; group averaging and real Schur theory then reduce invariant Gram weights to R/C/H multiplicity\n      variables, while row norms become explicit balance constraints.\n    proof:\n      sketch: Combine equality conditions for the norm bound with the isotypic commutant decomposition.\n        The current draft only sketches the necessity direction.",
+          "matching_files": [
+            "records/071/original/M01-GROTHORB.extremizer-classification.yaml",
+            "records/071/reconciliation_sources/R01-GROTHORB.extremizer-classification.yaml.context.md",
+            "records/071/reconciliation_sources/R02-GROTHORB.extremizer-classification.yaml.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "072",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "the minimum real vector dimension among such strategies is the minimum rank of a feasible H.",
+          "matching_files": [
+            "records/072/original/M01-spectral-classification-review-20260907.md",
+            "records/072/reconciliation_sources/R01-spectral-classification-review-20260907.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "074",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "A short shift of the frozen value (offset $\\delta$ with $|\\delta|\\le C_0-kK-1$) then realizes every target $t$, at the slightly larger threshold $q\\ge(k-1)(kK+k+2)$, with no parity condition.",
+          "matching_files": [
+            "records/074/reconciliation_sources/R01-ksum_small_alphabet.tex.context.md",
+            "records/074/reconciliation_sources/A01-ksum_small_alphabet.tex"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "075",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "Fix any $(G,t)$ with $\\sigma\\ne\\mathrm{id}$ (i.e.\\ $\\tau<q$), and let $D_0\\subseteq G^n$ be the set of negative inputs. Then, already for $n=2$ and for every $n\\ge2$:\n\\begin{enumerate}\n\\item $D_0$ is not a single $S_n\\times C(\\sigma)$-orbit; the number of orbits equals\n$\\sum_{f} p_{\\le m}(n-f)$, where $m=(q-\\tau)/2$, $f$ ranges over the possible numbers of fixed-point values used, and $p_{\\le m}(\\cdot)$ counts partitions into at most $m$ parts; this is $\\ge2$ and grows with $n$ for $m \\ge 2$.",
+          "matching_files": [
+            "records/075/original/M01-KSUM-main-b5fea9c2.jsonl.readable.md",
+            "records/075/reconciliation_sources/R02-M01-KSUM-main-b5fea9c2.jsonl.readable.md.context.md"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "077",
+      "status": "all_selected_fragments_bound",
+      "fragments": [
+        {
+          "excerpt_fragment": "the attached program settles the entire trivial-isotypic block exactly.",
+          "matching_files": [
+            "records/077/reconciliation_sources/R01-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

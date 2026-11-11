@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "012",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The printed checksum differs from exact summation of the archived scan.",
+  "overclaim": false,
+  "mechanism": "归档扫描校验和错误",
+  "original": {
+    "excerpt": "$$\n\\boxed{\n\\sum \\theta^2K^{(4)}_\\theta\n=\n7149371020340881916998112.\n}\n\\tag{32}",
+    "context": "K_theta^(4) is the exact support count in a saved critical scan with 150150 distinct theta values. The excerpt reports its second-moment checksum.",
+    "locator": "round-51-response.md, lines 681–687",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The printed checksum differs from exact summation of the archived scan.",
+    "evidence": "Parsing the archived rows as (theta,K_theta) and evaluating sum(theta*theta*K_theta) using integers gives 7149371020340889916998112. The printed integer is 7149371020340881916998112, smaller by 8000000000. A reproducible check is: rows={int(t):int(k) for t,k in re.findall(r\"^theta=(\\d+) exact=(\\d+) sharp_margin=-?\\d+$\",scan,re.M)}; assert len(rows)==150150; sum(t*t*k for t,k in rows.items()). The scan must accompany this record as a verification fixture.",
+    "scope": "computation_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "重新读取 150150 条扫描数据，精确二阶矩为 7149371020340889916998112，比打印值大 8000000000；无需假定新扫描结果。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "computation_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "HEXT-POSTSEP07-M18",
+    "prior_curated_status": "CONFIRMED_FALSE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "012",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

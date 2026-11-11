@@ -1,0 +1,86 @@
+[
+  {
+    "file": "original/M01-round-21-response.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "8b719f8fcebe3298849dcf6b64f25375ad1280e2383fb1dd17c39b4bc750ae7f",
+    "bytes": 24405,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-concentrated_audit_1_rounds_1_23.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "fe33571cd30e0bf4bb1bac34788b7743b6c991afd87b056e75d65e730c32f0c8",
+    "bytes": 46098,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-01_r001_r023_physical_gate_CORE.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "9d9db94f8bb5c6e9a54dc62d092d34950f59adef6e544167ba1c78e3629a41bf",
+    "bytes": 911842,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M04-MASTER_AUDIT_PROTOCOL.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "3c5f230de4f1805b91bd77e7d06de300537f55edc0f31ebb79c831485b28a08c",
+    "bytes": 4795,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M05-BASELINE.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "fc26e991e9b2e2c1498abb832579dab86da2cf448ef9b955f407d3cb2fab8d74",
+    "bytes": 4687,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M06-round-02-local-audit.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "da8c11de73cab93d06a052e384c82375226dad83d08e199b3250e733530f1e35",
+    "bytes": 6237,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M07-round-03-local-audit.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "3a3141a0769b490b3430c4a7f776781277b091d3fa87a41d30d6982bc3593894",
+    "bytes": 8397,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M08-round-06-local-audit.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "eda16191369ac890d90cee1b911fbfb2f21acc8d121525fecf8707f754a9fe13",
+    "bytes": 6833,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M09-round-18-local-audit.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "8a4d154ef9bf8972f5aa87c5a4b5927f10c73521344be3c34ee7b4ca68238633",
+    "bytes": 10821,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M10-round-20-local-audit.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "7bd41f77277e250c7b5c747453782183ea75aa06ebc5f6fbe62b046612610188",
+    "bytes": 6288,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M11-round-21-local-audit.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c9a739067103dd540fcaf4fb6c89270d244e373bb36d9f396d4f484200fd8072",
+    "bytes": 7641,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M12-round-23-local-audit.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "6d1cd626d818e0652039ba30b28ad677505114800f9c9cd73d38e3100dd540a6",
+    "bytes": 7999,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  }
+]

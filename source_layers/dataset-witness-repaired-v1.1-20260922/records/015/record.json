@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "015",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The largest integer strictly less than x is ceil(x)-1, not ceil(x).",
+  "overclaim": false,
+  "mechanism": "严格整数端点错误",
+  "original": {
+    "excerpt": "Since \\(D_i\\le\\Delta_{\\rm flat}<HE\\), equations (1.6) and (2.4) give\n\n$$\nm_i<\n\\frac{H\\,127^2K^2}\n{126^2(K-H)S_i}.\n$$\n\nThe exact strict-integer ceilings are\n\n$$\n\\boxed{\n\\begin{aligned}\n(m_i)=(&60996,48631,44023,40693,39789,38265,39011,\\\\\n       &38265,39789,40693,44023,48631,60996).\n\\end{aligned}}\n\\tag{2.6}\n$$",
+    "context": "For each row, the source derives the strict real bound m_i<x_i, where x_i=H*127^2*K^2/[126^2*(K-H)*S_i]. It then labels a vector of ceilings as exact strict-integer values.",
+    "locator": "round-59-response.md, lines 222–239",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The largest integer strictly less than x is ceil(x)-1, not ceil(x).",
+    "evidence": "For integer m, m<x is equivalent to m<=ceil(x)-1. If x=2 exactly, the maximum admissible integer is 1, not 2; if x=2.3, it is 2, not 3. Consequently the printed thirteen ceilings must each be reduced by one to be sharp strict-integer maxima. Their use as conservative, larger deletion budgets may still be safe; the error is the exactness claim.",
+    "scope": "computation_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "严格小于 x 的最大整数是 ceil(x)-1，不是 ceil(x)。本轮确认一般取整规则和端点；未重新计算所有历史表格行。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "computation_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "HEXT-POSTSEP07-M23",
+    "prior_curated_status": "CONFIRMED_FALSE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "015",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

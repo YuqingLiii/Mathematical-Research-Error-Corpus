@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "record_id": "062",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "excluded",
+  "summary": "The headline quantifier exceeds the pure alternating direction treated in the derivation, but explicit adjacent exclusions may already delimit the intended statement.",
+  "overclaim": null,
+  "mechanism": "excluded_allegation",
+  "original": {
+    "excerpt": "The adjacent \\(14\\)-root matrix circuit and its convex dual are correct. However, the holomorphic Plücker relation does **not** directly control the required sesquilinear circuit. The exact outcome is a rigorous method limit:\n\n$$\n\\boxed{\n\\begin{gathered}\n\\text{Any valid linear use of the adjacent holomorphic Plücker wedge is either}\\\\\n\\text{inadmissible for the physical sesquilinear circuit, or—when a constant}\\\\\n\\text{conjugation real structure makes it admissible—has identically zero target gain.}\n\\end{gathered}}\n\\tag{PlueckerLinearNoGo}\n$$\n\nThis is proved for arbitrary adjacent \\(k+2\\)-root/\\(k\\)-slope circuits over any odd prime field. An explicit frozen-dimensional canonical-cofactor family attains the zero-target conclusion with a nonzero ordinary Plücker coefficient, so the result is not merely formal.\n\nIt does **not** rule out:\n\n* a constant separator using the transpose-symmetric matrix directions;\n* a constant separator combining those directions with the Plücker direction to reduce the ordinary denominator;\n* a genuinely frequency-dependent matrix multiplier;\n* the exact global shared-phase dual across all Fourier frequencies.",
+    "context": "The proof handles a pure alternating Pluecker direction under a constant conjugation real structure. Immediately after the broad headline, the response explicitly excludes mixed symmetric/alternating, frequency-dependent, and global constructions from its conclusion.",
+    "locator": "round-41-response.md, lines 17–36",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The headline quantifier exceeds the pure alternating direction treated in the derivation, but explicit adjacent exclusions may already delimit the intended statement.",
+    "evidence": "The displayed proof controls the alternating J contribution under a constant real structure. A general constant separator S+tJ also has a symmetric contribution S and an ordinary denominator that can depend on t; a zero alternating target numerator does not alone exclude improvement of that ratio. Frequency-dependent and globally coupled constructions are additional unaddressed cases. However, the original text expressly lists these exclusions, so one must decide whether its headline is actually intended universally before counting a positive error.",
+    "scope": "argument_invalid",
+    "endorsement": "historical_allegation_not_endorsed"
+  },
+  "adjudication": {
+    "rationale_zh": "原文在同一段明确保留 symmetric、混合分母和频率依赖等例外；现 witness 只列出这些已排除的方向。",
+    "history_reconciliation": "不能把headline脱离相邻明确限定后再判全称越界。",
+    "verification_basis": "原始声明、已恢复历史裁定和对应 witness 对照；新增数学推导及计算层级单独标明。",
+    "witness_scope": "outside_positive_error_scope",
+    "original_selection_correction": null,
+    "prior_inventory_key": "HEXT-POSTSEP07-M16",
+    "prior_curated_status": "CONFIRMED_SCOPE_OR_STATUS_ERROR",
+    "prior_package_status": "interpretation_check_pending",
+    "superseded_20260922_status": "exclude_current_pair",
+    "witness_repair_v11": {
+      "record_id": "062",
+      "old_witness_issue": "旧反例利用原文明确排除的对称、混合或频率依赖方向。",
+      "repair_attempt": "把原段全部限定接回后，所给例子不反驳其纯交替线性范围。",
+      "outcome": "原反例不在断言范围；没有用另一个问题替换它。",
+      "admission": "excluded",
+      "evidence": "audit/excluded/062/witness.md"
+    }
+  },
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "062",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

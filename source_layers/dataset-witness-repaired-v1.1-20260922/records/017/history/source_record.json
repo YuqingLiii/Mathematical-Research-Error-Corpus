@@ -1,0 +1,389 @@
+{
+  "record_id": "017",
+  "problem": "Channel additivity violations",
+  "collection": "Original research investigation",
+  "summary": "The written continuity modulus is undefined at output dimension d=1.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "For output dimension `d`, define\n\n`f_d(eps) = eps log_2(d-1) + h_2(eps)`.\n\nOnly sufficiently small `eps` is needed below. Audenaert's Theorem 1 gives\n\n`|S(rho)-S(sigma)| <= f_d((1/2)||rho-sigma||_1)`\n\nfor `d`-dimensional states.",
+    "context": "The surrounding claim covers arbitrary finite output dimensions. This original write lacks the later separate treatment of one-dimensional outputs.",
+    "locator": "Proof-artifact creation event, 2026-08-30T02:02:11.343Z, JSONL line 4003"
+  },
+  "witness": {
+    "explanation": "The written continuity modulus is undefined at output dimension d=1.",
+    "evidence": "Substituting d=1 produces log2(d-1)=log2(0), not a finite real number. A one-dimensional output state is uniquely [1] and its entropy is exactly zero, so that case must be handled separately with zero entropy variation; it is not covered by the displayed formula. This invalidates the stated all-dimensions argument, not its repaired conclusion.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "连续性推导的摘要是短标题，没有 d=1 边界分析。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-30T02:00:32.436Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "generation",
+        "source_name": "local-session-archive/2026/08/26/rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl",
+        "source_line": 3990,
+        "material_id": "M01",
+        "original_line_sha256": "a5f230e92312a7279ba3d2796a1c3192706d95c7bcd2aaf6a7db7c324455b053"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M01",
+      "source_line": 3985,
+      "timestamp": "2026-08-30T02:00:14.340Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 3986,
+      "timestamp": "2026-08-30T02:00:14.342Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 3987,
+      "timestamp": "2026-08-30T02:00:29.109Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 3988,
+      "timestamp": "2026-08-30T02:00:29.111Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 3989,
+      "timestamp": "2026-08-30T02:00:32.435Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 3990,
+      "timestamp": "2026-08-30T02:00:32.436Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4003,
+      "timestamp": "2026-08-30T02:02:11.343Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 4004,
+      "timestamp": "2026-08-30T02:02:11.347Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 4005,
+      "timestamp": "2026-08-30T02:02:11.397Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 4006,
+      "timestamp": "2026-08-30T02:02:11.397Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M01",
+      "source_line": 7359,
+      "timestamp": "2026-08-30T05:12:01.526Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 7360,
+      "timestamp": "2026-08-30T05:12:01.528Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 22846,
+      "timestamp": "2026-08-31T03:10:10.662Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 22847,
+      "timestamp": "2026-08-31T03:10:10.694Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M01-rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M01-rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "local-session-archive/2026/08/26/rollout-2026-08-26T20-38-22-<session-id-redacted>.jsonl",
+      "original_source_sha256": "40bf2dfc5333a0d95873acd9e9b3241ffe9a586d83f2b0cbfdf77d1ee640fc91",
+      "original_source_bytes": 235865534,
+      "bundled_file_sha256": "e77d115f1be21e1a4892f12df0e76d03f7c57234eb348a034018ef3f301eede1",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          3979,
+          4012
+        ],
+        [
+          7353,
+          7366
+        ],
+        [
+          22840,
+          22853
+        ]
+      ],
+      "requested_locators": [
+        "Proof-artifact creation event, 2026-08-30T02:02:11.343Z, JSONL line 4003",
+        {
+          "line_ranges": [
+            [
+              3990,
+              3990
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        3985,
+        3986,
+        3987,
+        3988,
+        3989,
+        3990,
+        4004,
+        7359,
+        7360,
+        22846,
+        22847
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "40bf2dfc5333a0d95873acd9e9b3241ffe9a586d83f2b0cbfdf77d1ee640fc91",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [
+        {
+          "line": 3990,
+          "expected_raw_line_sha256": "a5f230e92312a7279ba3d2796a1c3192706d95c7bcd2aaf6a7db7c324455b053",
+          "observed_raw_line_sha256": "a5f230e92312a7279ba3d2796a1c3192706d95c7bcd2aaf6a7db7c324455b053",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event",
+        "historical_evidence_pointer"
+      ],
+      "file": "materials/M02-FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_INDEPENDENT_REVIEW_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-counterexample-prevalence/reviews/FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_INDEPENDENT_REVIEW_20260830.md",
+      "original_source_sha256": "2d61dfb6d042daec639a4c8a4d6039f3b92c09b4571c20f7bcf47cf76a568bed",
+      "original_source_bytes": 14889,
+      "bundled_file_sha256": "2d61dfb6d042daec639a4c8a4d6039f3b92c09b4571c20f7bcf47cf76a568bed",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          284
+        ]
+      ],
+      "requested_locators": [
+        "HCP-FS-IR-02",
+        "HCP-FS-IR-02",
+        "HCP-FS-IR-02"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [
+        {
+          "expected": "2d61dfb6d042daec639a4c8a4d6039f3b92c09b4571c20f7bcf47cf76a568bed",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "2d61dfb6d042daec639a4c8a4d6039f3b92c09b4571c20f7bcf47cf76a568bed",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M03-FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-counterexample-prevalence/artifacts/FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_20260830.md",
+      "original_source_sha256": "f9e55d086e9b9fbd2929c0b822b64ff3f2ae37b55d1e6a0482e7a06ea8e4f80e",
+      "original_source_bytes": 5250,
+      "bundled_file_sha256": "f9e55d086e9b9fbd2929c0b822b64ff3f2ae37b55d1e6a0482e7a06ea8e4f80e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          112
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-counterexample-prevalence/reviews/FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-STABILITY_AND_MEASURE_PROOF_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-counterexample-prevalence/artifacts/STABILITY_AND_MEASURE_PROOF_20260829.md",
+      "original_source_sha256": "16381b19cb003eca6982b693acd7f74f190e45d213a92d8e75640e657bf967c6",
+      "original_source_bytes": 4999,
+      "bundled_file_sha256": "16381b19cb003eca6982b693acd7f74f190e45d213a92d8e75640e657bf967c6",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          134
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-counterexample-prevalence/reviews/FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M05-ADDITIVE_OPEN_REGION_PROOF_20260829.md",
+      "readable_file": null,
+      "source_name": "research-graph/holevo-counterexample-prevalence/artifacts/ADDITIVE_OPEN_REGION_PROOF_20260829.md",
+      "original_source_sha256": "8fa6b701a9ca658ae8b091a685effc8ecb8010465a75882dae3258ed40ecc528",
+      "original_source_bytes": 2318,
+      "bundled_file_sha256": "8fa6b701a9ca658ae8b091a685effc8ecb8010465a75882dae3258ed40ecc528",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          53
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/holevo-counterexample-prevalence/reviews/FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_INDEPENDENT_REVIEW_20260830.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 5,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

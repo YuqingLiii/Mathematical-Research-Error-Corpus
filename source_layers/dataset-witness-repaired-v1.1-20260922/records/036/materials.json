@@ -1,0 +1,124 @@
+[
+  {
+    "file": "original/M01-circdist_gross_sbbcert_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+    "bytes": 131768,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-circdist_sbbcert_review_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+    "bytes": 35424,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-CIRCDIST.gross.mc-equiv.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0c75299358a4f6c63a53ff5b96bf2d3646e42daeb4edd776207dfdfea46a0aa3",
+    "bytes": 1986,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M04-CIRCDIST.gross.mc-equiv.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "370c2a84eb6b602cd33b96a54a67db1d0e87892c561f341b27d88e62c90a297a",
+    "bytes": 2604,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M05-agent-ace09be0f0bec8908.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "ffd76cf6a78a038777f4ae2165ce3e3ed89ce5e3801b294214a75b08d79a1caa",
+    "bytes": 77666,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M05-agent-ace09be0f0bec8908.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "81713a06e09f4618f7acc7057c26ddd853747d52c78f2e532a8cf097bc65a738",
+    "bytes": 110915,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M06-circdist_gross_g1_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "10f4fdac5fec9a871d9663fe8fe0b00cda3ea9a40f8e70b50cceaccf79840776",
+    "bytes": 96183,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M07-CIRCDIST_PROBLEMS.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "5f6dc37fcc33c0eb9f90e6267864740fc53b65c4acf1ee870c8d29ffd6d46c64",
+    "bytes": 10199,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M08-circdist_lift_d3gate_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "882bdf2a922d51c4e0ddc056840c5c8694960423a07581871962c340343d185f",
+    "bytes": 53117,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M09-circdist_lift_nonint_proof_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "42d6c138c1ea19127db76ab4f22d2a64c1d1e1e96adf76af975076b529a71f4c",
+    "bytes": 58543,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M10-circdist_lift_proofs_review_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f",
+    "bytes": 45878,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M11-circdist_gross_toolfeas_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "2f67c53b54a0012b4124d6170c6ad79b431a941caf59a4fc92c952a8df9c2aa7",
+    "bytes": 4124,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M12-circdist_gross_sbbcert_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+    "bytes": 131768,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M13-circdist_sbbcert_review_20260820.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+    "bytes": 35424,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-M01-circdist_gross_sbbcert_20260820.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/dataset-clean/records/036/original/M01-circdist_gross_sbbcert_20260820.md",
+    "original_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99",
+    "source_lines": [
+      246,
+      251
+    ],
+    "sha256": "a9d7946f4d8f2188ca5a46404dd32675b21aff98d175a354038b1151bf1cbd10",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R02-M02-circdist_sbbcert_review_20260820.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/dataset-clean/records/036/original/M02-circdist_sbbcert_review_20260820.md",
+    "original_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397",
+    "source_lines": [
+      375,
+      396
+    ],
+    "sha256": "759811c69241966aca86b5e5498b663b500651ddcad60d2e3e4cc3355f9f961a",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  }
+]

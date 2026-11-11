@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "056",
+  "problem": "Group-orbit Bell matrices",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "For a rectangular zero matrix, the full left and right top singular spaces have different dimensions and cannot be paired as required by the construction.",
+  "overclaim": true,
+  "mechanism": "正奇异值空间的配对构造被扩展到零矩阵",
+  "original": {
+    "excerpt": "The proof also gives explicit extremizing vectors: the normalized rows of any\npaired top left/right singular bases.",
+    "context": "The theorem applies to real rectangular matrices with transitive row and column permutation actions and does not exclude the zero matrix.",
+    "locator": "Original balanced-rank theorem draft, GO-T4, lines 66–85.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "For a rectangular zero matrix, the full left and right top singular spaces have different dimensions and cannot be paired as required by the construction.",
+    "evidence": "Let A be the 1-by-2 zero matrix. The two-element group acts trivially on its one row and swaps the two columns, so both actions are transitive and equivariance holds. The full top left space is R and the full top right space is R^2. Bases spanning these spaces have one and two columns, respectively; there is no pair with a common column count. Every feasible strategy still has the correct optimum value zero, so only the unconditional construction clause fails.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "保留为零矩阵边界处的构造范围越界，不是最优值定理为假。GO-T2 的 paired-basis 构造要求 sigma>0，但 GO-T4 单独量化 transitive equivariant 矩阵，并在不排除 A=0 时声称 normalized rows of any paired top bases 给出极值向量；同样遗漏进入独立哈希绑定的 transitive-optimum 节点。对 1×2 零矩阵，完整左右 top spaces 的维数分别为 1、2，不能按该定义选择同列数的完整 paired bases。后续范围修复明确承认 earlier unconditional wording was too broad。",
+    "history_reconciliation": "上一轮 pending 忽略了同一档案的 F5/F5R 精确目标审查和 SC1 显式修复。GO-T2 的局部 sigma>0 假设不自动修复 GO-T4 与父节点中已无条件写出的构造承诺。恢复旧缺陷裁定，严格只指构造子句。",
+    "verification_basis": "Read original GO-T2/GO-T4, immutable hash-bound F5/F5R review, and SC1 repair; directly checked 1-by-2 zero-matrix dimensions and transitive C2 actions. No numerical experiment required.",
+    "witness_scope": "Unconditional construction clause invalid at rectangular zero matrix; optimum-value equality remains true.",
+    "original_selection_correction": null,
+    "prior_inventory_key": "GROTH-ORB-004",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "pending"
+  },
+  "visible_reasoning": {
+    "availability_description": "本地相关承接/写入会话保留短标题；部分材料来自网页，协调者摘要不能替代网页生成者推理。现有材料能定位错误工件，不足以判断推理到输出的阶段。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "056",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

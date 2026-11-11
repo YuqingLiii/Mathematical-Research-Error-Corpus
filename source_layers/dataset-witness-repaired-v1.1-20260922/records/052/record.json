@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "record_id": "052",
+  "problem": "Finite-dimensional Grothendieck bounds",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The contraction supplies a dimension factor that cancels the divisor d_rho.",
+  "overclaim": false,
+  "mechanism": "收缩中的表示维数因子遗漏",
+  "original": {
+    "excerpt": "Here the direct covariant product map in irrep \\(\\rho\\) is exactly\n`14400/d_rho` times the canonical K-pencil adjoint",
+    "context": "The draft reused a single-vector Schur normalization after contraction over representation indices.",
+    "locator": "Exact certificate draft write, 2026-08-31T03:29:17.319Z; correction at03:30:16.130Z.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The contraction supplies a dimension factor that cancels the divisor d_rho.",
+    "evidence": "The single-vector formula has prefactor14400/d_rho. In Q^T J Q, contraction with J^{-1} contributes Tr(J^{-1}J)=d_rho. Thus the direct contracted coefficient map has prefactor(14400/d_rho)*d_rho=14400, independent of representation degree. The old code used ORDER*inverse(degree) modulo24001; the corrected code uses ORDER. Residual minor values consequently change from1400 and15799 to13280 and7143 modulo24001. The normalized Schur stage is unaffected.",
+    "scope": "computation_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "单向量系数 14400/d_rho 经 Q^T J Q 收缩还乘 Tr(J^-1 J)=d_rho，故直接映射系数应为 14400。原错误在收缩因子；不影响另行归一化的 Schur 阶段。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "computation_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "GROTH-D4-005",
+    "prior_curated_status": "CONFIRMED_FALSE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "摘要 Correcting scaling factor 是事后更正。原登记 03:30:16 不是最早错误；新定位到 03:28:29 首次错误证书和 03:29:17 错误 prose，不能颠倒成正确推理之后抄错。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-31T03:29:50.216Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "posthoc_only",
+        "source_name": "local-session-archive/2026/08/30/rollout-2026-08-30T16-49-42-<session-id-redacted>.jsonl",
+        "source_line": 2351,
+        "material_id": "M01",
+        "original_line_sha256": "9b55707808f924d15f75cc0572eea2e124c7791ddd9607682c1fabc59f91c680"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M01",
+      "source_line": 2324,
+      "timestamp": "2026-08-31T03:28:29.073Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 2342,
+      "timestamp": "2026-08-31T03:29:17.319Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 2350,
+      "timestamp": "2026-08-31T03:29:50.211Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 2351,
+      "timestamp": "2026-08-31T03:29:50.216Z",
+      "roles": [
+        "original_claim_or_computation",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "052",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

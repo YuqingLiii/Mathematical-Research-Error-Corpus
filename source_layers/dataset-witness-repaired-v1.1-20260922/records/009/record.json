@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "009",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The displayed polynomial has been evaluated incorrectly.",
+  "overclaim": false,
+  "mechanism": "整数求值错误",
+  "original": {
+    "excerpt": "At \\(|T|=777716\\), this is the first undecided finite determinant/kernel system. The dictionary has at most\n\n$$\nr_1^2+r_1+1\n=\n970353651\n$$\n\ncolumns, but the coefficient vector has the special nonlinear form (8.2). Merely proving \\(G_T\\) singular would be necessary, not sufficient: its kernel must contain a vector with that exact conjugate-quadratic structure.",
+    "context": "The displayed dictionary-count expression uses r1=777716. This is a local arithmetic display, not the main theorem’s proof.",
+    "locator": "round-28-response.md, lines 725–733",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The displayed polynomial has been evaluated incorrectly.",
+    "evidence": "Exact integer arithmetic gives 777716^2+777716+1=604842954373, whereas 970353651=31151*31150+1. The printed number belongs to a different expression.",
+    "scope": "computation_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "777716²+777716+1=604842954373，与原文求值不符；这是局部精确算术错误。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "computation_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "HEXT-POSTSEP07-M13",
+    "prior_curated_status": "CONFIRMED_FALSE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "009",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

@@ -1,0 +1,103 @@
+{
+  "records": 65,
+  "level": "first_level_only",
+  "multilabel": true,
+  "assignments": 67,
+  "single_label_records": 63,
+  "multilabel_records": 2,
+  "category_counts": {
+    "I": 2,
+    "II": 3,
+    "III": 15,
+    "IV": 45,
+    "V": 2
+  },
+  "category_record_ids": {
+    "I": [
+      "037",
+      "060"
+    ],
+    "II": [
+      "008",
+      "019",
+      "031"
+    ],
+    "III": [
+      "003",
+      "007",
+      "009",
+      "012",
+      "015",
+      "016",
+      "018",
+      "020",
+      "022",
+      "023",
+      "043",
+      "049",
+      "051",
+      "052",
+      "075"
+    ],
+    "IV": [
+      "001",
+      "002",
+      "005",
+      "006",
+      "010",
+      "011",
+      "013",
+      "014",
+      "017",
+      "021",
+      "022",
+      "024",
+      "025",
+      "026",
+      "027",
+      "028",
+      "029",
+      "030",
+      "032",
+      "033",
+      "034",
+      "035",
+      "036",
+      "037",
+      "038",
+      "039",
+      "040",
+      "041",
+      "042",
+      "044",
+      "045",
+      "046",
+      "047",
+      "048",
+      "050",
+      "055",
+      "056",
+      "057",
+      "061",
+      "066",
+      "067",
+      "071",
+      "072",
+      "074",
+      "077"
+    ],
+    "V": [
+      "063",
+      "065"
+    ]
+  },
+  "combinations": {
+    "IV+III": 1,
+    "I+IV": 1
+  },
+  "source_records_sha256": "7e98f3fb0841d6eb8c2ee3a759509981c2b7edd68fd88b739328dd139e08682c",
+  "admission_changes": 0,
+  "source_or_witness_changes": 0,
+  "unit": "Unique admitted error records per category, not problems, model runs, or error rates.",
+  "comparison_limit": "Not directly comparable to Yoshida problem-level subcategory-summed frequencies."
+}

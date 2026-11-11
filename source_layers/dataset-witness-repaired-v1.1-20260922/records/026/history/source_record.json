@@ -1,0 +1,186 @@
+{
+  "record_id": "026",
+  "problem": "Quantum-capacity superactivation",
+  "collection": "Original research investigation",
+  "summary": "Excluding a counterexample forces some additional separating property, not specifically unitality or absence of a flag.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "任何证明都不能只靠 Λ_ZW 的 cALN 性;幺正性(无旗性)是被逼出来的必要假设",
+    "context": "Translation: “No proof can rely only on Lambda_ZW being cALN; unitality (flaglessness) is a forced necessary hypothesis.” The source proposes unitality as the separator between its target and an erasure-channel counterexample. Here cALN refers to a receiver-versus-environment information-order property.",
+    "locator": "Assistant message, 2026-07-29T22:52:39.324Z, JSONL line 1540"
+  },
+  "witness": {
+    "explanation": "Excluding a counterexample forces some additional separating property, not specifically unitality or absence of a flag.",
+    "evidence": "The known activating pair shows only that the information-order assumption alone is insufficient. Formally, from a counterexample C satisfying A but not the desired conclusion, a successful strengthened theorem must restrict A enough to exclude C. It does not follow that every successful restriction equals the particular proposed predicate “unital.” No theorem in the argument makes unitality a necessary property of all zero-capacity pairs. The valid conclusion is that it is one candidate separator.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "推理认为 unitality/flaglessness 差异值得利用，不等于证明其为所有可能证明的必要条件；尚不能定位这一全称必要性何时形成。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-29T22:46:00.775Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "tracking/claude-proof-records/source-cache/macstudio-recovery/C--Users-wtaph-Documents-discovery-new-algorithms/<session-id-redacted>.jsonl",
+        "source_line": 1499,
+        "material_id": "M01",
+        "original_line_sha256": "a6d05f1d218a03fac24786ecac064468540b1713af1cf61d4240e16765ca981f"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M01",
+      "source_line": 1499,
+      "timestamp": "2026-07-29T22:46:00.775Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 1540,
+      "timestamp": "2026-07-29T22:52:39.324Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event",
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_event",
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M01-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M01-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "tracking/claude-proof-records/source-cache/macstudio-recovery/C--Users-wtaph-Documents-discovery-new-algorithms/<session-id-redacted>.jsonl",
+      "original_source_sha256": "b13f41eb745e9f344c22acd476fa3f7d6a598b8ef3858f9a80cfeb3746da908e",
+      "original_source_bytes": 5827369,
+      "bundled_file_sha256": "43eb5e5e0f7d1a47661ad6343e2e054435c6e96c30d1190490ba906ee7a001a3",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          1493,
+          1505
+        ],
+        [
+          1534,
+          1546
+        ],
+        [
+          1644,
+          1656
+        ],
+        [
+          1662,
+          1685
+        ]
+      ],
+      "requested_locators": [
+        "Assistant message, 2026-07-29T22:52:39.324Z, JSONL line 1540",
+        "JSONL lines 1650,1668,1679",
+        "JSONL lines 1650,1668,1679",
+        "JSONL lines 1650,1668,1679",
+        {
+          "line_ranges": [
+            [
+              1499,
+              1499
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        1499,
+        1540
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "b13f41eb745e9f344c22acd476fa3f7d6a598b8ef3858f9a80cfeb3746da908e",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "b13f41eb745e9f344c22acd476fa3f7d6a598b8ef3858f9a80cfeb3746da908e",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "b13f41eb745e9f344c22acd476fa3f7d6a598b8ef3858f9a80cfeb3746da908e",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [
+        {
+          "line": 1499,
+          "expected_raw_line_sha256": "a6d05f1d218a03fac24786ecac064468540b1713af1cf61d4240e16765ca981f",
+          "observed_raw_line_sha256": "a6d05f1d218a03fac24786ecac064468540b1713af1cf61d4240e16765ca981f",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_evidence_pointer"
+      ],
+      "file": "materials/M02-CLAUDE_CAMPAIGNS_20260821.json",
+      "readable_file": null,
+      "source_name": "tracking/ai-proof-records-20260912/recovered-marathon-20260821/CLAUDE_CAMPAIGNS_20260821.json",
+      "original_source_sha256": "d921321c22f4525b746e3e355b1a9181f05303fd20440683da10d4d663de7ec7",
+      "original_source_bytes": 100154,
+      "bundled_file_sha256": "d921321c22f4525b746e3e355b1a9181f05303fd20440683da10d4d663de7ec7",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          465
+        ]
+      ],
+      "requested_locators": [
+        "#campaigns/SUPERACT_AXC_DEDUPED/error_corrections/5"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 2,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

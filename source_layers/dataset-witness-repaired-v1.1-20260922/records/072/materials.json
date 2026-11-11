@@ -1,0 +1,143 @@
+[
+  {
+    "file": "original/M01-spectral-classification-review-20260907.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "7e21414c47cf8deab81b494ff31ba74fecbb02177c0b1fbc7f9abd2a9ec66941",
+    "bytes": 21875,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-proof_dag_schema.py",
+    "kind": "inherited_sanitized_source",
+    "sha256": "936c67bcafc07463dc0bd8fff7ba23b7b54a171dcd0f663dbe5c3bbdf7570465",
+    "bytes": 41281,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-balanced-rank-theorem-draft-20260829.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c6b7bd87193b34ad6e5c05d20971fba2722ba202c3e87e2bd6717a951d5dfef4",
+    "bytes": 5430,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M04-complete-extremizer-classification-20260829.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "44ac28ada792471f5ff014f763a94da16929ac2f6d99df01b2a056f52a47cd99",
+    "bytes": 6589,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M05-GROTHORB.spectral-upper.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "8a3572136ab5dc8a2a89d9e1c569c8876529f99a0670ca39052e9f21f0a22645",
+    "bytes": 1633,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M06-GROTHORB.balanced-criterion.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "cd85956c40d6070f3f1512282079b552176f3d12b2e77cb42c84aedb6d399c67",
+    "bytes": 1758,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M07-GROTHORB.invariant-projector.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "fc7500be90fb44e444cd23f1b7f5a36cee0d98754df032dea0ff6d086e2d62c4",
+    "bytes": 1646,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M08-GROTHORB.equality-characterization.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "1946a1a6e782683627a0e8c38aa830d88ee395a2b1fbf26f48d0656844091e73",
+    "bytes": 2646,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M09-GROTHORB.transitive-optimum.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "dad5273526c0250561b392c935bdd1efb9c1ce3349b8cb4e5671da7fcf0c6e68",
+    "bytes": 5398,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M10-GROTHORB.extremizer-classification.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "1dbac3b4479ed340529a0140b1f42840b089c52676beedc2e5996a34fcb8f234",
+    "bytes": 6938,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M11-GROTHORB.counterexample.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "c97441b24869a0838129d27ca4730d811675e0d3a0cc006bb9ec17c9c29aab03",
+    "bytes": 1669,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M12-GROTHORB.noninvariant-extremizer.yaml",
+    "kind": "inherited_sanitized_source",
+    "sha256": "be721dc2f36510e5cf9e5f0e8969dbd38461e11f839456b65d25727cf48d428e",
+    "bytes": 1814,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-spectral-classification-review-20260907.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/reviews/spectral-classification-review-20260907.md",
+    "original_sha256": "7e21414c47cf8deab81b494ff31ba74fecbb02177c0b1fbc7f9abd2a9ec66941",
+    "source_lines": [
+      147,
+      166
+    ],
+    "sha256": "8e40f9ade89fa7945db7adc0772bbad019ca13a905c51e012731f3dd92157735",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R02-complete-extremizer-classification-20260829.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/artifacts/complete-extremizer-classification-20260829.md",
+    "original_sha256": "44ac28ada792471f5ff014f763a94da16929ac2f6d99df01b2a056f52a47cd99",
+    "source_lines": [
+      98,
+      111
+    ],
+    "sha256": "ca323b40c8cf3a3176ffa946a82d9a3ac1abcf50a85e8f9f069a1ed296d9e4d1",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R03-spectral-classification-scope-repair-20260907.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/artifacts/spectral-classification-scope-repair-20260907.md",
+    "original_sha256": "56483aabd923e86edb66d7670c51f1617f7365162eb7d856b5ca2009658bf50e",
+    "source_lines": [
+      19,
+      24
+    ],
+    "sha256": "ed3ec2435d5ae45e80f9580668bb7a9bc466ced8a99697575f9d68b3dabf8e5e",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R04-GROTHORB.equality-characterization.yaml.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/proof-dag/nodes/GROTHORB.equality-characterization.yaml",
+    "original_sha256": "1946a1a6e782683627a0e8c38aa830d88ee395a2b1fbf26f48d0656844091e73",
+    "source_lines": [
+      40,
+      48
+    ],
+    "sha256": "0bd5ce39e948681edaae7679ff74a683f4d0c4315d289ffc35a9824807b2f796",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/A01-spectral-classification-scope-repair-20260907.md",
+    "kind": "supplementary_artifact",
+    "source": "[RESEARCH_GRAPH]/grothendieck-group-orbit/artifacts/spectral-classification-scope-repair-20260907.md",
+    "original_sha256": "56483aabd923e86edb66d7670c51f1617f7365162eb7d856b5ca2009658bf50e",
+    "sha256": "56483aabd923e86edb66d7670c51f1617f7365162eb7d856b5ca2009658bf50e",
+    "transformation": "Full text, private identifiers redacted",
+    "reason": "SC2 directly confirms original node/conditional-artifact distinction and the explicit repair."
+  }
+]

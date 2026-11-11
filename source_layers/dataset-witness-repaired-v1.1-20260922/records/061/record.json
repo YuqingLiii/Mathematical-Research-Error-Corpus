@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.1",
+  "record_id": "061",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "A valid but strictly dominated Haar bound is advertised as an additional necessary scalar obstruction.",
+  "overclaim": true,
+  "mechanism": "冗余的必要条件被声称提供额外数学约束",
+  "original": {
+    "excerpt": "# 6. New full-Schmidt-rank obstruction\n\nThe following lemma goes beyond rank-one inputs, a single Bell input, and the universal \\(m-1\\) estimate.\n\n[...]\n\n\\boxed{\nm\\alpha_U^2\n-\nAD^2\\alpha_U\n+\nD^2(m-A)\n\\le0.\n}\n\\tag{HC}\n$$\n\nThis is a new necessary scalar condition.",
+    "context": "The source presents HC as a new scalar obstruction beyond the rank-one lower bound. The correction distinguishes this strength claim from the valid full-rank inequality and witness.",
+    "locator": "reconciliation_sources/W11-round-03-response.md:912–914,1197–1208; W11-round-04-response.md:1–11 and section A.",
+    "source_form": "direct_original"
+  },
+  "witness": {
+    "explanation": "The existing one-copy rank-one condition strictly implies HC throughout the claimed feasible regime; HC supplies no additional scalar exclusion.",
+    "evidence": "The target of this witness is the advertised additional scalar obstruction, not the truth of the Haar lower bound or the existence of a full-Schmidt-rank witness. In section 7, the source calls HC a \"new necessary scalar condition\" after presenting it as progress beyond the rank-one bound; the next response explicitly retracts that scalar-obstruction claim while retaining the inequality.\n\nWrite alpha=||C(I_D)||_2^2. Rank-one Haar averaging gives q_pure=(alpha+D)/(D(D+1)); the one-copy assumption p_1(C)<=A/m already implies m*q_pure<=A. The claimed full-rank average is q_full=(alpha^2+D^2)/(D^2(alpha+1)). Exact subtraction gives\n\nq_pure-q_full = ((alpha-D)(D^2-alpha))/(D^2(D+1)(alpha+1)).\n\nThe relevant domain is not assumed without proof. In the low-A feasible regime, m>exp(18) and A^2<m^(1/m). In particular m>=10 and A<5/4: log(m)/m is decreasing for m>=10 and (5/4)^20>10. Thus A<2m/(m+1). Since C(I_D/D) is an m-dimensional density matrix, alpha>=D^2/m. Combining this with m*q_pure<=A yields (m-A)<=D(A-1), hence D>m. Consequently alpha>D. The same scalar bound yields alpha<=A*D(D+1)/m-D<A*D^2/m<D^2 (using A<m). The displayed difference is therefore strictly positive throughout the feasible domain.\n\nIt follows that m*q_full < m*q_pure <= A. Multiplying out m*q_full<=A gives precisely HC: m*alpha^2-A*D^2*alpha+D^2*(m-A)<=0. HC excludes no additional scalar candidates beyond the already required rank-one condition in this regime. Calling it an additional necessary scalar obstruction overstates what the derived bound establishes.\n\nThis is a claim about relative constraint strength inside the specified feasible domain, not a literature-wide novelty judgment. A different full-rank witness may still be mathematically interesting, and the inequality itself remains valid. If \"new\" were only a statement about deriving a differently written true formula, redundancy would not refute that narrower claim. The source's obstruction/progress framing and its subsequent explicit retraction determine the narrower, record-specific target used here.",
+    "scope": "overstated_additional_scalar_constraint_not_false_inequality",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "修正 witness 的对象：不是证明 Haar 界错误，而是证明所称新增标量约束在当前可行域内已由旧约束严格支配。保留正确的界和满秩见证，删除旧 witness 对其真假的混淆。",
+    "history_reconciliation": "v1 的错误原文/witness 配对判定已在 v1.1 修复；旧材料与旧裁定完整保留在 history。",
+    "verification_basis": "直接原文对照、完整假设域上的显式推导、精确代数检查；未重新运行全部历史计算。",
+    "witness_scope": "overstated_additional_scalar_constraint_not_false_inequality",
+    "original_selection_correction": "原文的错误落在“new necessary scalar condition”的额外约束解释；给出旧条件严格支配新条件的恒等式与可行域证明，并接回下一轮明确撤回。",
+    "prior_inventory_key": "HEXT-POSTSEP07-M02",
+    "prior_curated_status": "CONFIRMED_SCOPE_OR_STATUS_ERROR",
+    "prior_package_status": "interpretation_check_pending",
+    "superseded_20260922_status": "exclude_current_pair",
+    "superseded_v1_admission": "excluded"
+  },
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "061",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

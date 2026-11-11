@@ -1,0 +1,260 @@
+{
+  "record_id": "049",
+  "problem": "Finite-dimensional Grothendieck bounds",
+  "collection": "Original research investigation",
+  "summary": "The displayed integer product is incorrect.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "\\binom{600}{2}\\,598=107281800",
+    "context": "The proof note counts index choices with an unordered pair of two distinct vertices and a third distinct vertex.",
+    "locator": "Triangle/hypermetric no-go note, lines114–123."
+  },
+  "witness": {
+    "explanation": "The displayed integer product is incorrect.",
+    "evidence": "binom(600,2)=600*599/2=179700; multiplying by598 gives107460600, not107281800. The discrepancy is178800. This is a local arithmetic/count-reporting error; it does not by itself invalidate the checker loops or the associated nonnegativity result.",
+    "scope": "computation_false"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "triangle checker 的短标题不含组合计数算式，无法判定乘法错误的形成阶段。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-31T01:24:17.961Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "generation",
+        "source_name": "local-session-archive/2026/08/30/rollout-2026-08-30T17-05-15-<session-id-redacted>.jsonl",
+        "source_line": 320,
+        "material_id": "M03",
+        "original_line_sha256": "a5131dfac21d5e075f8098db2cbfacddf8841cf9ec7fcf30158cbdffaba799aa"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [
+    {
+      "material": "M03",
+      "source_line": 315,
+      "timestamp": "2026-08-31T01:24:03.707Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M03",
+      "source_line": 316,
+      "timestamp": "2026-08-31T01:24:03.709Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M03",
+      "source_line": 317,
+      "timestamp": "2026-08-31T01:24:14.634Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M03",
+      "source_line": 318,
+      "timestamp": "2026-08-31T01:24:14.636Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M03",
+      "source_line": 319,
+      "timestamp": "2026-08-31T01:24:17.960Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M03",
+      "source_line": 320,
+      "timestamp": "2026-08-31T01:24:17.961Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M01-d4-triangle-hypermetric-no-go-20260830.md",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/artifacts/d4-triangle-hypermetric-no-go-20260830.md",
+      "original_source_sha256": "32f561ada2a606d5543881159add4b68c79d85ce4c0e253289ca6b55f8a54857",
+      "original_source_bytes": 6023,
+      "bundled_file_sha256": "32f561ada2a606d5543881159add4b68c79d85ce4c0e253289ca6b55f8a54857",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          210
+        ]
+      ],
+      "requested_locators": [
+        "lines 114-123",
+        "lines 114-123",
+        "lines 114-123",
+        "lines 114-123",
+        "lines 114-123",
+        "lines 114-123",
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.cut.triangle-no-go.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [
+        {
+          "expected": "32f561ada2a606d5543881159add4b68c79d85ce4c0e253289ca6b55f8a54857",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "32f561ada2a606d5543881159add4b68c79d85ce4c0e253289ca6b55f8a54857",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M02-GROTHD4.cut.triangle-no-go.yaml",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.cut.triangle-no-go.yaml",
+      "original_source_sha256": "1f3a030fa27d05c1c9966d5fb422dbd6a8cfaf0949465594cd25d07d90219452",
+      "original_source_bytes": 1594,
+      "bundled_file_sha256": "1f3a030fa27d05c1c9966d5fb422dbd6a8cfaf0949465594cd25d07d90219452",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          43
+        ]
+      ],
+      "requested_locators": [],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "file": "materials/M03-rollout-2026-08-30T17-05-15-<session-id-redacted>.jsonl.visible.json",
+      "readable_file": "materials/M03-rollout-2026-08-30T17-05-15-<session-id-redacted>.jsonl.readable.md",
+      "source_name": "local-session-archive/2026/08/30/rollout-2026-08-30T17-05-15-<session-id-redacted>.jsonl",
+      "original_source_sha256": "9107712208d3041d68e245a932ff738d2142f73ca3805b691a36ad42abdfa8ff",
+      "original_source_bytes": 6786268,
+      "bundled_file_sha256": "e798cd62a9ddd78403afed091ae67980fb9967c32df2a9e587f709cc5831aaa1",
+      "extraction_mode": "selected_visible_events",
+      "included_line_ranges": [
+        [
+          309,
+          326
+        ]
+      ],
+      "requested_locators": [
+        {
+          "line_ranges": [
+            [
+              320,
+              320
+            ]
+          ]
+        }
+      ],
+      "matched_quote_lines": [
+        315,
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "historical_hash_matches": [],
+      "event_hash_checks": [
+        {
+          "line": 320,
+          "expected_raw_line_sha256": "a5131dfac21d5e075f8098db2cbfacddf8841cf9ec7fcf30158cbdffaba799aa",
+          "observed_raw_line_sha256": "a5131dfac21d5e075f8098db2cbfacddf8841cf9ec7fcf30158cbdffaba799aa",
+          "hash_scope": "Original UTF-8 line including its original LF terminator; any CR is preserved.",
+          "matched": true
+        }
+      ],
+      "transformations": [
+        "Public copy/extraction; original source digest retained.",
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings.",
+        "Only selected visible events retained; encrypted_content/signatures and environment metadata omitted."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-h4_triangle_hypermetric_no_go_checker.py",
+      "readable_file": null,
+      "source_name": "research-graph/grothendieck-d4/tools/h4_triangle_hypermetric_no_go_checker.py",
+      "original_source_sha256": "c8a7425d11de1bda58c63d446622749788681daafc5b0b342e923ee777464817",
+      "original_source_bytes": 7689,
+      "bundled_file_sha256": "c8a7425d11de1bda58c63d446622749788681daafc5b0b342e923ee777464817",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          200
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by research-graph/grothendieck-d4/artifacts/d4-triangle-hypermetric-no-go-20260830.md",
+        "Referenced by research-graph/grothendieck-d4/proof-dag/nodes/GROTHD4.cut.triangle-no-go.yaml"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 4,
+    "source_excerpt_check": "prior_source_check_not_repeated_as_exact_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

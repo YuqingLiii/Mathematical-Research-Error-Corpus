@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "record_id": "075",
+  "problem": "Quantum k-sum with small alphabets",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The unrestricted non-single-orbit claim omits the order-two degeneracy. For a nonidentity involution over Z2, the negative inputs can form one orbit rather than at least two.",
+  "overclaim": true,
+  "mechanism": "轨道分类被扩展到不满足至少两轨道的二元情形",
+  "original": {
+    "excerpt": "Fix any $(G,t)$ with $\\sigma\\ne\\mathrm{id}$ (i.e.\\ $\\tau<q$), and let $D_0\\subseteq G^n$ be the set of negative inputs. Then, already for $n=2$ and for every $n\\ge2$:\n\\begin{enumerate}\n\\item $D_0$ is not a single $S_n\\times C(\\sigma)$-orbit; the number of orbits equals\n$\\sum_{f} p_{\\le m}(n-f)$, where $m=(q-\\tau)/2$, $f$ ranges over the possible numbers of fixed-point values used, and $p_{\\le m}(\\cdot)$ counts partitions into at most $m$ parts; this is $\\ge2$ and grows with $n$ for $m \\ge 2$.",
+    "context": "这是2026-07-17T20:31:31.554Z原始完整稿Write中同一Rosmanis barrier proposition的item1，尚未排除q=2。后来交付版加入q≥3并明确称q=2为single-orbit degeneracy。原包装选的item2 regularity-fails例句与其witness同方向，不应作为错误句。",
+    "locator": "See reconciliation source window 2",
+    "source_form": "direct_original"
+  },
+  "witness": {
+    "explanation": "The unrestricted non-single-orbit claim omits the order-two degeneracy. For a nonidentity involution over Z2, the negative inputs can form one orbit rather than at least two.",
+    "evidence": "Let G=Z2, t=1, and n=2. Then σ(x)=1−x swaps0 and1, so σ≠id, τ=0, and m=1, all within the quoted claim's domain. A negative input has no pair summing to1; hence D0={(0,0),(1,1)}. The alphabet swap belongs to C(σ) and sends(0,0) to(1,1). Therefore D0 is a single S2×C(σ) orbit. Equivalently, its displayed orbit-count formula specializes to p_{≤1}(2)=1, not≥2. This refutes the original universal item1. It neither refutes the later q≥3 version nor the valid q=3/q=4 examples of regularity failure.",
+    "scope": "statement_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "纠正原文与 witness 选取后保留历史 KSUM-004 的轨道分类范围错误。不能再引用 regularity-fails 的正确例句并以同方向例子反驳。历史错误单位原本是 barrier orbit classification is exhaustive；原始初稿在同一命题 item1 对任意sigma!=id声称D0不为单轨道，遗漏q=2退化情形。",
+    "history_reconciliation": "这是显式修复同一 KSUM-004 审计记录的绑定与 witness，而非把与之无关的新错误填入075：corpus_50.jsonl第18行原单位就是轨道分类越界；原写入raw main:569保留缺q>=3的命题，交付TeX:276后来加了q>=3并注明q=2 single-orbit degeneracy。旧regularity例子仍可作上下文，但不得标为refutation。",
+    "verification_basis": "本轮从完整Write输入抽取原命题，对照后来交付稿限制，重新穷举4个输入得到D0={00,11}及单一轨道。",
+    "witness_scope": "G=Z2,t=1,n=2 时sigma交换0和1且sigma!=id；负输入恰为00和11，中心化子中字母交换将二者互换，因此只有一个轨道。直接反驳较早原稿无q>=3限定的>=2全称结论；不反驳后来已限定q>=3的轨道计数，也不反驳q3/q4 regularity-failure例子。",
+    "original_selection_correction": "明确校正历史KSUM-004（原始单位是轨道分类/范围越界）的原句与反证配对。不是声称旧regularity-fails句错误，不将该正确句及支持性例子偷偷改成反证，也不新增独立记录。",
+    "prior_inventory_key": "KSUM-004",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "interpretation_check_pending",
+    "superseded_20260922_status": "exclude_current_pair"
+  },
+  "visible_reasoning": {
+    "availability_description": "推理直接采用非恒等置换一律非单轨道的概括；正文延续这个漏掉退化情形的全称声明。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-17T20:28:27.854Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-main-b5fea9c2.jsonl",
+        "source_line": 567,
+        "material_id": "M01",
+        "original_line_sha256": "bce4dfb68f2b8de63b3b46ee7aab6467c7f9b13ef210189eae503bfca0886619"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M01",
+      "source_line": 567,
+      "timestamp": "2026-07-17T20:28:27.854Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 569,
+      "timestamp": "2026-07-17T20:31:31.554Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M01",
+      "source_line": 570,
+      "timestamp": "2026-07-17T20:31:31.658Z",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event",
+        "archived_exposure",
+        "visible_reasoning_anchor",
+        "visible_output_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "075",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

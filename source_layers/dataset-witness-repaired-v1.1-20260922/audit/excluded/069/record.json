@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "record_id": "069",
+  "problem": "Circuit-distance stabilization",
+  "collection_context": "Original research investigation",
+  "admission": "excluded",
+  "summary": "At k=0 the set over which a logical-distance minimum is taken is empty. A finite logical witness is unavailable, so the theorem needs an explicit k≥1 restriction or an extended-real convention.",
+  "overclaim": null,
+  "mechanism": "excluded_allegation",
+  "original": {
+    "excerpt": "  For each fixed legal single-round single-ancilla CSS schedule M under the stated ideal temporal\n  boundaries and unit-fault model, there is an explicitly constructible finite min-plus transfer\n  system (u,A,v) such that d_R(M) = u^T min-plus A^R min-plus v for every R, with the two CSS\n  sectors, boundary conditions, unreachable states, and logical terminal condition represented\n  exactly.",
+    "context": "The installed transfer theorem quantifies over CSS schedules without explicitly requiring at least one encoded logical qubit. Its terminal vector is finite precisely for nonzero logical terminal classes.",
+    "locator": "Archived theorem statement installed on 23 August 2026, transfer claim, lines 6–10.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "At k=0 the set over which a logical-distance minimum is taken is empty. A finite logical witness is unavailable, so the theorem needs an explicit k≥1 restriction or an extended-real convention.",
+    "evidence": "Let n=2 and H_X=H_Z=(1,1). Both ranks are one, hence k=n−rank H_X−rank H_Z=0. The quotient ker(H_Z)/rowspace(H_X) has dimension zero; it contains no nonzero terminal logical class. The vector v has no finite entries. Declaring min(empty)=+infinity can extend the formula, but without such a convention the ordinary finite logical-distance assertion is not defined for this input.",
+    "scope": "argument_invalid",
+    "endorsement": "historical_allegation_not_endorsed"
+  },
+  "adjudication": {
+    "rationale_zh": "k=0时无非零逻辑终端的计算正确，但不会使有限min-plus表示等式错误：允许∞且min(empty)=∞时两边均∞。正文明确k≥1，且明确采用扩展值空集最小值约定；安装摘要未重写k域属于精度/自足性问题，现有witness未提供错误数学结论。",
+    "history_reconciliation": "旧end-to-end审计原判是“fair summary beside dossier / not standalone enough for PROVED”，不是数学等式反例。后续把它录为独立数学错误不成立；此处纠正的是解释层，不是材料恢复状态。",
+    "verification_basis": "手算n=2,ranks1+1,k=0及空终端支撑；对照正文范围和∞约定，不以缺新实验判定。",
+    "witness_scope": "domain-precision issue only; no refutation of the quoted min-plus representation",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-SAT-001",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "interpretation_check_pending",
+    "superseded_20260922_status": "exclude_current_pair",
+    "witness_repair_v11": {
+      "record_id": "069",
+      "old_witness_issue": "用 k=0、没有逻辑终端反驳 min-plus 表示。",
+      "repair_attempt": "原文允许扩展值 ∞ 且正文明确 k≥1；即使扩展到 k=0，空集最小值下两边都是 ∞。",
+      "outcome": "原例不是等式反例；摘要自足性不当作另一条数学错误。",
+      "admission": "excluded",
+      "evidence": "audit/excluded/069/witness.md"
+    }
+  },
+  "visible_reasoning": {
+    "availability_description": "proposer 推理有 k≥1 条件，但错误是后来安装版本遗漏条件；不能将不同版本、不同作者的推理与输出直接配对成抄写错误。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-23T07:55:57.401Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a650547b7eb957124.jsonl",
+        "source_line": 23,
+        "material_id": "M04",
+        "original_line_sha256": "dfe2e08680ecfbd018cca520d41e8e79490162aa625bcf976f6f1f30802668f2"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M04",
+      "source_line": 23,
+      "timestamp": "2026-08-23T07:55:57.401Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "069",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

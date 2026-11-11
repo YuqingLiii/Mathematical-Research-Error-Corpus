@@ -1,0 +1,177 @@
+{
+  "record_id": "062",
+  "problem": "Channel additivity violations",
+  "collection": "Original research investigation",
+  "summary": "The headline quantifier exceeds the pure alternating direction treated in the derivation, but explicit adjacent exclusions may already delimit the intended statement.",
+  "review_status": "interpretation_check_pending",
+  "review_note": "Broad headline is immediately scoped by explicit exclusions. Needs substantive adjudication, not blind retention of prior label.",
+  "original": {
+    "excerpt": "The adjacent \\(14\\)-root matrix circuit and its convex dual are correct. However, the holomorphic Plücker relation does **not** directly control the required sesquilinear circuit. The exact outcome is a rigorous method limit:\n\n$$\n\\boxed{\n\\begin{gathered}\n\\text{Any valid linear use of the adjacent holomorphic Plücker wedge is either}\\\\\n\\text{inadmissible for the physical sesquilinear circuit, or—when a constant}\\\\\n\\text{conjugation real structure makes it admissible—has identically zero target gain.}\n\\end{gathered}}\n\\tag{PlueckerLinearNoGo}\n$$\n\nThis is proved for arbitrary adjacent \\(k+2\\)-root/\\(k\\)-slope circuits over any odd prime field. An explicit frozen-dimensional canonical-cofactor family attains the zero-target conclusion with a nonzero ordinary Plücker coefficient, so the result is not merely formal.\n\nIt does **not** rule out:\n\n* a constant separator using the transpose-symmetric matrix directions;\n* a constant separator combining those directions with the Plücker direction to reduce the ordinary denominator;\n* a genuinely frequency-dependent matrix multiplier;\n* the exact global shared-phase dual across all Fourier frequencies.",
+    "context": "The proof handles a pure alternating Pluecker direction under a constant conjugation real structure. Immediately after the broad headline, the response explicitly excludes mixed symmetric/alternating, frequency-dependent, and global constructions from its conclusion.",
+    "locator": "round-41-response.md, lines 17–36"
+  },
+  "witness": {
+    "explanation": "The headline quantifier exceeds the pure alternating direction treated in the derivation, but explicit adjacent exclusions may already delimit the intended statement.",
+    "evidence": "The displayed proof controls the alternating J contribution under a constant real structure. A general constant separator S+tJ also has a symmetric contribution S and an ordinary denominator that can depend on t; a zero alternating target numerator does not alone exclude improvement of that ratio. Frequency-dependent and globally coupled constructions are additional unaddressed cases. However, the original text expressly lists these exclusions, so one must decide whether its headline is actually intended universally before counting a positive error.",
+    "scope": "argument_invalid"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "file": "materials/M01-round-41-response.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/artifacts/web-gpt56sol-pro/round-41-response.md",
+      "original_source_sha256": "6e1a798689df27fea58f84a550b13a2fc61387a9cdb5050275c03a22d8498de2",
+      "original_source_bytes": 25109,
+      "bundled_file_sha256": "6e1a798689df27fea58f84a550b13a2fc61387a9cdb5050275c03a22d8498de2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1302
+        ]
+      ],
+      "requested_locators": [
+        "round-41-response.md, lines 17–36",
+        "lines 17-35",
+        "lines 17-35",
+        "lines 17-35",
+        "lines 17-35",
+        "lines 17-35"
+      ],
+      "matched_quote_lines": [
+        17
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "6e1a798689df27fea58f84a550b13a2fc61387a9cdb5050275c03a22d8498de2",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "6e1a798689df27fea58f84a550b13a2fc61387a9cdb5050275c03a22d8498de2",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "6e1a798689df27fea58f84a550b13a2fc61387a9cdb5050275c03a22d8498de2",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M02-concentrated_audit_2_rounds_24_42.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/web-results/02_rounds_24_42/concentrated_audit_2_rounds_24_42.md",
+      "original_source_sha256": "e805c9ef26c5edd7125b086ff54350174523b0089b08bd89c98d387c6c0bf18c",
+      "original_source_bytes": 52050,
+      "bundled_file_sha256": "e805c9ef26c5edd7125b086ff54350174523b0089b08bd89c98d387c6c0bf18c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          883
+        ]
+      ],
+      "requested_locators": [
+        "package F finding for M16"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M03-MASTER_AUDIT_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/MASTER_AUDIT_PROTOCOL.md",
+      "original_source_sha256": "3c5f230de4f1805b91bd77e7d06de300537f55edc0f31ebb79c831485b28a08c",
+      "original_source_bytes": 4795,
+      "bundled_file_sha256": "3c5f230de4f1805b91bd77e7d06de300537f55edc0f31ebb79c831485b28a08c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/02_rounds_24_42/concentrated_audit_2_rounds_24_42.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-round-23-local-audit.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/outputs/round-23-local-audit.md",
+      "original_source_sha256": "6d1cd626d818e0652039ba30b28ad677505114800f9c9cd73d38e3100dd540a6",
+      "original_source_bytes": 7999,
+      "bundled_file_sha256": "6d1cd626d818e0652039ba30b28ad677505114800f9c9cd73d38e3100dd540a6",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          310
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/02_rounds_24_42/concentrated_audit_2_rounds_24_42.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 4,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

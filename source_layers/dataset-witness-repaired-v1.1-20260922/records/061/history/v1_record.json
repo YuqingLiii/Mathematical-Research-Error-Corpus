@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "061",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "excluded",
+  "summary": "The full-rank Haar scalar condition is dominated by a rank-one scalar condition in the relevant low-A range. Whether “new” asserts stronger mathematical content rather than merely a different witness needs adjudication.",
+  "overclaim": null,
+  "mechanism": "excluded_allegation",
+  "original": {
+    "excerpt": "A new deterministic obstruction is proved below: averaging over **full-Schmidt-rank** inputs gives\n\n$$\n\\boxed{\n\\kappa_1(U)\\ge\n\\frac{m\\bigl(\\alpha_U^2+D^2\\bigr)}\n     {D^2(\\alpha_U+1)}-1,\n\\qquad\n\\alpha_U:=\\|C(I_D)\\|_2^2.\n}\n\\tag{Haar-LB}\n\n[...]\n\n# 6. New full-Schmidt-rank obstruction\n\nThe following lemma goes beyond rank-one inputs, a single Bell input, and the universal \\(m-1\\) estimate.\n\n[...]\n\nThis obstruction is genuinely entangled: its witness can be chosen full Schmidt rank. It is not a reformulation of the product lower bound\n\n$$\n\\kappa_1(U)\\ge mp-1.\n$$\n\nThe obstruction still does not disprove \\((E1_{\\rm gap})\\). For sufficiently large finite \\(D\\), the scalar interval (7.1) can intersect the quadratic interval (7.5). The remaining pointwise double-centered condition \\((DC)\\) is not settled by this average argument.",
+    "context": "For a deterministic unitary tuple U, alpha=||C(I_D)||_2^2. The response contrasts a full-Schmidt-rank Haar lower bound with the rank-one/product lower bound and describes a new scalar obstruction.",
+    "locator": "round-03-response.md, lines 33–43, 912–914, 1296–1302",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The full-rank Haar scalar condition is dominated by a rank-one scalar condition in the relevant low-A range. Whether “new” asserts stronger mathematical content rather than merely a different witness needs adjudication.",
+    "evidence": "Let q_pure=(alpha+D)/(D(D+1)) and q_full=(alpha^2+D^2)/(D^2(alpha+1)). Direct subtraction gives q_pure-q_full=((alpha-D)(D^2-alpha))/(D^2(D+1)(alpha+1))>=0 for D<=alpha<=D^2. Hence the full-rank condition adds no stronger scalar obstruction in that range. The inequality and the existence of a full-rank witness may still be correct; redundancy alone does not refute either.",
+    "scope": "argument_invalid",
+    "endorsement": "historical_allegation_not_endorsed"
+  },
+  "adjudication": {
+    "rationale_zh": "当前界更弱不等于错误；现 witness 没有推翻原数学不等式。",
+    "history_reconciliation": "较强已有结果不能反证一个较弱正确结果。",
+    "verification_basis": "原始声明、已恢复历史裁定和对应 witness 对照；新增数学推导及计算层级单独标明。",
+    "witness_scope": "outside_positive_error_scope",
+    "original_selection_correction": null,
+    "prior_inventory_key": "HEXT-POSTSEP07-M02",
+    "prior_curated_status": "CONFIRMED_SCOPE_OR_STATUS_ERROR",
+    "prior_package_status": "interpretation_check_pending",
+    "superseded_20260922_status": "exclude_current_pair"
+  },
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "061",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

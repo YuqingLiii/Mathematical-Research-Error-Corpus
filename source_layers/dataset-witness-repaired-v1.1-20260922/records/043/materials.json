@@ -1,0 +1,49 @@
+[
+  {
+    "file": "original/M01-KSUM-agent-acb57dcbbc16cfba2.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "8f61704cd9d6c0b7ac31e9287e6a67518a16a5dbd1a8e8224fc65d759621994f",
+    "bytes": 34526,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-KSUM-agent-acb57dcbbc16cfba2.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "9038007bb5699dfe3b92ddb765ab7e54d6626600fd210b2e3e2760ba642a021a",
+    "bytes": 60117,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-KSUM-main-b5fea9c2.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "771bf8a88467f6a55febbee1b8850cacd41da2a0bfd7a4c6c73089590144627c",
+    "bytes": 36560,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-KSUM-main-b5fea9c2.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "d606c641ab14a16ce1a4743451bf8c8b65a1a9c62e96cd6b394bee7f68a397af",
+    "bytes": 48703,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M03-DATA6_ksum_ledger.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "0018482ded6bdd7731828a1b1b18351929ca73abe10c5f2e846ca5afae16904b",
+    "bytes": 1753,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-M01-KSUM-agent-acb57dcbbc16cfba2.jsonl.readable.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/dataset-clean/records/043/original/M01-KSUM-agent-acb57dcbbc16cfba2.jsonl.readable.md",
+    "original_sha256": "8f61704cd9d6c0b7ac31e9287e6a67518a16a5dbd1a8e8224fc65d759621994f",
+    "source_lines": [
+      645,
+      654
+    ],
+    "sha256": "016a36414f825c183d420dc069131b900c1819ff73b56711a993a0ee910c12ff",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  }
+]

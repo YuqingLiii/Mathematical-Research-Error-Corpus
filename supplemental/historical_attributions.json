@@ -1,0 +1,1995 @@
+[
+  {
+    "record_id": "001",
+    "legacy_id": "GAP-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 2,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "original JSONL line 246 creates PROOF.md and writes that the entire problem is to choose different tuples; the active turn_context identifies gpt-5.6-sol",
+      "attribution_limit": "The exact write is recovered; no raw Codex chain of thought or distinct earlier latent-formation event is available.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": "GAP_SHARED_SCOPE_CORRECTION",
+      "primary_source": {
+        "bytes": 47246,
+        "locator": "slice line 1; original JSONL line 246 exact PROOF.md creation patch (2026-08-20T23:41:57.547Z)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-003-005-create-proof.jsonl",
+        "sha256": "3bb9800273129fce90e8643babefe4f6b3a2834df33ac8d552c0099ad9a3f015"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "002",
+    "legacy_id": "GAP-005",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 4,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "original JSONL line 246 creates PROOF.md and writes that tensoring a single Hastings counterexample with itself cannot settle the extensive question in the surrounding conjugate-pair route; the active turn_context identifies gpt-5.6-sol",
+      "attribution_limit": "The exact sentence is recovered, but the broader canonicalized transfer to a generic conjugate pair is reconstructed from context rather than stated in a second literal sentence.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": "GAP_SHARED_SCOPE_CORRECTION",
+      "primary_source": {
+        "bytes": 47246,
+        "locator": "slice line 1; original JSONL line 246 exact PROOF.md creation patch (2026-08-20T23:41:57.547Z)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-003-005-create-proof.jsonl",
+        "sha256": "3bb9800273129fce90e8643babefe4f6b3a2834df33ac8d552c0099ad9a3f015"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "003",
+    "legacy_id": "GAP-008",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 6,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "original line 138 writes epsilon^(-4u)<=C and claims it follows from the parameters; original line 187 installs the counterfamily and marks the uniform statement UNPROVED; turn_context identifies gpt-5.6-sol",
+      "attribution_limit": "The materialization and repair are byte-bound; raw Codex chain of thought is unavailable.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 36982,
+        "locator": "slice lines 1-2 original 138-139 materialize epsilon^(-4u)<=C; slice lines 3-4 original 182-183 record failed correction; slice lines 5-6 original 187-188 record successful correction",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-008-uniformity.jsonl",
+        "sha256": "44877842b349d380aa48c8d17e00098dbb8cad25796e0588af75472f8c023dd3"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "004",
+    "legacy_id": "HEXT-POSTSEP07-M03",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 53,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R06_CENTERED_CS",
+      "primary_source": {
+        "bytes": 31934,
+        "filesystem_mtime": "2026-09-12T16:53:13-04:00",
+        "locator": "lines 325-340 and 2083-2086",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-06-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-06-response.md",
+        "sha256": "9fb8abbde279c6c61c9294fa24f57a84ed140e921eeacb056c83cf88f885e55d"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "005",
+    "legacy_id": "HEXT-POSTSEP07-M04",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 54,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R18_CONTINUOUS_HESSIAN",
+      "primary_source": {
+        "bytes": 23320,
+        "filesystem_mtime": "2026-09-12T23:35:53-04:00",
+        "locator": "lines 796-832",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-18-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-18-response.md",
+        "sha256": "b1fa58adab6a2b9007273febee95a33b57ec33629b339bf9817fde9bd0afe49d"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "006",
+    "legacy_id": "HEXT-POSTSEP07-M05",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 55,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R20_FULL_AVERAGE",
+      "primary_source": {
+        "bytes": 20169,
+        "filesystem_mtime": "2026-09-13T00:41:10-04:00",
+        "locator": "lines 632-675 and 1026-1036",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-20-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-20-response.md",
+        "sha256": "1bf725e86a5e33c84e8c7cc72d42447d8baa3398546e28ccf507cdc27710f5f9"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "007",
+    "legacy_id": "HEXT-POSTSEP07-M06",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 56,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R21_BOUND_CONSTANT",
+      "primary_source": {
+        "bytes": 24405,
+        "filesystem_mtime": "2026-09-13T01:37:25-04:00",
+        "locator": "lines 1244-1260",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-21-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-21-response.md",
+        "sha256": "8b719f8fcebe3298849dcf6b64f25375ad1280e2383fb1dd17c39b4bc750ae7f"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "008",
+    "legacy_id": "HEXT-POSTSEP07-M07",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 57,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R23_FOURIER_SQUARE",
+      "primary_source": {
+        "bytes": 21761,
+        "filesystem_mtime": "2026-09-13T02:54:27-04:00",
+        "locator": "lines 230-234",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-23-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-23-response.md",
+        "sha256": "a599b8aaf756c1aef06ce7f78582f59f9cf22d56c98a4f02e8794c1a1ff3688e"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "009",
+    "legacy_id": "HEXT-POSTSEP07-M13",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 58,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R28_DICTIONARY_COUNT",
+      "primary_source": {
+        "bytes": 20480,
+        "filesystem_mtime": "2026-09-13T05:34:11-04:00",
+        "locator": "lines 725-733",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-28-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-28-response.md",
+        "sha256": "aced0edfa9757a55b150f2930c8230f8418e0a5e7a2e0a03c508abb0e5ddf325"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "010",
+    "legacy_id": "HEXT-POSTSEP07-M14",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 59,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R29_CROSS_RULING",
+      "primary_source": {
+        "bytes": 25261,
+        "filesystem_mtime": "2026-09-13T06:13:20-04:00",
+        "locator": "lines 1356-1363",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-29-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-29-response.md",
+        "sha256": "5bb7dbb701c0571579293f4cdb6e12f58318128230fba01c6551c853fb2baf67"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "011",
+    "legacy_id": "HEXT-POSTSEP07-M15",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 60,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R37_METHOD_LIMIT",
+      "primary_source": {
+        "bytes": 23601,
+        "filesystem_mtime": "2026-09-13T10:46:48-04:00",
+        "locator": "lines 1044-1102",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-37-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-37-response.md",
+        "sha256": "063c22a3722d4b03023513ed4f205b4fb4f0cb84686f14172d39bb1bb3d262a3"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "012",
+    "legacy_id": "HEXT-POSTSEP07-M18",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 62,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R51_CHECKSUM",
+      "primary_source": {
+        "bytes": 19953,
+        "filesystem_mtime": "2026-09-13T18:58:12-04:00",
+        "locator": "lines 681-687",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-51-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-51-response.md",
+        "sha256": "e51c333bd1aa1bf8b36887af8b6bc387bc020601c81eab1d9404b6f75f8a9b79"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "013",
+    "legacy_id": "HEXT-POSTSEP07-M19",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 63,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R55_VARIANCE_QUANTIFIER",
+      "primary_source": {
+        "bytes": 20411,
+        "filesystem_mtime": "2026-09-13T23:18:26-04:00",
+        "locator": "lines 575-635",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-55-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-55-response.md",
+        "sha256": "a86de93aaa8afada289e6a076a39cecebbf77bf0ca5e9dc90e8546a71d96d875"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "014",
+    "legacy_id": "HEXT-POSTSEP07-M22",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 64,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R59_BRANCH_AND_CEILING",
+      "primary_source": {
+        "bytes": 21554,
+        "filesystem_mtime": "2026-09-14T05:09:51-04:00",
+        "locator": "lines 1-22 and 118-153",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-59-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-59-response.md",
+        "sha256": "bec7d32a44a998f1cb9d73c77b40987bd397a755a5410daf343160cdb5f95b5f"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "015",
+    "legacy_id": "HEXT-POSTSEP07-M23",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 65,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R59_BRANCH_AND_CEILING",
+      "primary_source": {
+        "bytes": 21554,
+        "filesystem_mtime": "2026-09-14T05:09:51-04:00",
+        "locator": "lines 222-240",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-59-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-59-response.md",
+        "sha256": "bec7d32a44a998f1cb9d73c77b40987bd397a755a5410daf343160cdb5f95b5f"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "016",
+    "legacy_id": "HOLEVO-EXT-005",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 13,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "HEXT.pair-to-self.yaml and HCPREV.full-support-probability-dichotomy.yaml were added by gpt-5.6-sol in Codex session <session-id-redacted>",
+      "attribution_limit": "Later reviewers are recorded separately and do not replace the artifact author.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 18330,
+        "locator": "Finding AU-IR-05（claim hash sha256:ab44daaa…）；DAG HEXT.pair-to-self event general-overhead-claim-repaired",
+        "path": "[RESEARCH_GRAPH]/holevo-extensive-violation/reviews/ABSOLUTE_UNBOUNDED_CHAIN_INDEPENDENT_REVIEW_20260830.md",
+        "sha256": "2211f84786a5b8ce229fde604e5552fa4a53c006a6f3b6cf03061568cc1ffaa2"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "017",
+    "legacy_id": "HOLEVO-PREV-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 14,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "HEXT.pair-to-self.yaml and HCPREV.full-support-probability-dichotomy.yaml were added by gpt-5.6-sol in Codex session <session-id-redacted>",
+      "attribution_limit": "Later reviewers are recorded separately and do not replace the artifact author.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 14889,
+        "locator": "HCP-FS-IR-02",
+        "path": "[RESEARCH_GRAPH]/holevo-counterexample-prevalence/reviews/FULL_SUPPORT_FIXED_DIMENSION_PROBABILITY_DICHOTOMY_INDEPENDENT_REVIEW_20260830.md",
+        "sha256": "2d61dfb6d042daec639a4c8a4d6039f3b92c09b4571c20f7bcf47cf76a568bed"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "019",
+    "legacy_id": "WHGAP-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 46,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "recovered GPT-5.6-sol P1 JSONL line 130 creates the script with SYM_DIM=18 and only A tensor Sym^2(B); Fable lines 292/298 identify the omitted 9-dimensional sector",
+      "attribution_limit": "The script creation is byte-bound; raw Codex deliberation is not available.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 676179,
+        "locator": "JSONL line 130 (exact script-creation patch)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/codex/WHGAP-P1-019faab6.jsonl",
+        "sha256": "b692cd82d4bd4a6ff48d38ea9fa68dc44d514eacd0b624d666de9f048e8fe961"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "020",
+    "legacy_id": "WHGAP-006",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 47,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "recovered Fable line 1522 explicitly commissions the generic-complex spectrum claim; GPT-5.6-sol P9 lines 81/120 and Fable line 1564 expose and acknowledge the scope jump",
+      "attribution_limit": "This binds adoption and materialization of the claim; it does not prove that the commission was the first latent formation of the idea.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 17838205,
+        "locator": "JSONL lines 1507 (route thinking) and 1522 (exact commission Write)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+        "sha256": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "021",
+    "legacy_id": "WHGAP-007",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 48,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "recovered Fable line 1522 commissions a scan over distinct kernel-avoiding states; GPT-5.6-sol P9 line 120 and Fable line 1564 show the generic feasible set collapses to phi=psi",
+      "attribution_limit": "This binds the commissioned premise and its exposure; it does not infer unrecorded internal deliberation.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 17838205,
+        "locator": "JSONL lines 1507 (route thinking) and 1522 (exact commission Write)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+        "sha256": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "022",
+    "legacy_id": "WHGAP-008",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 49,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "main Fable session contains the focal numerical/sign claims and their corrections at the inherited locators",
+      "attribution_limit": "Event-linked focal authorship is established; complete formation reasoning is not.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 17838205,
+        "locator": "JSONL lines 2441,2485",
+        "path": "[PROJECT]/tracking/ai-proof-records-20260912/reasoning-summary-sources/claude/<session-id-redacted>.jsonl",
+        "sha256": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "023",
+    "legacy_id": "WHGAP-010",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 50,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "main Fable session contains the focal numerical/sign claims and their corrections at the inherited locators",
+      "attribution_limit": "Event-linked focal authorship is established; complete formation reasoning is not.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 17838205,
+        "locator": "JSONL lines 1414,1893,1904",
+        "path": "[PROJECT]/tracking/ai-proof-records-20260912/reasoning-summary-sources/claude/<session-id-redacted>.jsonl",
+        "sha256": "8d4821e8a61a604aa56a7f05b7a5171fffe6c2096ac7dd89091ad3c8f081903e"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "024",
+    "legacy_id": "SUPERACT-006",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 41,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "native Fable session <session-id-redacted> contains the focal commitments and corrections; SUPERACT-007 has a strict formation/correction pair",
+      "attribution_limit": "Only SUPERACT-007 currently has a strict native formation-to-correction pair; the other rows have event-linked claims but weaker process linkage.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 5827369,
+        "locator": "JSONL lines 1481,1650,1668",
+        "path": "[PROJECT]/tracking/claude-proof-records/source-cache/macstudio-recovery/C--Users-wtaph-Documents-discovery-new-algorithms/<session-id-redacted>.jsonl",
+        "sha256": "b13f41eb745e9f344c22acd476fa3f7d6a598b8ef3858f9a80cfeb3746da908e"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "025",
+    "legacy_id": "SUPERACT-007",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 42,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "native Fable session <session-id-redacted> contains the focal commitments and corrections; SUPERACT-007 has a strict formation/correction pair",
+      "attribution_limit": "Only SUPERACT-007 currently has a strict native formation-to-correction pair; the other rows have event-linked claims but weaker process linkage.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 5827369,
+        "locator": "JSONL lines 1813,1924",
+        "path": "[PROJECT]/tracking/claude-proof-records/source-cache/macstudio-recovery/C--Users-wtaph-Documents-discovery-new-algorithms/<session-id-redacted>.jsonl",
+        "sha256": "b13f41eb745e9f344c22acd476fa3f7d6a598b8ef3858f9a80cfeb3746da908e"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "026",
+    "legacy_id": "SUPERACT-011",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 43,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "native Fable session <session-id-redacted> contains the focal commitments and corrections; SUPERACT-007 has a strict formation/correction pair",
+      "attribution_limit": "Only SUPERACT-007 currently has a strict native formation-to-correction pair; the other rows have event-linked claims but weaker process linkage.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 5827369,
+        "locator": "JSONL lines 1650,1668,1679",
+        "path": "[PROJECT]/tracking/claude-proof-records/source-cache/macstudio-recovery/C--Users-wtaph-Documents-discovery-new-algorithms/<session-id-redacted>.jsonl",
+        "sha256": "b13f41eb745e9f344c22acd476fa3f7d6a598b8ef3858f9a80cfeb3746da908e"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "027",
+    "legacy_id": "NPTBE-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 24,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "native Fable JSONL lines 1040/1121 contain the positive-decomposition commitment and lines 1271/1273 contain the counterexample and closure",
+      "attribution_limit": "The visible process supports the specific decomposition error, not an unobservable psychological cause or a claim of complete raw CoT.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 5497498,
+        "locator": "JSONL lines 1040,1273",
+        "path": "[PROJECT]/tracking/claude-proof-records/source-cache/macstudio-recovery/C--Users-wtaph-Documents-discovery-new-algorithms/<session-id-redacted>.jsonl",
+        "sha256": "7cc80fe74c94e1cfe8ea80c2decb2f9b298cc3df784a78647ea11b994af8edfd"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "028",
+    "legacy_id": "QEC-SAT-002",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 36,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a650547b7eb957124 assembles circdist_sat_transfer_proof_20260823.md by an explicit file write at 2026-08-23T08:10:09Z",
+      "attribution_limit": "The six rows share one dossier and are not six independent generation runs.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": "SAT_SHARED_INSTALLATION",
+      "primary_source": {
+        "bytes": 75012,
+        "locator": "§4 exact-claim audit；§§6.2,7.3–8.3,10–12 按条目",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sat_transfer_endtoend_exact_review_20260826.md",
+        "sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "029",
+    "legacy_id": "QEC-SAT-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 38,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a650547b7eb957124 assembles circdist_sat_transfer_proof_20260823.md by an explicit file write at 2026-08-23T08:10:09Z",
+      "attribution_limit": "The six rows share one dossier and are not six independent generation runs.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 75012,
+        "locator": "§4 exact-claim audit；§§6.2,7.3–8.3,10–12 按条目",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sat_transfer_endtoend_exact_review_20260826.md",
+        "sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "030",
+    "legacy_id": "QEC-SAT-005",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 39,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a650547b7eb957124 assembles circdist_sat_transfer_proof_20260823.md by an explicit file write at 2026-08-23T08:10:09Z",
+      "attribution_limit": "The six rows share one dossier and are not six independent generation runs.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 75012,
+        "locator": "§4 exact-claim audit；§§6.2,7.3–8.3,10–12 按条目",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sat_transfer_endtoend_exact_review_20260826.md",
+        "sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "031",
+    "legacy_id": "QEC-SAT-006",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 40,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a650547b7eb957124 assembles circdist_sat_transfer_proof_20260823.md by an explicit file write at 2026-08-23T08:10:09Z",
+      "attribution_limit": "The six rows share one dossier and are not six independent generation runs.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": "SAT_SHARED_INSTALLATION",
+      "primary_source": {
+        "bytes": 75012,
+        "locator": "§4 exact-claim audit；§§6.2,7.3–8.3,10–12 按条目",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sat_transfer_endtoend_exact_review_20260826.md",
+        "sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "032",
+    "legacy_id": "QEC-LIFT-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 30,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-afd9b18b206ce896f writes and edits circdist_lift_iff_proof_20260820.md beginning 2026-08-20T16:01:06Z; the R_sat<=d claim is inserted by its exact Edit event",
+      "attribution_limit": "Shared artifact authorship does not make the four rows independent trajectories.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 45878,
+        "locator": "§3.3",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_lift_proofs_review_20260820.md",
+        "sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "033",
+    "legacy_id": "QEC-LIFT-002",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 31,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-afd9b18b206ce896f writes and edits circdist_lift_iff_proof_20260820.md beginning 2026-08-20T16:01:06Z; the R_sat<=d claim is inserted by its exact Edit event",
+      "attribution_limit": "Shared artifact authorship does not make the four rows independent trajectories.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 32656,
+        "locator": "§4.3",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_lift_claimrepair2_review_20260823.md",
+        "sha256": "9a0d3378e3fbc655114593cc52417b006fc51d2e5b3f57be43fef4373271cfc7"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "034",
+    "legacy_id": "QEC-LIFT-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 33,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a54f4eb22e936ab7c writes circdist_lift_root_assembly_20260822.md at 2026-08-22T21:41:16Z",
+      "attribution_limit": "Fable later reads/reviews the file but that does not replace the Opus assembly author.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 34013,
+        "locator": "§4.2",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_lift_root_review_20260822.md",
+        "sha256": "a6fbf42e5f1f65c7c3c2731185dcbcd898e74b919bda4fdc85bde39e98a93b7c"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "035",
+    "legacy_id": "QEC-LIFT-005",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 34,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-afd9b18b206ce896f writes and edits circdist_lift_iff_proof_20260820.md beginning 2026-08-20T16:01:06Z; the R_sat<=d claim is inserted by its exact Edit event",
+      "attribution_limit": "Shared artifact authorship does not make the four rows independent trajectories.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 45878,
+        "locator": "§3.2",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_lift_proofs_review_20260820.md",
+        "sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "036",
+    "legacy_id": "QEC-GROSS-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 26,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-ace09be0f0bec8908 writes and edits circdist_gross_sbbcert_20260820.md beginning 2026-08-20T18:18:33Z",
+      "attribution_limit": "Fable is the workflow coordinator; the erroneous artifact is bound to the Opus executor.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 35424,
+        "locator": "§6，尤其 §2.4(1) 原句及 288 interleaved pairs",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sbbcert_review_20260820.md",
+        "sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "037",
+    "legacy_id": "QEC-GROSS-002",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 27,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-ace09be0f0bec8908 writes and edits circdist_gross_sbbcert_20260820.md beginning 2026-08-20T18:18:33Z",
+      "attribution_limit": "Fable is the workflow coordinator; the erroneous artifact is bound to the Opus executor.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 35424,
+        "locator": "§5.2",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sbbcert_review_20260820.md",
+        "sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "038",
+    "legacy_id": "QEC-CPLX-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 25,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus proposer agent-abb2512e24e927d19 line 176 forms the exhaustive claim and line 183 writes circdist_cplx_islandv_20260820.md; independent Opus reviewer agent-a59f4bd13d64db8d3 constructs the witness",
+      "attribution_limit": "Fable coordinated the workflow but did not author the bad proposition; coordinator identity is not substituted for proposer identity.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 36970,
+        "locator": "§6.3",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_cplx_fixed_d_x_reduction_exact_review_20260828.md",
+        "sha256": "5a9cd8d600871515f85151691e24bd92b3573e9cb79ccdca697f5af01730de54"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "040",
+    "legacy_id": "KSUM-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 15,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-opus-4-8",
+      "model_evidence": "recovered Opus worker JSONL line 101 contains the one-query route reasoning and line 111 is the exact LaTeX Edit; Fable is retained as coordinator/decision model",
+      "attribution_limit": "The worker authored the bad proof sentence; this does not convert the whole Fable-coordinated campaign into an Opus trajectory.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 892352,
+        "locator": "JSONL lines 101 (plaintext thinking) and 111 (exact Edit)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-agent-a9938705d211bef32.jsonl",
+        "sha256": "3b4e0d375b1779cc1f07f21db425bb7094403f7e018f720fe5958d4455b5e217"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-opus-4-8",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "041",
+    "legacy_id": "KSUM-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 17,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "recovered Fable main-session line 569 is the exact full-paper Write that materializes the compressed load-bearing claim",
+      "attribution_limit": "The exact write is recovered, but no separate deliberative sentence saying to omit the load-bearing details was found.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 19276580,
+        "locator": "JSONL line 569 (exact full-manuscript Write containing the focal compressed lemma)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-main-b5fea9c2.jsonl",
+        "sha256": "530c1f51422f8368505854c0cf0614efd02ebc72b812dd33389b157daf370a41"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "042",
+    "legacy_id": "KSUM-005",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 19,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "recovered Fable main-session line 569 writes the overbroad all-q claim and line 1491 records the small-q counterexample and repair",
+      "attribution_limit": "This binds the focal theorem sentence and correction, not every claim in the shared manuscript write.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 19276580,
+        "locator": "JSONL line 569 (exact full-manuscript Write containing the overbroad every-q theorem sentence)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-main-b5fea9c2.jsonl",
+        "sha256": "530c1f51422f8368505854c0cf0614efd02ebc72b812dd33389b157daf370a41"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "043",
+    "legacy_id": "KSUM-006",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 20,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-opus-4-8",
+      "model_evidence": "recovered Opus worker line 127 contains the composite-modulus counting inference and line 133 edits it into revision_k3.tex",
+      "attribution_limit": "The Opus worker authored the focal argument; Fable remains the campaign coordinator/decision model.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 1057078,
+        "locator": "JSONL lines 127 (plaintext thinking) and 133 (exact Edit)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-agent-acb57dcbbc16cfba2.jsonl",
+        "sha256": "9dc291f0953c5b9e835678fcf575b5d00c8cb93710483857036574358ccf8ca1"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-opus-4-8",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "044",
+    "legacy_id": "KSUM-007",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 21,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "recovered GPT-5.6-sol Codex JSONL line 255 successfully writes the uncapped eta>1/6 lemma; Fable line 1727 identifies the missing N^(2/3) cap",
+      "attribution_limit": "The Codex write is exact, but Codex internal reasoning remains summarized/encrypted rather than raw CoT.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 1317619,
+        "locator": "JSONL line 255 (successful exact report write; line 250 is a failed attempt)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/codex/KSUM-L2-019f7bb0.jsonl",
+        "sha256": "4725e600b1abf0a22f8854f4334e298062bdb690fd5252997f3b7c9b77644d81"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "045",
+    "legacy_id": "KSUM-009",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 23,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "main Fable session lines 421-468 contain the range derivation/extension and line 596 contains its correction",
+      "attribution_limit": "Event-linked authorship is established for the focal claim, not for every surrounding manuscript edit.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 20987739,
+        "locator": "JSONL lines 421–427（偶数 N 推导）、447–468（扩展与最终报告）、596（纠正）；git 8e0f1063 KSUM_FINAL_REPORT.md line 21；git 949240a paper/ksum_small_alphabet.tex",
+        "path": "[PROJECT]/tracking/ai-proof-records-20260912/reasoning-summary-sources/claude/<session-id-redacted>.jsonl",
+        "sha256": "90f2255179473275ba0a315e15377b57c8def5189c58ac8d2b0dfe68f1634561"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "046",
+    "legacy_id": "COLLISION-GOLD3-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 1,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "gold2 Set Equality rollout; active turn_context model is gpt-5.6-sol at the 2026-07-16 focal claim and retraction events",
+      "attribution_limit": "The filename retains an earlier terra-era label, but the focal July 16 turns occurred after the session switched to gpt-5.6-sol.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 22325815,
+        "locator": "agent_message 2026-07-16T10:54:18Z、10:55:28Z、13:35:31Z、13:49:09Z；gold3 fork 09-25-58 于 13:41:35Z",
+        "path": "[PROJECT]/tracking/ai-proof-records-20260912/recovered-marathon-20260821/gold2_se_terra/rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl",
+        "sha256": "6052d93a35a2b1eaad7b605fa601998d71d4f68dd74b1757195a0d622c419cb1"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "047",
+    "legacy_id": "TAPER-GOLD4-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 44,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "gold4 taper rollout is gpt-5.6-sol at both the July 22 claim and correction events",
+      "attribution_limit": "This binds the visible focal claims; it does not expose encrypted internal reasoning.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "TAPER_20260722_NORMALIZATION_EPISODE",
+      "primary_source": {
+        "bytes": 39982899,
+        "locator": "agent_message 2026-07-22T13:19:00Z 至 16:08:51Z",
+        "path": "[PROJECT]/tracking/ai-proof-records-20260912/recovered-marathon-20260821/gold4_taper/rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl",
+        "sha256": "f86f7407318b96ce783b790a34c4f8d8d8ad0d05f4bc12e9f7695f3b8a532479"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "048",
+    "legacy_id": "TAPER-GOLD4-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 45,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "gold4 taper rollout is gpt-5.6-sol at both the July 22 claim and correction events",
+      "attribution_limit": "This binds the visible focal claims; it does not expose encrypted internal reasoning.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "TAPER_20260722_NORMALIZATION_EPISODE",
+      "primary_source": {
+        "bytes": 39982899,
+        "locator": "agent_message 2026-07-22T05:14:47Z、05:25:56Z、05:57:03Z、06:30:22Z、07:09:10Z、07:29:16Z（声称）；15:27:18Z、15:33:51Z、15:49:23Z、16:08:51Z（纠正）",
+        "path": "[PROJECT]/tracking/ai-proof-records-20260912/recovered-marathon-20260821/gold4_taper/rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl",
+        "sha256": "f86f7407318b96ce783b790a34c4f8d8d8ad0d05f4bc12e9f7695f3b8a532479"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "049",
+    "legacy_id": "GROTH-D4-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 69,
+    "historical_fields": {
+      "decision_model": null,
+      "artifact_author_model": null,
+      "model_evidence": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "attribution_limit": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "generator_scope": "SOURCE_BOUND_EVENT; EXACT WRITER RESOLUTION AS RECORDED",
+      "provenance_gate": "P1_PROJECT_CONTEXT",
+      "episode_id": "GROTH_D4_TRIANGLE_COUNT_20260830",
+      "primary_source": {
+        "bytes": 6023,
+        "filesystem_mtime": "2026-09-07T16:05:56-04:00",
+        "locator": "lines 114-123",
+        "path": "[RESEARCH_GRAPH]/grothendieck-d4/artifacts/d4-triangle-hypermetric-no-go-20260830.md",
+        "sha256": "32f561ada2a606d5543881159add4b68c79d85ce4c0e253289ca6b55f8a54857"
+      },
+      "safe_model_statement": "frontier-agent workflow",
+      "model_attribution_revalidated_in_publication_curation": false,
+      "artifact_author_attribution_revalidated": false
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "050",
+    "legacy_id": "GROTH-D4-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 71,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal visible claim is contemporaneously tied to a monitored gpt-5.6-sol event.",
+      "attribution_limit": "The focal visible claim is contemporaneously tied to a monitored gpt-5.6-sol event.",
+      "generator_scope": "SOURCE_BOUND_EVENT; EXACT WRITER RESOLUTION AS RECORDED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "GROTH_D4_EFFECTIVE_EQUALITY_RANK_20260829",
+      "primary_source": {
+        "bytes": 745592,
+        "filesystem_mtime": "2026-09-18T14:28:35-04:00",
+        "locator": "lines 2947-2970 and 6037-6058",
+        "path": "[RESEARCH_GRAPH]/audit-bundles/2026-09-18/process-audit-v2/transcripts/01a04050-2c65-7022-8844-6319c2da0799.md",
+        "sha256": "8c647c8546a13b01455ce2060f5c44b1d95a8902be174083d562b79e7dcf3f1e"
+      },
+      "safe_model_statement": "focal visible event: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "051",
+    "legacy_id": "GROTH-D4-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 72,
+    "historical_fields": {
+      "decision_model": null,
+      "artifact_author_model": null,
+      "model_evidence": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "attribution_limit": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "generator_scope": "SOURCE_BOUND_EVENT; EXACT WRITER RESOLUTION AS RECORDED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "GROTH_D4_THREE_N_TRANSCRIPTION_20260830",
+      "primary_source": {
+        "bytes": 447867,
+        "filesystem_mtime": "2026-09-18T14:28:35-04:00",
+        "locator": "lines 6940-6979",
+        "path": "[RESEARCH_GRAPH]/audit-bundles/2026-09-18/process-audit-v2/transcripts/01a0546f-54e9-7722-9de8-dd16fedd3d3a.md",
+        "sha256": "68dfb1de92aa6ac1a0889215ebcc0d54f1e77232d97f4db9f8e85cff495810ce"
+      },
+      "safe_model_statement": "frontier-agent workflow",
+      "model_attribution_revalidated_in_publication_curation": false,
+      "artifact_author_attribution_revalidated": false
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "052",
+    "legacy_id": "GROTH-D4-005",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 73,
+    "historical_fields": {
+      "decision_model": null,
+      "artifact_author_model": null,
+      "model_evidence": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "attribution_limit": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "generator_scope": "SOURCE_BOUND_EVENT; EXACT WRITER RESOLUTION AS RECORDED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "GROTH_D4_FIVE_BLOCK_NORMALIZATION_20260831",
+      "primary_source": {
+        "bytes": 2010154,
+        "filesystem_mtime": "2026-09-18T14:28:35-04:00",
+        "locator": "lines 28037-28045 and 28255-28324",
+        "path": "[RESEARCH_GRAPH]/audit-bundles/2026-09-18/process-audit-v2/transcripts/01a0546f-67e8-7241-9a01-d3c89324279e.md",
+        "sha256": "8ab8daf99f1b8f01af3f60a85382e3f03bf53ebe4de33acfe3d1bb0b5b6af3f3"
+      },
+      "safe_model_statement": "frontier-agent workflow",
+      "model_attribution_revalidated_in_publication_curation": false,
+      "artifact_author_attribution_revalidated": false
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "053",
+    "legacy_id": "GROTH-D4-006",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 75,
+    "historical_fields": {
+      "decision_model": null,
+      "artifact_author_model": null,
+      "model_evidence": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "attribution_limit": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "generator_scope": "SOURCE_BOUND_EVENT; EXACT WRITER RESOLUTION AS RECORDED",
+      "provenance_gate": "P1_PROJECT_CONTEXT",
+      "episode_id": "GROTH_D4_ELLIPTOPE_EXTERNAL_LEMMA_20260827",
+      "primary_source": {
+        "bytes": 74560,
+        "filesystem_mtime": "2026-08-27T10:54:05-04:00",
+        "locator": "lines 2617-2628",
+        "path": "[RESEARCH_GRAPH]/grothendieck-d4/tools/bootstrap/h4_complete_K_isotypic.py",
+        "sha256": "0ae1e72bac4917235519bffb9cf98d25f8b169f1660e7ab3372d4787be937585"
+      },
+      "safe_model_statement": "frontier-agent workflow",
+      "model_attribution_revalidated_in_publication_curation": false,
+      "artifact_author_attribution_revalidated": false
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "054",
+    "legacy_id": "GROTH-E8-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 7,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "Codex session <session-id-redacted> contains the focal PROVED declaration while the active model is gpt-5.6-sol",
+      "attribution_limit": "The session later changed models; attribution is bound to focal event time, not to the whole append-only log.",
+      "generator_scope": "FOCAL_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 438347585,
+        "locator": "assistant message 2026-08-27T01:19:07Z、01:33:43Z、01:44:33Z、2026-08-30T20:54:15Z；grothendieck-e8/artifacts/e8-reconstruction-20260829.md E8-R3/R5；DAG GROTHE8.goal events",
+        "path": "[USER_HOME]/.codex/sessions/2026/08/26/rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl",
+        "sha256": "0dce58d7a458335700f7caf39b7f8937fa869fc70c6f6e5759f8487c629229a2"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "055",
+    "legacy_id": "GROTH-H4-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 8,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "original line 7140 writes that a feasible unrestricted degree-4 moment/SOS dual proves a global upper bound by weak duality; original lines 7983-7984 identify the reversed direction and replace it with the correctly oriented SOS route; turn_context identifies gpt-5.6-sol",
+      "attribution_limit": "The decisive event lines match the Mac Studio snapshot byte-for-byte. Full-file hashes differ because the local append-only session continued after the emergency snapshot.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 64266,
+        "locator": "slice lines 1-2 original 7140-7141 create the wrong-direction DAG node; slice lines 3-9 original 7983-7985, 8002-8003, 8008-8009 diagnose, repair, format-fix, and validate",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GROTH-H4-001-duality-direction.jsonl",
+        "sha256": "be635f4ee71a6801afbe06a3a86e36dea987dedded26b676031d77445ae0ce82"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "056",
+    "legacy_id": "GROTH-ORB-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 11,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "the original classification drafts and DAG node were added by gpt-5.6-sol in Codex session <session-id-redacted> before the later corrections",
+      "attribution_limit": "Later gpt-6-astra review/correction events are reviewer events and are not counted as error generation.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 21875,
+        "locator": "Finding F5",
+        "path": "[RESEARCH_GRAPH]/grothendieck-group-orbit/reviews/spectral-classification-review-20260907.md",
+        "sha256": "7e21414c47cf8deab81b494ff31ba74fecbb02177c0b1fbc7f9abd2a9ec66941"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "057",
+    "legacy_id": "GROTH-ORB-006",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 74,
+    "historical_fields": {
+      "decision_model": null,
+      "artifact_author_model": null,
+      "model_evidence": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "attribution_limit": "The mathematical event is source-bound, but the exact frontier-model writer is deliberately unresolved.",
+      "generator_scope": "SOURCE_BOUND_EVENT; EXACT WRITER RESOLUTION AS RECORDED",
+      "provenance_gate": "P1_PROJECT_CONTEXT",
+      "episode_id": "GROTH_ORB_D3_ENVELOPE_20260907",
+      "primary_source": {
+        "bytes": 2305,
+        "filesystem_mtime": "2026-09-07T20:23:33-04:00",
+        "locator": "lines 1-4 and 47-53",
+        "path": "[RESEARCH_GRAPH]/grothendieck-group-orbit/proof-dag/nodes/GROTHORB.shift-linear-candidate.yaml",
+        "sha256": "6105e3d8244bc25b64be43ad7b27fa6b3eb35f1f4feedc43928aa0871452ac71"
+      },
+      "safe_model_statement": "frontier-agent workflow",
+      "model_attribution_revalidated_in_publication_curation": false,
+      "artifact_author_attribution_revalidated": false
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "058",
+    "legacy_id": "GAP-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 3,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "original line 107 writes that equation (44) is the generating function for the orthogonal sectors; original lines 122-123 immediately say this could overstate the result and disavow the per-subset inequality; turn_context is gpt-5.6-sol",
+      "attribution_limit": "No pre-correction byte string explicitly asserts the canonicalized per-subset inequality. This binds the overstatement episode and its author, not byte-level authorship of that literal inequality.",
+      "generator_scope": "VISIBLE_OVERSTATEMENT_EVENT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 25776,
+        "locator": "slice lines 1-2 original 107-108 write the overbroad generating-function sentence; slice lines 3-5 original 122-124 clarify that no per-subset estimate is asserted",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-004-generating-function.jsonl",
+        "sha256": "6693b8e5562b5b54d4caade4b72bc651fc6483a96743debe2e9bb803f9d88c40"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "059",
+    "legacy_id": "GAP-007",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 5,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "original line 137 writes the coefficient-sensitive source attribution and Lemma 44; the next session's original line 138 states that the source attribution was inaccurate; both turn_contexts identify gpt-5.6-sol",
+      "attribution_limit": "The patch and correction are exact; raw Codex deliberation is encrypted and unavailable.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 26988,
+        "locator": "slice lines 1-2; original JSONL lines 137-138 exact PROOF.md patch and completed write (2026-08-21T16:10:22.317Z)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_macstudio_august_sessions_20260918/raw/codex/GAP-007-source-attribution.jsonl",
+        "sha256": "a2e9256f39e563f2d2f8d9b5f803f45b1feffc2e4e4c9ffcc95447948b6ee917"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "060",
+    "legacy_id": "HEXT-POSTSEP07-M01",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 51,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R02_POSITIVE_GAP",
+      "primary_source": {
+        "bytes": 19298,
+        "filesystem_mtime": "2026-09-12T11:49:02-04:00",
+        "locator": "lines 1-5, 1099-1105, 1149-1178",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-02-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-02-response.md",
+        "sha256": "afe5076cb7d51fb85bddff968fb044ff85259b7d25960ae6f65719e8fa6a17ae"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "061",
+    "legacy_id": "HEXT-POSTSEP07-M02",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 52,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R03_HAAR_REDUNDANCY",
+      "primary_source": {
+        "bytes": 20442,
+        "filesystem_mtime": "2026-09-12T13:37:48-04:00",
+        "locator": "lines 33-43, 912-933, 1208, 1296-1302",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-03-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-03-response.md",
+        "sha256": "d6fe353d6833913f634552bd66b2c75d6d3fde83d8fb38f871307c93c702e468"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "062",
+    "legacy_id": "HEXT-POSTSEP07-M16",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 61,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R41_PLUCKER_SCOPE",
+      "primary_source": {
+        "bytes": 25109,
+        "filesystem_mtime": "2026-09-13T12:31:28-04:00",
+        "locator": "lines 17-35",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-41-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-41-response.md",
+        "sha256": "6e1a798689df27fea58f84a550b13a2fc61387a9cdb5050275c03a22d8498de2"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "063",
+    "legacy_id": "HEXT-POSTSEP07-M25",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 66,
+    "historical_fields": {
+      "decision_model": null,
+      "artifact_author_model": null,
+      "model_evidence": "The exact artifact is source-bound, but its individual writer model has not been re-established; no model-specific authorship claim is made.",
+      "attribution_limit": "The exact artifact is source-bound, but its individual writer model has not been re-established; no model-specific authorship claim is made.",
+      "generator_scope": "AI_ASSISTED_WORKFLOW_EXACT_WRITER_UNRESOLVED",
+      "provenance_gate": "P1_PROJECT_CONTEXT",
+      "episode_id": "HEXT_POSTSEP07_R82_STALE_SUPPORT",
+      "primary_source": {
+        "bytes": 34063,
+        "filesystem_mtime": "2026-09-15T01:29:03-04:00",
+        "locator": "lines 340-343 and 458-461",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/work/explore_round82_global.cpp",
+        "project_relative_path": "work/explore_round82_global.cpp",
+        "sha256": "43d190771896e6a9f62096b254b08aace475e91c7f47e8aeac0129f54db2f224"
+      },
+      "safe_model_statement": "frontier-agent workflow; exact artifact writer unresolved",
+      "model_attribution_revalidated_in_publication_curation": false,
+      "artifact_author_attribution_revalidated": false
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "064",
+    "legacy_id": "HEXT-POSTSEP07-M26",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 67,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "attribution_limit": "The focal erroneous statement is in an exact web-gpt56sol-pro response artifact.",
+      "generator_scope": "FOCAL_VISIBLE_CLAIM_AUTHOR_CONFIRMED",
+      "provenance_gate": "P3_EVENT_LINKED",
+      "episode_id": "HEXT_POSTSEP07_R82_R101_STATUS_RHETORIC",
+      "primary_source": {
+        "bytes": 25171,
+        "filesystem_mtime": "2026-09-15T02:15:36-04:00",
+        "locator": "lines 1-5, 34, 774 and 1065-1068",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-82-response.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-82-response.md",
+        "sha256": "dd9829e71b5f78953a741f544b6e03135404eeb4dda02c49c7a320e654fae0f8"
+      },
+      "safe_model_statement": "focal visible response artifact: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "065",
+    "legacy_id": "HEXT-POSTSEP07-M27",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 68,
+    "historical_fields": {
+      "decision_model": null,
+      "artifact_author_model": null,
+      "model_evidence": "The exact artifact is source-bound, but its individual writer model has not been re-established; no model-specific authorship claim is made.",
+      "attribution_limit": "The exact artifact is source-bound, but its individual writer model has not been re-established; no model-specific authorship claim is made.",
+      "generator_scope": "AI_ASSISTED_WORKFLOW_EXACT_WRITER_UNRESOLVED",
+      "provenance_gate": "P1_PROJECT_CONTEXT",
+      "episode_id": "HEXT_POSTSEP07_R98_PROMPT_COPY",
+      "primary_source": {
+        "bytes": 11750,
+        "filesystem_mtime": "2026-09-15T23:51:14-04:00",
+        "locator": "lines 147-152",
+        "path": "[USER_HOME]/Documents/Codex/2026-09-11/holevo-full-size-web-proof/artifacts/web-gpt56sol-pro/round-98-prompt-sent.md",
+        "project_relative_path": "artifacts/web-gpt56sol-pro/round-98-prompt-sent.md",
+        "sha256": "3ff85ab484db1fc135688b573143ce8702274f0d53fcf6836b5c8d0d7c792cc4"
+      },
+      "safe_model_statement": "frontier-agent workflow; exact artifact writer unresolved",
+      "model_attribution_revalidated_in_publication_curation": false,
+      "artifact_author_attribution_revalidated": false
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "066",
+    "legacy_id": "QEC-GROSS-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 28,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "Codex session <session-id-redacted> creates the round102 global-closure package while the active model is gpt-5.6-sol",
+      "attribution_limit": "Later gpt-6-astra and auto-review events are reviewers, not generators.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 146715,
+        "locator": "§8，首段摘要",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_gross_global_closure_round102_exact_review_round103_20260901.md",
+        "sha256": "a7e027b228d785fae5280b33ab95f7999bb4e9b3e001cd30a5816444637db48e"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "067",
+    "legacy_id": "QEC-GROSS-006",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 29,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a933c9f7069e052f4 writes circdist_dstar_hunt1_20260823.md at 2026-08-26T01:06:38Z",
+      "attribution_limit": "Fable dispatched/coordinated the worker but is not treated as the artifact author.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 17263,
+        "locator": "hunt1 §0、§6 审计行、§6.2 第 1 项；hunt2 §0、§1.4；hunt3 §3.2；Workflow circdist-c5-wave37-serial（会话 9cc32a4a，2026-08-26T00:29:09Z）",
+        "path": "[RESEARCH_GRAPH]/circdist/artifacts/circdist_dstar_hunt1_20260823.md",
+        "sha256": "d6d104c20d28c3fe29a3dd2cf53cfe50f3cc3cadc852e46c6ea00fc5ff4f4671"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "068",
+    "legacy_id": "QEC-LIFT-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 32,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-afd9b18b206ce896f writes and edits circdist_lift_iff_proof_20260820.md beginning 2026-08-20T16:01:06Z; the R_sat<=d claim is inserted by its exact Edit event",
+      "attribution_limit": "Shared artifact authorship does not make the four rows independent trajectories.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 34013,
+        "locator": "§5 R2 / set-valued voltage",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_lift_root_review_20260822.md",
+        "sha256": "a6fbf42e5f1f65c7c3c2731185dcbcd898e74b919bda4fdc85bde39e98a93b7c"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "069",
+    "legacy_id": "QEC-SAT-001",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 35,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a650547b7eb957124 assembles circdist_sat_transfer_proof_20260823.md by an explicit file write at 2026-08-23T08:10:09Z",
+      "attribution_limit": "The six rows share one dossier and are not six independent generation runs.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": "SAT_SHARED_INSTALLATION",
+      "primary_source": {
+        "bytes": 75012,
+        "locator": "§4 exact-claim audit；§§6.2,7.3–8.3,10–12 按条目",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sat_transfer_endtoend_exact_review_20260826.md",
+        "sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "070",
+    "legacy_id": "QEC-SAT-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 37,
+    "historical_fields": {
+      "decision_model": "claude-opus-5",
+      "artifact_author_model": "claude-opus-5",
+      "model_evidence": "Opus agent-a650547b7eb957124 assembles circdist_sat_transfer_proof_20260823.md by an explicit file write at 2026-08-23T08:10:09Z",
+      "attribution_limit": "The six rows share one dossier and are not six independent generation runs.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 75012,
+        "locator": "§4 exact-claim audit；§§6.2,7.3–8.3,10–12 按条目",
+        "path": "[RESEARCH_GRAPH]/circdist/reviews/circdist_sat_transfer_endtoend_exact_review_20260826.md",
+        "sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+      },
+      "safe_model_statement": "focal decision: claude-opus-5; erroneous artifact author: claude-opus-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "071",
+    "legacy_id": "GROTH-ORB-002",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 9,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "the original classification drafts and DAG node were added by gpt-5.6-sol in Codex session <session-id-redacted> before the later corrections",
+      "attribution_limit": "Later gpt-6-astra review/correction events are reviewer events and are not counted as error generation.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 6938,
+        "locator": "refuted route / A=I3",
+        "path": "[RESEARCH_GRAPH]/grothendieck-group-orbit/proof-dag/nodes/GROTHORB.extremizer-classification.yaml",
+        "sha256": "1dbac3b4479ed340529a0140b1f42840b089c52676beedc2e5996a34fcb8f234"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "072",
+    "legacy_id": "GROTH-ORB-003",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 10,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "the original classification drafts and DAG node were added by gpt-5.6-sol in Codex session <session-id-redacted> before the later corrections",
+      "attribution_limit": "Later gpt-6-astra review/correction events are reviewer events and are not counted as error generation.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 21875,
+        "locator": "Finding F4",
+        "path": "[RESEARCH_GRAPH]/grothendieck-group-orbit/reviews/spectral-classification-review-20260907.md",
+        "sha256": "7e21414c47cf8deab81b494ff31ba74fecbb02177c0b1fbc7f9abd2a9ec66941"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "073",
+    "legacy_id": "GROTH-ORB-005",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 12,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "the original classification drafts and DAG node were added by gpt-5.6-sol in Codex session <session-id-redacted> before the later corrections",
+      "attribution_limit": "Later gpt-6-astra review/correction events are reviewer events and are not counted as error generation.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 14084,
+        "locator": "RM1 / Hadamard-reflection test",
+        "path": "[RESEARCH_GRAPH]/grothendieck-group-orbit/reviews/rch-invariant-blocks-review-20260907.md",
+        "sha256": "625ca2404b4eece9a3791e764333ba807ea06ccfed6344dec37fbdb521dc34c5"
+      },
+      "safe_model_statement": "focal decision: gpt-5.6-sol; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "074",
+    "legacy_id": "KSUM-002",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 16,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "recovered Fable JSONL line 78 adopts the unrestricted uniform-shift route and line 80 writes the embedding artifact",
+      "attribution_limit": "The recovered event binds this focal artifact only; it is not a model-level error-rate denominator.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 1307694,
+        "locator": "JSONL lines 78 (plaintext thinking) and 80 (exact Write)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-agent-abd75f1f5fe6b3d3b.jsonl",
+        "sha256": "3696957dc1baae5881b880334e88ad8ecc8a2c38da6c5a28c797b9a783a3e4ee"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "075",
+    "legacy_id": "KSUM-004",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 18,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "claude-fable-5",
+      "model_evidence": "recovered Fable main-session line 569 is the exact first-paper Write containing the focal statement",
+      "attribution_limit": "The materialization event is exact; a distinct deliberative compression decision is not separately preserved.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 19276580,
+        "locator": "JSONL line 569 (exact full-manuscript Write containing the focal claim)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/KSUM-main-b5fea9c2.jsonl",
+        "sha256": "530c1f51422f8368505854c0cf0614efd02ebc72b812dd33389b157daf370a41"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: claude-fable-5",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "076",
+    "legacy_id": "KSUM-008",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 22,
+    "historical_fields": {
+      "decision_model": "claude-fable-5",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "recovered GPT-5.6-sol Codex JSONL line 255 writes the >1/3 threshold; Fable lines 1724 and 1727 record the required >2/3 repair",
+      "attribution_limit": "The Codex write is exact, but Codex internal reasoning remains summarized/encrypted rather than raw CoT.",
+      "generator_scope": "ERRONEOUS_ARTIFACT_AUTHOR_CONFIRMED",
+      "provenance_gate": "P4_BYTE_BOUND_AUTHORSHIP",
+      "episode_id": null,
+      "primary_source": {
+        "bytes": 1317619,
+        "locator": "JSONL line 255 (successful exact report write; line 250 is a failed attempt)",
+        "path": "[PROJECT]/paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/codex/KSUM-L2-019f7bb0.jsonl",
+        "sha256": "4725e600b1abf0a22f8854f4334e298062bdb690fd5252997f3b7c9b77644d81"
+      },
+      "safe_model_statement": "focal decision: claude-fable-5; erroneous artifact author: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  },
+  {
+    "record_id": "077",
+    "legacy_id": "GROTH-D4-002",
+    "source_document": "paper/evidence_claim_gap_20260918/publication_curation_v03_grothendieck_additions/records_v03.jsonl",
+    "source_document_sha256": "1dfef3d3b259b74ce25402cf03f76f0310b5973a4c4e9c219382f51b09a30e20",
+    "source_jsonl_line": 70,
+    "historical_fields": {
+      "decision_model": "gpt-5.6-sol",
+      "artifact_author_model": "gpt-5.6-sol",
+      "model_evidence": "The focal visible claim is contemporaneously tied to a monitored gpt-5.6-sol event.",
+      "attribution_limit": "The focal visible claim is contemporaneously tied to a monitored gpt-5.6-sol event.",
+      "generator_scope": "SOURCE_BOUND_EVENT; EXACT WRITER RESOLUTION AS RECORDED",
+      "provenance_gate": "P2_SELF_ATTRIBUTED_DECISION",
+      "episode_id": "GROTH_D4_TRIVIAL_ISOTYPIC_STATUS_20260827",
+      "primary_source": {
+        "bytes": 745592,
+        "filesystem_mtime": "2026-09-18T14:28:35-04:00",
+        "locator": "lines 1463-1486",
+        "path": "[RESEARCH_GRAPH]/audit-bundles/2026-09-18/process-audit-v2/transcripts/01a04050-2c65-7022-8844-6319c2da0799.md",
+        "sha256": "8c647c8546a13b01455ce2060f5c44b1d95a8902be174083d562b79e7dcf3f1e"
+      },
+      "safe_model_statement": "focal visible event: gpt-5.6-sol",
+      "model_attribution_revalidated_in_publication_curation": true,
+      "artifact_author_attribution_revalidated": true
+    },
+    "status": "historical_annotation_not_new_model_identification"
+  }
+]

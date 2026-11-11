@@ -1,0 +1,468 @@
+{
+  "task": "WHGAP P6b V2 - closed-form isotropic weight operator D_psi(x)",
+  "node_ids": [
+    "WHGAP.no-ascent-hierarchy",
+    "WHGAP.order-boundary"
+  ],
+  "definition": {
+    "w_B": "<conj psi| Lambda(phi) |conj psi> = Tr[M_B phi], M_B = sum_a K_a^dag P_{conj psi} K_a",
+    "w_E": "Tr[Pi_E Lambda^c(phi)] = Tr[M_E phi], M_E = sum_{ab} (Pi_E)_{ab} K_a^dag K_b",
+    "D_psi": "M_B - M_E, so w_B - w_E = Tr[D_psi phi]",
+    "basis_order": [
+      "e_0-type (w = u x v)",
+      "conj(psi)",
+      "psi"
+    ],
+    "source_of_definition": "tools/whgap_p9b_g0.py::exact_weight_operator_at_x (P9b)"
+  },
+  "type_audit": {
+    "Lambda": "M_3 -> M_3; Lambda^c: M_3 -> M_4",
+    "Pi_E": "orthogonal projector on C^4, rank 2 for every x in (0,1)",
+    "M_B, M_E, D_psi": "Hermitian operators on C^3 (3x3), entries rational in x",
+    "psi": "isotropic pure state, psi^T psi = 0 (tau = 0 stratum)"
+  },
+  "canonical": {
+    "psi": [
+      "0",
+      "1/sqrt(2)",
+      "-I/sqrt(2)"
+    ],
+    "normalized": true,
+    "isotropic_tau_zero": true,
+    "third_vector": [
+      "1",
+      "0",
+      "0"
+    ],
+    "third_is_u_cross_v": true,
+    "receiver_kernel_is_conj_psi": true,
+    "receiver_closed_form_pass": true,
+    "receiver_spectrum": [
+      "0",
+      "1 - x/2",
+      "x/2"
+    ],
+    "environment_spectrum": [
+      "0",
+      "1 - x/2",
+      "x/2"
+    ],
+    "projector_checks": {
+      "hermitian": true,
+      "idempotent": true,
+      "trace_two": true,
+      "annihilates_environment_output": false,
+      "analytic_basis_in_kernel": false,
+      "analytic_basis_orthogonal": true
+    },
+    "p9b_pi_e_audit": {
+      "raw_nullspace_dimension": 2,
+      "raw_basis_mutually_orthogonal": true,
+      "raw_sum_equals_true_projector": false,
+      "verdict": "P9b built Pi_E as a sum of normalized rank-one projectors over sympy's raw nullspace basis; that equals the orthogonal projector only if the raw basis is orthogonal. Both facts are recorded here."
+    },
+    "M_B_closed_form_is_Lambda_of_P_conj_psi": true,
+    "M_B_in_basis": [
+      [
+        "x/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "x/2 + sqrt(1 - x)*conjugate(sqrt(1 - x))",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "M_E_in_basis": [
+      [
+        "x*(x + 4*sqrt(1 - x)*conjugate(sqrt(1 - x)))/(2*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "x*(3*x + 6*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 2*conjugate(sqrt(1 - x))**2 - 2)/(2*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "x*(-x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x)) + conjugate(sqrt(1 - x))**2 + 1)/(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x)))"
+      ]
+    ],
+    "D_in_basis": [
+      [
+        "x*(1 - x)/(x - 2)",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1 - x",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "4*x*(1 - x)/(x - 2)"
+      ]
+    ],
+    "basis_unitary": true
+  },
+  "closed_form": {
+    "diagonal_in_(e0, conj psi, psi)": true,
+    "d_0(x)": "-x*(x - 1)/(x - 2)",
+    "d_1(x)": "1 - x",
+    "d_2(x)": "4*x*(1 - x)/(x - 2)",
+    "d_0_claim": "-x*(x - 1)/(x - 2)",
+    "d_1_claim": "-(x - 1)*(5*x - 2)/(x - 2)",
+    "d_0_pass": true,
+    "d_1_pass": false,
+    "d_2_is_zero": false,
+    "psi_in_kernel": false,
+    "latex": "D_\\psi(x)=\\operatorname{diag}\\!\\Bigl(-\\frac{x(1-x)}{2-x},\\ \\frac{(1-x)(2-5x)}{2-x},\\ 0\\Bigr)\\quad\\text{in }(w,\\bar\\psi,\\psi)",
+    "M_B_closed_form": "diag(x/2, 1-x/2, 0) in (w, conj psi, psi)",
+    "M_E_closed_form": "diag(x/2 + x(1-x)/(2-x), (1-x)(5x-2)/(2-x) + 1 - x/2, 0)",
+    "M_E_structural_form": "M_E = beta (I - i [w]_x) + delta w w^T with beta = x/4 + 2x(1-x)/(2-x), delta = x/4 - x(1-x)/(2-x); (I - i[w]_x) has eigenvalues 1, 2, 0 on (w, conj psi, psi)",
+    "M_E_structural_pass": false,
+    "w_cross_convention": "([w]_x y = w x y), w = e_0"
+  },
+  "p9b_datum": {
+    "x": "9/20",
+    "D_computed": [
+      [
+        "-99/620",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "11/20",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-99/155"
+      ]
+    ],
+    "D_expected_from_P9b": [
+      [
+        "-99/620",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-11/124",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "match": false,
+    "source": "tools/whgap_p9b_g0.py + WHGAP.no-ascent-hierarchy work record (P9b)"
+  },
+  "weight_identity_checks": [
+    {
+      "seed": 20260729,
+      "w_B": "-(21*x - 278)/888",
+      "w_E": "-x*(727*x - 1262*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 984)/(888*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "w_B_minus_w_E": "(353*x**2 - 652*x*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 353*x + 278*sqrt(1 - x)*conjugate(sqrt(1 - x)))/(444*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "Tr[D phi]": "(48*x**2 - 631*x*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 326*x*conjugate(sqrt(1 - x))**2 - 48*x + 278*conjugate(sqrt(1 - x))**2)/(444*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "identity_pass": true,
+      "value_at_9_over_20": "-7667/55056"
+    },
+    {
+      "seed": 20260730,
+      "w_B": "(3*x + 142)/450",
+      "w_E": "-x*(323*x - 610*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 468)/(450*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "w_B_minus_w_E": "(163*x**2 - 302*x*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 163*x + 142*sqrt(1 - x)*conjugate(sqrt(1 - x)))/(225*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "Tr[D phi]": "(9*x**2 - 305*x*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 151*x*conjugate(sqrt(1 - x))**2 - 9*x + 142*conjugate(sqrt(1 - x))**2)/(225*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "identity_pass": true,
+      "value_at_9_over_20": "-2959/27900"
+    },
+    {
+      "seed": 20260731,
+      "w_B": "7*(3*x + 5)/258",
+      "w_E": "-x*(313*x - 404*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 369)/(258*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "w_B_minus_w_E": "(167*x**2 - 181*x*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 167*x + 35*sqrt(1 - x)*conjugate(sqrt(1 - x)))/(129*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "Tr[D phi]": "(111*x**2 - 404*x*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 181*x*conjugate(sqrt(1 - x))**2 - 111*x + 70*conjugate(sqrt(1 - x))**2)/(258*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+      "identity_pass": true,
+      "value_at_9_over_20": "-6688/19995"
+    }
+  ],
+  "negativity_region": {
+    "d_0_sign_certificate": "d_0 (2-x)/(x(1-x)) = -1, and x>0, 1-x>0, 2-x>0 on (0,1): d_0(x) < 0 STRICTLY for every x in (0,1).",
+    "d_0_sign_pass": true,
+    "d_1_sign_certificate": "d_1 (2-x)/(1-x) = 2-5x, and (1-x)/(2-x) > 0 on (0,1): sign(d_1) = sign(2-5x), so d_1 <= 0 iff x >= 2/5 with equality only at x = 2/5.",
+    "d_1_sign_pass": false,
+    "d_1_roots": [
+      "1"
+    ],
+    "x_D_exact": "2/5",
+    "x_D_decimal": "0.4",
+    "set_D_psi_leq_0": "[2/5, 1)  (intersected with (0,1))",
+    "sympy_reduce_inequalities": "False",
+    "largest_eigenvalue": "max(d_0, d_1, 0) = 0 for all x in (0,1) since d_0<0 and d_1<=0 iff x>=2/5",
+    "largest_nonzero_eigenvalue_crossing": "d_1 is the only eigenvalue that changes sign on (0,1); it crosses zero exactly at x = 2/5.",
+    "comparisons": {
+      "x_1_from_P3": "0.390910232076181323482721853134... (WHGAP.qpositive-onset.md:41)",
+      "x_D_minus_x_1": "0.0090897679238186765173",
+      "x_D_vs_x_1": "x_D = 2/5 > x_1",
+      "x_D_minus_one_half": "-1/10",
+      "x_D_vs_one_half": "x_D = 2/5 < 1/2",
+      "location": "x_D lies strictly inside the strip (x_1, 1/2)",
+      "P3_exact_witness_point": "783/2000 = 0.3915",
+      "x_D_vs_P3_witness": "2/5 > 783/2000"
+    }
+  },
+  "o3_transport": {
+    "rotation": [
+      [
+        "2/3",
+        "-1/3",
+        "2/3"
+      ],
+      [
+        "2/3",
+        "2/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "2/3",
+        "2/3"
+      ]
+    ],
+    "orthogonal": true,
+    "determinant": "1",
+    "channel_covariance_on_generic_matrix": true,
+    "psi_rot_isotropic": true,
+    "D_rot_equals_R_D_R_transpose": true,
+    "D_rot_in_transported_basis": [
+      [
+        "x*(1 - x)/(x - 2)",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1 - x",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "4*x*(1 - x)/(x - 2)"
+      ]
+    ],
+    "same_diagonal_functions": false,
+    "checks": {
+      "receiver_kernel_is_conj_psi": true,
+      "receiver_closed_form_pass": true,
+      "receiver_spectrum": [
+        "0",
+        "1 - x/2",
+        "x/2"
+      ],
+      "environment_spectrum": [
+        "0",
+        "1 - x/2",
+        "x/2"
+      ],
+      "projector_checks": {
+        "hermitian": true,
+        "idempotent": true,
+        "trace_two": true,
+        "annihilates_environment_output": false,
+        "analytic_basis_in_kernel": false,
+        "analytic_basis_orthogonal": true
+      },
+      "p9b_pi_e_audit": {
+        "raw_nullspace_dimension": 2,
+        "raw_basis_mutually_orthogonal": false,
+        "raw_sum_equals_true_projector": false,
+        "verdict": "P9b built Pi_E as a sum of normalized rank-one projectors over sympy's raw nullspace basis; that equals the orthogonal projector only if the raw basis is orthogonal. Both facts are recorded here."
+      },
+      "M_B_closed_form_is_Lambda_of_P_conj_psi": true,
+      "M_B_in_basis": [
+        [
+          "x/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "x/2 + sqrt(1 - x)*conjugate(sqrt(1 - x))",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "M_E_in_basis": [
+        [
+          "x*(x + 4*sqrt(1 - x)*conjugate(sqrt(1 - x)))/(2*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "x*(3*x + 6*sqrt(1 - x)*conjugate(sqrt(1 - x)) - 2*conjugate(sqrt(1 - x))**2 - 2)/(2*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "x*(-x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x)) + conjugate(sqrt(1 - x))**2 + 1)/(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x)))"
+        ]
+      ],
+      "D_in_basis": [
+        [
+          "x*(1 - x)/(x - 2)",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1 - x",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4*x*(1 - x)/(x - 2)"
+        ]
+      ],
+      "basis_unitary": true
+    }
+  },
+  "chart_point": {
+    "p": "1/3",
+    "q": "2/5",
+    "psi_isotropic": true,
+    "third_unit": true,
+    "D_in_basis": [
+      [
+        "x*(1 - x)/(x - 2)",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "(-5*x**2 + 7*x - 2)/(x - 2)",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "same_diagonal_functions": false,
+    "checks": {
+      "receiver_kernel_is_conj_psi": true,
+      "receiver_closed_form_pass": true,
+      "receiver_spectrum": [
+        "0",
+        "1 - x/2",
+        "x/2"
+      ],
+      "environment_spectrum": [
+        "0",
+        "1 - x/2",
+        "x/2"
+      ],
+      "projector_checks": {
+        "hermitian": true,
+        "idempotent": true,
+        "trace_two": true,
+        "annihilates_environment_output": true,
+        "analytic_basis_in_kernel": true,
+        "analytic_basis_orthogonal": true
+      },
+      "p9b_pi_e_audit": {
+        "raw_nullspace_dimension": 2,
+        "raw_basis_mutually_orthogonal": false,
+        "raw_sum_equals_true_projector": false,
+        "verdict": "P9b built Pi_E as a sum of normalized rank-one projectors over sympy's raw nullspace basis; that equals the orthogonal projector only if the raw basis is orthogonal. Both facts are recorded here."
+      },
+      "M_B_closed_form_is_Lambda_of_P_conj_psi": true,
+      "M_B_in_basis": [
+        [
+          "x/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "x/2 + sqrt(1 - x)*conjugate(sqrt(1 - x))",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "M_E_in_basis": [
+        [
+          "x*(x + 4*sqrt(1 - x)*conjugate(sqrt(1 - x)))/(2*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "x*(-x + 6*sqrt(1 - x)*conjugate(sqrt(1 - x)) + 2*conjugate(sqrt(1 - x))**2 + 2)/(2*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x))))",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "x*(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x)) - conjugate(sqrt(1 - x))**2 - 1)/(x + 2*sqrt(1 - x)*conjugate(sqrt(1 - x)))"
+        ]
+      ],
+      "D_in_basis": [
+        [
+          "x*(1 - x)/(x - 2)",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "(-5*x**2 + 7*x - 2)/(x - 2)",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "basis_unitary": true
+    }
+  },
+  "component_status": {
+    "canonical_structure": "FAIL",
+    "closed_form": "FAIL",
+    "p9b_datum": "FAIL",
+    "weight_identity": "PASS",
+    "negativity_region": "FAIL",
+    "o3_transport": "FAIL",
+    "chart_point": "FAIL"
+  },
+  "status": "FAIL",
+  "interpreter": "<home>\\cpython3119\\python.exe"
+}

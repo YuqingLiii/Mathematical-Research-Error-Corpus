@@ -1,0 +1,8 @@
+PROVENANCE {"script": "<home>\\Documents\\discovery-new-algorithms\\tools\\nptbe_fleet_w5_sweep.py", "script_sha256": "75ef422095e0f10cd46fe432b307ea08dd20c3648d88f35ffe80079039488b47", "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]", "numpy": "1.26.4", "scipy": "1.14.1", "seed": 4041, "argv": ["--d", "4", "--k", "4", "--min-restarts", "200", "--k3cache-restarts", "30", "--seed", "4041", "--tag", "d4k4", "--outdir", "artifacts/logs_nptbe_fleet_20260729/W5"], "utc": "2026-07-29T20:51:46Z"}
+K3CACHE d=4  30/30 points below 1e-9, min=-3.643e-17
+MIN d=4 k=4 25/200 min=-6.678685e-17 median=5.200782e-19  (629.3s)
+MIN d=4 k=4 50/200 min=-6.678685e-17 median=8.483502e-19  (1224.2s)
+MIN d=4 k=4 75/200 min=-6.678685e-17 median=7.427420e-19  (1574.3s)
+MIN d=4 k=4 100/200 min=-6.678685e-17 median=1.589796e-18  (2216.4s)
+MIN d=4 k=4 125/200 min=-6.678685e-17 median=9.539584e-19  (3151.0s)
+MIN d=4 k=4 150/200 min=-6.678685e-17 median=1.213770e-18  (3538.4s)

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "018",
+  "problem": "Channel additivity violations",
+  "collection_context": "Follow-up continuation experiment",
+  "admission": "included",
+  "summary": "The noncommuting factors are multiplied in the wrong order.",
+  "overclaim": false,
+  "mechanism": "非交换乘法次序错误",
+  "original": {
+    "excerpt": "  - 'math \"J=\\\\frac1{m^2}\\\\sum_{a,b}|A_{ab}\\\\rangle\\\\rangle \\\\langle\\\\langle A_{ab}|, \\\\qquad A_{ab}=U_b^*U_a,\"':\n\n[...]\n\n  - paragraph: with the multiplicative consistency\n  - 'math \"A_{ab}A_{bc}=A_{ac}.\"':",
+    "context": "The response defines the common pair-difference matrices by A_ab=U_b^*U_a and then states a multiplicative consistency relation. This is one occurrence of a unique matrix-order error also seen in other replay outputs.",
+    "locator": "Follow-up replay R06, final answer, visible DOM lines 654 and 2348–2349",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The noncommuting factors are multiplied in the wrong order.",
+    "evidence": "With A_ab=U_b^*U_a, the valid cancellation is A_bc A_ab=U_c^*U_b U_b^*U_a=A_ac. The stated reverse order need not hold. Take U_a=I, U_b=X=[[0,1],[1,0]], and U_c=Z=[[1,0],[0,-1]]. Then A_ab=X, A_bc=ZX, and A_ab A_bc=XZX=-Z, whereas A_ac=Z. Thus the displayed equality is false.",
+    "scope": "statement_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "X、Z 两个 Pauli 矩阵给出明确符号差，所写消去顺序不成立。这是计算/推导本身错误。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "statement_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "REPLAY-R06-O05",
+    "prior_curated_status": "extension_record",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "网页展开材料的摘要/工具计算讨论标量界，错误矩阵消去顺序在最终答案；最终答案不能重分类成推理摘要。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "018",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

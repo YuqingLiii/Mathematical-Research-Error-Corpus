@@ -1,0 +1,965 @@
+[
+  {
+    "record_id": "001",
+    "file": "reconciliation_sources/R01-PROOF.md.context.md",
+    "source_lines": [
+      1735,
+      1778
+    ],
+    "original_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7"
+  },
+  {
+    "record_id": "002",
+    "file": "reconciliation_sources/R01-PROOF.md.context.md",
+    "source_lines": [
+      1735,
+      1770
+    ],
+    "original_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7"
+  },
+  {
+    "record_id": "004",
+    "file": "reconciliation_sources/R01-M01-round-06-response.md.context.md",
+    "source_lines": [
+      836,
+      1065
+    ],
+    "original_sha256": "9fb8abbde279c6c61c9294fa24f57a84ed140e921eeacb056c83cf88f885e55d"
+  },
+  {
+    "record_id": "028",
+    "file": "reconciliation_sources/R01-M01-CIRCDIST.sat.transfer.yaml.context.md",
+    "source_lines": [
+      5,
+      17
+    ],
+    "original_sha256": "1480bf39e6926f56f1adfcc0afe923cfd4492350f7892732ca9d9496ea384ee3"
+  },
+  {
+    "record_id": "028",
+    "file": "reconciliation_sources/R02-M03-circdist_sat_transfer_proof_20260823.md.context.md",
+    "source_lines": [
+      165,
+      177
+    ],
+    "original_sha256": "4fce5371edc09fa153b41f6735d521d31500b84b55a0059c8b42dc000651da30"
+  },
+  {
+    "record_id": "028",
+    "file": "reconciliation_sources/R03-M02-circdist_sat_transfer_endtoend_exact_review_20260826.md.context.md",
+    "source_lines": [
+      120,
+      128
+    ],
+    "original_sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+  },
+  {
+    "record_id": "029",
+    "file": "reconciliation_sources/R01-M01-circdist_sat_transfer_proof_20260823.md.context.md",
+    "source_lines": [
+      1426,
+      1437
+    ],
+    "original_sha256": "4fce5371edc09fa153b41f6735d521d31500b84b55a0059c8b42dc000651da30"
+  },
+  {
+    "record_id": "029",
+    "file": "reconciliation_sources/R02-M02-circdist_sat_transfer_endtoend_exact_review_20260826.md.context.md",
+    "source_lines": [
+      330,
+      350
+    ],
+    "original_sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+  },
+  {
+    "record_id": "030",
+    "file": "reconciliation_sources/R01-M01-circdist_sat_transfer_proof_20260823.md.context.md",
+    "source_lines": [
+      603,
+      610
+    ],
+    "original_sha256": "4fce5371edc09fa153b41f6735d521d31500b84b55a0059c8b42dc000651da30"
+  },
+  {
+    "record_id": "030",
+    "file": "reconciliation_sources/R02-M03-circdist_sat_transfer_amendment1_20260823.md.context.md",
+    "source_lines": [
+      224,
+      257
+    ],
+    "original_sha256": "6c7a8fb756cfba958f82c70f739ffa90aee19070c2cae8f358d44ccdc20ad07e"
+  },
+  {
+    "record_id": "031",
+    "file": "reconciliation_sources/R01-M01-CIRCDIST.sat.transfer.yaml.context.md",
+    "source_lines": [
+      18,
+      30
+    ],
+    "original_sha256": "1480bf39e6926f56f1adfcc0afe923cfd4492350f7892732ca9d9496ea384ee3"
+  },
+  {
+    "record_id": "031",
+    "file": "reconciliation_sources/R02-M02-circdist_sat_transfer_endtoend_exact_review_20260826.md.context.md",
+    "source_lines": [
+      476,
+      484
+    ],
+    "original_sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+  },
+  {
+    "record_id": "032",
+    "file": "reconciliation_sources/R01-M01-circdist_lift_iff_proof_20260820.md.context.md",
+    "source_lines": [
+      855,
+      858
+    ],
+    "original_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979"
+  },
+  {
+    "record_id": "032",
+    "file": "reconciliation_sources/R02-M02-circdist_lift_proofs_review_20260820.md.context.md",
+    "source_lines": [
+      219,
+      247
+    ],
+    "original_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f"
+  },
+  {
+    "record_id": "033",
+    "file": "reconciliation_sources/R01-M01-circdist_lift_iff_proof_20260820.md.context.md",
+    "source_lines": [
+      855,
+      861
+    ],
+    "original_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979"
+  },
+  {
+    "record_id": "033",
+    "file": "reconciliation_sources/R02-M02-circdist_lift_claimrepair2_review_20260823.md.context.md",
+    "source_lines": [
+      194,
+      222
+    ],
+    "original_sha256": "9a0d3378e3fbc655114593cc52417b006fc51d2e5b3f57be43fef4373271cfc7"
+  },
+  {
+    "record_id": "034",
+    "file": "reconciliation_sources/R01-M01-circdist_lift_root_assembly_20260822.md.context.md",
+    "source_lines": [
+      95,
+      111
+    ],
+    "original_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46"
+  },
+  {
+    "record_id": "034",
+    "file": "reconciliation_sources/R02-M01-circdist_lift_root_assembly_20260822.md.context.md",
+    "source_lines": [
+      134,
+      160
+    ],
+    "original_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46"
+  },
+  {
+    "record_id": "034",
+    "file": "reconciliation_sources/R03-M01-circdist_lift_root_assembly_20260822.md.context.md",
+    "source_lines": [
+      178,
+      182
+    ],
+    "original_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46"
+  },
+  {
+    "record_id": "034",
+    "file": "reconciliation_sources/R04-M02-circdist_lift_root_review_20260822.md.context.md",
+    "source_lines": [
+      300,
+      326
+    ],
+    "original_sha256": "a6fbf42e5f1f65c7c3c2731185dcbcd898e74b919bda4fdc85bde39e98a93b7c"
+  },
+  {
+    "record_id": "034",
+    "file": "reconciliation_sources/R05-M05-CIRCDIST.lift.yaml.context.md",
+    "source_lines": [
+      18,
+      23
+    ],
+    "original_sha256": "c9471eb923622408318986892c5d319ec5338b2b6643c1a4d845e7fc4e17dce2"
+  },
+  {
+    "record_id": "035",
+    "file": "reconciliation_sources/R01-M01-circdist_lift_iff_proof_20260820.md.context.md",
+    "source_lines": [
+      672,
+      675
+    ],
+    "original_sha256": "97cb3c8da839d1b96f58c281145cec8b70269ed3e6dfb29136f0bda00f564979"
+  },
+  {
+    "record_id": "035",
+    "file": "reconciliation_sources/R02-M02-circdist_lift_proofs_review_20260820.md.context.md",
+    "source_lines": [
+      157,
+      179
+    ],
+    "original_sha256": "fa75f0405a9e233cc45aae2cf01458caef45d65cfef9bc0a44cbca19f0d0189f"
+  },
+  {
+    "record_id": "036",
+    "file": "reconciliation_sources/R01-M01-circdist_gross_sbbcert_20260820.md.context.md",
+    "source_lines": [
+      246,
+      251
+    ],
+    "original_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99"
+  },
+  {
+    "record_id": "036",
+    "file": "reconciliation_sources/R02-M02-circdist_sbbcert_review_20260820.md.context.md",
+    "source_lines": [
+      375,
+      396
+    ],
+    "original_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397"
+  },
+  {
+    "record_id": "037",
+    "file": "reconciliation_sources/R01-M01-circdist_gross_sbbcert_20260820.md.context.md",
+    "source_lines": [
+      315,
+      318
+    ],
+    "original_sha256": "78d7b1a3b2dc35983f492bd4c9472a9b9e0ee7b7f3e9c389fc5729b9496a1e99"
+  },
+  {
+    "record_id": "037",
+    "file": "reconciliation_sources/R02-M02-circdist_sbbcert_review_20260820.md.context.md",
+    "source_lines": [
+      290,
+      330
+    ],
+    "original_sha256": "6847fb574afd312f3419bc14fc2ef8f8b9dd75ccbc7b5862fc78c46da506d397"
+  },
+  {
+    "record_id": "038",
+    "file": "reconciliation_sources/R01-M01-circdist_cplx_islandv_20260820.md.context.md",
+    "source_lines": [
+      236,
+      249
+    ],
+    "original_sha256": "c62e0d2c83f348a4bc8aa90f4807819a7c40834d30aea4298077b948f63be78e"
+  },
+  {
+    "record_id": "038",
+    "file": "reconciliation_sources/R02-M02-circdist_cplx_fixed_d_x_reduction_exact_review_20260828.md.context.md",
+    "source_lines": [
+      274,
+      290
+    ],
+    "original_sha256": "5a9cd8d600871515f85151691e24bd92b3573e9cb79ccdca697f5af01730de54"
+  },
+  {
+    "record_id": "039",
+    "file": "reconciliation_sources/R01-M01-circdist_cplx_islandv_20260820.md.context.md",
+    "source_lines": [
+      251,
+      276
+    ],
+    "original_sha256": "cc090b85b715f0474431b5ff0eedfb8b976f33a95402af9696dfb3c11effe76e"
+  },
+  {
+    "record_id": "039",
+    "file": "reconciliation_sources/R02-M03-MATHEMATICAL_ADJUDICATION.md.context.md",
+    "source_lines": [
+      64,
+      68
+    ],
+    "original_sha256": "c1e6365f612a4aed7926c4068306be4e732dda43321f74c39b4c6f11c4664278"
+  },
+  {
+    "record_id": "040",
+    "file": "reconciliation_sources/R01-M01-KSUM-agent-a9938705d211bef32.jsonl.readable.md.context.md",
+    "source_lines": [
+      343,
+      343
+    ],
+    "original_sha256": "949a7176e2f3a4b6ebed62591279c671fae054d2dbf94178a4f3ca1401579aa3"
+  },
+  {
+    "record_id": "040",
+    "file": "reconciliation_sources/R02-M01-KSUM-agent-a9938705d211bef32.jsonl.readable.md.context.md",
+    "source_lines": [
+      849,
+      849
+    ],
+    "original_sha256": "949a7176e2f3a4b6ebed62591279c671fae054d2dbf94178a4f3ca1401579aa3"
+  },
+  {
+    "record_id": "041",
+    "file": "reconciliation_sources/R01-ksum_small_alphabet.tex.context.md",
+    "source_lines": [
+      243,
+      252
+    ],
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81"
+  },
+  {
+    "record_id": "041",
+    "file": "reconciliation_sources/R02-historical_provenance_report.md.context.md",
+    "source_lines": [
+      599,
+      632
+    ],
+    "original_sha256": "ba3fceaca083ce6134ed741676f4b5f2d91b72fe62561b6ef32624b9094e5a60"
+  },
+  {
+    "record_id": "042",
+    "file": "reconciliation_sources/R01-ksum_small_alphabet.tex.context.md",
+    "source_lines": [
+      220,
+      230
+    ],
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81"
+  },
+  {
+    "record_id": "043",
+    "file": "reconciliation_sources/R01-M01-KSUM-agent-acb57dcbbc16cfba2.jsonl.readable.md.context.md",
+    "source_lines": [
+      645,
+      654
+    ],
+    "original_sha256": "8f61704cd9d6c0b7ac31e9287e6a67518a16a5dbd1a8e8224fc65d759621994f"
+  },
+  {
+    "record_id": "044",
+    "file": "reconciliation_sources/R01-ksum_L2_phase1.md.context.md",
+    "source_lines": [
+      183,
+      211
+    ],
+    "original_sha256": "8436994bee0c4f9c125cd2a276d0b04048f65ebcd6ca111f1e18647c9e0e4cc3"
+  },
+  {
+    "record_id": "044",
+    "file": "reconciliation_sources/R02-ksum_L2p1_review.md.context.md",
+    "source_lines": [
+      128,
+      134
+    ],
+    "original_sha256": "762104d2b1cd81ae0280dcbf48f25c4f789628775ea26d3e4ae0f2e7df0dc6b0"
+  },
+  {
+    "record_id": "045",
+    "file": "reconciliation_sources/R01-8e0f1063-KSUM_FINAL_REPORT.md.context.md",
+    "source_lines": [
+      17,
+      21
+    ],
+    "original_sha256": "962c22bc097cdfade5bfe5e310615f0ff1b7504ad93bcc9757fd055e8e24602f"
+  },
+  {
+    "record_id": "046",
+    "file": "reconciliation_sources/R01-M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md.context.md",
+    "source_lines": [
+      553,
+      565
+    ],
+    "original_sha256": "a61f2772671a2a8296117443f60c0d50de685dc640835d755631b24ca7d3a8f4"
+  },
+  {
+    "record_id": "046",
+    "file": "reconciliation_sources/R02-M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md.context.md",
+    "source_lines": [
+      1063,
+      1087
+    ],
+    "original_sha256": "a61f2772671a2a8296117443f60c0d50de685dc640835d755631b24ca7d3a8f4"
+  },
+  {
+    "record_id": "046",
+    "file": "reconciliation_sources/R03-M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md.context.md",
+    "source_lines": [
+      1155,
+      1162
+    ],
+    "original_sha256": "a61f2772671a2a8296117443f60c0d50de685dc640835d755631b24ca7d3a8f4"
+  },
+  {
+    "record_id": "047",
+    "file": "reconciliation_sources/R01-M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.readable.md.context.md",
+    "source_lines": [
+      100,
+      100
+    ],
+    "original_sha256": "21395e0ac5f22ec573ce852d385d27e1ae7d4ac7b14f75414c5f480972b34aa0"
+  },
+  {
+    "record_id": "047",
+    "file": "reconciliation_sources/R02-M76-REPORT.md.context.md",
+    "source_lines": [
+      70,
+      89
+    ],
+    "original_sha256": "99172b8af7c95308b033bfcf8dd31d353aa70c6a25d41db3a8806af115e8f62b"
+  },
+  {
+    "record_id": "048",
+    "file": "reconciliation_sources/R01-M01-rollout-2026-07-20T00-49-03-<session-id-redacted>.jsonl.readable.md.context.md",
+    "source_lines": [
+      86,
+      86
+    ],
+    "original_sha256": "051754515f5e532add82d8665152e5de489cb417d82540df9c7ba9562b32ca23"
+  },
+  {
+    "record_id": "048",
+    "file": "reconciliation_sources/R02-M76-REPORT.md.context.md",
+    "source_lines": [
+      42,
+      68
+    ],
+    "original_sha256": "99172b8af7c95308b033bfcf8dd31d353aa70c6a25d41db3a8806af115e8f62b"
+  },
+  {
+    "record_id": "053",
+    "file": "reconciliation_sources/R01-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md",
+    "source_lines": [
+      1598,
+      1599
+    ],
+    "original_sha256": "6b9f041fca8cb3c5d652c12134cbdc9b881d3502ab13218a62d1a64877350006"
+  },
+  {
+    "record_id": "053",
+    "file": "reconciliation_sources/R02-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md",
+    "source_lines": [
+      1990,
+      1991
+    ],
+    "original_sha256": "6b9f041fca8cb3c5d652c12134cbdc9b881d3502ab13218a62d1a64877350006"
+  },
+  {
+    "record_id": "053",
+    "file": "reconciliation_sources/R03-h4_complete_K_isotypic.py.context.md",
+    "source_lines": [
+      2617,
+      2628
+    ],
+    "original_sha256": "0ae1e72bac4917235519bffb9cf98d25f8b169f1660e7ab3372d4787be937585"
+  },
+  {
+    "record_id": "054",
+    "file": "reconciliation_sources/R01-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md",
+    "source_lines": [
+      945,
+      946
+    ],
+    "original_sha256": "6b9f041fca8cb3c5d652c12134cbdc9b881d3502ab13218a62d1a64877350006"
+  },
+  {
+    "record_id": "054",
+    "file": "reconciliation_sources/R02-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md",
+    "source_lines": [
+      977,
+      978
+    ],
+    "original_sha256": "6b9f041fca8cb3c5d652c12134cbdc9b881d3502ab13218a62d1a64877350006"
+  },
+  {
+    "record_id": "054",
+    "file": "reconciliation_sources/R03-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md",
+    "source_lines": [
+      1068,
+      1069
+    ],
+    "original_sha256": "6b9f041fca8cb3c5d652c12134cbdc9b881d3502ab13218a62d1a64877350006"
+  },
+  {
+    "record_id": "054",
+    "file": "reconciliation_sources/R04-e8-reconstruction-20260829.md.context.md",
+    "source_lines": [
+      35,
+      38
+    ],
+    "original_sha256": "7af593deefa3d8a75caa099481348821929b18add9ea0b0df740d0e9236bbba6"
+  },
+  {
+    "record_id": "056",
+    "file": "reconciliation_sources/R01-balanced-rank-theorem-draft-20260829.md.context.md",
+    "source_lines": [
+      24,
+      26
+    ],
+    "original_sha256": "c6b7bd87193b34ad6e5c05d20971fba2722ba202c3e87e2bd6717a951d5dfef4"
+  },
+  {
+    "record_id": "056",
+    "file": "reconciliation_sources/R02-balanced-rank-theorem-draft-20260829.md.context.md",
+    "source_lines": [
+      68,
+      85
+    ],
+    "original_sha256": "c6b7bd87193b34ad6e5c05d20971fba2722ba202c3e87e2bd6717a951d5dfef4"
+  },
+  {
+    "record_id": "056",
+    "file": "reconciliation_sources/R03-spectral-classification-review-20260907.md.context.md",
+    "source_lines": [
+      187,
+      208
+    ],
+    "original_sha256": "7e21414c47cf8deab81b494ff31ba74fecbb02177c0b1fbc7f9abd2a9ec66941"
+  },
+  {
+    "record_id": "056",
+    "file": "reconciliation_sources/R04-spectral-classification-scope-repair-20260907.md.context.md",
+    "source_lines": [
+      9,
+      15
+    ],
+    "original_sha256": "56483aabd923e86edb66d7670c51f1617f7365162eb7d856b5ca2009658bf50e"
+  },
+  {
+    "record_id": "058",
+    "file": "reconciliation_sources/R01-REAUDIT_REPORT.md.context.md",
+    "source_lines": [
+      22,
+      35
+    ],
+    "original_sha256": "1d57516aa27fb7927ea39bfaa48808e5209dd60aff79a4bdf520932e2a65acf0"
+  },
+  {
+    "record_id": "059",
+    "file": "reconciliation_sources/R01-M02-GAP-007-source-attribution.jsonl.readable.md.context.md",
+    "source_lines": [
+      108,
+      155
+    ],
+    "original_sha256": "b5ff56c274fa9d3bb49a6cfab9886172d2c4525229084e9bc33a2032473045f9"
+  },
+  {
+    "record_id": "059",
+    "file": "reconciliation_sources/R02-PROOF.md.context.md",
+    "source_lines": [
+      4153,
+      4175
+    ],
+    "original_sha256": "7bcddfcf1e7db06c2c3a4e812e51c28d33afe33434842e3463c56eec6f699ea7"
+  },
+  {
+    "record_id": "063",
+    "file": "reconciliation_sources/R01-M01-explore_round82_global.cpp.context.md",
+    "source_lines": [
+      340,
+      347
+    ],
+    "original_sha256": "43d190771896e6a9f62096b254b08aace475e91c7f47e8aeac0129f54db2f224"
+  },
+  {
+    "record_id": "063",
+    "file": "reconciliation_sources/R02-round82-exploratory-global.log.context.md",
+    "source_lines": [
+      1,
+      13
+    ],
+    "original_sha256": "f74ede02ecd6289798f180fedddd014df68e0fab2f9abeed89c505a3e8ecfd45"
+  },
+  {
+    "record_id": "065",
+    "file": "reconciliation_sources/R01-M01-round-98-prompt-sent.md.context.md",
+    "source_lines": [
+      147,
+      153
+    ],
+    "original_sha256": "3ff85ab484db1fc135688b573143ce8702274f0d53fcf6836b5c8d0d7c792cc4"
+  },
+  {
+    "record_id": "065",
+    "file": "reconciliation_sources/R02-round98-exploratory-global.log.context.md",
+    "source_lines": [
+      1,
+      13
+    ],
+    "original_sha256": "1ab74c3ca3f0d3713388c793e4ec6d9a077ac59cdbf56f91c3ebe2b66f35f782"
+  },
+  {
+    "record_id": "065",
+    "file": "reconciliation_sources/R03-round-98-local-audit.md.context.md",
+    "source_lines": [
+      60,
+      67
+    ],
+    "original_sha256": "94ba0af84ffaa6676503fcff1428548ba3b2781fa330e28610f55bf082568d0c"
+  },
+  {
+    "record_id": "066",
+    "file": "reconciliation_sources/R01-M01-independent_check.json.context.md",
+    "source_lines": [
+      12,
+      16
+    ],
+    "original_sha256": "1ef3e54d9291786e63b1f82bea222fb9885a196c5adca509ca989b06407c6cea"
+  },
+  {
+    "record_id": "066",
+    "file": "reconciliation_sources/R02-M02-circdist_gross_global_closure_round102_exact_review_round103_20260901.md.context.md",
+    "source_lines": [
+      79,
+      92
+    ],
+    "original_sha256": "4ddb4f4bc966a5c930066409cb267aea30d3b3bb68a45529e1174052ccd7e361"
+  },
+  {
+    "record_id": "066",
+    "file": "reconciliation_sources/R03-M02-circdist_gross_global_closure_round102_exact_review_round103_20260901.md.context.md",
+    "source_lines": [
+      349,
+      379
+    ],
+    "original_sha256": "4ddb4f4bc966a5c930066409cb267aea30d3b3bb68a45529e1174052ccd7e361"
+  },
+  {
+    "record_id": "066",
+    "file": "reconciliation_sources/R04-M03-GLOBAL_TRANSLATION_THEOREM.md.context.md",
+    "source_lines": [
+      5,
+      15
+    ],
+    "original_sha256": "142ebc8bdd9e9c93115a68d1838301bf86c5820e1c61ea884bb910a6a7c7d3c3"
+  },
+  {
+    "record_id": "067",
+    "file": "reconciliation_sources/R01-M01-circdist_dstar_hunt1_20260823.md.context.md",
+    "source_lines": [
+      173,
+      188
+    ],
+    "original_sha256": "d6d104c20d28c3fe29a3dd2cf53cfe50f3cc3cadc852e46c6ea00fc5ff4f4671"
+  },
+  {
+    "record_id": "067",
+    "file": "reconciliation_sources/R02-M02-circdist_dstar_hunt2_20260823.md.context.md",
+    "source_lines": [
+      65,
+      93
+    ],
+    "original_sha256": "01f9e79226495ad837ecb8fa08066b4d96a2d7078e385d5831d827ddb6ba82da"
+  },
+  {
+    "record_id": "067",
+    "file": "reconciliation_sources/R03-M02-circdist_dstar_hunt2_20260823.md.context.md",
+    "source_lines": [
+      103,
+      148
+    ],
+    "original_sha256": "01f9e79226495ad837ecb8fa08066b4d96a2d7078e385d5831d827ddb6ba82da"
+  },
+  {
+    "record_id": "068",
+    "file": "reconciliation_sources/R01-M01-circdist_lift_root_assembly_20260822.md.context.md",
+    "source_lines": [
+      121,
+      127
+    ],
+    "original_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46"
+  },
+  {
+    "record_id": "068",
+    "file": "reconciliation_sources/R02-M01-circdist_lift_root_assembly_20260822.md.context.md",
+    "source_lines": [
+      241,
+      264
+    ],
+    "original_sha256": "275a8c2cdce003277abe9e0e6dfed057f4f91cd00238fc9805ff360c58a8aa46"
+  },
+  {
+    "record_id": "069",
+    "file": "reconciliation_sources/R01-M01-CIRCDIST.sat.transfer.yaml.context.md",
+    "source_lines": [
+      5,
+      17
+    ],
+    "original_sha256": "1480bf39e6926f56f1adfcc0afe923cfd4492350f7892732ca9d9496ea384ee3"
+  },
+  {
+    "record_id": "069",
+    "file": "reconciliation_sources/R02-M03-circdist_sat_transfer_proof_20260823.md.context.md",
+    "source_lines": [
+      149,
+      177
+    ],
+    "original_sha256": "4fce5371edc09fa153b41f6735d521d31500b84b55a0059c8b42dc000651da30"
+  },
+  {
+    "record_id": "069",
+    "file": "reconciliation_sources/R03-M03-circdist_sat_transfer_proof_20260823.md.context.md",
+    "source_lines": [
+      519,
+      521
+    ],
+    "original_sha256": "4fce5371edc09fa153b41f6735d521d31500b84b55a0059c8b42dc000651da30"
+  },
+  {
+    "record_id": "069",
+    "file": "reconciliation_sources/R04-M02-circdist_sat_transfer_endtoend_exact_review_20260826.md.context.md",
+    "source_lines": [
+      102,
+      109
+    ],
+    "original_sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+  },
+  {
+    "record_id": "069",
+    "file": "reconciliation_sources/R05-M02-circdist_sat_transfer_endtoend_exact_review_20260826.md.context.md",
+    "source_lines": [
+      130,
+      140
+    ],
+    "original_sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+  },
+  {
+    "record_id": "070",
+    "file": "reconciliation_sources/R01-M01-CIRCDIST.sat.transfer.yaml.context.md",
+    "source_lines": [
+      5,
+      17
+    ],
+    "original_sha256": "1480bf39e6926f56f1adfcc0afe923cfd4492350f7892732ca9d9496ea384ee3"
+  },
+  {
+    "record_id": "070",
+    "file": "reconciliation_sources/R02-M01-CIRCDIST.sat.transfer.yaml.context.md",
+    "source_lines": [
+      47,
+      54
+    ],
+    "original_sha256": "1480bf39e6926f56f1adfcc0afe923cfd4492350f7892732ca9d9496ea384ee3"
+  },
+  {
+    "record_id": "070",
+    "file": "reconciliation_sources/R03-M03-circdist_sat_transfer_proof_20260823.md.context.md",
+    "source_lines": [
+      198,
+      223
+    ],
+    "original_sha256": "4fce5371edc09fa153b41f6735d521d31500b84b55a0059c8b42dc000651da30"
+  },
+  {
+    "record_id": "070",
+    "file": "reconciliation_sources/R04-M02-circdist_sat_transfer_endtoend_exact_review_20260826.md.context.md",
+    "source_lines": [
+      226,
+      238
+    ],
+    "original_sha256": "38699f1ea65fc3e811f35b06feece9ad464baf7a6fed2f7cee749eefc3e3f985"
+  },
+  {
+    "record_id": "071",
+    "file": "reconciliation_sources/R01-GROTHORB.extremizer-classification.yaml.context.md",
+    "source_lines": [
+      5,
+      28
+    ],
+    "original_sha256": "1dbac3b4479ed340529a0140b1f42840b089c52676beedc2e5996a34fcb8f234"
+  },
+  {
+    "record_id": "071",
+    "file": "reconciliation_sources/R02-GROTHORB.extremizer-classification.yaml.context.md",
+    "source_lines": [
+      14,
+      28
+    ],
+    "original_sha256": "1dbac3b4479ed340529a0140b1f42840b089c52676beedc2e5996a34fcb8f234"
+  },
+  {
+    "record_id": "071",
+    "file": "reconciliation_sources/R03-complete-extremizer-classification-20260829.md.context.md",
+    "source_lines": [
+      147,
+      172
+    ],
+    "original_sha256": "44ac28ada792471f5ff014f763a94da16929ac2f6d99df01b2a056f52a47cd99"
+  },
+  {
+    "record_id": "072",
+    "file": "reconciliation_sources/R01-spectral-classification-review-20260907.md.context.md",
+    "source_lines": [
+      147,
+      166
+    ],
+    "original_sha256": "7e21414c47cf8deab81b494ff31ba74fecbb02177c0b1fbc7f9abd2a9ec66941"
+  },
+  {
+    "record_id": "072",
+    "file": "reconciliation_sources/R02-complete-extremizer-classification-20260829.md.context.md",
+    "source_lines": [
+      98,
+      111
+    ],
+    "original_sha256": "44ac28ada792471f5ff014f763a94da16929ac2f6d99df01b2a056f52a47cd99"
+  },
+  {
+    "record_id": "072",
+    "file": "reconciliation_sources/R03-spectral-classification-scope-repair-20260907.md.context.md",
+    "source_lines": [
+      19,
+      24
+    ],
+    "original_sha256": "56483aabd923e86edb66d7670c51f1617f7365162eb7d856b5ca2009658bf50e"
+  },
+  {
+    "record_id": "072",
+    "file": "reconciliation_sources/R04-GROTHORB.equality-characterization.yaml.context.md",
+    "source_lines": [
+      40,
+      48
+    ],
+    "original_sha256": "1946a1a6e782683627a0e8c38aa830d88ee395a2b1fbf26f48d0656844091e73"
+  },
+  {
+    "record_id": "073",
+    "file": "reconciliation_sources/R01-rch-model-clarification-20260907.md.context.md",
+    "source_lines": [
+      13,
+      21
+    ],
+    "original_sha256": "7a53235e296c1918e06b21bf0b8e9e83f201686d3bb652fcc80d66f790d4be37"
+  },
+  {
+    "record_id": "073",
+    "file": "reconciliation_sources/R02-rch-model-clarification-20260907.md.context.md",
+    "source_lines": [
+      25,
+      37
+    ],
+    "original_sha256": "7a53235e296c1918e06b21bf0b8e9e83f201686d3bb652fcc80d66f790d4be37"
+  },
+  {
+    "record_id": "073",
+    "file": "reconciliation_sources/R03-rch-model-clarification-20260907.md.context.md",
+    "source_lines": [
+      48,
+      53
+    ],
+    "original_sha256": "7a53235e296c1918e06b21bf0b8e9e83f201686d3bb652fcc80d66f790d4be37"
+  },
+  {
+    "record_id": "074",
+    "file": "reconciliation_sources/R01-ksum_small_alphabet.tex.context.md",
+    "source_lines": [
+      220,
+      234
+    ],
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81"
+  },
+  {
+    "record_id": "074",
+    "file": "reconciliation_sources/R02-KSUM-main-b5fea9c2.jsonl.context.md",
+    "source_lines": [
+      633,
+      633
+    ],
+    "original_sha256": "530c1f51422f8368505854c0cf0614efd02ebc72b812dd33389b157daf370a41"
+  },
+  {
+    "record_id": "075",
+    "file": "reconciliation_sources/R01-corpus_50.jsonl.context.md",
+    "source_lines": [
+      18,
+      18
+    ],
+    "original_sha256": "d410ad6f105321af48ece831bfef410c99c7eee59b320e15ef7d3d5bbedbbb66"
+  },
+  {
+    "record_id": "075",
+    "file": "reconciliation_sources/R02-M01-KSUM-main-b5fea9c2.jsonl.readable.md.context.md",
+    "source_lines": [
+      550,
+      554
+    ],
+    "original_sha256": "b8d16f59a22fe4a71518c1eaedfd6e02f9401e549b3756e6dfb2af30b2c6c49b"
+  },
+  {
+    "record_id": "075",
+    "file": "reconciliation_sources/R03-ksum_small_alphabet.tex.context.md",
+    "source_lines": [
+      275,
+      279
+    ],
+    "original_sha256": "58b81ed87ddaad40b5d1fde779388af01ed79cb70b196d511b185f305583bc81"
+  },
+  {
+    "record_id": "076",
+    "file": "reconciliation_sources/R01-KSUM-main-b5fea9c2.jsonl.context.md",
+    "source_lines": [
+      1709,
+      1709
+    ],
+    "original_sha256": "530c1f51422f8368505854c0cf0614efd02ebc72b812dd33389b157daf370a41"
+  },
+  {
+    "record_id": "076",
+    "file": "reconciliation_sources/R02-ksum_L2_phase1.md.context.md",
+    "source_lines": [
+      107,
+      114
+    ],
+    "original_sha256": "8436994bee0c4f9c125cd2a276d0b04048f65ebcd6ca111f1e18647c9e0e4cc3"
+  },
+  {
+    "record_id": "076",
+    "file": "reconciliation_sources/R03-ksum_L2p1_review.md.context.md",
+    "source_lines": [
+      102,
+      112
+    ],
+    "original_sha256": "762104d2b1cd81ae0280dcbf48f25c4f789628775ea26d3e4ae0f2e7df0dc6b0"
+  },
+  {
+    "record_id": "076",
+    "file": "reconciliation_sources/R04-ksum_L2_phase1_addendum.md.context.md",
+    "source_lines": [
+      20,
+      38
+    ],
+    "original_sha256": "8bf417243714b1f43022c56c34ef94724d23f07590ec00d2f137b60b6a7c0a44"
+  },
+  {
+    "record_id": "077",
+    "file": "reconciliation_sources/R01-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md",
+    "source_lines": [
+      1598,
+      1599
+    ],
+    "original_sha256": "6b9f041fca8cb3c5d652c12134cbdc9b881d3502ab13218a62d1a64877350006"
+  },
+  {
+    "record_id": "077",
+    "file": "reconciliation_sources/R02-rollout-2026-08-26T19-03-11-<session-id-redacted>.jsonl.context.md",
+    "source_lines": [
+      1971,
+      1972
+    ],
+    "original_sha256": "6b9f041fca8cb3c5d652c12134cbdc9b881d3502ab13218a62d1a64877350006"
+  },
+  {
+    "record_id": "077",
+    "file": "reconciliation_sources/R03-d4_n1_300x300.mat.H4_invariant_vanishing_probe.json.context.md",
+    "source_lines": [
+      1,
+      1
+    ],
+    "original_sha256": "3f8ffc9a43b88bc8bd5c961d26f3e2be40d7a4b9093efb99864bd1c530fede5c"
+  },
+  {
+    "record_id": "077",
+    "file": "reconciliation_sources/R04-h4_invariant_vanishing_probe.py.context.md",
+    "source_lines": [
+      898,
+      903
+    ],
+    "original_sha256": "98fb98a0ff6486f9646c72c61621aaa6a63261c30a1042ada3a04828b050dd8e"
+  }
+]

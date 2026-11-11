@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "record_id": "070",
+  "problem": "Circuit-distance stabilization",
+  "collection_context": "Original research investigation",
+  "admission": "excluded",
+  "summary": "The collision-merging proof needs the allowed alphabet to be closed under local multiplication and uses a compatible uniform cost. Unit weights alone do not provide group closure.",
+  "overclaim": null,
+  "mechanism": "excluded_allegation",
+  "original": {
+    "excerpt": "  exactly. The d_R so computed is moreover invariant under the counting and detector-split\n  conventions the surrounding route composes across: by Lemma 2.9 it is the same whether a witness\n  is counted by its number of elementary faults, collisions permitted, or by its number of faulty\n  locations;",
+    "context": "The installed claim states equality of collision-permitting elementary-fault counts and occupied-location counts. The dossier proves it by multiplying faults at a shared location inside the full local Pauli group, with unit cost for every nonidentity assignment.",
+    "locator": "Archived theorem statement installed on 23 August 2026, counting-invariance clause, lines 10–13.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The collision-merging proof needs the allowed alphabet to be closed under local multiplication and uses a compatible uniform cost. Unit weights alone do not provide group closure.",
+    "evidence": "At one CNOT location allow X_c and X_t but not X_cX_t. A multiset containing X_c and X_t has size two and realizes the combined effect X_cX_t. A legal configuration, which permits only one allowed assignment at that location, cannot realize that product there. Thus multiset and occupied-location optima need not agree for an incomplete alphabet. In the full Pauli-group unit-cost model, merging does prove equality; the witness concerns extending the statement beyond that model, not refuting the full-model lemma.",
+    "scope": "argument_invalid",
+    "endorsement": "historical_allegation_not_endorsed"
+  },
+  "adjudication": {
+    "rationale_zh": "非群fault alphabet反例数学上正确，但原claim引用stated unit-fault model与Lemma2.9；同一安装YAML的caveats第47–54行明确完整Pauli GROUP及均匀单位代价，甚至明确讲非群时不成立。不能抽掉紧邻限定再指控无条件推广。",
+    "history_reconciliation": "接回旧完整节点后发现原context本来已排除此反例域。之前只摘claim字符串形成的独立错误标注应纠正，不把已知正确lemma记作生成错误。",
+    "verification_basis": "原节点条件、Lemma2.9全群合并论证与反例域逐项对照；全部材料早已在本地，不是缺恢复。",
+    "witness_scope": "counterexample outside the explicitly incorporated fault model",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-SAT-003",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "interpretation_check_pending",
+    "superseded_20260922_status": "exclude_current_pair",
+    "witness_repair_v11": {
+      "record_id": "070",
+      "old_witness_issue": "用非群 fault alphabet 反驳完整 Pauli 群模型的结论。",
+      "repair_attempt": "同一安装节点紧邻 caveats 已写完整群与均匀单位代价，并明确非群不适用。",
+      "outcome": "旧 witness 超出原始模型范围。",
+      "admission": "excluded",
+      "evidence": "audit/excluded/070/witness.md"
+    }
+  },
+  "visible_reasoning": {
+    "availability_description": "完整 Pauli 故障及均匀代价假设下的合并论证，与安装版无条件等价不是同一命题；现有推理不足以定位去掉假设的节点。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-23T07:55:57.401Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a650547b7eb957124.jsonl",
+        "source_line": 23,
+        "material_id": "M04",
+        "original_line_sha256": "dfe2e08680ecfbd018cca520d41e8e79490162aa625bcf976f6f1f30802668f2"
+      },
+      {
+        "timestamp": "2026-08-23T08:03:29.160Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a650547b7eb957124.jsonl",
+        "source_line": 54,
+        "material_id": "M04",
+        "original_line_sha256": "4781c0efede48907f9ae89122a0fb73658382884d236ec2fff8f2d3005fcd7ce"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M04",
+      "source_line": 23,
+      "timestamp": "2026-08-23T07:55:57.401Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M04",
+      "source_line": 54,
+      "timestamp": "2026-08-23T08:03:29.160Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "070",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

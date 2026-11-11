@@ -1,0 +1,59 @@
+[
+  {
+    "file": "original/M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "a61f2772671a2a8296117443f60c0d50de685dc640835d755631b24ca7d3a8f4",
+    "bytes": 66016,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.visible.json",
+    "kind": "inherited_sanitized_source",
+    "sha256": "b54af01a9b46cdbef605da7965415a5f0adbd0f04d493229753288dc9cb5b863",
+    "bytes": 112286,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "original/M02-GOLD3_collision_reclaim.md",
+    "kind": "inherited_sanitized_source",
+    "sha256": "fce22f76f1f8bc73bcb15e2f21819808239ff72665ade7f7a2b8cbb1f74a66b9",
+    "bytes": 1327,
+    "relation": "Byte-identical to the user-supplied compact archive. Historical source identity is retained in history/source_record.json."
+  },
+  {
+    "file": "reconciliation_sources/R01-M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/dataset-clean/records/046/original/M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md",
+    "original_sha256": "a61f2772671a2a8296117443f60c0d50de685dc640835d755631b24ca7d3a8f4",
+    "source_lines": [
+      553,
+      565
+    ],
+    "sha256": "cde86a75dddfa76fef440919e46e118403a32172c8e08ccb7816dbafc18cf3b5",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R02-M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/dataset-clean/records/046/original/M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md",
+    "original_sha256": "a61f2772671a2a8296117443f60c0d50de685dc640835d755631b24ca7d3a8f4",
+    "source_lines": [
+      1063,
+      1087
+    ],
+    "sha256": "e9923f5fe6f319c3d6a0cf6bff984f3fec6ecf63bf35effba04f86198295fd43",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  },
+  {
+    "file": "reconciliation_sources/R03-M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md.context.md",
+    "kind": "reconciliation_source_window",
+    "source": "[PROJECT]/paper/evidence_to_overclaim_iclr2027/dataset-clean/records/046/original/M01-rollout-2026-07-11T12-59-37-<session-id-redacted>.jsonl.readable.md",
+    "original_sha256": "a61f2772671a2a8296117443f60c0d50de685dc640835d755631b24ca7d3a8f4",
+    "source_lines": [
+      1155,
+      1162
+    ],
+    "sha256": "e9d33835938de365de19490027017d6da43b61b819592aca02497db2addffad5",
+    "transformation": "Exact line window with original line numbers; private identifiers redacted; no mathematical paraphrase."
+  }
+]

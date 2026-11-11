@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "051",
+  "problem": "Finite-dimensional Grothendieck bounds",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The decimal expansion of3N is wrong, and the displayed comparison using that wrong number is false.",
+  "overclaim": false,
+  "mechanism": "精确整数运算错误",
+  "original": {
+    "excerpt": "3N=939406148910924300 > 5212397982790439500=P,",
+    "context": "The preceding definition sets N=3131353829703088100, the total negative edge demand.",
+    "locator": "Exact-cut proof draft creation, 2026-08-30T21:00; transcript lines6940–6979.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The decimal expansion of3N is wrong, and the displayed comparison using that wrong number is false.",
+    "evidence": "3*3131353829703088100=9394061489109264300. The incorrectly displayed939406148910924300 is smaller than5212397982790439500, not larger. After correcting the product, the intended inequality9394061489109264300>5212397982790439500 holds, so this is a local arithmetic transcription error and not a refutation of the corrected capacity obstruction.",
+    "scope": "computation_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "3×3131353829703088100=9394061489109264300，不是原文的 939406148910924300；误写值甚至小于所比较的 P。修正后原拟比较方向成立，故只判局部算术/转录，不否定修正后的容量障碍。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "computation_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "GROTH-D4-004",
+    "prior_curated_status": "CONFIRMED_FALSE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "相关短摘要没有 N 与 3N 的完整算式，不能据输出数字多/少位断言此前推理正确。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "051",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

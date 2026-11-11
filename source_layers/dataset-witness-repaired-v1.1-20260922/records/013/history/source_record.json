@@ -1,0 +1,1046 @@
+{
+  "record_id": "013",
+  "problem": "Channel additivity violations",
+  "collection": "Original research investigation",
+  "summary": "A variance about its minimizing mean cannot bound squared deviations about every arbitrary center.",
+  "review_status": "source_reviewed",
+  "review_note": "No open interpretation blocker was recorded in the preceding source review. This is not a new independent mathematical verification.",
+  "original": {
+    "excerpt": "For cofactor \\(i\\), pad the magnitude array with zeros to length \\(S_i\\), and let\n\n$$\n\\bar a_i=\\frac{L_i}{S_i}.\n$$\n\nThen\n\n$$\n\\frac{D_i}{S_i}\n=\n\\sum_{\\xi=1}^{S_i}\n\\bigl(|A_i(\\xi)|-\\bar a_i\\bigr)^2,\n\\qquad\nD_i=S_ie_i^2-L_i^2.\n\\tag{6.1}\n$$\n\nRestrict this sum to:\n\n* the \\(G_i\\) surviving unit anchors;\n* the \\(N_i\\) surviving complete opposite-sign pairs.\n\nFor arbitrary \\(\\mu\\in\\mathbb R\\),\n\n$$\n\\frac{D_i}{S_i}\n\\ge\nG_i(1-\\mu)^2\n+\n\\sum_{p=1}^{N_i}\n\\left[\n(r_{p,+}-\\mu)^2+(r_{p,-}-\\mu)^2\n\\right].\n\\tag{6.2}\n$$",
+    "context": "D_i=S_i e_i^2-L_i^2 is S_i times the squared-deviation sum about the actual mean bar(a)_i=L_i/S_i. G_i counts retained unit anchors and N_i counts retained opposite-sign pairs with magnitudes r_(p,+),r_(p,-).",
+    "locator": "round-55-response.md, lines 577–612"
+  },
+  "witness": {
+    "explanation": "A variance about its minimizing mean cannot bound squared deviations about every arbitrary center.",
+    "evidence": "For any nonempty selected coordinate set, the right side of (6.2) grows quadratically as |mu| tends to infinity, whereas D_i/S_i is fixed and finite. As a minimal exact example, one unit coordinate has S_i=L_i=e_i^2=G_i=1 and N_i=0, so D_i/S_i=0; choosing mu=0 makes the asserted right side 1. The valid route evaluates the selected deviations at the actual mean first, then lower-bounds them by their minimum over mu.",
+    "scope": "statement_false"
+  },
+  "archived_witness_excerpt": null,
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "output_anchors": [],
+  "events": [],
+  "materials": [
+    {
+      "material_id": "M01",
+      "roles": [
+        "original_claim_or_computation",
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "file": "materials/M01-round-55-response.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/artifacts/web-gpt56sol-pro/round-55-response.md",
+      "original_source_sha256": "a86de93aaa8afada289e6a076a39cecebbf77bf0ca5e9dc90e8546a71d96d875",
+      "original_source_bytes": 20411,
+      "bundled_file_sha256": "a86de93aaa8afada289e6a076a39cecebbf77bf0ca5e9dc90e8546a71d96d875",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1146
+        ]
+      ],
+      "requested_locators": [
+        "round-55-response.md, lines 577–612",
+        "lines 575-635",
+        "lines 575-635",
+        "lines 575-635",
+        "lines 575-635",
+        "lines 575-635"
+      ],
+      "matched_quote_lines": [
+        577
+      ],
+      "historical_hash_matches": [
+        {
+          "expected": "a86de93aaa8afada289e6a076a39cecebbf77bf0ca5e9dc90e8546a71d96d875",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "a86de93aaa8afada289e6a076a39cecebbf77bf0ca5e9dc90e8546a71d96d875",
+          "matched": true,
+          "match_scope": "whole_file"
+        },
+        {
+          "expected": "a86de93aaa8afada289e6a076a39cecebbf77bf0ca5e9dc90e8546a71d96d875",
+          "matched": true,
+          "match_scope": "whole_file"
+        }
+      ],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M02",
+      "roles": [
+        "historical_evidence_pointer",
+        "archived_exposure"
+      ],
+      "file": "materials/M02-concentrated_audit_3_rounds_43_58.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md",
+      "original_source_sha256": "77b649e43f587101c59520fce4387cce9c849e3a292cb12595c7a559d711e0cf",
+      "original_source_bytes": 50820,
+      "bundled_file_sha256": "77b649e43f587101c59520fce4387cce9c849e3a292cb12595c7a559d711e0cf",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1348
+        ]
+      ],
+      "requested_locators": [
+        "package F finding for M19"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M03",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M03-03_r043_r058_finite_slope_foundation_CORE.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/generated/03_r043_r058_finite_slope_foundation_CORE.md",
+      "original_source_sha256": "122232528de413820fee29d39850fa3b3408b6e8a76e89565c4b016074354195",
+      "original_source_bytes": 540546,
+      "bundled_file_sha256": "122232528de413820fee29d39850fa3b3408b6e8a76e89565c4b016074354195",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          24691
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M04",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M04-MASTER_AUDIT_PROTOCOL.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/MASTER_AUDIT_PROTOCOL.md",
+      "original_source_sha256": "3c5f230de4f1805b91bd77e7d06de300537f55edc0f31ebb79c831485b28a08c",
+      "original_source_bytes": 4795,
+      "bundled_file_sha256": "3c5f230de4f1805b91bd77e7d06de300537f55edc0f31ebb79c831485b28a08c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M05",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M05-BASELINE.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/central-audit-2026-09-18/BASELINE.md",
+      "original_source_sha256": "fc26e991e9b2e2c1498abb832579dab86da2cf448ef9b955f407d3cb2fab8d74",
+      "original_source_bytes": 4687,
+      "bundled_file_sha256": "fc26e991e9b2e2c1498abb832579dab86da2cf448ef9b955f407d3cb2fab8d74",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          89
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M06",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M06-verify_round43_translation.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round43_translation.py",
+      "original_source_sha256": "ebb0f571be396860eae421a3e4e325effb6a06c272d99b3247bf1a3e676c9f0f",
+      "original_source_bytes": 6101,
+      "bundled_file_sha256": "ebb0f571be396860eae421a3e4e325effb6a06c272d99b3247bf1a3e676c9f0f",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          178
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M07",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M07-verify_round43_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round43_web_response.py",
+      "original_source_sha256": "4662f49679a3ecd821d6df7cdbb48648dbb49cfe8d6ed2a28fa8f116df871757",
+      "original_source_bytes": 11186,
+      "bundled_file_sha256": "4662f49679a3ecd821d6df7cdbb48648dbb49cfe8d6ed2a28fa8f116df871757",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          313
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M08",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M08-verify_round44_candidate.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round44_candidate.py",
+      "original_source_sha256": "95c7791b28aedfb3769f6eb56ec174a6a282201df810e871f37d005f85e0ce07",
+      "original_source_bytes": 2474,
+      "bundled_file_sha256": "95c7791b28aedfb3769f6eb56ec174a6a282201df810e871f37d005f85e0ce07",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          77
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M09",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M09-verify_round44_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round44_web_response.py",
+      "original_source_sha256": "dafe72077eb9fd700fcbbe971fdd830f4e2bcbeb8ac6478dfec34bbc5e9dea9d",
+      "original_source_bytes": 5563,
+      "bundled_file_sha256": "dafe72077eb9fd700fcbbe971fdd830f4e2bcbeb8ac6478dfec34bbc5e9dea9d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          152
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M10",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M10-enumerate_round45_matchings.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/enumerate_round45_matchings.py",
+      "original_source_sha256": "d5393f45b2ea6999869b42404261b0299f89783d2f42a8303f221a50ae3c7187",
+      "original_source_bytes": 2755,
+      "bundled_file_sha256": "d5393f45b2ea6999869b42404261b0299f89783d2f42a8303f221a50ae3c7187",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          101
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M11",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M11-verify_round45_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round45_web_response.py",
+      "original_source_sha256": "538db89dc4dc747eee79b67d361222c42b3d0236357cccf0a3a7ee20a5bce7ec",
+      "original_source_bytes": 6955,
+      "bundled_file_sha256": "538db89dc4dc747eee79b67d361222c42b3d0236357cccf0a3a7ee20a5bce7ec",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          223
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M12",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M12-enumerate_round46_one_defect.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/enumerate_round46_one_defect.py",
+      "original_source_sha256": "8be35869156d17a04c4309e71eede35d2a63a0eed317bea57412e30835ec9e5c",
+      "original_source_bytes": 2190,
+      "bundled_file_sha256": "8be35869156d17a04c4309e71eede35d2a63a0eed317bea57412e30835ec9e5c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          76
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M13",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M13-verify_round46_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round46_web_response.py",
+      "original_source_sha256": "f237e8cb8c9b1d2e1327e03966b2c016f9ff6ada67cc94b2b43e8ce0c94226a1",
+      "original_source_bytes": 7291,
+      "bundled_file_sha256": "f237e8cb8c9b1d2e1327e03966b2c016f9ff6ada67cc94b2b43e8ce0c94226a1",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          256
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M14",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M14-enumerate_round47_ratio_two.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/enumerate_round47_ratio_two.py",
+      "original_source_sha256": "3f3bbbf37294a8d438cb36932747137b5688bbefd21a2cff3e8f438bb8273030",
+      "original_source_bytes": 2854,
+      "bundled_file_sha256": "3f3bbbf37294a8d438cb36932747137b5688bbefd21a2cff3e8f438bb8273030",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          99
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M15",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M15-verify_round47_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round47_web_response.py",
+      "original_source_sha256": "c603a988fafc5d7ff661ef2f3fb74729637e1d919664e84806a6002728a7deb2",
+      "original_source_bytes": 5812,
+      "bundled_file_sha256": "c603a988fafc5d7ff661ef2f3fb74729637e1d919664e84806a6002728a7deb2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          177
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M16",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M16-enumerate_round48_kappa_frontier.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/enumerate_round48_kappa_frontier.py",
+      "original_source_sha256": "5bb4d1b0334e7efc18d4c2c939f1164b48e4302414db8ab81f7c15dbd330ec98",
+      "original_source_bytes": 2695,
+      "bundled_file_sha256": "5bb4d1b0334e7efc18d4c2c939f1164b48e4302414db8ab81f7c15dbd330ec98",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          83
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M17",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M17-verify_round48_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round48_web_response.py",
+      "original_source_sha256": "86b1bbaf20603e147f5534272835b212a04dbdc3f0ac8ecfd5943c839cc7df37",
+      "original_source_bytes": 7732,
+      "bundled_file_sha256": "86b1bbaf20603e147f5534272835b212a04dbdc3f0ac8ecfd5943c839cc7df37",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          240
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M18",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M18-verify_round49_frontier.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round49_frontier.cpp",
+      "original_source_sha256": "6779bea28612b74fb401d5fd57529dca263ff8dde956661bc5ef8d73cdece7af",
+      "original_source_bytes": 11036,
+      "bundled_file_sha256": "6779bea28612b74fb401d5fd57529dca263ff8dde956661bc5ef8d73cdece7af",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          296
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M19",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M19-verify_round49_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round49_web_response.py",
+      "original_source_sha256": "587aed598214dfc796bb3b1a2b4d306cbdd52864170ed18141f5bd999c6f48c5",
+      "original_source_bytes": 3446,
+      "bundled_file_sha256": "587aed598214dfc796bb3b1a2b4d306cbdd52864170ed18141f5bd999c6f48c5",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          105
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M20",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M20-enumerate_round50_three_ratio.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/enumerate_round50_three_ratio.cpp",
+      "original_source_sha256": "a04e3fd1307ecb937ee71299afd7e9abc82e7fc0e8200e6d9fffcb2cd14522af",
+      "original_source_bytes": 9661,
+      "bundled_file_sha256": "a04e3fd1307ecb937ee71299afd7e9abc82e7fc0e8200e6d9fffcb2cd14522af",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          248
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M21",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M21-verify_round50_pre_send.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round50_pre_send.py",
+      "original_source_sha256": "fa2156b748866bfbd898df841288c57d30a48760a6d7c871be575a15d868d9e2",
+      "original_source_bytes": 2149,
+      "bundled_file_sha256": "fa2156b748866bfbd898df841288c57d30a48760a6d7c871be575a15d868d9e2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          78
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M22",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M22-enumerate_round51_four_ratio.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/enumerate_round51_four_ratio.cpp",
+      "original_source_sha256": "b5eca7d5e3edde3720744ba2db659c13ec4b16d50b39530e07e471fad1be3360",
+      "original_source_bytes": 10915,
+      "bundled_file_sha256": "b5eca7d5e3edde3720744ba2db659c13ec4b16d50b39530e07e471fad1be3360",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          281
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M23",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M23-verify_round51_low_collision.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round51_low_collision.cpp",
+      "original_source_sha256": "671b11c91d66a3c7a937dd5951fc36e8fbec7912a1619111ff3c4baefa4c3de8",
+      "original_source_bytes": 11408,
+      "bundled_file_sha256": "671b11c91d66a3c7a937dd5951fc36e8fbec7912a1619111ff3c4baefa4c3de8",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          299
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M24",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M24-verify_round51_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round51_web_response.py",
+      "original_source_sha256": "79883e1d49bf8ca43fd295c09c860d872a459d4376d54c014db7af1fe91b520c",
+      "original_source_bytes": 9063,
+      "bundled_file_sha256": "79883e1d49bf8ca43fd295c09c860d872a459d4376d54c014db7af1fe91b520c",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          238
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M25",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M25-verify_round52_laurent.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round52_laurent.cpp",
+      "original_source_sha256": "8cf772ef5291e1f709df4ad25c2340ad23e204bc66b043f93597df5069b30230",
+      "original_source_bytes": 18727,
+      "bundled_file_sha256": "8cf772ef5291e1f709df4ad25c2340ad23e204bc66b043f93597df5069b30230",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          475
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M26",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M26-verify_round52_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round52_web_response.py",
+      "original_source_sha256": "f35ba12ae42d370d5349a6df7f92a5811adaff6bc24b6bab04c0f43e485354ca",
+      "original_source_bytes": 8609,
+      "bundled_file_sha256": "f35ba12ae42d370d5349a6df7f92a5811adaff6bc24b6bab04c0f43e485354ca",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          243
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M27",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M27-verify_round53_web_response.py",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round53_web_response.py",
+      "original_source_sha256": "410bed42bf9a59733d54edef75132db61e3dab826a287133a9adbf1f5b39cc4d",
+      "original_source_bytes": 8277,
+      "bundled_file_sha256": "410bed42bf9a59733d54edef75132db61e3dab826a287133a9adbf1f5b39cc4d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          226
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M28",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M28-verify_round54_lowfiber.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round54_lowfiber.cpp",
+      "original_source_sha256": "f44248f854a797b6674ac3ee86fa13e4ae899bf1bee6f5edf805f2e183abd343",
+      "original_source_bytes": 19575,
+      "bundled_file_sha256": "f44248f854a797b6674ac3ee86fa13e4ae899bf1bee6f5edf805f2e183abd343",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          505
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M29",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M29-verify_round55_lowfiber.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round55_lowfiber.cpp",
+      "original_source_sha256": "1b4277cb32493eddc2b576e9f523751636848db9de1f363c8384274eb48292d2",
+      "original_source_bytes": 19837,
+      "bundled_file_sha256": "1b4277cb32493eddc2b576e9f523751636848db9de1f363c8384274eb48292d2",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          512
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M30",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M30-verify_round56_lowfiber.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round56_lowfiber.cpp",
+      "original_source_sha256": "6e4f5cae378e98241a2b7d02b1bd7789c96422643489b89cbbfe78e18ba3779d",
+      "original_source_bytes": 19860,
+      "bundled_file_sha256": "6e4f5cae378e98241a2b7d02b1bd7789c96422643489b89cbbfe78e18ba3779d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          512
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M31",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M31-verify_round57_lowfiber.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round57_lowfiber.cpp",
+      "original_source_sha256": "e632af21563f7e1355b240dd5ca6955bc78b31a1e31830dd3385941cbeadc161",
+      "original_source_bytes": 18557,
+      "bundled_file_sha256": "e632af21563f7e1355b240dd5ca6955bc78b31a1e31830dd3385941cbeadc161",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          493
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M32",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M32-verify_round58_lowfiber.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/verify_round58_lowfiber.cpp",
+      "original_source_sha256": "6251ca366a6df659f81336d14001225d1cc695b71a3034a98b960c02b054341e",
+      "original_source_bytes": 23338,
+      "bundled_file_sha256": "6251ca366a6df659f81336d14001225d1cc695b71a3034a98b960c02b054341e",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          594
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M33",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M33-round58_size2_merge.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/round58_bundle/round58_size2_merge.cpp",
+      "original_source_sha256": "40e530a7689054d5fd4f220b4c8aa234029bca15cc77f96c92b871f758a904ff",
+      "original_source_bytes": 1230,
+      "bundled_file_sha256": "40e530a7689054d5fd4f220b4c8aa234029bca15cc77f96c92b871f758a904ff",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          17
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M34",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M34-round58_size2_merge_detail.cpp",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/round58_bundle/round58_size2_merge_detail.cpp",
+      "original_source_sha256": "9d2bbc75947a702962dd00244aee81594ad0a22e194ec63478b479c3523e6489",
+      "original_source_bytes": 1863,
+      "bundled_file_sha256": "9d2bbc75947a702962dd00244aee81594ad0a22e194ec63478b479c3523e6489",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          19
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    },
+    {
+      "material_id": "M35",
+      "roles": [
+        "referenced_supporting_material"
+      ],
+      "file": "materials/M35-round58_response.md",
+      "readable_file": null,
+      "source_name": "holevo-full-size/work/round59_bundle/round58_response.md",
+      "original_source_sha256": "e48d04426d22a998ea3d21baced3f1075e9b615e17059764bda1cdfb9288137d",
+      "original_source_bytes": 19764,
+      "bundled_file_sha256": "e48d04426d22a998ea3d21baced3f1075e9b615e17059764bda1cdfb9288137d",
+      "extraction_mode": "full_file",
+      "included_line_ranges": [
+        [
+          1,
+          1058
+        ]
+      ],
+      "requested_locators": [
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md",
+        "Referenced by holevo-full-size/central-audit-2026-09-18/web-results/03_rounds_43_58/concentrated_audit_3_rounds_43_58.md"
+      ],
+      "matched_quote_lines": [],
+      "historical_hash_matches": [],
+      "event_hash_checks": [],
+      "transformations": [
+        "Public-copy sanitization applied to local usernames/paths, email addresses, private network addresses, and recognizable token strings."
+      ]
+    }
+  ],
+  "unresolved_material_requests": [],
+  "coverage": {
+    "bundled_materials": 35,
+    "source_excerpt_check": "automatic_text_match",
+    "output_anchors": 0,
+    "unresolved_source_requests": 0,
+    "all_research_context_claimed_complete": false,
+    "witness_reexecuted_in_this_packaging_pass": false
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "record_id": "023",
+  "problem": "Werner–Holevo zero-capacity boundary",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "The proposed second basis vector is not in the complementary-output kernel for the script’s own canonical input.",
+  "overclaim": false,
+  "mechanism": "核向量符号错误",
+  "original": {
+    "excerpt": "    # environment kernel: analytic basis  (0, conj(u+iv)) and (1, -i kappa w),\n    # kappa = sqrt(2(1-x)/x); verified below to be a basis of ker Lambda^c(P_psi).\n    kappa = sp.sqrt(2 * (1 - x) / x)\n    k1 = sp.Matrix([0, *list(sp.simplify(sp.sqrt(2) * psi_bar))])\n    k2 = sp.Matrix([1, *list(sp.simplify(-sp.I * kappa * third))])\n    analytic_kernel_pass = zero_matrix(lamc_p * k1) and zero_matrix(lamc_p * k2)\n    analytic_kernel_orthogonal = zero((k1.H * k2)[0, 0])\n    pi_e = sp.simplify(projector(k1) + projector(k2))",
+    "context": "The script later instantiates psi=(0,1,-i)/sqrt(2) and third=(1,0,0). It labels third as the oriented cross product and uses the displayed formula for an environment-kernel basis. This release excerpt isolates the concrete basis defect from the legacy record, which also mentioned separate sign corrections.",
+    "locator": "Preserved isotropic weight-operator script, function weight_operators, lines 92–101",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "The proposed second basis vector is not in the complementary-output kernel for the script’s own canonical input.",
+    "evidence": "Let kappa=sqrt(2(1-x)/x). For the script’s psi and Kraus convention, the complementary output has entries G00=1-x, G01=i sqrt(x(1-x)/2), G10=-i sqrt(x(1-x)/2), and G11=x/2. Its proposed k2=(1,-i kappa,0,0) gives G k2=(2(1-x),-i sqrt(2x(1-x)),0,0), nonzero for 0<x<1. At x=1/2 the residual is (1,-i/sqrt(2),0,0). Therefore the constructed projector and resulting weight operator are wrong. The archived script reports d1=1-x, whereas the corrected operator gives (1-x)(2-5x)/(2-x), equal to -11/124 at x=9/20 instead of 11/20.",
+    "scope": "computation_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "将脚本自己的 k2 代入互补输出矩阵，在 x=1/2 得非零残差 (1,-i/sqrt(2),0,0)。核投影器错误，不需要依靠后续地位升级来确认。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "computation_false",
+    "original_selection_correction": null,
+    "prior_inventory_key": "WHGAP-010",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "找到 sign 和 kernel-basis 更正摘要，但它们发生在错误之后，不能反推生成时推理已经正确。",
+    "anchors": [
+      {
+        "timestamp": "2026-07-29T16:16:44.978Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "posthoc_only",
+        "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+        "source_line": 1414,
+        "material_id": "M06",
+        "original_line_sha256": "8e65b38e5b45d09d8af6b8d66fa63dedb2b1245e86e327616071854035f9c8b2"
+      },
+      {
+        "timestamp": "2026-07-30T02:28:57.870Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "posthoc_only",
+        "source_name": "paper/evidence_claim_gap_20260918/recovery_windows_ssd_20260918/raw/claude/WHGAP-main-c5b96aec.jsonl",
+        "source_line": 1878,
+        "material_id": "M06",
+        "original_line_sha256": "d4cbb7b286bab72c59d927859e3968e3cf9c086afad2294aa9ad30f834436f59"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M06",
+      "source_line": 1414,
+      "timestamp": "2026-07-29T16:16:44.978Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M06",
+      "source_line": 4808,
+      "timestamp": "2026-07-29T16:16:44.978Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M06",
+      "source_line": 1878,
+      "timestamp": "2026-07-30T02:28:57.870Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M06",
+      "source_line": 5068,
+      "timestamp": "2026-07-30T02:28:57.870Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "023",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

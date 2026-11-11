@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "date": "2026-10-05",
+  "checked": [
+    "original main.tex",
+    "original main.pdf",
+    "original mathematical-errors-v1.1.zip"
+  ],
+  "comparison": "Original input hashes unchanged from start of audit; original project was never edited."
+}

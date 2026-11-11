@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "record_id": "030",
+  "problem": "Circuit-distance stabilization",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "Removing the initial detector changes the terminal consistency condition as well as the transition matrix. Keeping the old kernel test in v excludes allowed terminal states with nonzero κ.",
+  "overclaim": false,
+  "mechanism": "边界条件更新不完整",
+  "original": {
+    "excerpt": "> **Remark 6.5 (what each boundary buys, quantitatively).** Drop the round-0 detector (noisy or\n> unknown initialisation). Then (W) becomes `u(S_r) = H_Z σ_r + κ` for an unconstrained constant\n> `κ ∈ F₂^ℬ`, and the correct object is no longer a single `(u,A,v)` but the family\n> `A_κ[σ,σ'] := w_M(σ'−σ, H_Z σ + κ)` with `d_R = min_κ ( u ⊙ A_κ^{⊙R} ⊙ v )` — equivalently a\n> state space `Σ × F₂^ℬ` in which `κ` is carried as a constant component. Drop the terminal detector\n> instead and `v` loses its first clause, becoming `v[σ] = 0` iff `σ ≠ [0]`, which is a *different*\n> and generally smaller quantity. **Both boundaries are load-bearing, in different places**, and\n> this is the precise form of the round-0/terminal asymmetry.",
+    "context": "The model studies a counterfactual boundary convention in which the initial detector is removed. It correctly introduces a free recursion constant κ into the transition matrix but leaves the terminal vector v unchanged.",
+    "locator": "Proof draft dated 23 August 2026, Remark 6.5, lines 603–610.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "Removing the initial detector changes the terminal consistency condition as well as the transition matrix. Keeping the old kernel test in v excludes allowed terminal states with nonzero κ.",
+    "evidence": "The detector recursion becomes u(S_r)=H_Zσ_r+κ. The terminal detector is D_{b,R}=(H_Zσ_R)_b+[(H_Zσ_{R−1})+u(S_{R−1})]_b=(H_Zσ_R)_b+κ_b. Therefore vanishing terminal detectors require H_Zσ_R=κ, not H_Zσ_R=0. Since σ_R need not lie in ker H_Z, 'σ_R≠[0]' is no longer the correct logical test; the observable condition is λ(σ_R)=1. The correct v_κ is zero only where both H_Zσ_R=κ and the target logical flip occur. The archived tests matched in 0/16 cases with fixed v and 16/16 after this correction.",
+    "scope": "computation_false",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "删左边界后递推常数κ进入末端detector，末态必须满足H_Zσ_R=κ。原式只改Aκ却继续用v(σ)=1[H_Zσ=0且非零逻辑]，直接算错边界公式。",
+    "history_reconciliation": "维持旧错误确认；这是计算/公式错误，不必因为对象随模型变化就自动标overclaim。",
+    "verification_basis": "本轮按detector递推手算末态条件；0/16与修正16/16是旧审计结果，未冒称本轮全量重跑。",
+    "witness_scope": "computation_false: wrong counterfactual terminal condition, not a failure of original ideal-boundary theorem",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-SAT-005",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "推理提到跟踪 κ 和初始边界，但没有充分明确固定 terminal v 正确或错误；仅凭正文公式错误不能判定是在推理还是书写时引入。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-23T07:55:57.401Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a650547b7eb957124.jsonl",
+        "source_line": 23,
+        "material_id": "M04",
+        "original_line_sha256": "dfe2e08680ecfbd018cca520d41e8e79490162aa625bcf976f6f1f30802668f2"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M04",
+      "source_line": 23,
+      "timestamp": "2026-08-23T07:55:57.401Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "030",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "record_id": "001",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "Necessity for the particular localization proof is not necessity for every construction.",
+  "overclaim": true,
+  "mechanism": "特定构造路线被当作全局必要条件",
+  "original": {
+    "excerpt": "The entire problem is therefore to choose *different* tuples \\(U^{(r)}\\) so\nthat entangled inputs within \\(\\mathcal R^{[k]}\\) do not appreciably lower its\nminimum output entropy.",
+    "context": "The argument uses different finite unitary tuples at different tensor positions to control minimum output entropy by iterated localization. The selected sentence presents this route choice as necessary for the entire extensive-gap problem.",
+    "locator": "Proof-development artifact, section 3, lines 211–213; original write 2026-08-20T23:41:57.547Z",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "Necessity for the particular localization proof is not necessity for every construction.",
+    "evidence": "For any fixed channel pair (Phi,Psi), the normalized tensor-power gap tends to Sbar_min(Phi)+Sbar_min(Psi)-Sbar_min(Phi tensor Psi). For Psi=conjugate(Phi), this is 2 Sbar_min(Phi)-Sbar_min(Phi tensor conjugate(Phi)), which the localization argument does not show to be zero. Thus the derivation leaves a fixed-pair alternative unexcluded. This diagnoses an unsupported necessity inference; it does not establish that a positive fixed-pair regularized gap exists.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "恢复旧确认：同一来源的 dated correction 明确限定不同 tuples 只对所给 iterated-localization 路线必要，并指名原“entire problem”过强；这不是假设全局替代路线已成功，而是该必要性推断没有成立。",
+    "history_reconciliation": "上一轮把路线措辞当孤立歧义，遗漏原文对同一句的定向纠正以及固定共轭对的精确公式。恢复为论证范围错误，不称全局定理已被反例推翻。",
+    "verification_basis": "原始声明、已恢复历史裁定和对应 witness 对照；新增数学推导及计算层级单独标明。",
+    "witness_scope": "argument_invalid",
+    "original_selection_correction": null,
+    "prior_inventory_key": "GAP-003",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "pending"
+  },
+  "visible_reasoning": {
+    "availability_description": "原会话保存的明文摘要仅短标题，不能据此判断 (Φ,Φ) 与 (Φ,conjugate Φ) 的量化/模型差异是否已被错认。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-20T23:32:46.621Z",
+        "provider_field": "codex_reasoning_summary",
+        "role": "generation",
+        "source_name": "tracking/ai-proof-records-20260912/recovered-marathon-20260821/traces/additivity-gap__rollout-2026-08-20T19-28-32-<session-id-redacted>.jsonl",
+        "source_line": 137,
+        "material_id": "M03",
+        "original_line_sha256": "e23ecb75aa01916fab4aa07c466231bccbeea7af88e8be52e4678d0057b7b126"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M03",
+      "source_line": 136,
+      "timestamp": "2026-08-20T23:32:46.617Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M03",
+      "source_line": 137,
+      "timestamp": "2026-08-20T23:32:46.621Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    },
+    {
+      "material": "M02",
+      "source_line": 1,
+      "timestamp": "2026-08-20T23:41:57.547Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    },
+    {
+      "material": "M02",
+      "source_line": 2,
+      "timestamp": "2026-08-20T23:41:57.671Z",
+      "roles": [
+        "historical_primary_source",
+        "original_event_location",
+        "historical_evidence_pointer",
+        "historical_event"
+      ],
+      "exact_quote_match": false
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "001",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

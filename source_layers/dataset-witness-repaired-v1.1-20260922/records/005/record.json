@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "record_id": "005",
+  "problem": "Channel additivity violations",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "A discrete character-shift invariance is incorrectly extended to a continuous phase deformation, omitting derivatives of C_dep.",
+  "overclaim": true,
+  "mechanism": "离散对称性扩展为连续对称性",
+  "original": {
+    "excerpt": "Choose balanced integer representatives of the three field coefficients \\(t_u,t_v,t_w\\), and let \\(q_T\\) be the corresponding vector in the real line-coordinate space. A continuous fixed-magnitude line-phase variation has\n\n$$\nC_{\\rm ind}(\\theta)\n=\n2\\sum_T\n\\operatorname{Re}\n\\left(\nA_Te^{i\\langle q_T,\\theta\\rangle}\n\\right).\n$$\n\nIf \\(C=1\\), then the coefficient field is physical and gives a global maximum of \\(C\\) on the entire phase torus. Hence\n\n$$\n\\boxed{\n\\sum_Tq_T\\,\\operatorname{Im}A_T=0,\n}\n\\tag{10.1}\n$$\n\nand\n\n$$\n\\boxed{\n\\sum_T\n(\\operatorname{Re}A_T)\\,\nq_Tq_T^{\\mathsf T}\n\\succeq0.\n}\n\\tag{10.2}\n$$\n\nThese are the exact stationarity and Hessian conditions.",
+    "context": "The total cubic objective is C=C_dep+C_ind. The proposed continuous line-phase variation multiplies coefficients by exp(i t theta_L), where t is a balanced integer representative of a finite-field element. The displayed equations differentiate only C_ind.",
+    "locator": "round-18-response.md, lines 796–829",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "A discrete character-shift invariance is incorrectly extended to a continuous phase deformation, omitting derivatives of C_dep.",
+    "evidence": "For odd D, set t=(D-1)/2. The same-line triple (t,t,1) sums to zero in F_D, so its cubic term belongs to C_dep. Its balanced integer sum is D, however, so the proposed continuous deformation multiplies that monomial by exp(iD theta_L), which is not constant. The gradient and Hessian of C_dep are therefore generally nonzero; equations using only C_ind are not the derivatives of the full objective. For D=5, the triple is (2,2,1).",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "离散字符平移保持模 p 的关系，不保证连续相位变形不变；代表元和为 p 的项带 exp(ip theta) 相位。原论证以离散不变性支持连续变分时忽略 C_dep 的导数，属于适用范围越界。",
+    "history_reconciliation": "对照旧来源/见证与本轮逐项审查，无新增冲突；沿用已有数学证据，不因未重新运行全部计算而降级。",
+    "verification_basis": "既有source-bound witness + 2026-09-22原文/论证对照；有本轮小检查则另附。",
+    "witness_scope": "argument_invalid",
+    "original_selection_correction": null,
+    "prior_inventory_key": "HEXT-POSTSEP07-M04",
+    "prior_curated_status": "CONFIRMED_FALSE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "confirmed_local_error"
+  },
+  "visible_reasoning": {
+    "availability_description": "保存了网页生成的 response/artifact，但未找到该轮生成者的可见 reasoning summary；本地 controller 的摘要不能替代它。",
+    "anchors": [],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "005",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "record_id": "028",
+  "problem": "Circuit-distance stabilization",
+  "collection_context": "Original research investigation",
+  "admission": "included",
+  "summary": "Conflict freedom is a scheduling constraint, not a proof that the circuit measures the intended stabilizers. A non-measurement-consistent interleaving can produce random check records even with no physical faults.",
+  "overclaim": true,
+  "mechanism": "安装声明遗漏测量一致性前提",
+  "original": {
+    "excerpt": "  For each fixed legal single-round single-ancilla CSS schedule M under the stated ideal temporal\n  boundaries and unit-fault model, there is an explicitly constructible finite min-plus transfer\n  system (u,A,v) such that d_R(M) = u^T min-plus A^R min-plus v for every R, with the two CSS\n  sectors, boundary conditions, unreachable states, and logical terminal condition represented\n  exactly.",
+    "context": "The installed claim uses a 'legal' schedule condition while the relevant legality notion guarantees only that no qubit participates in two gates simultaneously. Measurement consistency is separately required for the parity checks to be deterministic detectors.",
+    "locator": "Archived theorem statement installed on 23 August 2026, transfer claim, lines 6–10.",
+    "source_form": "see_source_and_provenance"
+  },
+  "witness": {
+    "explanation": "Conflict freedom is a scheduling constraint, not a proof that the circuit measures the intended stabilizers. A non-measurement-consistent interleaving can produce random check records even with no physical faults.",
+    "evidence": "On four data qubits, take H_X=H_Z=(1,1,1,1). Prepare X ancilla a in |+> and Z ancilla b in |0>. Execute sequentially: q0→b, a→q0, a→q1, q1→b, a→q2, q2→b, a→q3, q3→b. The sequence is conflict-free, but exactly one common-support qubit has the Z CNOT before the X CNOT, an odd MC count. Back-propagating b's Z measurement creates Z on the fresh |+> ancilla a. That operator anticommutes with a's input stabilizer, so the check outcome is uniformly random and its proposed parity is not a deterministic detector. The transfer object needs MC as an additional hypothesis.",
+    "scope": "argument_invalid",
+    "endorsement": "accepted_scoped_witness"
+  },
+  "adjudication": {
+    "rationale_zh": "保留为安装节点的适用条件丢失，不指控正文证明错误。原claim独立量化所有legal日程，正文Definition 2.4把legal定义为无资源冲突；MC是额外条件。安装节点caveats补了Pauli群条件却没有MC。给定4比特日程满足该legal谓词但有随机测量记录，故不能无条件导入确定detector的transfer论证。",
+    "history_reconciliation": "旧审计对账成立：它明确把此项定为exact-statement scope，而非缺证明。上一轮只看到正文T1含MC便重新待核，漏了本条原对象是独立安装claim。",
+    "verification_basis": "原节点、定义和旧精确4比特反例逐项对齐；本轮核对奇数MC和Heisenberg测量推回解释，未重新跑整套模拟。",
+    "witness_scope": "argument_invalid: node statement drops a required detector-validity hypothesis; not a refutation of the MC-restricted theorem",
+    "original_selection_correction": null,
+    "prior_inventory_key": "QEC-SAT-002",
+    "prior_curated_status": "COMPLETE",
+    "prior_package_status": "source_reviewed",
+    "superseded_20260922_status": "pending"
+  },
+  "visible_reasoning": {
+    "availability_description": "proposer 使用 MC 范围，安装版本变成一般 conflict-free；缺少对应安装节点的诊断性生成摘要。",
+    "anchors": [
+      {
+        "timestamp": "2026-08-23T07:55:57.401Z",
+        "provider_field": "claude_visible_thinking",
+        "role": "generation",
+        "source_name": "claude-session-archive/agent-a650547b7eb957124.jsonl",
+        "source_line": 23,
+        "material_id": "M04",
+        "original_line_sha256": "dfe2e08680ecfbd018cca520d41e8e79490162aa625bcf976f6f1f30802668f2"
+      }
+    ],
+    "limitation": "Visible reasoning excerpts/summaries are not asserted to be complete internal chain of thought. Related or later reviewer reasoning is not automatically the generator’s error-forming reasoning."
+  },
+  "historical_events": [
+    {
+      "material": "M04",
+      "source_line": 23,
+      "timestamp": "2026-08-23T07:55:57.401Z",
+      "roles": [
+        "visible_reasoning_anchor"
+      ],
+      "exact_quote_match": true
+    }
+  ],
+  "computational_checks": {
+    "file": "checks/witness_checks.json",
+    "path_base": "release_root",
+    "record_filter": "028",
+    "interpretation": "Only entries listing this record apply; each entry states its limited scope. Absence of a fresh check does not erase the historical witness."
+  },
+  "evidence_manifest": "materials.json",
+  "verification_limit": "Historical witness execution and current re-execution are separate. This release does not claim every large computation was rerun, all hidden reasoning recovered, or that every target theorem is false."
+}
