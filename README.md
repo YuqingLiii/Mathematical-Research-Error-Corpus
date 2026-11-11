@@ -1,4 +1,4 @@
-# Mathematical research error corpus (anonymous review copy)
+# Mathematical Research Error Corpus
 
 This repository contains the 65 accepted records of naturally occurring mathematical errors that
 the paper studies, grouped into 12 research problems. Each record keeps its stable ID, the original
@@ -30,16 +30,16 @@ We are progressively conducting comparative audits of these naturally occurring 
 - `scripts/run_witnesses.py` and `scripts/additional_witnesses.py`: re-run those scoped checks and the
   additional checks without writing into the frozen layer (`pip install -r requirements.txt`).
   Recorded outputs are in `audit/witness_execution.json` and `audit/additional_witness_execution.json`.
-- `scripts/check_anonymous_copy.py`: structural and link check for this copy (record and problem
+- `scripts/check_anonymous_copy.py`: structural and link check for this public release (record and problem
   counts, ID accounting, index consistency, schema, and that every referenced file is either present
   or listed as omitted). It does not check mathematics.
 
 `scripts/validate.py` is the corpus's full validator. It also needs material that is not part of this
 copy (the manuscript, reasoning-alignment inputs, raw session extracts and the private file
-manifest), so it does not pass here; `check_anonymous_copy.py` is the check intended for this copy.
+manifest), so it does not pass here; `check_anonymous_copy.py` is the check intended for this public release.
 No mathematical check was re-run to prepare this copy.
 
-## What this copy omits
+## Release scope
 
 Omitted files are listed with reasons in
 [`provenance/ANONYMOUS_COPY_EXCLUSIONS.tsv`](provenance/ANONYMOUS_COPY_EXCLUSIONS.tsv): raw session
